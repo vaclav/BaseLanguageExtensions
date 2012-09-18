@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="TailRecursion.sandbox.test.RecursiveScenario_Test" file="RecursiveScenario_Test.java">
+    <classNode dependClassName="TailRecursion.sandbox.test.TestCalculator" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Long" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
+  <dependency className="TailRecursion.sandbox.test.TestCalculator" file="TestCalculator.java" />
+</dependenciesRoot>
+

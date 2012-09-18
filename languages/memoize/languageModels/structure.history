@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="iiff" modelUID="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.Memoize.constraints)" version="-1" />
+      <model index="yw8c" modelUID="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.Memoize.behavior)" version="-1" />
+      <model index="qot9" modelUID="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.Memoize.typesystem)" version="-1" />
+      <model index="l92p" modelUID="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.Memoize.editor)" version="-1" />
+      <model index="xg1a" modelUID="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.Memoize.structure)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.Memoize.constraints)" newModel="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.Mmemoize.constraints)" />
+    <RenameModel oldModel="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.Memoize.typesystem)" newModel="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.Mmemoize.typesystem)" />
+    <RenameModel oldModel="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.Memoize.editor)" newModel="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.Mmemoize.editor)" />
+    <RenameModel oldModel="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.Memoize.behavior)" newModel="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.Mmemoize.behavior)" />
+    <RenameModel oldModel="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.Memoize.structure)" newModel="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.Mmemoize.structure)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="iiff" modelUID="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.Mmemoize.constraints)" version="0" />
+      <model index="yw8c" modelUID="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.Mmemoize.behavior)" version="0" />
+      <model index="xg1a" modelUID="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.Mmemoize.structure)" version="0" />
+      <model index="qot9" modelUID="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.Mmemoize.typesystem)" version="0" />
+      <model index="l92p" modelUID="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.Mmemoize.editor)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.Mmemoize.editor)" newModel="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.memoize.editor)" />
+    <RenameModel oldModel="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.Mmemoize.typesystem)" newModel="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.memoize.typesystem)" />
+    <RenameModel oldModel="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.Mmemoize.constraints)" newModel="r:dcc3c311-5d07-4851-ab7b-475fb7cf78d4(jetbrains.mps.baseLanguage.memoize.constraints)" />
+    <RenameModel oldModel="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.Mmemoize.behavior)" newModel="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.memoize.behavior)" />
+    <RenameModel oldModel="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.Mmemoize.structure)" newModel="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="xg1a" modelUID="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)" version="1" />
+    </dependencies>
+    <rename id="xg1a.1742094376849958736" type="PROPERTY" from="min" to="fixedSize" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="xg1a" modelUID="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)" version="2" />
+    </dependencies>
+    <rename id="xg1a.1742094376849958737" type="PROPERTY" from="max" to="expandableSize" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="xg1a" modelUID="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)" version="3" />
+    </dependencies>
+    <rename id="xg1a.1742094376849958736" type="PROPERTY" from="fixedSize" to="sizeLimit" />
+  </StructureModification>
+</history>
+

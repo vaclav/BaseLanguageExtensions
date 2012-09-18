@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" file="KeyCalculator.java">
+    <classNode dependClassName="java.lang.Object" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" file="LRUProtectionStorage.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.SuppressWarnings" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode extendsClassName="java.util.LinkedHashMap" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" file="Memoizator.java">
+    <classNode dependClassName="java.lang.IllegalArgumentException" />
+    <classNode dependClassName="java.lang.IllegalStateException" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.Collections" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.concurrent.ConcurrentHashMap" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage" file="NullProtectionStorage.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode extendsClassName="java.util.LinkedHashMap" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" file="NullValue.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.Override" />
+  </dependency>
+</dependenciesRoot>
+
