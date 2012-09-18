@@ -22,6 +22,7 @@
     <projectModules>
       <modulePath path="${project}/languages/TailRecursion/TailRecursion.mpl" />
       <modulePath path="${project}/languages/memoize/memoize.mpl" />
+      <modulePath path="${project}/solutions/Extensions.build/build.msd" />
       <modulePath path="${project}/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" />
       <modulePath path="${project}/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.msd" />
       <modulePath path="${project}/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" />
