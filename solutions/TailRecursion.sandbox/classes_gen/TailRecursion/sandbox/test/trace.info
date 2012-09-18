@@ -16,12 +16,12 @@
     <nodeInfo nodeId="9009622095742611620" fileName="RecursiveScenario_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9009622095742611747" fileName="RecursiveScenario_Test.java" startLine="40" startPosition="63" endLine="41" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9009622095742611783" fileName="RecursiveScenario_Test.java" startLine="41" startPosition="46" endLine="42" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="59" endLine="48" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="48" startPosition="32" endLine="49" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2385733296660308874" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="34" endLine="52" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="59" endLine="48" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="48" startPosition="33" endLine="49" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2385733296660308874" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="35" endLine="52" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="913704554380632518" fileName="RecursiveScenario_Test.java" startLine="53" startPosition="29" endLine="54" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="56" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="56" startPosition="55" endLine="57" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="56" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="56" startPosition="58" endLine="57" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2385733296660308905" fileName="RecursiveScenario_Test.java" startLine="61" startPosition="6" endLine="62" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2385733296660308912" fileName="RecursiveScenario_Test.java" startLine="62" startPosition="59" endLine="63" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9009622095742611549" fileName="RecursiveScenario_Test.java" startLine="30" startPosition="22" endLine="33" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -31,7 +31,7 @@
     <nodeInfo nodeId="9009622095742629911" fileName="RecursiveScenario_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_factorial#()V" />
     <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="29" startPosition="29" endLine="36" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="2385733296660308869" fileName="RecursiveScenario_Test.java" startLine="50" startPosition="22" endLine="58" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="49" startPosition="29" endLine="59" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="49" startPosition="30" endLine="59" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="26" startPosition="155" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
     <nodeInfo nodeId="9009622095742611531" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="47" endLine="38" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="46" startPosition="149" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Long;Ljava/lang/Integer;)Ljava/lang/Long;" />
@@ -39,28 +39,28 @@
     <nodeInfo nodeId="9009622095742611527" fileName="RecursiveScenario_Test.java" startLine="24" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closure#()V" />
     <nodeInfo nodeId="2385733296660308857" fileName="RecursiveScenario_Test.java" startLine="44" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closureFactorial#()V" />
     <scopeInfo nodeId="9009622095742611551" fileName="RecursiveScenario_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="32" />
-    <scopeInfo nodeId="2385733296660308873" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="34" endLine="52" endPosition="32" />
+    <scopeInfo nodeId="2385733296660308873" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="35" endLine="52" endPosition="33" />
     <scopeInfo nodeId="913704554380632516" fileName="RecursiveScenario_Test.java" startLine="53" startPosition="29" endLine="54" endPosition="22" />
     <scopeInfo nodeId="4322693879000315841" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="43" endLine="12" endPosition="60" />
     <scopeInfo nodeId="4322693879000315865" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="44" endLine="17" endPosition="55" />
     <scopeInfo nodeId="9009622095742629914" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="49" endLine="22" endPosition="86" />
-    <scopeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="57" endPosition="44" />
+    <scopeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="57" endPosition="46" />
     <scopeInfo nodeId="4322693879000315838" fileName="RecursiveScenario_Test.java" startLine="9" startPosition="54" endLine="14" endPosition="0" />
     <scopeInfo nodeId="4322693879000315862" fileName="RecursiveScenario_Test.java" startLine="14" startPosition="0" endLine="19" endPosition="0" />
     <scopeInfo nodeId="9009622095742629911" fileName="RecursiveScenario_Test.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
     <scopeInfo nodeId="9009622095742611542" fileName="RecursiveScenario_Test.java" startLine="30" startPosition="22" endLine="35" endPosition="42" />
     <scopeInfo nodeId="2385733296660308868" fileName="RecursiveScenario_Test.java" startLine="50" startPosition="22" endLine="58" endPosition="11" />
     <scopeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="27" startPosition="65" endLine="36" endPosition="9">
-      <varInfo nodeId="9009622095742611541" varName="localParam_6" />
-      <varInfo nodeId="9009622095742611541" varName="localParam_7" />
+      <varInfo nodeId="9009622095742611541" varName="localParam_8" />
+      <varInfo nodeId="9009622095742611541" varName="localParam_9" />
     </scopeInfo>
     <scopeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="26" startPosition="155" endLine="38" endPosition="0">
       <varInfo nodeId="9009622095742611541" varName="acc" />
       <varInfo nodeId="9009622095742611541" varName="n" />
     </scopeInfo>
     <scopeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="59" endLine="59" endPosition="9">
-      <varInfo nodeId="2385733296660308867" varName="localParam_8" />
-      <varInfo nodeId="2385733296660308867" varName="localParam_9" />
+      <varInfo nodeId="2385733296660308867" varName="localParam_10" />
+      <varInfo nodeId="2385733296660308867" varName="localParam_11" />
     </scopeInfo>
     <scopeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="46" startPosition="149" endLine="61" endPosition="0">
       <varInfo nodeId="2385733296660308867" varName="acc" />
@@ -79,66 +79,90 @@
     <unitInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="46" startPosition="96" endLine="61" endPosition="5" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
   </root>
   <root nodeId="4322693879000233987">
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="10" startPosition="46" endLine="11" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="27" endLine="12" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315751" fileName="TestCalculator.java" startLine="14" startPosition="30" endLine="15" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="16" startPosition="7" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="17" startPosition="49" endLine="18" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="22" startPosition="54" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="28" endLine="24" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742629875" fileName="TestCalculator.java" startLine="26" startPosition="30" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="28" startPosition="7" endLine="29" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="29" startPosition="49" endLine="30" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="34" startPosition="54" endLine="35" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="27" endLine="36" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315797" fileName="TestCalculator.java" startLine="38" startPosition="30" endLine="39" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="40" startPosition="14" endLine="41" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="41" startPosition="51" endLine="42" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="6" startPosition="29" endLine="8" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestCalculator#()V" />
-    <nodeInfo nodeId="4322693879000234003" fileName="TestCalculator.java" startLine="13" startPosition="18" endLine="16" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742629859" fileName="TestCalculator.java" startLine="25" startPosition="18" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="913704554380557752" fileName="TestCalculator.java" startLine="40" startPosition="12" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000315792" fileName="TestCalculator.java" startLine="37" startPosition="18" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="12" startPosition="25" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="24" startPosition="25" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="36" startPosition="25" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="9" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sum#(II)I" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="21" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="factorial#(JI)J" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="33" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sumS#(II)I" />
-    <scopeInfo nodeId="4322693879000233992" fileName="TestCalculator.java" startLine="7" startPosition="27" endLine="7" endPosition="27" />
-    <scopeInfo nodeId="4322693879000234005" fileName="TestCalculator.java" startLine="14" startPosition="30" endLine="15" endPosition="28" />
-    <scopeInfo nodeId="9009622095742629861" fileName="TestCalculator.java" startLine="26" startPosition="30" endLine="27" endPosition="28" />
-    <scopeInfo nodeId="4322693879000315796" fileName="TestCalculator.java" startLine="38" startPosition="30" endLine="39" endPosition="28" />
-    <scopeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="6" startPosition="29" endLine="8" endPosition="3" />
-    <scopeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="40" startPosition="14" endLine="42" endPosition="40" />
-    <scopeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="13" startPosition="18" endLine="18" endPosition="38" />
-    <scopeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="25" startPosition="18" endLine="30" endPosition="38" />
-    <scopeInfo nodeId="4322693879000315785" fileName="TestCalculator.java" startLine="37" startPosition="18" endLine="43" endPosition="7" />
-    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="10" startPosition="46" endLine="19" endPosition="5">
+    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="46" endLine="12" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="12" startPosition="27" endLine="13" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000315751" fileName="TestCalculator.java" startLine="15" startPosition="30" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="17" startPosition="7" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="18" startPosition="49" endLine="19" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="54" endLine="24" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="24" startPosition="28" endLine="25" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742629875" fileName="TestCalculator.java" startLine="27" startPosition="30" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="29" startPosition="7" endLine="30" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="30" startPosition="49" endLine="31" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="54" endLine="36" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="36" startPosition="27" endLine="37" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000315797" fileName="TestCalculator.java" startLine="39" startPosition="30" endLine="40" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="41" startPosition="14" endLine="42" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="42" startPosition="51" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6332794702258051031" fileName="TestCalculator.java" startLine="48" startPosition="45" endLine="49" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="64" endLine="53" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="53" startPosition="34" endLine="54" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6332794702258051004" fileName="TestCalculator.java" startLine="56" startPosition="56" endLine="57" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="58" startPosition="7" endLine="59" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="59" startPosition="57" endLine="60" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="7" startPosition="29" endLine="9" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestCalculator#()V" />
+    <nodeInfo nodeId="4322693879000234003" fileName="TestCalculator.java" startLine="14" startPosition="18" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742629859" fileName="TestCalculator.java" startLine="26" startPosition="18" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="913704554380557752" fileName="TestCalculator.java" startLine="41" startPosition="12" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6332794702258050996" fileName="TestCalculator.java" startLine="55" startPosition="18" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6332794702258049132" fileName="TestCalculator.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="factorial#(I)Ljava/math/BigInteger;" />
+    <nodeInfo nodeId="4322693879000315792" fileName="TestCalculator.java" startLine="38" startPosition="18" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="13" startPosition="25" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="25" startPosition="25" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="54" startPosition="32" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="37" startPosition="25" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="10" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sum#(II)I" />
+    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="22" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="factorial#(JI)J" />
+    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="51" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="fact#(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;" />
+    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="34" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sumS#(II)I" />
+    <scopeInfo nodeId="4322693879000233992" fileName="TestCalculator.java" startLine="8" startPosition="27" endLine="8" endPosition="27" />
+    <scopeInfo nodeId="4322693879000234005" fileName="TestCalculator.java" startLine="15" startPosition="30" endLine="16" endPosition="28" />
+    <scopeInfo nodeId="9009622095742629861" fileName="TestCalculator.java" startLine="27" startPosition="30" endLine="28" endPosition="28" />
+    <scopeInfo nodeId="4322693879000315796" fileName="TestCalculator.java" startLine="39" startPosition="30" endLine="40" endPosition="28" />
+    <scopeInfo nodeId="6332794702258049137" fileName="TestCalculator.java" startLine="48" startPosition="45" endLine="49" endPosition="55" />
+    <scopeInfo nodeId="6332794702258051003" fileName="TestCalculator.java" startLine="56" startPosition="56" endLine="57" endPosition="28" />
+    <scopeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="7" startPosition="29" endLine="9" endPosition="3" />
+    <scopeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="41" startPosition="14" endLine="43" endPosition="40" />
+    <scopeInfo nodeId="6332794702258049132" fileName="TestCalculator.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6332794702258049135" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="14" startPosition="18" endLine="19" endPosition="38" />
+    <scopeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="26" startPosition="18" endLine="31" endPosition="38" />
+    <scopeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="55" startPosition="18" endLine="60" endPosition="59" />
+    <scopeInfo nodeId="4322693879000315785" fileName="TestCalculator.java" startLine="38" startPosition="18" endLine="44" endPosition="7" />
+    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="46" endLine="20" endPosition="5">
       <varInfo nodeId="4322693879000233993" varName="localParam_2" />
       <varInfo nodeId="4322693879000233993" varName="localParam_3" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="22" startPosition="54" endLine="31" endPosition="5">
+    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="54" endLine="32" endPosition="5">
       <varInfo nodeId="9009622095742629849" varName="localParam_4" />
       <varInfo nodeId="9009622095742629849" varName="localParam_5" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="34" startPosition="54" endLine="44" endPosition="5">
+    <scopeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="64" endLine="61" endPosition="5">
+      <varInfo nodeId="6332794702258050988" varName="localParam_6" />
+      <varInfo nodeId="6332794702258050988" varName="localParam_7" />
+    </scopeInfo>
+    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="54" endLine="45" endPosition="5">
       <varInfo nodeId="4322693879000315782" varName="localParam_0" />
       <varInfo nodeId="4322693879000315782" varName="localParam_1" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="9" startPosition="0" endLine="21" endPosition="0">
+    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="10" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="4322693879000234000" varName="acc" />
       <varInfo nodeId="4322693879000233998" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="21" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="22" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="9009622095742629854" varName="acc" />
       <varInfo nodeId="9009622095742629856" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="33" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="51" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="6332794702258050991" varName="acc" />
+      <varInfo nodeId="6332794702258050993" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="34" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="4322693879000315787" varName="acc" />
       <varInfo nodeId="4322693879000315789" varName="n" />
     </scopeInfo>
-    <unitInfo nodeId="4322693879000233987" fileName="TestCalculator.java" startLine="6" startPosition="0" endLine="47" endPosition="0" unitName="TailRecursion.sandbox.test.TestCalculator" />
+    <unitInfo nodeId="4322693879000233987" fileName="TestCalculator.java" startLine="7" startPosition="0" endLine="64" endPosition="0" unitName="TailRecursion.sandbox.test.TestCalculator" />
   </root>
 </debugInfo>
 

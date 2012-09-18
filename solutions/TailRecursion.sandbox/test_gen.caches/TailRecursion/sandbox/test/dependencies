@@ -9,6 +9,8 @@
     <classNode dependClassName="junit.framework.Assert" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>
-  <dependency className="TailRecursion.sandbox.test.TestCalculator" file="TestCalculator.java" />
+  <dependency className="TailRecursion.sandbox.test.TestCalculator" file="TestCalculator.java">
+    <classNode dependClassName="java.math.BigInteger" />
+  </dependency>
 </dependenciesRoot>
 

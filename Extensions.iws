@@ -29,18 +29,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21c6bab-61a2-4071-9ad5-925557533140" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/build.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$3.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$7.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/trace.info" afterPath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/trace.info" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/TestCalculator.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/TestCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/dependencies" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.iws" afterPath="$PROJECT_DIR$/Extensions.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.mpr" afterPath="$PROJECT_DIR$/Extensions.mpr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" afterPath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/TestCalculator.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/TestCalculator.java" />
     </list>
     <list id="99619d15-f8bf-4613-a47b-0ea0d259e36c" name="project files" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
@@ -69,6 +91,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="TestCalculator" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://TailRecursion.sandbox.test@tests/TestCalculator">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="70">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="151" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_evgwyu_c0" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="4322693879000315797" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="38">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecursiveScenario_Test" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://TailRecursion.sandbox.test@tests/RecursiveScenario_Test">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_lq4ak4_c6a" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="4322693879000223793" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="38">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Extensions" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://Extensions.build/Extensions">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -77,17 +151,17 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="caretX" value="463" />
+                    <property name="caretXRelative" value="64" />
+                    <property name="caretX" value="111" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_head" cellNumber="0" isInList="false">
-                      <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037811" />
+                    <cellInfo cellId="Constant_dvtb4y_j3a" cellNumber="0" isInList="false">
+                      <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037766" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <folded />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento viewPositionX="0" viewPositionY="38">
                 <selectionStack />
                 <folded />
               </inspectorMemento>
@@ -194,8 +268,15 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites">
-        <subPane />
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -228,7 +309,51 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.memoize">
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -250,6 +375,14 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TailRecursion">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="TailRecursion.sandbox.test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -261,34 +394,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.tailRecursion.sandbox">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.memoize.util">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.memoize.sandbox">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -317,15 +422,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Favorites">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -333,16 +431,16 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.22959888" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit Tests.Tests in 'test'">
+  <component name="RunManager" selected="Build Script.Extensions">
     <configuration default="false" name="Tests in 'test'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
       <MyState>
         <option name="myModel" />
@@ -384,6 +482,45 @@
       <RunnerSettings RunnerId="Default Runner" />
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
+    </configuration>
+    <configuration default="false" name="Extensions" type="Build Script" factoryName="Build Script" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="6332794702258037749" />
+          <option name="myModelId" value="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" />
+        </MyState>
+      </myNode>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Build Script" factoryName="Build Script">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" />
+          <option name="myModelId" />
+        </MyState>
+      </myNode>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <method>
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
       <MyState>
@@ -428,8 +565,9 @@
         <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit Tests.Tests in 'test'" />
+      <item index="1" class="java.lang.String" itemvalue="Build Script.Extensions" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -437,39 +575,39 @@
     <frame x="109" y="-9" width="1820" height="1218" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294849" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972253" sideWeight="0.6705151" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294849" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -519,7 +657,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added build script" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -533,26 +671,179 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initialized git" />
+    <MESSAGE value="Added build script" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://Extensions.build/Extensions">
+    <entry file="mps://JDK/java.math@java_stub/BigInteger">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="127">
+          <memento viewPositionX="0" viewPositionY="564">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-31" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_359zr8_a" cellNumber="0" isInList="false">
+                  <node model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" id="~BigInteger.subtract(java.math.BigInteger):java.math.BigInteger" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="564">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-31" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_359zr8_a" cellNumber="0" isInList="false">
+                  <node model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" id="~BigInteger.subtract(java.math.BigInteger):java.math.BigInteger" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://TailRecursion.sandbox.test@tests/TestCalculator">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="70">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="463" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="151" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_head" cellNumber="0" isInList="false">
-                  <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037811" />
+                <cellInfo cellId="Constant_evgwyu_c0" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="4322693879000315797" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://TailRecursion.sandbox.test@tests/RecursiveScenario_Test">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_lq4ak4_c6a" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="4322693879000223793" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="38">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.typesystem/CheckingUtil">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="114">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="48" />
+                <property name="caretX" value="443" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)" id="3220419832563448201" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="38">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.typesystem/TailPositionInMethod">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="419" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)" id="3220419832563448214" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="38">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator/TailRecursionOnMethods">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="96" />
+                <property name="caretX" value="299" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="913704554380622980" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="38">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Extensions.build/Extensions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="64" />
+                <property name="caretX" value="111" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_dvtb4y_j3a" cellNumber="0" isInList="false">
+                  <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037766" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="38">
             <selectionStack />
             <folded />
           </inspectorMemento>

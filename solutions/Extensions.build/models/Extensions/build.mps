@@ -112,6 +112,10 @@
           <property name="text" nameId="3ior.4903714810883755350" value="BaseLanguageExtensions" />
         </node>
       </node>
+      <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="7140414760427132407">
+        <property name="name" nameId="kdzh.7832771629084799702" value="JetBrains" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://www.jetbrains.com" />
+      </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="6332794702258037775">
       <property name="name" nameId="tpck.1169194664001" value="Extensions" />

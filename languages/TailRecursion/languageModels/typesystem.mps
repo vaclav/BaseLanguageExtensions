@@ -2,7 +2,7 @@
 <model modelUID="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)" version="0">
   <persistence version="7" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
-  <language namespace="f142cd5e-ea1d-466a-86a8-52891b6256a4(TailRecursion)" />
+  <language namespace="f142cd5e-ea1d-466a-86a8-52891b6256a4(jetbrains.mps.baseLanguage.tailRecursion)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="sv2q" modelUID="r:4219349e-1088-4ef0-9212-77549146b168(jetbrains.mps.baseLanguage.tailRecursion.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
@@ -123,7 +123,7 @@
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="9009622095742633609">
                         <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9009622095742633401" resolveInfo="methodCalls" />
                       </node>
-                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetLastOperation" typeId="tp2q.1165595910856" id="913704554380655726" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="6332794702258057469" />
                     </node>
                   </node>
                 </node>

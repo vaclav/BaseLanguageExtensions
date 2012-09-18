@@ -37,7 +37,7 @@ public class QueriesGenerated {
           return;
         }
 
-        final SNode methodCall = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.structure.IMethodCall", false, new String[]{})).last();
+        final SNode methodCall = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.structure.IMethodCall", false, new String[]{})).first();
         final SNode containingStatementList = SNodeOperations.getAncestor(methodCall, "jetbrains.mps.baseLanguage.structure.StatementList", false, false);
 
         if (GenHelper.checkMethodCallInvokesCorrectMethod(method, _context, methodCall)) {
@@ -76,7 +76,7 @@ public class QueriesGenerated {
           return;
         }
 
-        final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression", false, new String[]{})).last();
+        final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression", false, new String[]{})).first();
         final SNode containingStatementList = SNodeOperations.getAncestor(invokeExpression, "jetbrains.mps.baseLanguage.structure.StatementList", false, false);
 
         GenHelper.checkPathForIncorrectNodes(_context, lastNode, invokeExpression);

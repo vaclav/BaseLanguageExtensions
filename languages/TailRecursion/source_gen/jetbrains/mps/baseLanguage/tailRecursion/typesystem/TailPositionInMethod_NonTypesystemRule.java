@@ -35,7 +35,7 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(lastNode, "No method call in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "9009622095742633442", null, errorTarget);
         }
       } else {
-        SNode methodCall = ListSequence.fromList(methodCalls).last();
+        SNode methodCall = ListSequence.fromList(methodCalls).first();
         if (SLinkOperations.getTarget(methodCall, "baseMethodDeclaration", false) != baseMethodDeclaration) {
           {
             MessageTarget errorTarget = new NodeMessageTarget();
