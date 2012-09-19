@@ -20,9 +20,9 @@
     <mkdir dir="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/META-INF" />
     <echoxml file="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>Extensions</id>
+        <id>jetbrains.mps.baseLanguage.extensions</id>
         <name>MPS BaseLanguage Extensions</name>
-        <version>1.0</version>
+        <version>0.1</version>
         <vendor url="http://www.jetbrains.com">JetBrains</vendor>
         <depends>jetbrains.mps.core</depends>
         

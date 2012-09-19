@@ -90,7 +90,7 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="6332794702258037766">
-      <property name="id" nameId="kdzh.6592112598314498927" value="Extensions" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="jetbrains.mps.baseLanguage.extensions" />
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6332794702258037767">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6332794702258037768">
           <property name="text" nameId="3ior.4903714810883755350" value="MPS BaseLanguage Extensions" />
@@ -98,7 +98,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6332794702258037769">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6332794702258037770">
-          <property name="text" nameId="3ior.4903714810883755350" value="1.0" />
+          <property name="text" nameId="3ior.4903714810883755350" value="0.1" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="6332794702258037771">
