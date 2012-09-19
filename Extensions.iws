@@ -29,13 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21c6bab-61a2-4071-9ad5-925557533140" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.iws" afterPath="$PROJECT_DIR$/Extensions.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" afterPath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" />
     </list>
     <list id="99619d15-f8bf-4613-a47b-0ea0d259e36c" name="project files" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
@@ -124,10 +121,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="163" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_dvtb4y_a3a" cellNumber="0" isInList="false">
+                    <cellInfo cellId="property_id" cellNumber="0" isInList="false">
                       <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037766" />
                     </cellInfo>
                   </stackElement>
@@ -528,7 +525,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed method call detection in cases when method calls are present in parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the plugin information" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -544,6 +541,7 @@
     <MESSAGE value="Initialized git" />
     <MESSAGE value="Added build script" />
     <MESSAGE value="Fixed method call detection in cases when method calls are present in parameters" />
+    <MESSAGE value="Updated the plugin information" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://JDK/java.math@java_stub/BigInteger">
@@ -735,10 +733,10 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="163" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_dvtb4y_a3a" cellNumber="0" isInList="false">
+                <cellInfo cellId="property_id" cellNumber="0" isInList="false">
                   <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037766" />
                 </cellInfo>
               </stackElement>
