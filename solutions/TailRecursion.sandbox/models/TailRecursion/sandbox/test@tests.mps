@@ -750,7 +750,6 @@
             <node role="expression" roleId="tpee.1068580123156" type="tp2c.InvokeExpression" typeId="tp2c.1199711271002" id="6963853100979795989" />
           </node>
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="sv2q.TailRecursion" typeId="sv2q.4322693879000316852" id="6963853100979795990" />
       </node>
     </node>
     <node role="staticField" roleId="tpee.1128555889557" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="6963853100979795991">
@@ -819,7 +818,6 @@
             </node>
           </node>
         </node>
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="sv2q.TailRecursion" typeId="sv2q.4322693879000316852" id="6963853100979796008" />
       </node>
     </node>
     <node role="staticMethod" roleId="tpee.1070462273904" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="6963853100979795911">
@@ -833,7 +831,6 @@
           </node>
         </node>
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="sv2q.TailRecursion" typeId="sv2q.4322693879000316852" id="6963853100979795915" />
     </node>
     <node role="staticMethod" roleId="tpee.1070462273904" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="6963853100979795916">
       <property name="name" nameId="tpck.1169194664001" value="noArgMethod" />
@@ -883,7 +880,6 @@
         <property name="name" nameId="tpck.1169194664001" value="a" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6963853100979795952" />
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="sv2q.TailRecursion" typeId="sv2q.4322693879000316852" id="6963853100979795954" />
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6963853100979795906" />
     <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="6963853100979795907">

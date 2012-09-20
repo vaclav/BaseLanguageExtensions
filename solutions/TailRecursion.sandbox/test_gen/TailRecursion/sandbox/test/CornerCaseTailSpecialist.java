@@ -7,11 +7,10 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 public class CornerCaseTailSpecialist {
   public static _FunctionTypes._void_P0_E0 noArgsVoidFunction = new _FunctionTypes._void_P0_E0() {
     public void invoke() {
-      while (true) {
-        if (1 < 5) {
-          return;
-        }
+      if (1 < 5) {
+        return;
       }
+      invoke();
     }
   };
   public static _FunctionTypes._return_P0_E0<? extends Integer> noArgsFunction = new _FunctionTypes._return_P0_E0<Integer>() {
@@ -25,13 +24,10 @@ public class CornerCaseTailSpecialist {
   };
   public static _FunctionTypes._void_P1_E0<? super Integer> voidFunction = new _FunctionTypes._void_P1_E0<Integer>() {
     public void invoke(Integer a) {
-      int localParam_13 = a;
-      while (true) {
-        if (1 < 5) {
-          return;
-        }
-        localParam_13 = localParam_13;
+      if (1 < 5) {
+        return;
       }
+      invoke(a);
     }
   };
 
@@ -39,8 +35,7 @@ public class CornerCaseTailSpecialist {
   }
 
   public static void noArgsVoidMethod() {
-    while (true) {
-    }
+    noArgsVoidMethod();
   }
 
   public static int noArgMethod() {
@@ -52,9 +47,6 @@ public class CornerCaseTailSpecialist {
   }
 
   public static void voidMethod(int a) {
-    int localParam_8 = a;
-    while (true) {
-      localParam_8 = localParam_8;
-    }
+    voidMethod(a);
   }
 }

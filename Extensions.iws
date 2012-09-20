@@ -29,63 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21c6bab-61a2-4071-9ad5-925557533140" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/TypesystemDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCass_Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$2.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$3.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$4.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/Language.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/Language.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$5.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$6.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$7.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$8.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/dependencies" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/dependencies" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.iws" afterPath="$PROJECT_DIR$/Extensions.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/template/jetbrains/mps/baseLanguage/memoize/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/memoize/generator/template/jetbrains/mps/baseLanguage/memoize/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/Language.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/Language.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/models/jetbrains/mps/baseLanguage/memoize/sandbox/test@tests.mps" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/models/jetbrains/mps/baseLanguage/memoize/sandbox/test@tests.mps" />
     </list>
     <list id="99619d15-f8bf-4613-a47b-0ea0d259e36c" name="project files" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
@@ -138,7 +97,17 @@
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </inspectorMemento>
             </state>
@@ -164,7 +133,17 @@
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </inspectorMemento>
             </state>
@@ -190,7 +169,17 @@
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </inspectorMemento>
             </state>
@@ -212,45 +201,139 @@
                       <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
                     </cellInfo>
                   </stackElement>
-                </selectionStack>
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CornerCaseTailSpecialist" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://TailRecursion.sandbox.test@tests/CornerCaseTailSpecialist">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="195" />
+                    <property name="selectionEnd" value="38" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="136" />
+                    <property name="selectionStart" value="0" />
+                    <property name="caretX" value="511" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_evgwyu_a0" cellNumber="0" isInList="false">
-                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979854391" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
+                    </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-363" />
+                    <property name="caretX" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Collection_fgt3_a" cellNumber="0" isInList="false">
+                      <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </inspectorMemento>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TailRecursionOnClosures" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CornerCaseTailSpecialist" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://TailRecursion.sandbox.test@tests/CornerCaseTailSpecialist">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="15">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="48" />
+                    <property name="caretX" value="227" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TailRecursionOnClosures" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator/TailRecursionOnClosures">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="248" />
+                    <property name="caretX" value="623" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
+                    </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="selectionEnd" value="44" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="248" />
+                    <property name="selectionStart" value="0" />
+                    <property name="caretX" value="623" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
+                    </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-363" />
+                    <property name="caretX" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Collection_fgt3_a" cellNumber="0" isInList="false">
+                      <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TailRecursionOnMethods" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator/TailRecursionOnMethods">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
@@ -260,15 +343,25 @@
                     <property name="caretXRelative" value="0" />
                     <property name="caretX" value="31" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="9009622095742619564" />
+                    <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                      <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979891850" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="15" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                      <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </inspectorMemento>
             </state>
@@ -703,7 +796,7 @@
     <frame x="109" y="-9" width="1820" height="1218" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285968" sideWeight="0.49778023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285968" sideWeight="0.4955605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294849" sideWeight="0.4955605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -719,16 +812,16 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972253" sideWeight="0.67140317" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.49778023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.4955605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285968" sideWeight="0.49833518" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285968" sideWeight="0.5005549" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.49334073" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.49112096" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -785,7 +878,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rebuild the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added check for void return type" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -803,67 +896,9 @@
     <MESSAGE value="Fixed method call detection in cases when method calls are present in parameters" />
     <MESSAGE value="Updated the plugin information" />
     <MESSAGE value="Rebuild the project" />
+    <MESSAGE value="Added check for void return type" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://jetbrains.mps.baseLanguage.memoize.structure/MemoizeAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="520" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jiideg_a0" cellNumber="0" isInList="false">
-                  <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="1020370389589215409" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="520" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jiideg_a0" cellNumber="0" isInList="false">
-                  <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="1020370389589215409" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </inspectorMemento>
-          <node nodeId="1020370389589215211" modelId="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://Extensions.build/Extensions">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="40" />
-                <property name="caretX" value="163" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_id" cellNumber="0" isInList="false">
-                  <node model="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)" id="6332794702258037766" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://jetbrains.mps.baseLanguage.memoize.sandbox.test@tests/MemoizeTest_Test">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -906,7 +941,17 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
         </state>
@@ -930,7 +975,17 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
         </state>
@@ -954,7 +1009,17 @@
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
         </state>
@@ -1136,30 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://TailRecursion.sandbox.test@tests/CornerCaseTailSpecialist">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="195" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_evgwyu_a0" cellNumber="0" isInList="false">
-                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979854391" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://jetbrains.mps.baseLanguage.memoize.generator.template.main@generator/memoize_methods">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1174,11 +1215,40 @@
                   <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
                 </cellInfo>
               </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionEnd" value="38" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="136" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="511" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-363" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_fgt3_a" cellNumber="0" isInList="false">
+                  <node model="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)" id="6963853100979775547" />
+                </cellInfo>
+              </stackElement>
             </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
         </state>
@@ -1191,18 +1261,115 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="31" />
+                <property name="caretXRelative" value="248" />
+                <property name="caretX" value="623" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="9009622095742619564" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionEnd" value="44" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="248" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="623" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-363" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_fgt3_a" cellNumber="0" isInList="false">
+                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979775547" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator/TailRecursionOnMethods">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="31" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
+                  <node model="r:828b2c49-fbbc-4567-a647-f129d4a626e2(jetbrains.mps.baseLanguage.tailRecursion.generator.template.main@generator)" id="6963853100979891850" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://TailRecursion.sandbox.test@tests/CornerCaseTailSpecialist">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="15">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="48" />
+                <property name="caretX" value="227" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="empty_annotation" cellNumber="0" isInList="false">
+                  <node model="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)" id="6963853100979795946" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </inspectorMemento>
         </state>

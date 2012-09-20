@@ -14,9 +14,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper;
+import jetbrains.mps.typesystem.inference.TypeChecker;
 
 public class QueriesGenerated {
   public static void mappingScript_CodeBlock_9009622095742524456(final IOperationContext operationContext, final MappingScriptContext _context) {
@@ -27,6 +28,16 @@ public class QueriesGenerated {
             return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null;
           }
         });
+      }
+    });
+
+    Sequence.fromIterable(methods).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "returnType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+      }
+    }).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        _context.showErrorMessage(it, "Tail recursive methods must not return void");
       }
     });
 
@@ -66,6 +77,16 @@ public class QueriesGenerated {
             return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null;
           }
         });
+      }
+    });
+
+    Sequence.fromIterable(closures).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(it), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+      }
+    }).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        _context.showErrorMessage(it, "Tail recursive closures must not return void");
       }
     });
 
