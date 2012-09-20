@@ -347,6 +347,16 @@ public class QueriesGenerated {
       }
     });
 
+    Sequence.fromIterable(methods).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "returnType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+      }
+    }).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        _context.showErrorMessage(it, "Memoized methods must not return void");
+      }
+    });
+
     Sequence.fromIterable(methods).visitAll(new IVisitor<SNode>() {
       public void visit(SNode method) {
         _context.putSessionObject(method, _context.createUniqueName("memoizedCache", null));
@@ -363,15 +373,22 @@ public class QueriesGenerated {
       }
     });
 
+    Sequence.fromIterable(closures).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(it), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+      }
+    }).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        _context.showErrorMessage(it, "Memoized closures must not return void");
+      }
+    });
+
     Sequence.fromIterable(closures).visitAll(new IVisitor<SNode>() {
       public void visit(SNode closure) {
         _context.putSessionObject(closure, _context.createUniqueName("memoizedCacheForClosures", null));
       }
     });
 
-  }
-
-  public static void mappingScript_CodeBlock_4821781367346984849(final IOperationContext operationContext, final MappingScriptContext _context) {
   }
 
   public static Object insertMacro_varValue_1020370389589178100(final IOperationContext operationContext, final TemplateQueryContext _context) {

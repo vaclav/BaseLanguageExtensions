@@ -25,14 +25,14 @@ public class RecursiveScenario_Test extends TestCase {
   public void test_closure() throws Exception {
     _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> fun = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
       public Integer invoke(final Integer acc, final Integer n) {
-        int localParam_8 = acc;
-        int localParam_9 = n;
+        int localParam_9 = acc;
+        int localParam_10 = n;
         while (true) {
-          if (localParam_9 == 0) {
-            return localParam_8;
+          if (localParam_10 == 0) {
+            return localParam_9;
           }
-          localParam_8 = localParam_8 + localParam_9;
-          localParam_9 = localParam_9 - 1;
+          localParam_9 = localParam_9 + localParam_10;
+          localParam_10 = localParam_10 - 1;
         }
       }
     };
@@ -45,16 +45,16 @@ public class RecursiveScenario_Test extends TestCase {
   public void test_closureFactorial() throws Exception {
     _FunctionTypes._return_P2_E0<? extends Long, ? super Long, ? super Integer> factorial = new _FunctionTypes._return_P2_E0<Long, Long, Integer>() {
       public Long invoke(final Long acc, final Integer n) {
-        long localParam_10 = acc;
-        int localParam_11 = n;
+        long localParam_11 = acc;
+        int localParam_12 = n;
         while (true) {
-          if (localParam_11 == 1) {
-            return localParam_10;
+          if (localParam_12 == 1) {
+            return localParam_11;
           } else if (false) {
             return 0L;
           } else {
-            localParam_10 = localParam_10 * localParam_11;
-            localParam_11 = localParam_11 - 1;
+            localParam_11 = localParam_11 * localParam_12;
+            localParam_12 = localParam_12 - 1;
           }
         }
       }

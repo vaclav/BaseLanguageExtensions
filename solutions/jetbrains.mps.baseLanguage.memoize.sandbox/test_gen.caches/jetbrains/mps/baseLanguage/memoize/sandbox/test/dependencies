@@ -10,6 +10,21 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" />
   </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" file="CornerCaseSpecialist.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" />
+  </dependency>
+  <dependency className="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCass_Test" file="CornerCass_Test.java">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" />
+    <classNode dependClassName="junit.framework.Assert" />
+    <classNode extendsClassName="junit.framework.TestCase" />
+  </dependency>
   <dependency className="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" file="MemoizeTest_Test.java">
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />

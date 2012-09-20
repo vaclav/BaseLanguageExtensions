@@ -23,11 +23,21 @@ public class CheckingUtil {
   }
 
   @CheckingMethod
+  public static void checkForVoidReturnType(final TypeCheckingContext typeCheckingContext, SNode returnType, SNode functionDeclaration) {
+    if (SNodeOperations.isInstanceOf(returnType, "jetbrains.mps.baseLanguage.structure.VoidType")) {
+      {
+        MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionDeclaration, "Tail recursive methods and closures must not return void", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796647", null, errorTarget);
+      }
+    }
+  }
+
+  @CheckingMethod
   public static void checkCorrectKindOfLastNode(final TypeCheckingContext typeCheckingContext, SNode lastNode) {
     if (!(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ReturnStatement")) && !(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ExpressionStatement")) && !(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.IfStatement"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(lastNode, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "3220419832563447895", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(lastNode, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796618", null, errorTarget);
       }
     }
   }

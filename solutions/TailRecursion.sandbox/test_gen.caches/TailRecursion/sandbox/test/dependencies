@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="TailRecursion.sandbox.test.CornerCaseTailSpecialist" file="CornerCaseTailSpecialist.java">
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
+  </dependency>
   <dependency className="TailRecursion.sandbox.test.RecursiveScenario_Test" file="RecursiveScenario_Test.java">
     <classNode dependClassName="TailRecursion.sandbox.test.TestCalculator" />
     <classNode dependClassName="java.lang.Exception" />

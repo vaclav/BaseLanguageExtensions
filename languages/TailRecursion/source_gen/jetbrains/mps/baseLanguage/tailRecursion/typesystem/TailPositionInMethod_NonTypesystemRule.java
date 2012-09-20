@@ -10,8 +10,8 @@ import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
@@ -25,6 +25,9 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
 
   public void applyRule(final SNode baseMethodDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if (AttributeOperations.getAttribute(baseMethodDeclaration, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null) {
+
+      CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(baseMethodDeclaration, "returnType", true), baseMethodDeclaration);
+
       SNode lastNode = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(baseMethodDeclaration, "body", true), "statement", true)).last();
       CheckingUtil.checkCorrectKindOfLastNode(typeCheckingContext, lastNode);
 

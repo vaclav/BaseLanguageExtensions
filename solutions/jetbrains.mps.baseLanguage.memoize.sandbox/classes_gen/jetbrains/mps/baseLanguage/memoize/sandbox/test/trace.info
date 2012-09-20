@@ -707,5 +707,120 @@
     <unitInfo nodeId="8394104674210938854" fileName="Calculator.java" startLine="169" startPosition="0" endLine="233" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator" />
     <unitInfo nodeId="8394104674210954402" fileName="Calculator.java" startLine="234" startPosition="0" endLine="360" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator" />
   </root>
+  <root nodeId="94989256191809302">
+    <nodeInfo nodeId="94989256191809324" fileName="CornerCass_Test.java" startLine="9" startPosition="47" endLine="10" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191809327" fileName="CornerCass_Test.java" startLine="10" startPosition="45" endLine="11" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832282" fileName="CornerCass_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="94989256191849581" fileName="CornerCass_Test.java" startLine="12" startPosition="0" endLine="13" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832284" fileName="CornerCass_Test.java" startLine="13" startPosition="61" endLine="14" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191849585" fileName="CornerCass_Test.java" startLine="14" startPosition="41" endLine="15" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832287" fileName="CornerCass_Test.java" startLine="15" startPosition="61" endLine="16" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191849576" fileName="CornerCass_Test.java" startLine="16" startPosition="41" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832289" fileName="CornerCass_Test.java" startLine="17" startPosition="61" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="94989256191832291" fileName="CornerCass_Test.java" startLine="18" startPosition="0" endLine="19" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832295" fileName="CornerCass_Test.java" startLine="19" startPosition="41" endLine="20" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668789" fileName="CornerCass_Test.java" startLine="23" startPosition="48" endLine="24" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6963853100979668785" fileName="CornerCass_Test.java" startLine="24" startPosition="65" endLine="25" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668823" fileName="CornerCass_Test.java" startLine="25" startPosition="41" endLine="26" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668906" fileName="CornerCass_Test.java" startLine="26" startPosition="41" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6963853100979668841" fileName="CornerCass_Test.java" startLine="27" startPosition="0" endLine="28" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668871" fileName="CornerCass_Test.java" startLine="28" startPosition="47" endLine="29" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668860" fileName="CornerCass_Test.java" startLine="29" startPosition="37" endLine="30" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668901" fileName="CornerCass_Test.java" startLine="30" startPosition="47" endLine="31" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668865" fileName="CornerCass_Test.java" startLine="31" startPosition="37" endLine="32" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668907" fileName="CornerCass_Test.java" startLine="32" startPosition="47" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6963853100979668828" fileName="CornerCass_Test.java" startLine="33" startPosition="0" endLine="34" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668835" fileName="CornerCass_Test.java" startLine="34" startPosition="37" endLine="35" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191809320" fileName="CornerCass_Test.java" startLine="8" startPosition="47" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_methods#()V" />
+    <nodeInfo nodeId="6963853100979668781" fileName="CornerCass_Test.java" startLine="22" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closures#()V" />
+    <scopeInfo nodeId="94989256191809323" fileName="CornerCass_Test.java" startLine="9" startPosition="47" endLine="20" endPosition="41" />
+    <scopeInfo nodeId="6963853100979668784" fileName="CornerCass_Test.java" startLine="23" startPosition="48" endLine="35" endPosition="37">
+      <varInfo nodeId="6963853100979668790" varName="specialist" />
+    </scopeInfo>
+    <scopeInfo nodeId="94989256191809320" fileName="CornerCass_Test.java" startLine="8" startPosition="47" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="6963853100979668781" fileName="CornerCass_Test.java" startLine="22" startPosition="0" endLine="37" endPosition="0" />
+    <unitInfo nodeId="94989256191809302" fileName="CornerCass_Test.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCass_Test" />
+  </root>
+  <root nodeId="94989256191809309">
+    <nodeInfo nodeId="94989256191849553" fileName="CornerCaseSpecialist.java" startLine="11" startPosition="35" endLine="12" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="callCounter" />
+    <nodeInfo nodeId="94989256191832281" fileName="CornerCaseSpecialist.java" startLine="12" startPosition="36" endLine="13" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="memoizedCache_6" />
+    <nodeInfo nodeId="6963853100979668742" fileName="CornerCaseSpecialist.java" startLine="14" startPosition="0" endLine="15" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="counter" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="21" startPosition="29" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="22" startPosition="52" endLine="23" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6963853100979668752" fileName="CornerCaseSpecialist.java" startLine="26" startPosition="35" endLine="27" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668767" fileName="CornerCaseSpecialist.java" startLine="27" startPosition="25" endLine="28" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="30" startPosition="10" endLine="31" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="35" startPosition="11" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979691992" fileName="CornerCaseSpecialist.java" startLine="47" startPosition="4" endLine="48" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_9" />
+    <nodeInfo nodeId="6963853100979691992" fileName="CornerCaseSpecialist.java" startLine="48" startPosition="98" endLine="49" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_9_Closure" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="57" startPosition="37" endLine="58" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="58" startPosition="50" endLine="59" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="94989256191849561" fileName="CornerCaseSpecialist.java" startLine="62" startPosition="33" endLine="63" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832272" fileName="CornerCaseSpecialist.java" startLine="63" startPosition="27" endLine="64" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="66" startPosition="8" endLine="67" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="71" startPosition="9" endLine="72" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191809311" fileName="CornerCaseSpecialist.java" startLine="50" startPosition="0" endLine="52" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CornerCaseSpecialist#()V" />
+    <nodeInfo nodeId="94989256191935564" fileName="CornerCaseSpecialist.java" startLine="16" startPosition="89" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()V" />
+    <nodeInfo nodeId="6963853100979668773" fileName="CornerCaseSpecialist.java" startLine="44" startPosition="110" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)V" />
+    <nodeInfo nodeId="94989256191809315" fileName="CornerCaseSpecialist.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="noArgVoidFunction#()V" />
+    <nodeInfo nodeId="94989256191832274" fileName="CornerCaseSpecialist.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="voidFunction#(I)V" />
+    <nodeInfo nodeId="94989256191935557" fileName="CornerCaseSpecialist.java" startLine="15" startPosition="25" endLine="19" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="noArgVoidClosure" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="31" startPosition="48" endLine="35" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="37" startPosition="7" endLine="41" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6963853100979668769" fileName="CornerCaseSpecialist.java" startLine="43" startPosition="5" endLine="47" endPosition="4" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="voidClosure" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="67" startPosition="46" endLine="71" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="73" startPosition="5" endLine="77" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="25" startPosition="118" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()Ljava/lang/Integer;" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="61" startPosition="116" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()Ljava/lang/Integer;" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="24" startPosition="26" endLine="30" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="60" startPosition="24" endLine="66" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="23" startPosition="83" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="59" startPosition="70" endLine="73" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="155" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()Ljava/lang/Integer;" />
+    <nodeInfo nodeId="94989256191832267" fileName="CornerCaseSpecialist.java" startLine="56" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="noArgFunction#()I" />
+    <nodeInfo nodeId="6963853100979668735" fileName="CornerCaseSpecialist.java" startLine="19" startPosition="4" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="noArgClosure" />
+    <scopeInfo nodeId="94989256191935565" fileName="CornerCaseSpecialist.java" startLine="17" startPosition="26" endLine="17" endPosition="26" />
+    <scopeInfo nodeId="6963853100979668774" fileName="CornerCaseSpecialist.java" startLine="45" startPosition="35" endLine="45" endPosition="35" />
+    <scopeInfo nodeId="94989256191809314" fileName="CornerCaseSpecialist.java" startLine="51" startPosition="33" endLine="51" endPosition="33" />
+    <scopeInfo nodeId="94989256191809318" fileName="CornerCaseSpecialist.java" startLine="54" startPosition="42" endLine="54" endPosition="42" />
+    <scopeInfo nodeId="94989256191832277" fileName="CornerCaseSpecialist.java" startLine="80" startPosition="42" endLine="80" endPosition="42" />
+    <scopeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="26" startPosition="35" endLine="28" endPosition="21" />
+    <scopeInfo nodeId="94989256191809311" fileName="CornerCaseSpecialist.java" startLine="50" startPosition="0" endLine="52" endPosition="3" />
+    <scopeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="62" startPosition="33" endLine="64" endPosition="19" />
+    <scopeInfo nodeId="94989256191935564" fileName="CornerCaseSpecialist.java" startLine="16" startPosition="89" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="6963853100979668773" fileName="CornerCaseSpecialist.java" startLine="44" startPosition="110" endLine="47" endPosition="0">
+      <varInfo nodeId="6963853100979668773" varName="a" />
+    </scopeInfo>
+    <scopeInfo nodeId="94989256191809315" fileName="CornerCaseSpecialist.java" startLine="53" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="94989256191832274" fileName="CornerCaseSpecialist.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
+      <varInfo nodeId="94989256191832278" varName="a" />
+    </scopeInfo>
+    <scopeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="25" startPosition="118" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="61" startPosition="116" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="24" startPosition="26" endLine="36" endPosition="23">
+      <varInfo nodeId="6963853100979668740" varName="function" />
+      <varInfo nodeId="6963853100979668740" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="60" startPosition="24" endLine="72" endPosition="21">
+      <varInfo nodeId="94989256191832270" varName="function" />
+      <varInfo nodeId="94989256191832270" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="21" startPosition="29" endLine="41" endPosition="8">
+      <varInfo nodeId="6963853100979668740" varName="key" />
+      <varInfo nodeId="6963853100979668740" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="57" startPosition="37" endLine="77" endPosition="6">
+      <varInfo nodeId="94989256191832270" varName="key" />
+      <varInfo nodeId="94989256191832270" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="155" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="94989256191832267" fileName="CornerCaseSpecialist.java" startLine="56" startPosition="0" endLine="79" endPosition="0" />
+    <unitInfo nodeId="94989256191809309" fileName="CornerCaseSpecialist.java" startLine="11" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" />
+    <unitInfo nodeId="94989256191935564" fileName="CornerCaseSpecialist.java" startLine="16" startPosition="59" endLine="19" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$1" />
+    <unitInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="114" endLine="43" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$2" />
+    <unitInfo nodeId="6963853100979668773" fileName="CornerCaseSpecialist.java" startLine="44" startPosition="71" endLine="47" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
+    <unitInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="25" startPosition="77" endLine="30" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
+    <unitInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="61" startPosition="75" endLine="66" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$4" />
+  </root>
 </debugInfo>
 
