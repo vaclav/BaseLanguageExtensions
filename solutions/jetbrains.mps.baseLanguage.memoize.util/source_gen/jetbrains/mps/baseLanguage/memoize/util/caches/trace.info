@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="2522420642609174595">
+  <root nodeId="2522420642609174595" modelId="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)">
     <nodeInfo nodeId="4510567955453829907" fileName="Memoizator.java" startLine="15" startPosition="24" endLine="16" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="9172390174097872763" fileName="Memoizator.java" startLine="17" startPosition="5" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="9172390174097872818" fileName="Memoizator.java" startLine="19" startPosition="25" endLine="20" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -58,7 +58,7 @@
     </scopeInfo>
     <unitInfo nodeId="2522420642609174595" fileName="Memoizator.java" startLine="10" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" />
   </root>
-  <root nodeId="2522420642609181621">
+  <root nodeId="2522420642609181621" modelId="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)">
     <nodeInfo nodeId="2522420642609181627" fileName="KeyCalculator.java" startLine="6" startPosition="34" endLine="7" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="acc" />
     <nodeInfo nodeId="2522420642609181723" fileName="KeyCalculator.java" startLine="13" startPosition="19" endLine="14" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2522420642609181798" fileName="KeyCalculator.java" startLine="15" startPosition="12" endLine="16" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -86,7 +86,7 @@
     </scopeInfo>
     <unitInfo nodeId="2522420642609181621" fileName="KeyCalculator.java" startLine="6" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
   </root>
-  <root nodeId="4821781367346988959">
+  <root nodeId="4821781367346988959" modelId="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)">
     <nodeInfo nodeId="3629985228611555673" fileName="NullValue.java" startLine="6" startPosition="30" endLine="7" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NULL_CACHED_VALUE" />
     <nodeInfo nodeId="4821781367346989124" fileName="NullValue.java" startLine="13" startPosition="40" endLine="14" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4821781367346989137" fileName="NullValue.java" startLine="18" startPosition="25" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -103,7 +103,7 @@
     <scopeInfo nodeId="4821781367346989130" fileName="NullValue.java" startLine="16" startPosition="0" endLine="21" endPosition="0" />
     <unitInfo nodeId="4821781367346988959" fileName="NullValue.java" startLine="6" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" />
   </root>
-  <root nodeId="4821781367346989817">
+  <root nodeId="4821781367346989817" modelId="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)">
     <nodeInfo nodeId="4821781367346989819" fileName="NullProtectionStorage.java" startLine="7" startPosition="80" endLine="9" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NullProtectionStorage#()V" />
     <nodeInfo nodeId="4821781367346989823" fileName="NullProtectionStorage.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="touch#(Ljava/lang/Object;Ljava/lang/Object;)V" />
     <scopeInfo nodeId="4821781367346989822" fileName="NullProtectionStorage.java" startLine="8" startPosition="34" endLine="8" endPosition="34" />
@@ -115,7 +115,7 @@
     </scopeInfo>
     <unitInfo nodeId="4821781367346989817" fileName="NullProtectionStorage.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage" />
   </root>
-  <root nodeId="4821781367346989831">
+  <root nodeId="4821781367346989831" modelId="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)">
     <nodeInfo nodeId="4821781367346989842" fileName="LRUProtectionStorage.java" startLine="8" startPosition="73" endLine="9" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="maxSize" />
     <nodeInfo nodeId="4821781367346989846" fileName="LRUProtectionStorage.java" startLine="11" startPosition="50" endLine="12" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="4821781367346989850" fileName="LRUProtectionStorage.java" startLine="12" startPosition="32" endLine="13" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1742094376849958742">
+  <root nodeId="1742094376849958742" modelId="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.memoize.editor)">
     <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="60" startPosition="67" endLine="60" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="23" startPosition="82" endLine="24" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

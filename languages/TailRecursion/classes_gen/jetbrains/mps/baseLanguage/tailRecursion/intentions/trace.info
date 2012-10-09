@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.IntentionsDescriptor" />
-  <root nodeId="9009622095742545593">
+  <root nodeId="9009622095742545593" modelId="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)">
     <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -58,7 +58,7 @@
     </scopeInfo>
     <unitInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="14" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention" />
   </root>
-  <root nodeId="9009622095742579504">
+  <root nodeId="9009622095742579504" modelId="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)">
     <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -115,7 +115,7 @@
     </scopeInfo>
     <unitInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="13" startPosition="0" endLine="56" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention" />
   </root>
-  <root nodeId="9009622095742619462">
+  <root nodeId="9009622095742619462" modelId="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)">
     <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="26" startPosition="37" endLine="27" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -172,7 +172,7 @@
     </scopeInfo>
     <unitInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="14" startPosition="0" endLine="57" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention" />
   </root>
-  <root nodeId="9009622095742619488">
+  <root nodeId="9009622095742619488" modelId="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)">
     <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

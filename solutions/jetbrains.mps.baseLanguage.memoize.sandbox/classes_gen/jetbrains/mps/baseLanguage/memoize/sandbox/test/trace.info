@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="1742094376849958728">
+  <root nodeId="1742094376849958728" modelId="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
     <nodeInfo nodeId="1020370389589163113" fileName="MemoizeTest_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TEN" />
     <nodeInfo nodeId="4821781367346987331" fileName="MemoizeTest_Test.java" startLine="16" startPosition="0" endLine="17" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="closureCounter" />
     <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="19" startPosition="61" endLine="20" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -286,17 +286,17 @@
       <varInfo nodeId="8394104674210932876" varName="localCounter" />
     </scopeInfo>
     <scopeInfo nodeId="8394104674210932871" fileName="MemoizeTest_Test.java" startLine="213" startPosition="0" endLine="250" endPosition="0" />
-    <unitInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="14" startPosition="0" endLine="260" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
-    <unitInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="183" startPosition="95" endLine="210" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1" />
+    <unitInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="25" startPosition="111" endLine="30" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
+    <unitInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="50" startPosition="91" endLine="58" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$5" />
     <unitInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="189" startPosition="93" endLine="197" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
-    <unitInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="216" startPosition="119" endLine="243" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
     <unitInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="222" startPosition="93" endLine="230" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
     <unitInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="18" startPosition="140" endLine="43" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
-    <unitInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="25" startPosition="111" endLine="30" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
     <unitInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="44" startPosition="126" endLine="71" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
-    <unitInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="50" startPosition="91" endLine="58" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$5" />
+    <unitInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="183" startPosition="95" endLine="210" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1" />
+    <unitInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="216" startPosition="119" endLine="243" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
+    <unitInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="14" startPosition="0" endLine="260" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
   </root>
-  <root nodeId="4821781367346987123">
+  <root nodeId="4821781367346987123" modelId="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
     <nodeInfo nodeId="4821781367346987490" fileName="Calculator.java" startLine="11" startPosition="25" endLine="12" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="staticCounter" />
     <nodeInfo nodeId="1020370389589227639" fileName="Calculator.java" startLine="14" startPosition="41" endLine="15" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1020370389589227639" fileName="Calculator.java" startLine="15" startPosition="52" endLine="16" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -687,27 +687,27 @@
     <scopeInfo nodeId="8394104674210954431" fileName="Calculator.java" startLine="302" startPosition="0" endLine="330" endPosition="0">
       <varInfo nodeId="8394104674210954432" varName="n" />
     </scopeInfo>
-    <unitInfo nodeId="4821781367346987123" fileName="Calculator.java" startLine="11" startPosition="0" endLine="361" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator" />
-    <unitInfo nodeId="1020370389589227638" fileName="Calculator.java" startLine="13" startPosition="132" endLine="40" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
-    <unitInfo nodeId="8394104674210938939" fileName="Calculator.java" startLine="170" startPosition="141" endLine="197" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
-    <unitInfo nodeId="8394104674210963133" fileName="Calculator.java" startLine="235" startPosition="134" endLine="262" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
+    <unitInfo nodeId="4821781367346987132" fileName="Calculator.java" startLine="92" startPosition="109" endLine="97" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
+    <unitInfo nodeId="4821781367346987155" fileName="Calculator.java" startLine="150" startPosition="109" endLine="155" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
     <unitInfo nodeId="8394104674210960150" fileName="Calculator.java" startLine="341" startPosition="111" endLine="346" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
     <unitInfo nodeId="1020370389589227639" fileName="Calculator.java" startLine="19" startPosition="91" endLine="27" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
+    <unitInfo nodeId="8394104674210934734" fileName="Calculator.java" startLine="52" startPosition="91" endLine="60" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
+    <unitInfo nodeId="1020370389588996019" fileName="Calculator.java" startLine="117" startPosition="89" endLine="125" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$5" />
     <unitInfo nodeId="8394104674210938940" fileName="Calculator.java" startLine="176" startPosition="93" endLine="184" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
     <unitInfo nodeId="8394104674210938863" fileName="Calculator.java" startLine="210" startPosition="91" endLine="218" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
     <unitInfo nodeId="8394104674210963134" fileName="Calculator.java" startLine="241" startPosition="93" endLine="249" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-    <unitInfo nodeId="8394104674210934733" fileName="Calculator.java" startLine="46" startPosition="133" endLine="73" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-    <unitInfo nodeId="4821781367346987155" fileName="Calculator.java" startLine="150" startPosition="109" endLine="155" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
-    <unitInfo nodeId="8394104674210934734" fileName="Calculator.java" startLine="52" startPosition="91" endLine="60" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
-    <unitInfo nodeId="8394104674210954408" fileName="Calculator.java" startLine="268" startPosition="141" endLine="295" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
-    <unitInfo nodeId="4821781367346987132" fileName="Calculator.java" startLine="92" startPosition="109" endLine="97" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
     <unitInfo nodeId="8394104674210954409" fileName="Calculator.java" startLine="274" startPosition="93" endLine="282" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
     <unitInfo nodeId="8394104674210954436" fileName="Calculator.java" startLine="308" startPosition="91" endLine="316" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
-    <unitInfo nodeId="1020370389588996019" fileName="Calculator.java" startLine="117" startPosition="89" endLine="125" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$5" />
+    <unitInfo nodeId="1020370389589227638" fileName="Calculator.java" startLine="13" startPosition="132" endLine="40" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
+    <unitInfo nodeId="8394104674210934733" fileName="Calculator.java" startLine="46" startPosition="133" endLine="73" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
+    <unitInfo nodeId="8394104674210938939" fileName="Calculator.java" startLine="170" startPosition="141" endLine="197" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
+    <unitInfo nodeId="8394104674210963133" fileName="Calculator.java" startLine="235" startPosition="134" endLine="262" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
+    <unitInfo nodeId="8394104674210954408" fileName="Calculator.java" startLine="268" startPosition="141" endLine="295" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
     <unitInfo nodeId="8394104674210938854" fileName="Calculator.java" startLine="169" startPosition="0" endLine="233" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator" />
     <unitInfo nodeId="8394104674210954402" fileName="Calculator.java" startLine="234" startPosition="0" endLine="360" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator" />
+    <unitInfo nodeId="4821781367346987123" fileName="Calculator.java" startLine="11" startPosition="0" endLine="361" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator" />
   </root>
-  <root nodeId="94989256191809302">
+  <root nodeId="94989256191809302" modelId="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
     <nodeInfo nodeId="94989256191809324" fileName="CornerCass_Test.java" startLine="9" startPosition="47" endLine="10" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="94989256191809327" fileName="CornerCass_Test.java" startLine="10" startPosition="45" endLine="11" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="94989256191832282" fileName="CornerCass_Test.java" startLine="11" startPosition="45" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
@@ -741,7 +741,7 @@
     <scopeInfo nodeId="6963853100979668781" fileName="CornerCass_Test.java" startLine="22" startPosition="0" endLine="37" endPosition="0" />
     <unitInfo nodeId="94989256191809302" fileName="CornerCass_Test.java" startLine="8" startPosition="0" endLine="38" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCass_Test" />
   </root>
-  <root nodeId="94989256191809309">
+  <root nodeId="94989256191809309" modelId="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
     <nodeInfo nodeId="94989256191849553" fileName="CornerCaseSpecialist.java" startLine="11" startPosition="35" endLine="12" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="callCounter" />
     <nodeInfo nodeId="94989256191832281" fileName="CornerCaseSpecialist.java" startLine="12" startPosition="36" endLine="13" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="memoizedCache_6" />
     <nodeInfo nodeId="6963853100979668742" fileName="CornerCaseSpecialist.java" startLine="14" startPosition="0" endLine="15" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="counter" />
@@ -815,12 +815,12 @@
     </scopeInfo>
     <scopeInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="155" endLine="43" endPosition="0" />
     <scopeInfo nodeId="94989256191832267" fileName="CornerCaseSpecialist.java" startLine="56" startPosition="0" endLine="79" endPosition="0" />
-    <unitInfo nodeId="94989256191809309" fileName="CornerCaseSpecialist.java" startLine="11" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" />
     <unitInfo nodeId="94989256191935564" fileName="CornerCaseSpecialist.java" startLine="16" startPosition="59" endLine="19" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$1" />
-    <unitInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="114" endLine="43" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$2" />
     <unitInfo nodeId="6963853100979668773" fileName="CornerCaseSpecialist.java" startLine="44" startPosition="71" endLine="47" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
     <unitInfo nodeId="6963853100979668740" fileName="CornerCaseSpecialist.java" startLine="25" startPosition="77" endLine="30" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
     <unitInfo nodeId="94989256191832270" fileName="CornerCaseSpecialist.java" startLine="61" startPosition="75" endLine="66" endPosition="7" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$4" />
+    <unitInfo nodeId="6963853100979668739" fileName="CornerCaseSpecialist.java" startLine="20" startPosition="114" endLine="43" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$2" />
+    <unitInfo nodeId="94989256191809309" fileName="CornerCaseSpecialist.java" startLine="11" startPosition="0" endLine="83" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" />
   </root>
 </debugInfo>
 
