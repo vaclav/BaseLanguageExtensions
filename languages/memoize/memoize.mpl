@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.memoize" uuid="9f9722b2-7c97-43c8-9771-bea4630e2676" generatorOutputPath="${language_descriptor}/source_gen" doNotGenerateAdapters="true">
+<language namespace="jetbrains.mps.baseLanguage.memoize" uuid="9f9722b2-7c97-43c8-9771-bea4630e2676" generatorOutputPath="${module}/source_gen">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators>
     <generator name="" generatorUID="jetbrains.mps.baseLanguage.memoize#1742094376850086130" uuid="51326dcc-4e4f-4f9f-b1c6-9389204f3b1c">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot contentPath="${module}" type="default">
+          <sourceRoot location="generator/template" />
+        </modelRoot>
       </models>
       <external-templates>
         <generator generatorUID="857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)" />

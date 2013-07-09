@@ -13,7 +13,6 @@ import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 
 public class MemoizeTest_Test extends TestCase {
   private static final Integer TEN = Integer.valueOf(10);
-
   private int closureCounter = 0;
   private _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> add = (memoizedCacheForClosures_0_Closure = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
     public Integer invoke(final Integer a, final Integer b) {

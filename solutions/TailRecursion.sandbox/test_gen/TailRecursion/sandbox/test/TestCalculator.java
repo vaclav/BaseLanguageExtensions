@@ -9,38 +9,38 @@ public class TestCalculator {
   }
 
   public int sum(final int acc, final int n) {
-    int localParam_2 = acc;
-    int localParam_3 = n;
-    while (true) {
-      if (localParam_3 == 0) {
-        return localParam_2;
-      }
-      localParam_2 = localParam_2 + localParam_3;
-      localParam_3 = localParam_3 - 1;
-    }
-  }
-
-  public long factorial(final long acc, final int n) {
-    long localParam_4 = acc;
-    int localParam_5 = n;
-    while (true) {
-      if (localParam_5 == 1) {
-        return localParam_4;
-      }
-      localParam_4 = localParam_4 * localParam_5;
-      localParam_5 = localParam_5 - 1;
-    }
-  }
-
-  public static int sumS(final int acc, final int n) {
     int localParam_0 = acc;
     int localParam_1 = n;
     while (true) {
       if (localParam_1 == 0) {
         return localParam_0;
+      }
+      localParam_0 = localParam_0 + localParam_1;
+      localParam_1 = localParam_1 - 1;
+    }
+  }
+
+  public long factorial(final long acc, final int n) {
+    long localParam_2 = acc;
+    int localParam_3 = n;
+    while (true) {
+      if (localParam_3 == 1) {
+        return localParam_2;
+      }
+      localParam_2 = localParam_2 * localParam_3;
+      localParam_3 = localParam_3 - 1;
+    }
+  }
+
+  public static int sumS(final int acc, final int n) {
+    int localParam_4 = acc;
+    int localParam_5 = n;
+    while (true) {
+      if (localParam_5 == 0) {
+        return localParam_4;
       } else {
-        localParam_0 = localParam_0 + localParam_1;
-        localParam_1 = localParam_1 - 1;
+        localParam_4 = localParam_4 + localParam_5;
+        localParam_5 = localParam_5 - 1;
       }
     }
   }

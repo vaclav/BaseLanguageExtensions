@@ -38,10 +38,6 @@ public class Calculator {
       );
     }
   });
-  private static Map<Integer, Object> memoizedCache_0 = Memoizator.buildMemoizeCache(0);
-  private static Map<Integer, Object> memoizedCacheForClosures_4 = Memoizator.buildMemoizeCache(0);
-  private static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_4_Closure;
-
   private int counter = 0;
   public _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> instanceFactorial = (memoizedCacheForClosures_5_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
     public Long invoke(final Integer n) {
@@ -71,10 +67,6 @@ public class Calculator {
       );
     }
   });
-  private final Map<Integer, Object> memoizedCache_1 = Memoizator.buildMemoizeCache(0);
-  private final Map<Integer, Object> memoizedCache_2 = Memoizator.buildMemoizeCache(2);
-  private final Map<Integer, Object> memoizedCacheForClosures_5 = Memoizator.buildMemoizeCache(0);
-  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_5_Closure;
 
   public Calculator() {
   }
@@ -87,7 +79,7 @@ public class Calculator {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(a);
     key.addKey(b);
-    Object value = Memoizator.retrieveFromCache(memoizedCache_1, key);
+    Object value = Memoizator.retrieveFromCache(memoizedCache_0, key);
     if (value == null) {
       final _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> function = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
         public Integer invoke(Integer a, Integer b) {
@@ -96,7 +88,7 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(a, b);
-      Memoizator.storeInCache(memoizedCache_1, key, (result != null ?
+      Memoizator.storeInCache(memoizedCache_0, key, (result != null ?
         result :
         NullValue.NULL_CACHED_VALUE
       ));
@@ -112,7 +104,7 @@ public class Calculator {
   public Long fibonacci(final int n) {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(n);
-    Object value = Memoizator.retrieveFromCache(memoizedCache_2, key);
+    Object value = Memoizator.retrieveFromCache(memoizedCache_1, key);
     if (value == null) {
       final _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> function = new _FunctionTypes._return_P1_E0<Long, Integer>() {
         public Long invoke(Integer n) {
@@ -124,7 +116,7 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(n);
-      Memoizator.storeInCache(memoizedCache_2, key, (result != null ?
+      Memoizator.storeInCache(memoizedCache_1, key, (result != null ?
         result :
         NullValue.NULL_CACHED_VALUE
       ));
@@ -145,7 +137,7 @@ public class Calculator {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(a);
     key.addKey(b);
-    Object value = Memoizator.retrieveFromCache(memoizedCache_0, key);
+    Object value = Memoizator.retrieveFromCache(memoizedCache_2, key);
     if (value == null) {
       final _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> function = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
         public Integer invoke(Integer a, Integer b) {
@@ -154,7 +146,7 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(a, b);
-      Memoizator.storeInCache(memoizedCache_0, key, (result != null ?
+      Memoizator.storeInCache(memoizedCache_2, key, (result != null ?
         result :
         NullValue.NULL_CACHED_VALUE
       ));
@@ -195,9 +187,6 @@ public class Calculator {
         );
       }
     });
-    private final Map<Integer, Object> memoizedCache_3 = Memoizator.buildMemoizeCache(2);
-    private final Map<Integer, Object> memoizedCacheForClosures_6 = Memoizator.buildMemoizeCache(0);
-    private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_6_Closure;
 
     public NestedCalculator() {
     }
@@ -229,6 +218,10 @@ public class Calculator {
       );
 
     }
+
+    private final Map<Integer, Object> memoizedCache_3 = Memoizator.buildMemoizeCache(2);
+    private final Map<Integer, Object> memoizedCacheForClosures_6 = Memoizator.buildMemoizeCache(0);
+    private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_6_Closure;
   }
 
   public static class StaticNestedCalculator {
@@ -260,10 +253,6 @@ public class Calculator {
         );
       }
     });
-    private static Map<Integer, Object> memoizedCache_4 = Memoizator.buildMemoizeCache(0);
-    private static Map<Integer, Object> memoizedCacheForClosures_7 = Memoizator.buildMemoizeCache(0);
-    private static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_7_Closure;
-
     private int counter;
     public _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> nestedInstanceFactorial = (memoizedCacheForClosures_8_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
       public Long invoke(final Integer n) {
@@ -293,9 +282,6 @@ public class Calculator {
         );
       }
     });
-    private final Map<Integer, Object> memoizedCache_5 = Memoizator.buildMemoizeCache(2);
-    private final Map<Integer, Object> memoizedCacheForClosures_8 = Memoizator.buildMemoizeCache(0);
-    private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_8_Closure;
 
     public StaticNestedCalculator() {
     }
@@ -303,7 +289,7 @@ public class Calculator {
     public Long fibonacci(final int n) {
       final KeyCalculator key = new KeyCalculator();
       key.addKey(n);
-      Object value = Memoizator.retrieveFromCache(memoizedCache_5, key);
+      Object value = Memoizator.retrieveFromCache(memoizedCache_4, key);
       if (value == null) {
         final _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> function = new _FunctionTypes._return_P1_E0<Long, Integer>() {
           public Long invoke(Integer n) {
@@ -315,7 +301,7 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCache_5, key, (result != null ?
+        Memoizator.storeInCache(memoizedCache_4, key, (result != null ?
           result :
           NullValue.NULL_CACHED_VALUE
         ));
@@ -336,7 +322,7 @@ public class Calculator {
       final KeyCalculator key = new KeyCalculator();
       key.addKey(a);
       key.addKey(b);
-      Object value = Memoizator.retrieveFromCache(memoizedCache_4, key);
+      Object value = Memoizator.retrieveFromCache(memoizedCache_5, key);
       if (value == null) {
         final _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> function = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
           public Integer invoke(Integer a, Integer b) {
@@ -345,7 +331,7 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(a, b);
-        Memoizator.storeInCache(memoizedCache_4, key, (result != null ?
+        Memoizator.storeInCache(memoizedCache_5, key, (result != null ?
           result :
           NullValue.NULL_CACHED_VALUE
         ));
@@ -356,5 +342,20 @@ public class Calculator {
         (Integer) value
       );
     }
+
+    private static Map<Integer, Object> memoizedCache_5 = Memoizator.buildMemoizeCache(0);
+    private final Map<Integer, Object> memoizedCache_4 = Memoizator.buildMemoizeCache(2);
+    private final Map<Integer, Object> memoizedCacheForClosures_8 = Memoizator.buildMemoizeCache(0);
+    private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_8_Closure;
+    private static Map<Integer, Object> memoizedCacheForClosures_7 = Memoizator.buildMemoizeCache(0);
+    private static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_7_Closure;
   }
+
+  private static Map<Integer, Object> memoizedCache_2 = Memoizator.buildMemoizeCache(0);
+  private final Map<Integer, Object> memoizedCache_0 = Memoizator.buildMemoizeCache(0);
+  private final Map<Integer, Object> memoizedCache_1 = Memoizator.buildMemoizeCache(2);
+  private final Map<Integer, Object> memoizedCacheForClosures_5 = Memoizator.buildMemoizeCache(0);
+  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_5_Closure;
+  private static Map<Integer, Object> memoizedCacheForClosures_4 = Memoizator.buildMemoizeCache(0);
+  private static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_4_Closure;
 }

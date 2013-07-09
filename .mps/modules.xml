@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/TailRecursion/TailRecursion.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/memoize/memoize.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Extensions.build/build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
+

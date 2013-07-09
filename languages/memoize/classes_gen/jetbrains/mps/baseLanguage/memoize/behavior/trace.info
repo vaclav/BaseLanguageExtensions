@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="MemoizeAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_BehaviorDescriptor" />
+  <unitInfo fileName="MemoizeAnnotation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_BehaviorDescriptor" />
+  <root nodeRef="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.memoize.behavior)/1232136333264820719">
+    <nodeInfo nodeId="1232136333264820718" fileName="MemoizeAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1232136333264820739" fileName="MemoizeAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="21" endPosition="232" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1232136333264820745" fileName="MemoizeAnnotation_Behavior.java" startLine="21" startPosition="232" endLine="22" endPosition="176" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1232136333264820749" fileName="MemoizeAnnotation_Behavior.java" startLine="22" startPosition="176" endLine="23" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1232136333264820753" fileName="MemoizeAnnotation_Behavior.java" startLine="23" startPosition="167" endLine="24" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getRole_1262430001741497900#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getAttributed_3044950653914717013#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Ljava/util/List;" />
+    <scopeInfo nodeId="1232136333264820721" fileName="MemoizeAnnotation_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="1232136333264820716" fileName="MemoizeAnnotation_Behavior.java" startLine="16" startPosition="90" endLine="17" endPosition="22" />
+    <scopeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="1232136333264820719" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="1232136333264820719" varName="thisConcept" />
+    </scopeInfo>
+    <scopeInfo nodeId="1232136333264820735" fileName="MemoizeAnnotation_Behavior.java" startLine="20" startPosition="101" endLine="24" endPosition="18">
+      <varInfo nodeId="1232136333264820740" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="20" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="1232136333264820719" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="1232136333264820719" fileName="MemoizeAnnotation_Behavior.java" startLine="12" startPosition="0" endLine="27" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_Behavior" />
+  </root>
 </debugInfo>
 

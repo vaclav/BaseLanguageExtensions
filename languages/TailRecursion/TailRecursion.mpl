@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.tailRecursion" uuid="f142cd5e-ea1d-466a-86a8-52891b6256a4" doNotGenerateAdapters="true">
+<language namespace="jetbrains.mps.baseLanguage.tailRecursion" uuid="f142cd5e-ea1d-466a-86a8-52891b6256a4">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators>
     <generator name="" generatorUID="jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" uuid="067e816f-f662-4225-8863-5b6f8f699b52">
       <models>
-        <modelRoot path="${language_descriptor}/generator/template" />
+        <modelRoot contentPath="${module}" type="default">
+          <sourceRoot location="generator/template" />
+        </modelRoot>
       </models>
       <external-templates>
         <generator generatorUID="857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)" />

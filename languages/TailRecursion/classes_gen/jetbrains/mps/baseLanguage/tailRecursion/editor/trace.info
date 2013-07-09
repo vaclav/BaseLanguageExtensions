@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeId="4322693879000316858" modelId="r:0a810e0a-4d07-4e62-bc49-29d14c42e79d(jetbrains.mps.baseLanguage.tailRecursion.editor)">
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="37" startPosition="67" endLine="37" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="19" startPosition="89" endLine="20" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="23" startPosition="91" endLine="24" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="27" startPosition="88" endLine="28" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="28" startPosition="100" endLine="29" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="28" startPosition="100" endLine="29" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="29" startPosition="47" endLine="30" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="30" startPosition="34" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="34" startPosition="98" endLine="35" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="35" startPosition="70" endLine="36" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="36" startPosition="76" endLine="37" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="37" startPosition="67" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="14" startPosition="61" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="26" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_6plbyl_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="33" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAttributedNodeCell_6plbyl_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="18" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_6plbyl_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <scopeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="37" startPosition="67" endLine="37" endPosition="67" />
-    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="63" />
-    <scopeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" />
-    <scopeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" />
-    <scopeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="91" />
-    <scopeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="28" startPosition="100" endLine="29" endPosition="47" />
-    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="14" startPosition="61" endLine="18" endPosition="0">
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.editor.EditorAspectDescriptorImpl" />
+  <root nodeRef="r:0a810e0a-4d07-4e62-bc49-29d14c42e79d(jetbrains.mps.baseLanguage.tailRecursion.editor)/4322693879000316858">
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="21" startPosition="96" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="22" startPosition="48" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="25" startPosition="91" endLine="26" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="29" startPosition="88" endLine="30" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="30" startPosition="100" endLine="31" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="31" startPosition="47" endLine="32" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="32" startPosition="34" endLine="33" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="36" startPosition="98" endLine="37" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="37" startPosition="70" endLine="38" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="38" startPosition="76" endLine="39" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="39" startPosition="95" endLine="40" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_6plbyl_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAttributedNodeCell_6plbyl_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="20" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_6plbyl_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="91" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="4322693879000316858" varName="editorContext" />
       <varInfo nodeId="4322693879000316858" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="27" startPosition="88" endLine="31" endPosition="22">
+    <scopeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="29" startPosition="88" endLine="33" endPosition="22">
       <varInfo nodeId="4322693879000316863" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="34" startPosition="98" endLine="38" endPosition="22">
+    <scopeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="36" startPosition="98" endLine="40" endPosition="22">
       <varInfo nodeId="4322693879000316865" varName="editorCell" />
       <varInfo nodeId="4322693879000316865" varName="manager" />
       <varInfo nodeId="4322693879000316865" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="19" startPosition="89" endLine="24" endPosition="22">
-      <varInfo nodeId="4322693879000316860" varName="editorCell" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="20" startPosition="89" endLine="26" endPosition="22">
+      <varInfo nodeId="4322693879000316858" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="26" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="4322693879000316863" fileName="TailRecursion_Editor.java" startLine="29" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="4322693879000316863" varName="editorContext" />
       <varInfo nodeId="4322693879000316863" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="4322693879000316865" fileName="TailRecursion_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="4322693879000316865" varName="editorContext" />
       <varInfo nodeId="4322693879000316865" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4322693879000316860" fileName="TailRecursion_Editor.java" startLine="18" startPosition="0" endLine="26" endPosition="0">
-      <varInfo nodeId="4322693879000316860" varName="editorContext" />
-      <varInfo nodeId="4322693879000316860" varName="node" />
+    <scopeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="20" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="4322693879000316858" varName="editorContext" />
+      <varInfo nodeId="4322693879000316858" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.editor.TailRecursion_Editor" />
+    <unitInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="15" startPosition="0" endLine="43" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.editor.TailRecursion_Editor" />
   </root>
 </debugInfo>
 
