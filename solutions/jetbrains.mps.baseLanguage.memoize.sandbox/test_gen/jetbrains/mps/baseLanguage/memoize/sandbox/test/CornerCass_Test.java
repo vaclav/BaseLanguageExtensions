@@ -34,4 +34,7 @@ public class CornerCass_Test extends TestCase {
     specialist.noArgClosure.invoke();
     specialist.noArgClosure.invoke();
   }
+
+  public CornerCass_Test() {
+  }
 }

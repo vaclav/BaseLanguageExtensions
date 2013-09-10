@@ -24,6 +24,7 @@
     <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="56" startPosition="58" endLine="57" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2385733296660308905" fileName="RecursiveScenario_Test.java" startLine="61" startPosition="6" endLine="62" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2385733296660308912" fileName="RecursiveScenario_Test.java" startLine="62" startPosition="59" endLine="63" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4322693879000223795" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RecursiveScenario_Test#()V" />
     <nodeInfo nodeId="9009622095742611549" fileName="RecursiveScenario_Test.java" startLine="30" startPosition="22" endLine="33" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="913704554380631764" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="16" endLine="58" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4322693879000315838" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sum#()V" />
@@ -38,6 +39,7 @@
     <nodeInfo nodeId="2385733296660308861" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="56" endLine="61" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9009622095742611527" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closure#()V" />
     <nodeInfo nodeId="2385733296660308857" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closureFactorial#()V" />
+    <scopeInfo nodeId="4322693879000223798" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="35" endLine="66" endPosition="35" />
     <scopeInfo nodeId="9009622095742611551" fileName="RecursiveScenario_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="32" />
     <scopeInfo nodeId="2385733296660308873" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="35" endLine="52" endPosition="33" />
     <scopeInfo nodeId="913704554380632516" fileName="RecursiveScenario_Test.java" startLine="53" startPosition="29" endLine="54" endPosition="22" />
@@ -45,6 +47,7 @@
     <scopeInfo nodeId="4322693879000315865" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="44" endLine="17" endPosition="55" />
     <scopeInfo nodeId="9009622095742629914" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="49" endLine="22" endPosition="86" />
     <scopeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="57" endPosition="46" />
+    <scopeInfo nodeId="4322693879000223795" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="0" endLine="68" endPosition="0" />
     <scopeInfo nodeId="4322693879000315838" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="0" endLine="14" endPosition="0" />
     <scopeInfo nodeId="4322693879000315862" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
     <scopeInfo nodeId="9009622095742629911" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
@@ -76,7 +79,7 @@
     <scopeInfo nodeId="2385733296660308857" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="0" endLine="65" endPosition="0" />
     <unitInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="26" startPosition="96" endLine="38" endPosition="5" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
     <unitInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="46" startPosition="96" endLine="61" endPosition="5" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
-    <unitInfo nodeId="4322693879000223793" fileName="RecursiveScenario_Test.java" startLine="9" startPosition="0" endLine="66" endPosition="0" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test" />
+    <unitInfo nodeId="4322693879000223793" fileName="RecursiveScenario_Test.java" startLine="9" startPosition="0" endLine="69" endPosition="0" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test" />
   </root>
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000233987">
     <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="46" endLine="12" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

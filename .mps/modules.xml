@@ -9,7 +9,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" folder="" />
     </projectModules>
-    <genConfs />
   </component>
 </project>
 
