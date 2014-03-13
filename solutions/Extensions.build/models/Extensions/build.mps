@@ -27,8 +27,8 @@
                   <property name="head" nameId="3ior.8618885170173601779" value=".." />
                   <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6332794702258037804" nodeInfo="nn">
                     <property name="head" nameId="3ior.8618885170173601779" value="Applications" />
-                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1232136333265570755" nodeInfo="nn">
-                      <property name="head" nameId="3ior.8618885170173601779" value="IntelliJ IDEA 12.app" />
+                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7636065788556469343" nodeInfo="nn">
+                      <property name="head" nameId="3ior.8618885170173601779" value="IntelliJ IDEA 13.app" />
                     </node>
                   </node>
                 </node>
@@ -50,11 +50,11 @@
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6116177109214573715" nodeInfo="nn">
                 <property name="head" nameId="3ior.8618885170173601779" value=".." />
                 <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6116177109214574087" nodeInfo="nn">
-                  <property name="head" nameId="3ior.8618885170173601779" value="Desktop" />
+                  <property name="head" nameId="3ior.8618885170173601779" value=".." />
                   <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6116177109214574111" nodeInfo="nn">
-                    <property name="head" nameId="3ior.8618885170173601779" value="tesp" />
-                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6116177109214574159" nodeInfo="nn">
-                      <property name="head" nameId="3ior.8618885170173601779" value="MPS 3.0" />
+                    <property name="head" nameId="3ior.8618885170173601779" value="Applications" />
+                    <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="7636065788556469436" nodeInfo="nn">
+                      <property name="head" nameId="3ior.8618885170173601779" value="MPS 3.0.app" />
                     </node>
                   </node>
                 </node>
@@ -97,7 +97,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="6332794702258037769" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="6332794702258037770" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="0.3" />
+          <property name="text" nameId="3ior.4903714810883755350" value="0.5" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="6332794702258037771" nodeInfo="ng">

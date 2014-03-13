@@ -1,303 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/1742094376849958728">
-    <nodeInfo nodeId="4821781367346987416" fileName="MemoizeTest_Test.java" startLine="15" startPosition="54" endLine="16" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367346987307" fileName="MemoizeTest_Test.java" startLine="16" startPosition="45" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987395" fileName="MemoizeTest_Test.java" startLine="17" startPosition="51" endLine="18" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987403" fileName="MemoizeTest_Test.java" startLine="18" startPosition="51" endLine="19" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987439" fileName="MemoizeTest_Test.java" startLine="19" startPosition="51" endLine="20" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987412" fileName="MemoizeTest_Test.java" startLine="20" startPosition="51" endLine="21" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389588996108" fileName="MemoizeTest_Test.java" startLine="24" startPosition="49" endLine="25" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389588996117" fileName="MemoizeTest_Test.java" startLine="25" startPosition="45" endLine="26" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589003194" fileName="MemoizeTest_Test.java" startLine="26" startPosition="68" endLine="27" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389588997899" fileName="MemoizeTest_Test.java" startLine="27" startPosition="58" endLine="28" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210949599" fileName="MemoizeTest_Test.java" startLine="31" startPosition="55" endLine="32" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210949642" fileName="MemoizeTest_Test.java" startLine="32" startPosition="45" endLine="33" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210949604" fileName="MemoizeTest_Test.java" startLine="33" startPosition="87" endLine="34" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210949611" fileName="MemoizeTest_Test.java" startLine="34" startPosition="74" endLine="35" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210949616" fileName="MemoizeTest_Test.java" startLine="35" startPosition="58" endLine="36" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210954489" fileName="MemoizeTest_Test.java" startLine="39" startPosition="61" endLine="40" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210954495" fileName="MemoizeTest_Test.java" startLine="40" startPosition="97" endLine="41" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210954502" fileName="MemoizeTest_Test.java" startLine="41" startPosition="74" endLine="42" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210954507" fileName="MemoizeTest_Test.java" startLine="42" startPosition="64" endLine="43" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4510567955453812569" fileName="MemoizeTest_Test.java" startLine="46" startPosition="52" endLine="47" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4510567955453812577" fileName="MemoizeTest_Test.java" startLine="47" startPosition="52" endLine="48" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4510567955453812585" fileName="MemoizeTest_Test.java" startLine="48" startPosition="52" endLine="49" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4510567955453812593" fileName="MemoizeTest_Test.java" startLine="49" startPosition="52" endLine="50" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987485" fileName="MemoizeTest_Test.java" startLine="50" startPosition="52" endLine="51" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210960187" fileName="MemoizeTest_Test.java" startLine="54" startPosition="69" endLine="55" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210960192" fileName="MemoizeTest_Test.java" startLine="55" startPosition="75" endLine="56" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210960197" fileName="MemoizeTest_Test.java" startLine="56" startPosition="75" endLine="57" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210960202" fileName="MemoizeTest_Test.java" startLine="57" startPosition="75" endLine="58" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210960207" fileName="MemoizeTest_Test.java" startLine="58" startPosition="75" endLine="59" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589108214" fileName="MemoizeTest_Test.java" startLine="62" startPosition="47" endLine="63" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589110518" fileName="MemoizeTest_Test.java" startLine="63" startPosition="47" endLine="64" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589110524" fileName="MemoizeTest_Test.java" startLine="64" startPosition="47" endLine="65" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589110530" fileName="MemoizeTest_Test.java" startLine="65" startPosition="47" endLine="66" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987603" fileName="MemoizeTest_Test.java" startLine="66" startPosition="47" endLine="67" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589172102" fileName="MemoizeTest_Test.java" startLine="70" startPosition="56" endLine="71" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589172109" fileName="MemoizeTest_Test.java" startLine="71" startPosition="64" endLine="72" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589172114" fileName="MemoizeTest_Test.java" startLine="72" startPosition="44" endLine="73" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589227690" fileName="MemoizeTest_Test.java" startLine="76" startPosition="49" endLine="77" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589227723" fileName="MemoizeTest_Test.java" startLine="77" startPosition="80" endLine="78" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589239200" fileName="MemoizeTest_Test.java" startLine="78" startPosition="54" endLine="79" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589239210" fileName="MemoizeTest_Test.java" startLine="79" startPosition="82" endLine="80" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210963179" fileName="MemoizeTest_Test.java" startLine="83" startPosition="61" endLine="84" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210963185" fileName="MemoizeTest_Test.java" startLine="84" startPosition="103" endLine="85" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210963188" fileName="MemoizeTest_Test.java" startLine="85" startPosition="54" endLine="86" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210963194" fileName="MemoizeTest_Test.java" startLine="86" startPosition="105" endLine="87" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210934842" fileName="MemoizeTest_Test.java" startLine="90" startPosition="57" endLine="91" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210934817" fileName="MemoizeTest_Test.java" startLine="91" startPosition="45" endLine="92" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210934823" fileName="MemoizeTest_Test.java" startLine="92" startPosition="88" endLine="93" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210934826" fileName="MemoizeTest_Test.java" startLine="93" startPosition="58" endLine="94" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210934832" fileName="MemoizeTest_Test.java" startLine="94" startPosition="90" endLine="95" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210938993" fileName="MemoizeTest_Test.java" startLine="98" startPosition="63" endLine="99" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210947228" fileName="MemoizeTest_Test.java" startLine="99" startPosition="45" endLine="100" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210938998" fileName="MemoizeTest_Test.java" startLine="100" startPosition="87" endLine="101" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210939006" fileName="MemoizeTest_Test.java" startLine="101" startPosition="100" endLine="102" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210939011" fileName="MemoizeTest_Test.java" startLine="102" startPosition="58" endLine="103" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210939019" fileName="MemoizeTest_Test.java" startLine="103" startPosition="102" endLine="104" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210957397" fileName="MemoizeTest_Test.java" startLine="107" startPosition="69" endLine="108" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210957364" fileName="MemoizeTest_Test.java" startLine="108" startPosition="97" endLine="109" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210957372" fileName="MemoizeTest_Test.java" startLine="109" startPosition="100" endLine="110" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210957377" fileName="MemoizeTest_Test.java" startLine="110" startPosition="64" endLine="111" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210957385" fileName="MemoizeTest_Test.java" startLine="111" startPosition="102" endLine="112" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932800" fileName="MemoizeTest_Test.java" startLine="115" startPosition="59" endLine="116" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="118" startPosition="43" endLine="119" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="119" startPosition="54" endLine="120" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="120" startPosition="22" endLine="121" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932806" fileName="MemoizeTest_Test.java" startLine="124" startPosition="43" endLine="125" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5129611914584484709" fileName="MemoizeTest_Test.java" startLine="126" startPosition="27" endLine="127" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5129611914584484713" fileName="MemoizeTest_Test.java" startLine="128" startPosition="15" endLine="129" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="131" startPosition="12" endLine="132" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="136" startPosition="13" endLine="137" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932821" fileName="MemoizeTest_Test.java" startLine="144" startPosition="9" endLine="145" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932875" fileName="MemoizeTest_Test.java" startLine="148" startPosition="67" endLine="149" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="151" startPosition="43" endLine="152" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="152" startPosition="54" endLine="153" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="153" startPosition="22" endLine="154" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932921" fileName="MemoizeTest_Test.java" startLine="157" startPosition="43" endLine="158" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932930" fileName="MemoizeTest_Test.java" startLine="159" startPosition="27" endLine="160" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8394104674210932932" fileName="MemoizeTest_Test.java" startLine="161" startPosition="15" endLine="162" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="164" startPosition="12" endLine="165" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="169" startPosition="13" endLine="170" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932879" fileName="MemoizeTest_Test.java" startLine="177" startPosition="7" endLine="178" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932910" fileName="MemoizeTest_Test.java" startLine="178" startPosition="64" endLine="179" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932957" fileName="MemoizeTest_Test.java" startLine="179" startPosition="48" endLine="180" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932949" fileName="MemoizeTest_Test.java" startLine="180" startPosition="27" endLine="181" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932946" fileName="MemoizeTest_Test.java" startLine="181" startPosition="64" endLine="182" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589174110" fileName="MemoizeTest_Test.java" startLine="185" startPosition="23" endLine="186" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589227753" fileName="MemoizeTest_Test.java" startLine="186" startPosition="23" endLine="187" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589163113" fileName="MemoizeTest_Test.java" startLine="190" startPosition="0" endLine="191" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TEN" />
-    <nodeInfo nodeId="4821781367346987331" fileName="MemoizeTest_Test.java" startLine="191" startPosition="0" endLine="192" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="closureCounter" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="193" startPosition="61" endLine="194" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="194" startPosition="52" endLine="195" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="195" startPosition="20" endLine="196" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="196" startPosition="20" endLine="197" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367346987341" fileName="MemoizeTest_Test.java" startLine="200" startPosition="55" endLine="201" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987290" fileName="MemoizeTest_Test.java" startLine="201" startPosition="32" endLine="202" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="204" startPosition="10" endLine="205" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="209" startPosition="11" endLine="210" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="219" startPosition="41" endLine="220" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="220" startPosition="52" endLine="221" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="221" startPosition="20" endLine="222" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389589172168" fileName="MemoizeTest_Test.java" startLine="225" startPosition="41" endLine="226" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589172015" fileName="MemoizeTest_Test.java" startLine="227" startPosition="25" endLine="228" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1020370389589172019" fileName="MemoizeTest_Test.java" startLine="229" startPosition="13" endLine="230" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="232" startPosition="10" endLine="233" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="237" startPosition="11" endLine="238" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5129611914584484652" fileName="MemoizeTest_Test.java" startLine="250" startPosition="103" endLine="251" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1020370389589024094" fileName="MemoizeTest_Test.java" startLine="254" startPosition="0" endLine="255" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_0" />
-    <nodeInfo nodeId="1020370389589024094" fileName="MemoizeTest_Test.java" startLine="255" startPosition="0" endLine="256" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_0_Closure" />
-    <nodeInfo nodeId="1020370389589172097" fileName="MemoizeTest_Test.java" startLine="256" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_1" />
-    <nodeInfo nodeId="1020370389589172097" fileName="MemoizeTest_Test.java" startLine="257" startPosition="0" endLine="258" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_1_Closure" />
-    <nodeInfo nodeId="5129611914584509082" fileName="MemoizeTest_Test.java" startLine="258" startPosition="0" endLine="259" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_2" />
-    <nodeInfo nodeId="5129611914584509082" fileName="MemoizeTest_Test.java" startLine="259" startPosition="0" endLine="260" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_2_Closure" />
-    <nodeInfo nodeId="8394104674210932944" fileName="MemoizeTest_Test.java" startLine="260" startPosition="0" endLine="261" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_3" />
-    <nodeInfo nodeId="8394104674210932944" fileName="MemoizeTest_Test.java" startLine="261" startPosition="0" endLine="262" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_3_Closure" />
-    <nodeInfo nodeId="1742094376849958730" fileName="MemoizeTest_Test.java" startLine="247" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MemoizeTest_Test#()V" />
-    <nodeInfo nodeId="5129611914584484693" fileName="MemoizeTest_Test.java" startLine="125" startPosition="38" endLine="128" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8394104674210932925" fileName="MemoizeTest_Test.java" startLine="158" startPosition="38" endLine="161" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1020370389589171999" fileName="MemoizeTest_Test.java" startLine="226" startPosition="32" endLine="229" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5129611914584484638" fileName="MemoizeTest_Test.java" startLine="250" startPosition="0" endLine="253" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addFib#(ILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="132" startPosition="51" endLine="136" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="138" startPosition="9" endLine="142" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="165" startPosition="51" endLine="169" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="171" startPosition="9" endLine="175" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="185" startPosition="0" endLine="189" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setUp#()V" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="200" startPosition="0" endLine="204" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="205" startPosition="52" endLine="209" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="211" startPosition="7" endLine="215" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="233" startPosition="49" endLine="237" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="239" startPosition="7" endLine="243" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1020370389589172098" fileName="MemoizeTest_Test.java" startLine="70" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_fibonacciClosure#()V" />
-    <nodeInfo nodeId="1020370389588996104" fileName="MemoizeTest_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_fibonacci#()V" />
-    <nodeInfo nodeId="8394104674210954480" fileName="MemoizeTest_Test.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedFibonacci#()V" />
-    <nodeInfo nodeId="1020370389589227686" fileName="MemoizeTest_Test.java" startLine="76" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_factorial#()V" />
-    <nodeInfo nodeId="8394104674210963175" fileName="MemoizeTest_Test.java" startLine="83" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedFactorial#()V" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="198" startPosition="26" endLine="204" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210949595" fileName="MemoizeTest_Test.java" startLine="31" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_nestedFibonacci#()V" />
-    <nodeInfo nodeId="4821781367346987448" fileName="MemoizeTest_Test.java" startLine="46" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticMethod#()V" />
-    <nodeInfo nodeId="8394104674210960183" fileName="MemoizeTest_Test.java" startLine="54" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedClassStaticMethod#()V" />
-    <nodeInfo nodeId="4821781367346987547" fileName="MemoizeTest_Test.java" startLine="62" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closure#()V" />
-    <nodeInfo nodeId="8394104674210934813" fileName="MemoizeTest_Test.java" startLine="90" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_instanceFactorial#()V" />
-    <nodeInfo nodeId="8394104674210957349" fileName="MemoizeTest_Test.java" startLine="107" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedInstanceFactorial#()V" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="124" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="157" startPosition="0" endLine="164" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="225" startPosition="0" endLine="232" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="4821781367346987119" fileName="MemoizeTest_Test.java" startLine="15" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_instanceMethod#()V" />
-    <nodeInfo nodeId="8394104674210938989" fileName="MemoizeTest_Test.java" startLine="98" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_nestedInstanceFactorial#()V" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="122" startPosition="28" endLine="131" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="155" startPosition="28" endLine="164" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="223" startPosition="26" endLine="232" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="197" startPosition="83" endLine="211" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="121" startPosition="85" endLine="138" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="154" startPosition="85" endLine="171" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="222" startPosition="83" endLine="239" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="193" startPosition="0" endLine="217" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="118" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="151" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="4821781367346987175" fileName="MemoizeTest_Test.java" startLine="192" startPosition="0" endLine="218" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="add" />
-    <nodeInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="219" startPosition="0" endLine="245" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="5129611914584484678" fileName="MemoizeTest_Test.java" startLine="116" startPosition="60" endLine="144" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8394104674210932914" fileName="MemoizeTest_Test.java" startLine="149" startPosition="60" endLine="177" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1020370389589171985" fileName="MemoizeTest_Test.java" startLine="218" startPosition="0" endLine="246" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="fibonacci" />
-    <nodeInfo nodeId="5129611914584484634" fileName="MemoizeTest_Test.java" startLine="115" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closureInMethodCall#()V" />
-    <nodeInfo nodeId="8394104674210932871" fileName="MemoizeTest_Test.java" startLine="148" startPosition="0" endLine="184" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_repeatedClosureInMethodCall#()V" />
-    <scopeInfo nodeId="1742094376849958733" fileName="MemoizeTest_Test.java" startLine="247" startPosition="29" endLine="247" endPosition="29" />
-    <scopeInfo nodeId="5129611914584484695" fileName="MemoizeTest_Test.java" startLine="126" startPosition="27" endLine="127" endPosition="26" />
-    <scopeInfo nodeId="8394104674210932929" fileName="MemoizeTest_Test.java" startLine="159" startPosition="27" endLine="160" endPosition="26" />
-    <scopeInfo nodeId="1020370389589172001" fileName="MemoizeTest_Test.java" startLine="227" startPosition="25" endLine="228" endPosition="24" />
-    <scopeInfo nodeId="5129611914584484641" fileName="MemoizeTest_Test.java" startLine="250" startPosition="103" endLine="251" endPosition="36" />
-    <scopeInfo nodeId="1020370389589174109" fileName="MemoizeTest_Test.java" startLine="185" startPosition="23" endLine="187" endPosition="33" />
-    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="200" startPosition="55" endLine="202" endPosition="25" />
-    <scopeInfo nodeId="1742094376849958730" fileName="MemoizeTest_Test.java" startLine="247" startPosition="0" endLine="249" endPosition="0" />
-    <scopeInfo nodeId="1020370389589172101" fileName="MemoizeTest_Test.java" startLine="70" startPosition="56" endLine="73" endPosition="74" />
-    <scopeInfo nodeId="5129611914584484638" fileName="MemoizeTest_Test.java" startLine="250" startPosition="0" endLine="253" endPosition="0">
+    <nodeInfo nodeId="1020370389589163113" fileName="MemoizeTest_Test.java" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="TEN" />
+    <nodeInfo nodeId="4821781367346987331" fileName="MemoizeTest_Test.java" startLine="16" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="closureCounter" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="18" startPosition="61" endLine="19" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="19" startPosition="52" endLine="20" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="20" startPosition="20" endLine="21" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="21" startPosition="20" endLine="22" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4821781367346987341" fileName="MemoizeTest_Test.java" startLine="25" startPosition="55" endLine="26" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987290" fileName="MemoizeTest_Test.java" startLine="26" startPosition="32" endLine="27" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="29" startPosition="10" endLine="30" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="34" startPosition="11" endLine="35" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="44" startPosition="41" endLine="45" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="45" startPosition="52" endLine="46" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="46" startPosition="20" endLine="47" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1020370389589172168" fileName="MemoizeTest_Test.java" startLine="50" startPosition="41" endLine="51" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589172015" fileName="MemoizeTest_Test.java" startLine="52" startPosition="25" endLine="53" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1020370389589172019" fileName="MemoizeTest_Test.java" startLine="54" startPosition="13" endLine="55" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="57" startPosition="10" endLine="58" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="62" startPosition="11" endLine="63" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589024094" fileName="MemoizeTest_Test.java" startLine="71" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_0" />
+    <nodeInfo nodeId="1020370389589024094" fileName="MemoizeTest_Test.java" startLine="72" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_0_Closure" />
+    <nodeInfo nodeId="1020370389589172097" fileName="MemoizeTest_Test.java" startLine="73" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_1" />
+    <nodeInfo nodeId="1020370389589172097" fileName="MemoizeTest_Test.java" startLine="74" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_1_Closure" />
+    <nodeInfo nodeId="5129611914584509082" fileName="MemoizeTest_Test.java" startLine="75" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_2" />
+    <nodeInfo nodeId="5129611914584509082" fileName="MemoizeTest_Test.java" startLine="76" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_2_Closure" />
+    <nodeInfo nodeId="8394104674210932944" fileName="MemoizeTest_Test.java" startLine="77" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_3" />
+    <nodeInfo nodeId="8394104674210932944" fileName="MemoizeTest_Test.java" startLine="78" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="memoizedCacheForClosures_3_Closure" />
+    <nodeInfo nodeId="4821781367346987416" fileName="MemoizeTest_Test.java" startLine="80" startPosition="54" endLine="81" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4821781367346987307" fileName="MemoizeTest_Test.java" startLine="81" startPosition="45" endLine="82" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987395" fileName="MemoizeTest_Test.java" startLine="82" startPosition="51" endLine="83" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987403" fileName="MemoizeTest_Test.java" startLine="83" startPosition="51" endLine="84" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987439" fileName="MemoizeTest_Test.java" startLine="84" startPosition="51" endLine="85" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987412" fileName="MemoizeTest_Test.java" startLine="85" startPosition="51" endLine="86" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389588996108" fileName="MemoizeTest_Test.java" startLine="89" startPosition="49" endLine="90" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1020370389588996117" fileName="MemoizeTest_Test.java" startLine="90" startPosition="45" endLine="91" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589003194" fileName="MemoizeTest_Test.java" startLine="91" startPosition="68" endLine="92" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389588997899" fileName="MemoizeTest_Test.java" startLine="92" startPosition="58" endLine="93" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210949599" fileName="MemoizeTest_Test.java" startLine="96" startPosition="55" endLine="97" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210949642" fileName="MemoizeTest_Test.java" startLine="97" startPosition="45" endLine="98" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210949604" fileName="MemoizeTest_Test.java" startLine="98" startPosition="87" endLine="99" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210949611" fileName="MemoizeTest_Test.java" startLine="99" startPosition="74" endLine="100" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210949616" fileName="MemoizeTest_Test.java" startLine="100" startPosition="58" endLine="101" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210954489" fileName="MemoizeTest_Test.java" startLine="104" startPosition="61" endLine="105" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210954495" fileName="MemoizeTest_Test.java" startLine="105" startPosition="97" endLine="106" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210954502" fileName="MemoizeTest_Test.java" startLine="106" startPosition="74" endLine="107" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210954507" fileName="MemoizeTest_Test.java" startLine="107" startPosition="64" endLine="108" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4510567955453812569" fileName="MemoizeTest_Test.java" startLine="111" startPosition="52" endLine="112" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4510567955453812577" fileName="MemoizeTest_Test.java" startLine="112" startPosition="52" endLine="113" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4510567955453812585" fileName="MemoizeTest_Test.java" startLine="113" startPosition="52" endLine="114" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4510567955453812593" fileName="MemoizeTest_Test.java" startLine="114" startPosition="52" endLine="115" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987485" fileName="MemoizeTest_Test.java" startLine="115" startPosition="52" endLine="116" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210960187" fileName="MemoizeTest_Test.java" startLine="119" startPosition="69" endLine="120" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210960192" fileName="MemoizeTest_Test.java" startLine="120" startPosition="75" endLine="121" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210960197" fileName="MemoizeTest_Test.java" startLine="121" startPosition="75" endLine="122" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210960202" fileName="MemoizeTest_Test.java" startLine="122" startPosition="75" endLine="123" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210960207" fileName="MemoizeTest_Test.java" startLine="123" startPosition="75" endLine="124" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589108214" fileName="MemoizeTest_Test.java" startLine="127" startPosition="47" endLine="128" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589110518" fileName="MemoizeTest_Test.java" startLine="128" startPosition="47" endLine="129" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589110524" fileName="MemoizeTest_Test.java" startLine="129" startPosition="47" endLine="130" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589110530" fileName="MemoizeTest_Test.java" startLine="130" startPosition="47" endLine="131" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987603" fileName="MemoizeTest_Test.java" startLine="131" startPosition="47" endLine="132" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589172102" fileName="MemoizeTest_Test.java" startLine="135" startPosition="56" endLine="136" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589172109" fileName="MemoizeTest_Test.java" startLine="136" startPosition="64" endLine="137" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589172114" fileName="MemoizeTest_Test.java" startLine="137" startPosition="44" endLine="138" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589227690" fileName="MemoizeTest_Test.java" startLine="141" startPosition="49" endLine="142" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589227723" fileName="MemoizeTest_Test.java" startLine="142" startPosition="80" endLine="143" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589239200" fileName="MemoizeTest_Test.java" startLine="143" startPosition="54" endLine="144" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589239210" fileName="MemoizeTest_Test.java" startLine="144" startPosition="82" endLine="145" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210963179" fileName="MemoizeTest_Test.java" startLine="148" startPosition="61" endLine="149" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210963185" fileName="MemoizeTest_Test.java" startLine="149" startPosition="103" endLine="150" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210963188" fileName="MemoizeTest_Test.java" startLine="150" startPosition="54" endLine="151" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210963194" fileName="MemoizeTest_Test.java" startLine="151" startPosition="105" endLine="152" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210934842" fileName="MemoizeTest_Test.java" startLine="155" startPosition="57" endLine="156" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210934817" fileName="MemoizeTest_Test.java" startLine="156" startPosition="45" endLine="157" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210934823" fileName="MemoizeTest_Test.java" startLine="157" startPosition="88" endLine="158" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210934826" fileName="MemoizeTest_Test.java" startLine="158" startPosition="58" endLine="159" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210934832" fileName="MemoizeTest_Test.java" startLine="159" startPosition="90" endLine="160" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210938993" fileName="MemoizeTest_Test.java" startLine="163" startPosition="63" endLine="164" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210947228" fileName="MemoizeTest_Test.java" startLine="164" startPosition="45" endLine="165" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210938998" fileName="MemoizeTest_Test.java" startLine="165" startPosition="87" endLine="166" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210939006" fileName="MemoizeTest_Test.java" startLine="166" startPosition="100" endLine="167" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210939011" fileName="MemoizeTest_Test.java" startLine="167" startPosition="58" endLine="168" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210939019" fileName="MemoizeTest_Test.java" startLine="168" startPosition="102" endLine="169" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210957397" fileName="MemoizeTest_Test.java" startLine="172" startPosition="69" endLine="173" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210957364" fileName="MemoizeTest_Test.java" startLine="173" startPosition="97" endLine="174" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210957372" fileName="MemoizeTest_Test.java" startLine="174" startPosition="100" endLine="175" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210957377" fileName="MemoizeTest_Test.java" startLine="175" startPosition="64" endLine="176" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210957385" fileName="MemoizeTest_Test.java" startLine="176" startPosition="102" endLine="177" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932800" fileName="MemoizeTest_Test.java" startLine="180" startPosition="59" endLine="181" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="183" startPosition="43" endLine="184" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="184" startPosition="54" endLine="185" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="185" startPosition="22" endLine="186" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932806" fileName="MemoizeTest_Test.java" startLine="189" startPosition="43" endLine="190" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5129611914584484709" fileName="MemoizeTest_Test.java" startLine="191" startPosition="27" endLine="192" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5129611914584484713" fileName="MemoizeTest_Test.java" startLine="193" startPosition="15" endLine="194" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="196" startPosition="12" endLine="197" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="201" startPosition="13" endLine="202" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932821" fileName="MemoizeTest_Test.java" startLine="209" startPosition="9" endLine="210" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932875" fileName="MemoizeTest_Test.java" startLine="213" startPosition="67" endLine="214" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="216" startPosition="43" endLine="217" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="217" startPosition="54" endLine="218" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="218" startPosition="22" endLine="219" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932921" fileName="MemoizeTest_Test.java" startLine="222" startPosition="43" endLine="223" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932930" fileName="MemoizeTest_Test.java" startLine="224" startPosition="27" endLine="225" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8394104674210932932" fileName="MemoizeTest_Test.java" startLine="226" startPosition="15" endLine="227" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="229" startPosition="12" endLine="230" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="234" startPosition="13" endLine="235" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932879" fileName="MemoizeTest_Test.java" startLine="242" startPosition="7" endLine="243" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932910" fileName="MemoizeTest_Test.java" startLine="243" startPosition="64" endLine="244" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932957" fileName="MemoizeTest_Test.java" startLine="244" startPosition="48" endLine="245" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932949" fileName="MemoizeTest_Test.java" startLine="245" startPosition="27" endLine="246" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932946" fileName="MemoizeTest_Test.java" startLine="246" startPosition="64" endLine="247" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589174110" fileName="MemoizeTest_Test.java" startLine="250" startPosition="23" endLine="251" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589227753" fileName="MemoizeTest_Test.java" startLine="251" startPosition="23" endLine="252" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5129611914584484652" fileName="MemoizeTest_Test.java" startLine="258" startPosition="103" endLine="259" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1742094376849958730" fileName="MemoizeTest_Test.java" startLine="255" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MemoizeTest_Test#()V" />
+    <nodeInfo nodeId="1020370389589171999" fileName="MemoizeTest_Test.java" startLine="51" startPosition="32" endLine="54" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5129611914584484693" fileName="MemoizeTest_Test.java" startLine="190" startPosition="38" endLine="193" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8394104674210932925" fileName="MemoizeTest_Test.java" startLine="223" startPosition="38" endLine="226" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5129611914584484638" fileName="MemoizeTest_Test.java" startLine="258" startPosition="0" endLine="261" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addFib#(ILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="30" startPosition="52" endLine="34" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="36" startPosition="7" endLine="40" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="58" startPosition="49" endLine="62" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="64" startPosition="7" endLine="68" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="197" startPosition="51" endLine="201" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="203" startPosition="9" endLine="207" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="230" startPosition="51" endLine="234" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="236" startPosition="9" endLine="240" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="250" startPosition="0" endLine="254" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setUp#()V" />
+    <nodeInfo nodeId="1020370389589172098" fileName="MemoizeTest_Test.java" startLine="135" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_fibonacciClosure#()V" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="23" startPosition="26" endLine="29" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1020370389588996104" fileName="MemoizeTest_Test.java" startLine="89" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_fibonacci#()V" />
+    <nodeInfo nodeId="8394104674210954480" fileName="MemoizeTest_Test.java" startLine="104" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedFibonacci#()V" />
+    <nodeInfo nodeId="1020370389589227686" fileName="MemoizeTest_Test.java" startLine="141" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_factorial#()V" />
+    <nodeInfo nodeId="8394104674210963175" fileName="MemoizeTest_Test.java" startLine="148" startPosition="0" endLine="154" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedFactorial#()V" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="8394104674210949595" fileName="MemoizeTest_Test.java" startLine="96" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_nestedFibonacci#()V" />
+    <nodeInfo nodeId="4821781367346987448" fileName="MemoizeTest_Test.java" startLine="111" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticMethod#()V" />
+    <nodeInfo nodeId="8394104674210960183" fileName="MemoizeTest_Test.java" startLine="119" startPosition="0" endLine="126" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedClassStaticMethod#()V" />
+    <nodeInfo nodeId="4821781367346987547" fileName="MemoizeTest_Test.java" startLine="127" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closure#()V" />
+    <nodeInfo nodeId="8394104674210934813" fileName="MemoizeTest_Test.java" startLine="155" startPosition="0" endLine="162" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_instanceFactorial#()V" />
+    <nodeInfo nodeId="8394104674210957349" fileName="MemoizeTest_Test.java" startLine="172" startPosition="0" endLine="179" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_staticNestedInstanceFactorial#()V" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="189" startPosition="0" endLine="196" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="222" startPosition="0" endLine="229" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="4821781367346987119" fileName="MemoizeTest_Test.java" startLine="80" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_instanceMethod#()V" />
+    <nodeInfo nodeId="8394104674210938989" fileName="MemoizeTest_Test.java" startLine="163" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_nestedInstanceFactorial#()V" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="48" startPosition="26" endLine="57" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="187" startPosition="28" endLine="196" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="220" startPosition="28" endLine="229" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="22" startPosition="83" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="47" startPosition="83" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="186" startPosition="85" endLine="203" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="219" startPosition="85" endLine="236" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="18" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="4821781367346987175" fileName="MemoizeTest_Test.java" startLine="17" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="add" />
+    <nodeInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="44" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="183" startPosition="0" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="216" startPosition="0" endLine="242" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+    <nodeInfo nodeId="1020370389589171985" fileName="MemoizeTest_Test.java" startLine="43" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="fibonacci" />
+    <nodeInfo nodeId="5129611914584484678" fileName="MemoizeTest_Test.java" startLine="181" startPosition="60" endLine="209" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8394104674210932914" fileName="MemoizeTest_Test.java" startLine="214" startPosition="60" endLine="242" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5129611914584484634" fileName="MemoizeTest_Test.java" startLine="180" startPosition="0" endLine="212" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closureInMethodCall#()V" />
+    <nodeInfo nodeId="8394104674210932871" fileName="MemoizeTest_Test.java" startLine="213" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_repeatedClosureInMethodCall#()V" />
+    <scopeInfo nodeId="1742094376849958733" fileName="MemoizeTest_Test.java" startLine="255" startPosition="29" endLine="255" endPosition="29" />
+    <scopeInfo nodeId="1020370389589172001" fileName="MemoizeTest_Test.java" startLine="52" startPosition="25" endLine="53" endPosition="24" />
+    <scopeInfo nodeId="5129611914584484695" fileName="MemoizeTest_Test.java" startLine="191" startPosition="27" endLine="192" endPosition="26" />
+    <scopeInfo nodeId="8394104674210932929" fileName="MemoizeTest_Test.java" startLine="224" startPosition="27" endLine="225" endPosition="26" />
+    <scopeInfo nodeId="5129611914584484641" fileName="MemoizeTest_Test.java" startLine="258" startPosition="103" endLine="259" endPosition="36" />
+    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="25" startPosition="55" endLine="27" endPosition="25" />
+    <scopeInfo nodeId="1020370389589174109" fileName="MemoizeTest_Test.java" startLine="250" startPosition="23" endLine="252" endPosition="33" />
+    <scopeInfo nodeId="1742094376849958730" fileName="MemoizeTest_Test.java" startLine="255" startPosition="0" endLine="257" endPosition="0" />
+    <scopeInfo nodeId="1020370389589172101" fileName="MemoizeTest_Test.java" startLine="135" startPosition="56" endLine="138" endPosition="74" />
+    <scopeInfo nodeId="5129611914584484638" fileName="MemoizeTest_Test.java" startLine="258" startPosition="0" endLine="261" endPosition="0">
       <varInfo nodeId="5129611914584484643" varName="fibClosure" />
       <varInfo nodeId="5129611914584484649" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="1020370389588996107" fileName="MemoizeTest_Test.java" startLine="24" startPosition="49" endLine="28" endPosition="78">
-      <varInfo nodeId="1020370389588996109" varName="calculator" />
-    </scopeInfo>
-    <scopeInfo nodeId="8394104674210954483" fileName="MemoizeTest_Test.java" startLine="39" startPosition="61" endLine="43" endPosition="84">
-      <varInfo nodeId="8394104674210954490" varName="nestedCalculator" />
-    </scopeInfo>
-    <scopeInfo nodeId="1020370389589227689" fileName="MemoizeTest_Test.java" startLine="76" startPosition="49" endLine="80" endPosition="54" />
-    <scopeInfo nodeId="8394104674210963178" fileName="MemoizeTest_Test.java" startLine="83" startPosition="61" endLine="87" endPosition="54" />
-    <scopeInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="185" startPosition="0" endLine="189" endPosition="0" />
-    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="200" startPosition="0" endLine="204" endPosition="0">
+    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="4821781367346987276" varName="a" />
       <varInfo nodeId="4821781367346987276" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="8394104674210949598" fileName="MemoizeTest_Test.java" startLine="31" startPosition="55" endLine="36" endPosition="84">
+    <scopeInfo nodeId="1020370389588996107" fileName="MemoizeTest_Test.java" startLine="89" startPosition="49" endLine="93" endPosition="78">
+      <varInfo nodeId="1020370389588996109" varName="calculator" />
+    </scopeInfo>
+    <scopeInfo nodeId="8394104674210954483" fileName="MemoizeTest_Test.java" startLine="104" startPosition="61" endLine="108" endPosition="84">
+      <varInfo nodeId="8394104674210954490" varName="nestedCalculator" />
+    </scopeInfo>
+    <scopeInfo nodeId="1020370389589227689" fileName="MemoizeTest_Test.java" startLine="141" startPosition="49" endLine="145" endPosition="54" />
+    <scopeInfo nodeId="8394104674210963178" fileName="MemoizeTest_Test.java" startLine="148" startPosition="61" endLine="152" endPosition="54" />
+    <scopeInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="250" startPosition="0" endLine="254" endPosition="0" />
+    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="50" startPosition="41" endLine="55" endPosition="119" />
+    <scopeInfo nodeId="8394104674210949598" fileName="MemoizeTest_Test.java" startLine="96" startPosition="55" endLine="101" endPosition="84">
       <varInfo nodeId="8394104674210949600" varName="calculator" />
       <varInfo nodeId="8394104674210949643" varName="nestedCalculator" />
     </scopeInfo>
-    <scopeInfo nodeId="4821781367346987451" fileName="MemoizeTest_Test.java" startLine="46" startPosition="52" endLine="51" endPosition="53" />
-    <scopeInfo nodeId="8394104674210960186" fileName="MemoizeTest_Test.java" startLine="54" startPosition="69" endLine="59" endPosition="53" />
-    <scopeInfo nodeId="4821781367346987550" fileName="MemoizeTest_Test.java" startLine="62" startPosition="47" endLine="67" endPosition="43" />
-    <scopeInfo nodeId="1020370389589172098" fileName="MemoizeTest_Test.java" startLine="70" startPosition="0" endLine="75" endPosition="0" />
-    <scopeInfo nodeId="8394104674210934816" fileName="MemoizeTest_Test.java" startLine="90" startPosition="57" endLine="95" endPosition="58">
+    <scopeInfo nodeId="4821781367346987451" fileName="MemoizeTest_Test.java" startLine="111" startPosition="52" endLine="116" endPosition="53" />
+    <scopeInfo nodeId="8394104674210960186" fileName="MemoizeTest_Test.java" startLine="119" startPosition="69" endLine="124" endPosition="53" />
+    <scopeInfo nodeId="4821781367346987550" fileName="MemoizeTest_Test.java" startLine="127" startPosition="47" endLine="132" endPosition="43" />
+    <scopeInfo nodeId="1020370389589172098" fileName="MemoizeTest_Test.java" startLine="135" startPosition="0" endLine="140" endPosition="0" />
+    <scopeInfo nodeId="8394104674210934816" fileName="MemoizeTest_Test.java" startLine="155" startPosition="57" endLine="160" endPosition="58">
       <varInfo nodeId="8394104674210934843" varName="calculator" />
     </scopeInfo>
-    <scopeInfo nodeId="8394104674210957352" fileName="MemoizeTest_Test.java" startLine="107" startPosition="69" endLine="112" endPosition="64">
+    <scopeInfo nodeId="8394104674210957352" fileName="MemoizeTest_Test.java" startLine="172" startPosition="69" endLine="177" endPosition="64">
       <varInfo nodeId="8394104674210957398" varName="nestedCalculator" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="124" startPosition="43" endLine="129" endPosition="121" />
-    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="157" startPosition="43" endLine="162" endPosition="121" />
-    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="225" startPosition="41" endLine="230" endPosition="119" />
-    <scopeInfo nodeId="4821781367346987122" fileName="MemoizeTest_Test.java" startLine="15" startPosition="54" endLine="21" endPosition="57">
+    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="189" startPosition="43" endLine="194" endPosition="121" />
+    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="222" startPosition="43" endLine="227" endPosition="121" />
+    <scopeInfo nodeId="4821781367346987122" fileName="MemoizeTest_Test.java" startLine="80" startPosition="54" endLine="86" endPosition="57">
       <varInfo nodeId="4821781367346987417" varName="calculator" />
     </scopeInfo>
-    <scopeInfo nodeId="1020370389588996104" fileName="MemoizeTest_Test.java" startLine="24" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="8394104674210954480" fileName="MemoizeTest_Test.java" startLine="39" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="1020370389589227686" fileName="MemoizeTest_Test.java" startLine="76" startPosition="0" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="8394104674210963175" fileName="MemoizeTest_Test.java" startLine="83" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="8394104674210938992" fileName="MemoizeTest_Test.java" startLine="98" startPosition="63" endLine="104" endPosition="58">
+    <scopeInfo nodeId="1020370389588996104" fileName="MemoizeTest_Test.java" startLine="89" startPosition="0" endLine="95" endPosition="0" />
+    <scopeInfo nodeId="8394104674210954480" fileName="MemoizeTest_Test.java" startLine="104" startPosition="0" endLine="110" endPosition="0" />
+    <scopeInfo nodeId="1020370389589227686" fileName="MemoizeTest_Test.java" startLine="141" startPosition="0" endLine="147" endPosition="0" />
+    <scopeInfo nodeId="8394104674210963175" fileName="MemoizeTest_Test.java" startLine="148" startPosition="0" endLine="154" endPosition="0" />
+    <scopeInfo nodeId="8394104674210938992" fileName="MemoizeTest_Test.java" startLine="163" startPosition="63" endLine="169" endPosition="58">
       <varInfo nodeId="8394104674210938994" varName="calculator" />
       <varInfo nodeId="8394104674210947229" varName="nestedCalculator" />
     </scopeInfo>
-    <scopeInfo nodeId="8394104674210949595" fileName="MemoizeTest_Test.java" startLine="31" startPosition="0" endLine="38" endPosition="0" />
-    <scopeInfo nodeId="4821781367346987448" fileName="MemoizeTest_Test.java" startLine="46" startPosition="0" endLine="53" endPosition="0" />
-    <scopeInfo nodeId="8394104674210960183" fileName="MemoizeTest_Test.java" startLine="54" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="4821781367346987547" fileName="MemoizeTest_Test.java" startLine="62" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="8394104674210934813" fileName="MemoizeTest_Test.java" startLine="90" startPosition="0" endLine="97" endPosition="0" />
-    <scopeInfo nodeId="8394104674210957349" fileName="MemoizeTest_Test.java" startLine="107" startPosition="0" endLine="114" endPosition="0" />
-    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="124" startPosition="0" endLine="131" endPosition="0">
-      <varInfo nodeId="5129611914584484688" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="157" startPosition="0" endLine="164" endPosition="0">
-      <varInfo nodeId="8394104674210932920" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="225" startPosition="0" endLine="232" endPosition="0">
+    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="50" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="1020370389589171995" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="4821781367346987119" fileName="MemoizeTest_Test.java" startLine="15" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="8394104674210938989" fileName="MemoizeTest_Test.java" startLine="98" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="198" startPosition="26" endLine="210" endPosition="23">
+    <scopeInfo nodeId="8394104674210949595" fileName="MemoizeTest_Test.java" startLine="96" startPosition="0" endLine="103" endPosition="0" />
+    <scopeInfo nodeId="4821781367346987448" fileName="MemoizeTest_Test.java" startLine="111" startPosition="0" endLine="118" endPosition="0" />
+    <scopeInfo nodeId="8394104674210960183" fileName="MemoizeTest_Test.java" startLine="119" startPosition="0" endLine="126" endPosition="0" />
+    <scopeInfo nodeId="4821781367346987547" fileName="MemoizeTest_Test.java" startLine="127" startPosition="0" endLine="134" endPosition="0" />
+    <scopeInfo nodeId="8394104674210934813" fileName="MemoizeTest_Test.java" startLine="155" startPosition="0" endLine="162" endPosition="0" />
+    <scopeInfo nodeId="8394104674210957349" fileName="MemoizeTest_Test.java" startLine="172" startPosition="0" endLine="179" endPosition="0" />
+    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="189" startPosition="0" endLine="196" endPosition="0">
+      <varInfo nodeId="5129611914584484688" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="222" startPosition="0" endLine="229" endPosition="0">
+      <varInfo nodeId="8394104674210932920" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="4821781367346987119" fileName="MemoizeTest_Test.java" startLine="80" startPosition="0" endLine="88" endPosition="0" />
+    <scopeInfo nodeId="8394104674210938989" fileName="MemoizeTest_Test.java" startLine="163" startPosition="0" endLine="171" endPosition="0" />
+    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="23" startPosition="26" endLine="35" endPosition="23">
       <varInfo nodeId="4821781367346987276" varName="function" />
       <varInfo nodeId="4821781367346987276" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="122" startPosition="28" endLine="137" endPosition="25">
-      <varInfo nodeId="5129611914584484688" varName="function" />
-      <varInfo nodeId="5129611914584484688" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="155" startPosition="28" endLine="170" endPosition="25">
-      <varInfo nodeId="8394104674210932920" varName="function" />
-      <varInfo nodeId="8394104674210932920" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="223" startPosition="26" endLine="238" endPosition="23">
+    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="48" startPosition="26" endLine="63" endPosition="23">
       <varInfo nodeId="1020370389589171995" varName="function" />
       <varInfo nodeId="1020370389589171995" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="193" startPosition="61" endLine="215" endPosition="8">
+    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="187" startPosition="28" endLine="202" endPosition="25">
+      <varInfo nodeId="5129611914584484688" varName="function" />
+      <varInfo nodeId="5129611914584484688" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="220" startPosition="28" endLine="235" endPosition="25">
+      <varInfo nodeId="8394104674210932920" varName="function" />
+      <varInfo nodeId="8394104674210932920" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="18" startPosition="61" endLine="40" endPosition="8">
       <varInfo nodeId="4821781367346987276" varName="key" />
       <varInfo nodeId="4821781367346987276" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="118" startPosition="43" endLine="142" endPosition="10">
-      <varInfo nodeId="5129611914584484688" varName="key" />
-      <varInfo nodeId="5129611914584484688" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="151" startPosition="43" endLine="175" endPosition="10">
-      <varInfo nodeId="8394104674210932920" varName="key" />
-      <varInfo nodeId="8394104674210932920" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="193" startPosition="0" endLine="217" endPosition="0">
+    <scopeInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="18" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="4821781367346987275" varName="a" />
       <varInfo nodeId="4821781367346987275" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="219" startPosition="41" endLine="243" endPosition="8">
+    <scopeInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="44" startPosition="41" endLine="68" endPosition="8">
       <varInfo nodeId="1020370389589171995" varName="key" />
       <varInfo nodeId="1020370389589171995" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="118" startPosition="0" endLine="144" endPosition="0">
-      <varInfo nodeId="5129611914584484687" varName="n" />
+    <scopeInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="183" startPosition="43" endLine="207" endPosition="10">
+      <varInfo nodeId="5129611914584484688" varName="key" />
+      <varInfo nodeId="5129611914584484688" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="151" startPosition="0" endLine="177" endPosition="0">
-      <varInfo nodeId="8394104674210932919" varName="n" />
+    <scopeInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="216" startPosition="43" endLine="240" endPosition="10">
+      <varInfo nodeId="8394104674210932920" varName="key" />
+      <varInfo nodeId="8394104674210932920" varName="value" />
     </scopeInfo>
-    <scopeInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="219" startPosition="0" endLine="245" endPosition="0">
+    <scopeInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="44" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="1020370389589171994" varName="n" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484637" fileName="MemoizeTest_Test.java" startLine="115" startPosition="59" endLine="145" endPosition="48">
+    <scopeInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="183" startPosition="0" endLine="209" endPosition="0">
+      <varInfo nodeId="5129611914584484687" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="216" startPosition="0" endLine="242" endPosition="0">
+      <varInfo nodeId="8394104674210932919" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="5129611914584484637" fileName="MemoizeTest_Test.java" startLine="180" startPosition="59" endLine="210" endPosition="48">
       <varInfo nodeId="8394104674210932801" varName="localCounter" />
     </scopeInfo>
-    <scopeInfo nodeId="5129611914584484634" fileName="MemoizeTest_Test.java" startLine="115" startPosition="0" endLine="147" endPosition="0" />
-    <scopeInfo nodeId="8394104674210932874" fileName="MemoizeTest_Test.java" startLine="148" startPosition="67" endLine="182" endPosition="47">
+    <scopeInfo nodeId="5129611914584484634" fileName="MemoizeTest_Test.java" startLine="180" startPosition="0" endLine="212" endPosition="0" />
+    <scopeInfo nodeId="8394104674210932874" fileName="MemoizeTest_Test.java" startLine="213" startPosition="67" endLine="247" endPosition="47">
       <varInfo nodeId="8394104674210932915" varName="function" />
       <varInfo nodeId="8394104674210932876" varName="localCounter" />
     </scopeInfo>
-    <scopeInfo nodeId="8394104674210932871" fileName="MemoizeTest_Test.java" startLine="148" startPosition="0" endLine="184" endPosition="0" />
-    <unitInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="199" startPosition="111" endLine="204" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
-    <unitInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="123" startPosition="93" endLine="131" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
-    <unitInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="156" startPosition="93" endLine="164" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
-    <unitInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="224" startPosition="91" endLine="232" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$5" />
-    <unitInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="192" startPosition="140" endLine="217" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
-    <unitInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="117" startPosition="95" endLine="144" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1" />
-    <unitInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="150" startPosition="119" endLine="177" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
-    <unitInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="218" startPosition="126" endLine="245" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
-    <unitInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="14" startPosition="0" endLine="263" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
+    <scopeInfo nodeId="8394104674210932871" fileName="MemoizeTest_Test.java" startLine="213" startPosition="0" endLine="249" endPosition="0" />
+    <unitInfo nodeId="4821781367346987276" fileName="MemoizeTest_Test.java" startLine="24" startPosition="111" endLine="29" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
+    <unitInfo nodeId="1020370389589171995" fileName="MemoizeTest_Test.java" startLine="49" startPosition="91" endLine="57" endPosition="9" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
+    <unitInfo nodeId="5129611914584484688" fileName="MemoizeTest_Test.java" startLine="188" startPosition="93" endLine="196" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
+    <unitInfo nodeId="8394104674210932920" fileName="MemoizeTest_Test.java" startLine="221" startPosition="93" endLine="229" endPosition="11" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$5" />
+    <unitInfo nodeId="4821781367346987275" fileName="MemoizeTest_Test.java" startLine="17" startPosition="140" endLine="42" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1" />
+    <unitInfo nodeId="1020370389589171994" fileName="MemoizeTest_Test.java" startLine="43" startPosition="126" endLine="70" endPosition="3" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
+    <unitInfo nodeId="5129611914584484687" fileName="MemoizeTest_Test.java" startLine="182" startPosition="95" endLine="209" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
+    <unitInfo nodeId="8394104674210932919" fileName="MemoizeTest_Test.java" startLine="215" startPosition="119" endLine="242" endPosition="5" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
+    <unitInfo nodeId="1742094376849958728" fileName="MemoizeTest_Test.java" startLine="14" startPosition="0" endLine="262" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
   </root>
   <root nodeRef="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/4821781367346987123">
     <nodeInfo nodeId="4821781367346987490" fileName="Calculator.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="staticCounter" />
