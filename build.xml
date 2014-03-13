@@ -3,8 +3,8 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/Extensions" />
   <property name="build.layout" location="${build.dir}/artifacts/Extensions" />
-  <property name="idea_home" location="${basedir}/../../../../../Applications/IntelliJ IDEA 12.app" />
-  <property name="mps_home" location="${basedir}/../../../../Desktop/tesp/MPS 3.0" />
+  <property name="idea_home" location="${basedir}/../../../../../Applications/IntelliJ IDEA 13.app" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.0.app" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -31,7 +31,7 @@
         <id>jetbrains.mps.baseLanguage.extensions</id>
         <name>MPS BaseLanguage Extensions</name>
         <description>A set of handy extensions to BaseLanguage, such as tail recursion optimization and function memoization</description>
-        <version>0.3</version>
+        <version>0.5</version>
         <vendor url="http://www.jetbrains.com">JetBrains</vendor>
         <depends>jetbrains.mps.core</depends>
         
