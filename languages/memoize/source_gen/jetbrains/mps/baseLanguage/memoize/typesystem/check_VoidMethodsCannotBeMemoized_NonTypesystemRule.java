@@ -20,10 +20,7 @@ public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends Abstrac
   }
 
   public void applyRule(final SNode memoizeAnnotation, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    SNode returnType = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration") ?
-      SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration"), "returnType", true) :
-      SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral")), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true)
-    );
+    SNode returnType = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration") ? SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration"), "returnType", true) : SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral")), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true));
 
     if (SNodeOperations.isInstanceOf(returnType, "jetbrains.mps.baseLanguage.structure.VoidType")) {
       {

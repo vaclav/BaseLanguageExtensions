@@ -22,9 +22,6 @@ public final class KeyCalculator {
   }
 
   private static int calculateIndividualHash(Object object) {
-    return (object != null ?
-      object.hashCode() :
-      0
-    );
+    return (object != null ? object.hashCode() : 0);
   }
 }

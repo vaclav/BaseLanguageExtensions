@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
@@ -24,7 +23,7 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
   }
 
   public void applyRule(final SNode baseMethodDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (AttributeOperations.getAttribute(baseMethodDeclaration, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null) {
+    if (AttributeOperations.getAttribute(baseMethodDeclaration, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion")) != null) {
 
       CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(baseMethodDeclaration, "returnType", true), baseMethodDeclaration);
 

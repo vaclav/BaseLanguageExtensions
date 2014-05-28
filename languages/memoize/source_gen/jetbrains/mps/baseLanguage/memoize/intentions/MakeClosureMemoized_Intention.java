@@ -10,7 +10,6 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
@@ -55,7 +54,7 @@ public class MakeClosureMemoized_Intention implements IntentionFactory {
   }
 
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation"))) == null;
+    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation")) == null;
   }
 
   public SNodeReference getIntentionNodeReference() {
@@ -82,7 +81,7 @@ public class MakeClosureMemoized_Intention implements IntentionFactory {
     }
 
     public void execute(final SNode node, final EditorContext editorContext) {
-      SNodeFactoryOperations.setNewAttribute(node, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation")), "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation");
+      SNodeFactoryOperations.setNewAttribute(node, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation"), "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation");
     }
 
     public IntentionDescriptor getDescriptor() {

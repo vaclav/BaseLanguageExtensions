@@ -146,131 +146,131 @@
     <unitInfo nodeId="7902470687820875309" fileName="CheckingUtil.java" startLine="21" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.CheckingUtil" />
   </root>
   <root nodeRef="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)/9009622095742633284">
-    <nodeInfo nodeId="6963853100979878941" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="27" startPosition="225" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="6963853100979878943" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="28" startPosition="0" endLine="29" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979796113" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="29" startPosition="156" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9009622095742584921" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="30" startPosition="0" endLine="31" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563447927" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="31" startPosition="163" endLine="32" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380633641" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="32" startPosition="77" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9009622095742633400" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="34" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="36" startPosition="9" endLine="37" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="37" startPosition="62" endLine="38" endPosition="270" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742633605" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="40" startPosition="14" endLine="41" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="43" startPosition="11" endLine="44" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="44" startPosition="64" endLine="45" endPosition="287" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742637954" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="46" startPosition="11" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563448209" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="48" startPosition="9" endLine="49" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="54" startPosition="46" endLine="55" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="59" startPosition="5" endLine="60" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="60" startPosition="130" endLine="61" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="65" startPosition="30" endLine="66" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TailPositionInMethod_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="35" startPosition="57" endLine="39" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="42" startPosition="109" endLine="46" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="68" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="9009622095742637891" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="41" startPosition="70" endLine="48" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742633725" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="40" startPosition="12" endLine="50" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742633410" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="34" startPosition="148" endLine="50" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742633288" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="134" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="23" startPosition="51" endLine="23" endPosition="51" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="54" startPosition="46" endLine="55" endPosition="72" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="65" startPosition="30" endLine="66" endPosition="17" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="36" startPosition="9" endLine="38" endPosition="270">
+    <nodeInfo nodeId="6963853100979878941" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="182" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6963853100979878943" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="27" startPosition="0" endLine="28" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979796113" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="28" startPosition="156" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9009622095742584921" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="30" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3220419832563447927" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="30" startPosition="163" endLine="31" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="913704554380633641" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="31" startPosition="77" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9009622095742633400" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="33" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="35" startPosition="9" endLine="36" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="36" startPosition="62" endLine="37" endPosition="270" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742633605" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="39" startPosition="14" endLine="40" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="42" startPosition="11" endLine="43" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="43" startPosition="64" endLine="44" endPosition="287" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742637954" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="45" startPosition="11" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3220419832563448209" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="47" startPosition="9" endLine="48" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="53" startPosition="46" endLine="54" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="5" endLine="59" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="59" startPosition="130" endLine="60" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="64" startPosition="30" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TailPositionInMethod_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="41" startPosition="109" endLine="45" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="57" startPosition="68" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="57" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="9009622095742637891" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="40" startPosition="70" endLine="47" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742633725" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="39" startPosition="12" endLine="49" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742633410" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="33" startPosition="148" endLine="49" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742633288" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="25" startPosition="134" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="25" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="22" startPosition="51" endLine="22" endPosition="51" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="53" startPosition="46" endLine="54" endPosition="72" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="64" startPosition="30" endLine="65" endPosition="17" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="9009622095742633442" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="35" startPosition="9" endLine="37" endPosition="270">
       <varInfo nodeId="9009622095742633442" varName="_reporter_2309309498" />
       <varInfo nodeId="9009622095742633442" varName="errorTarget" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="43" startPosition="11" endLine="45" endPosition="287">
+    <scopeInfo nodeId="9009622095742637948" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="42" startPosition="11" endLine="44" endPosition="287">
       <varInfo nodeId="9009622095742637948" varName="_reporter_2309309498" />
       <varInfo nodeId="9009622095742637948" varName="errorTarget" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="59" startPosition="5" endLine="61" endPosition="45">
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="5" endLine="60" endPosition="45">
       <varInfo nodeId="9009622095742633284" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="65" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="9009622095742633411" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="35" startPosition="57" endLine="39" endPosition="9" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="68" endLine="62" endPosition="5" />
-    <scopeInfo nodeId="9009622095742637892" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="42" startPosition="109" endLine="47" endPosition="17" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="58" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="53" startPosition="0" endLine="56" endPosition="0" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="9009622095742633411" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="38" endPosition="9" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="57" startPosition="68" endLine="61" endPosition="5" />
+    <scopeInfo nodeId="9009622095742637892" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="41" startPosition="109" endLine="46" endPosition="17" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="57" startPosition="0" endLine="63" endPosition="0">
       <varInfo nodeId="9009622095742633284" varName="argument" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742633726" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="40" startPosition="14" endLine="49" endPosition="79">
+    <scopeInfo nodeId="9009622095742633726" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="39" startPosition="14" endLine="48" endPosition="79">
       <varInfo nodeId="9009622095742633606" varName="methodCall" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742633290" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="27" startPosition="225" endLine="50" endPosition="7">
+    <scopeInfo nodeId="9009622095742633290" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="182" endLine="49" endPosition="7">
       <varInfo nodeId="9009622095742584922" varName="lastNode" />
       <varInfo nodeId="9009622095742633401" varName="methodCalls" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742633285" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="134" endLine="51" endPosition="5" />
-    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="26" startPosition="0" endLine="53" endPosition="0">
+    <scopeInfo nodeId="9009622095742633285" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="25" startPosition="134" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="25" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="9009622095742633284" varName="baseMethodDeclaration" />
       <varInfo nodeId="9009622095742633284" varName="status" />
       <varInfo nodeId="9009622095742633284" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="69" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule" />
+    <unitInfo nodeId="9009622095742633284" fileName="TailPositionInMethod_NonTypesystemRule.java" startLine="21" startPosition="0" endLine="68" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule" />
   </root>
   <root nodeRef="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)/9009622095742638274">
-    <nodeInfo nodeId="6963853100979866631" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="28" startPosition="218" endLine="29" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979796669" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="29" startPosition="263" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9009622095742638286" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="30" startPosition="0" endLine="31" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563447922" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="31" startPosition="156" endLine="32" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380633651" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="32" startPosition="77" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9009622095742638296" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="34" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="36" startPosition="9" endLine="37" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="37" startPosition="62" endLine="38" endPosition="277" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742638314" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="40" startPosition="14" endLine="41" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563448203" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="41" startPosition="69" endLine="42" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="47" startPosition="46" endLine="48" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="52" startPosition="5" endLine="53" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="53" startPosition="130" endLine="54" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="58" startPosition="30" endLine="59" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TailPositionInClosureLiteral_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="9009622095742638312" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="40" startPosition="12" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="35" startPosition="57" endLine="39" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="68" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="9009622095742638304" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="34" startPosition="162" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742638278" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="127" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="24" startPosition="59" endLine="24" endPosition="59" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="47" startPosition="46" endLine="48" endPosition="74" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="58" startPosition="30" endLine="59" endPosition="17" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="26" endPosition="0" />
-    <scopeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="36" startPosition="9" endLine="38" endPosition="277">
+    <nodeInfo nodeId="6963853100979866631" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="175" endLine="28" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6963853100979796669" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="28" startPosition="263" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9009622095742638286" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="30" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3220419832563447922" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="30" startPosition="156" endLine="31" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="913704554380633651" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="31" startPosition="77" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9009622095742638296" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="33" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="35" startPosition="9" endLine="36" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="36" startPosition="62" endLine="37" endPosition="277" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742638314" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="39" startPosition="14" endLine="40" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3220419832563448203" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="40" startPosition="69" endLine="41" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="46" startPosition="46" endLine="47" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="5" endLine="52" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="52" startPosition="130" endLine="53" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="57" startPosition="30" endLine="58" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TailPositionInClosureLiteral_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="9009622095742638312" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="39" startPosition="12" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="50" startPosition="68" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="50" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="9009622095742638304" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="33" startPosition="162" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742638278" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="26" startPosition="127" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="26" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="23" startPosition="59" endLine="23" endPosition="59" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="46" startPosition="46" endLine="47" endPosition="74" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="57" startPosition="30" endLine="58" endPosition="17" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="9009622095742638306" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="35" startPosition="9" endLine="37" endPosition="277">
       <varInfo nodeId="9009622095742638306" varName="_reporter_2309309498" />
       <varInfo nodeId="9009622095742638306" varName="errorTarget" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742638313" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="40" startPosition="14" endLine="42" endPosition="79">
+    <scopeInfo nodeId="9009622095742638313" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="39" startPosition="14" endLine="41" endPosition="79">
       <varInfo nodeId="9009622095742638315" varName="invocation" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="52" startPosition="5" endLine="54" endPosition="45">
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="5" endLine="53" endPosition="45">
       <varInfo nodeId="9009622095742638274" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="47" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="58" startPosition="0" endLine="61" endPosition="0" />
-    <scopeInfo nodeId="9009622095742638305" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="35" startPosition="57" endLine="39" endPosition="9" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="68" endLine="55" endPosition="5" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="51" startPosition="0" endLine="57" endPosition="0">
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="57" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="9009622095742638305" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="34" startPosition="57" endLine="38" endPosition="9" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="50" startPosition="68" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="50" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="9009622095742638274" varName="argument" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742638285" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="28" startPosition="218" endLine="43" endPosition="7">
+    <scopeInfo nodeId="9009622095742638285" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="175" endLine="42" endPosition="7">
       <varInfo nodeId="9009622095742638297" varName="invocations" />
       <varInfo nodeId="9009622095742638287" varName="lastNode" />
     </scopeInfo>
-    <scopeInfo nodeId="9009622095742638275" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="127" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="27" startPosition="0" endLine="46" endPosition="0">
+    <scopeInfo nodeId="9009622095742638275" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="26" startPosition="127" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="26" startPosition="0" endLine="45" endPosition="0">
       <varInfo nodeId="9009622095742638274" varName="closureLiteral" />
       <varInfo nodeId="9009622095742638274" varName="status" />
       <varInfo nodeId="9009622095742638274" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule" />
+    <unitInfo nodeId="9009622095742638274" fileName="TailPositionInClosureLiteral_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="61" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule" />
   </root>
 </debugInfo>
 

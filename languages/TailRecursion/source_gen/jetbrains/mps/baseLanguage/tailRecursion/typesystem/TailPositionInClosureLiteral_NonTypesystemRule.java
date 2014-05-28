@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
@@ -25,7 +24,7 @@ public class TailPositionInClosureLiteral_NonTypesystemRule extends AbstractNonT
   }
 
   public void applyRule(final SNode closureLiteral, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (AttributeOperations.getAttribute(closureLiteral, new IAttributeDescriptor.NodeAttribute(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null) {
+    if (AttributeOperations.getAttribute(closureLiteral, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion")) != null) {
       CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(closureLiteral), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true), closureLiteral);
 
       SNode lastNode = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(closureLiteral, "body", true), "statement", true)).last();

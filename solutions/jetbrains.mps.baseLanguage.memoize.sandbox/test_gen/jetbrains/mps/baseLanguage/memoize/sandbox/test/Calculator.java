@@ -26,16 +26,10 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCacheForClosures_4, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCacheForClosures_4, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Long) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
   private int counter = 0;
@@ -55,16 +49,10 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCacheForClosures_5, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCacheForClosures_5, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Long) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
 
@@ -88,16 +76,10 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(a, b);
-      Memoizator.storeInCache(memoizedCache_0, key, (result != null ?
-        result :
-        NullValue.NULL_CACHED_VALUE
-      ));
+      Memoizator.storeInCache(memoizedCache_0, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
       value = result;
     }
-    return (value == NullValue.NULL_CACHED_VALUE ?
-      null :
-      (Integer) value
-    );
+    return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
 
   }
 
@@ -116,16 +98,10 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(n);
-      Memoizator.storeInCache(memoizedCache_1, key, (result != null ?
-        result :
-        NullValue.NULL_CACHED_VALUE
-      ));
+      Memoizator.storeInCache(memoizedCache_1, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
       value = result;
     }
-    return (value == NullValue.NULL_CACHED_VALUE ?
-      null :
-      (Long) value
-    );
+    return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
   }
 
@@ -146,16 +122,10 @@ public class Calculator {
         }
       };
       final Object result = function.invoke(a, b);
-      Memoizator.storeInCache(memoizedCache_2, key, (result != null ?
-        result :
-        NullValue.NULL_CACHED_VALUE
-      ));
+      Memoizator.storeInCache(memoizedCache_2, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
       value = result;
     }
-    return (value == NullValue.NULL_CACHED_VALUE ?
-      null :
-      (Integer) value
-    );
+    return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
   }
 
   public class NestedCalculator {
@@ -175,16 +145,10 @@ public class Calculator {
             }
           };
           final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_6, key, (result != null ?
-            result :
-            NullValue.NULL_CACHED_VALUE
-          ));
+          Memoizator.storeInCache(memoizedCacheForClosures_6, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
           value = result;
         }
-        return (value == NullValue.NULL_CACHED_VALUE ?
-          null :
-          (Long) value
-        );
+        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
 
@@ -206,16 +170,10 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCache_3, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCache_3, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Long) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
     }
 
@@ -241,16 +199,10 @@ public class Calculator {
             }
           };
           final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_7, key, (result != null ?
-            result :
-            NullValue.NULL_CACHED_VALUE
-          ));
+          Memoizator.storeInCache(memoizedCacheForClosures_7, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
           value = result;
         }
-        return (value == NullValue.NULL_CACHED_VALUE ?
-          null :
-          (Long) value
-        );
+        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
     private int counter;
@@ -270,16 +222,10 @@ public class Calculator {
             }
           };
           final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_8, key, (result != null ?
-            result :
-            NullValue.NULL_CACHED_VALUE
-          ));
+          Memoizator.storeInCache(memoizedCacheForClosures_8, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
           value = result;
         }
-        return (value == NullValue.NULL_CACHED_VALUE ?
-          null :
-          (Long) value
-        );
+        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
 
@@ -301,16 +247,10 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCache_4, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCache_4, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Long) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
     }
 
@@ -331,16 +271,10 @@ public class Calculator {
           }
         };
         final Object result = function.invoke(a, b);
-        Memoizator.storeInCache(memoizedCache_5, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCache_5, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Integer) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
     }
 
     private static Map<Integer, Object> memoizedCache_5 = Memoizator.buildMemoizeCache(0);

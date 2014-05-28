@@ -28,16 +28,10 @@ public class MemoizeTest_Test extends TestCase {
           }
         };
         final Object result = function.invoke(a, b);
-        Memoizator.storeInCache(memoizedCacheForClosures_0, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCacheForClosures_0, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Integer) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
     }
   });
   private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> fibonacci = (memoizedCacheForClosures_1_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
@@ -56,16 +50,10 @@ public class MemoizeTest_Test extends TestCase {
           }
         };
         final Object result = function.invoke(n);
-        Memoizator.storeInCache(memoizedCacheForClosures_1, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCacheForClosures_1, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Long) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
   private final Map<Integer, Object> memoizedCacheForClosures_0 = Memoizator.buildMemoizeCache(0);
@@ -195,16 +183,10 @@ public class MemoizeTest_Test extends TestCase {
             }
           };
           final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_2, key, (result != null ?
-            result :
-            NullValue.NULL_CACHED_VALUE
-          ));
+          Memoizator.storeInCache(memoizedCacheForClosures_2, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
           value = result;
         }
-        return (value == NullValue.NULL_CACHED_VALUE ?
-          null :
-          (Long) value
-        );
+        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     })));
     Assert.assertEquals(10, localCounter.value);
@@ -228,16 +210,10 @@ public class MemoizeTest_Test extends TestCase {
             }
           };
           final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_3, key, (result != null ?
-            result :
-            NullValue.NULL_CACHED_VALUE
-          ));
+          Memoizator.storeInCache(memoizedCacheForClosures_3, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
           value = result;
         }
-        return (value == NullValue.NULL_CACHED_VALUE ?
-          null :
-          (Long) value
-        );
+        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
     Assert.assertEquals(Long.valueOf(65), addFib(10, function));

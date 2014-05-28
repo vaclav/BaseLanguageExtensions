@@ -63,28 +63,28 @@
     <nodeInfo nodeId="2522420642609181723" fileName="KeyCalculator.java" startLine="13" startPosition="19" endLine="14" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2522420642609181798" fileName="KeyCalculator.java" startLine="15" startPosition="12" endLine="16" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2522420642609181696" fileName="KeyCalculator.java" startLine="20" startPosition="23" endLine="21" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2522420642609181855" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="25" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2522420642609181623" fileName="KeyCalculator.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="KeyCalculator#()V" />
     <nodeInfo nodeId="2522420642609181796" fileName="KeyCalculator.java" startLine="15" startPosition="10" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2522420642609181691" fileName="KeyCalculator.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getKey#()I" />
-    <nodeInfo nodeId="2522420642609181855" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="28" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="calculateIndividualHash#(Ljava/lang/Object;)I" />
     <nodeInfo nodeId="2522420642609181701" fileName="KeyCalculator.java" startLine="12" startPosition="37" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="calculateIndividualHash#(Ljava/lang/Object;)I" />
     <nodeInfo nodeId="2522420642609181633" fileName="KeyCalculator.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addKey#(Ljava/lang/Object;)V" />
     <scopeInfo nodeId="2522420642609181626" fileName="KeyCalculator.java" startLine="9" startPosition="26" endLine="9" endPosition="26" />
     <scopeInfo nodeId="2522420642609181702" fileName="KeyCalculator.java" startLine="13" startPosition="19" endLine="14" endPosition="44" />
     <scopeInfo nodeId="2522420642609181797" fileName="KeyCalculator.java" startLine="15" startPosition="12" endLine="16" endPosition="57" />
     <scopeInfo nodeId="2522420642609181694" fileName="KeyCalculator.java" startLine="20" startPosition="23" endLine="21" endPosition="15" />
+    <scopeInfo nodeId="2522420642609181854" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="25" endPosition="52" />
     <scopeInfo nodeId="2522420642609181623" fileName="KeyCalculator.java" startLine="9" startPosition="0" endLine="11" endPosition="0" />
     <scopeInfo nodeId="2522420642609181691" fileName="KeyCalculator.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="2522420642609181854" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="28" endPosition="6" />
-    <scopeInfo nodeId="2522420642609181636" fileName="KeyCalculator.java" startLine="12" startPosition="37" endLine="17" endPosition="5" />
-    <scopeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
       <varInfo nodeId="2522420642609181849" varName="object" />
     </scopeInfo>
+    <scopeInfo nodeId="2522420642609181636" fileName="KeyCalculator.java" startLine="12" startPosition="37" endLine="17" endPosition="5" />
     <scopeInfo nodeId="2522420642609181633" fileName="KeyCalculator.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="2522420642609181637" varName="object" />
     </scopeInfo>
-    <unitInfo nodeId="2522420642609181621" fileName="KeyCalculator.java" startLine="6" startPosition="0" endLine="31" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
+    <unitInfo nodeId="2522420642609181621" fileName="KeyCalculator.java" startLine="6" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
   </root>
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/4821781367346988959">
     <nodeInfo nodeId="3629985228611555673" fileName="NullValue.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NULL_CACHED_VALUE" />

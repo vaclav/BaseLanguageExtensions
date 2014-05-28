@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="37" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:0a810e0a-4d07-4e62-bc49-29d14c42e79d(jetbrains.mps.baseLanguage.tailRecursion.editor)/4322693879000316858">
     <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4322693879000316858" fileName="TailRecursion_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

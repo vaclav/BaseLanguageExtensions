@@ -27,16 +27,10 @@ public class CornerCaseSpecialist {
           }
         };
         final Object result = function.invoke();
-        Memoizator.storeInCache(memoizedCacheForClosures_9, key, (result != null ?
-          result :
-          NullValue.NULL_CACHED_VALUE
-        ));
+        Memoizator.storeInCache(memoizedCacheForClosures_9, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
         value = result;
       }
-      return (value == NullValue.NULL_CACHED_VALUE ?
-        null :
-        (Integer) value
-      );
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
     }
   });
   public _FunctionTypes._void_P1_E0<? super Integer> voidClosure = new _FunctionTypes._void_P1_E0<Integer>() {
@@ -61,16 +55,10 @@ public class CornerCaseSpecialist {
         }
       };
       final Object result = function.invoke();
-      Memoizator.storeInCache(memoizedCache_6, key, (result != null ?
-        result :
-        NullValue.NULL_CACHED_VALUE
-      ));
+      Memoizator.storeInCache(memoizedCache_6, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
       value = result;
     }
-    return (value == NullValue.NULL_CACHED_VALUE ?
-      null :
-      (Integer) value
-    );
+    return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
   }
 
   public static void voidFunction(int a) {
