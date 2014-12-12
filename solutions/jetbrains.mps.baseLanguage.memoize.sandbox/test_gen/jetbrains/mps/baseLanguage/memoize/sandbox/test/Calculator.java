@@ -55,14 +55,11 @@ public class Calculator {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
-
   public Calculator() {
   }
-
   public int retrieveCounter() {
     return counter;
   }
-
   public Integer add(final int a, final int b) {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(a);
@@ -82,7 +79,6 @@ public class Calculator {
     return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
 
   }
-
   public Long fibonacci(final int n) {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(n);
@@ -104,11 +100,9 @@ public class Calculator {
     return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
   }
-
   public final Calculator.NestedCalculator createNestedCalculator() {
     return new Calculator.NestedCalculator();
   }
-
   public static Integer adds(final int a, final int b) {
     final KeyCalculator key = new KeyCalculator();
     key.addKey(a);
@@ -127,7 +121,6 @@ public class Calculator {
     }
     return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
   }
-
   public class NestedCalculator {
     public _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> nestedInstanceFactorial = (memoizedCacheForClosures_6_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
       public Long invoke(final Integer n) {
@@ -151,10 +144,8 @@ public class Calculator {
         return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
-
     public NestedCalculator() {
     }
-
     public Long fibonacci(final int n) {
       final KeyCalculator key = new KeyCalculator();
       key.addKey(n);
@@ -176,12 +167,10 @@ public class Calculator {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
     }
-
     private final Map<Integer, Object> memoizedCache_3 = Memoizator.buildMemoizeCache(2);
     private final Map<Integer, Object> memoizedCacheForClosures_6 = Memoizator.buildMemoizeCache(0);
     private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_6_Closure;
   }
-
   public static class StaticNestedCalculator {
     public static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> factorial = (memoizedCacheForClosures_7_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
       public Long invoke(final Integer n) {
@@ -228,10 +217,8 @@ public class Calculator {
         return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
       }
     });
-
     public StaticNestedCalculator() {
     }
-
     public Long fibonacci(final int n) {
       final KeyCalculator key = new KeyCalculator();
       key.addKey(n);
@@ -253,11 +240,9 @@ public class Calculator {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
     }
-
     public int retrieveCounter() {
       return counter;
     }
-
     public static Integer adds(final int a, final int b) {
       final KeyCalculator key = new KeyCalculator();
       key.addKey(a);
@@ -276,7 +261,6 @@ public class Calculator {
       }
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
     }
-
     private static Map<Integer, Object> memoizedCache_5 = Memoizator.buildMemoizeCache(0);
     private final Map<Integer, Object> memoizedCache_4 = Memoizator.buildMemoizeCache(2);
     private final Map<Integer, Object> memoizedCacheForClosures_8 = Memoizator.buildMemoizeCache(0);
@@ -284,7 +268,6 @@ public class Calculator {
     private static Map<Integer, Object> memoizedCacheForClosures_7 = Memoizator.buildMemoizeCache(0);
     private static _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_7_Closure;
   }
-
   private static Map<Integer, Object> memoizedCache_2 = Memoizator.buildMemoizeCache(0);
   private final Map<Integer, Object> memoizedCache_0 = Memoizator.buildMemoizeCache(0);
   private final Map<Integer, Object> memoizedCache_1 = Memoizator.buildMemoizeCache(2);

@@ -1,225 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000223793">
-    <nodeInfo nodeId="4322693879000315842" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="43" endLine="11" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000315876" fileName="RecursiveScenario_Test.java" startLine="11" startPosition="60" endLine="12" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000315866" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="44" endLine="16" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000315884" fileName="RecursiveScenario_Test.java" startLine="16" startPosition="55" endLine="17" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742629915" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="49" endLine="21" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742630413" fileName="RecursiveScenario_Test.java" startLine="21" startPosition="73" endLine="22" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="27" startPosition="65" endLine="28" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="28" startPosition="31" endLine="29" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742611565" fileName="RecursiveScenario_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742611542" fileName="RecursiveScenario_Test.java" startLine="33" startPosition="11" endLine="34" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611542" fileName="RecursiveScenario_Test.java" startLine="34" startPosition="53" endLine="35" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611601" fileName="RecursiveScenario_Test.java" startLine="38" startPosition="6" endLine="39" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611620" fileName="RecursiveScenario_Test.java" startLine="39" startPosition="63" endLine="40" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611747" fileName="RecursiveScenario_Test.java" startLine="40" startPosition="63" endLine="41" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742611783" fileName="RecursiveScenario_Test.java" startLine="41" startPosition="46" endLine="42" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="59" endLine="48" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="48" startPosition="33" endLine="49" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2385733296660308874" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="35" endLine="52" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="913704554380632518" fileName="RecursiveScenario_Test.java" startLine="53" startPosition="29" endLine="54" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="56" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="56" startPosition="58" endLine="57" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2385733296660308905" fileName="RecursiveScenario_Test.java" startLine="61" startPosition="6" endLine="62" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2385733296660308912" fileName="RecursiveScenario_Test.java" startLine="62" startPosition="59" endLine="63" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000223795" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RecursiveScenario_Test#()V" />
-    <nodeInfo nodeId="9009622095742611549" fileName="RecursiveScenario_Test.java" startLine="30" startPosition="22" endLine="33" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="913704554380631764" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="16" endLine="58" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4322693879000315838" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sum#()V" />
-    <nodeInfo nodeId="4322693879000315862" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_sumS#()V" />
-    <nodeInfo nodeId="9009622095742629911" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_factorial#()V" />
-    <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="29" startPosition="29" endLine="36" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="2385733296660308869" fileName="RecursiveScenario_Test.java" startLine="50" startPosition="22" endLine="58" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="49" startPosition="30" endLine="59" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="27" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
-    <nodeInfo nodeId="9009622095742611531" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="47" endLine="38" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Long;Ljava/lang/Integer;)Ljava/lang/Long;" />
-    <nodeInfo nodeId="2385733296660308861" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="56" endLine="61" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742611527" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closure#()V" />
-    <nodeInfo nodeId="2385733296660308857" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="test_closureFactorial#()V" />
-    <scopeInfo nodeId="4322693879000223798" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="35" endLine="66" endPosition="35" />
-    <scopeInfo nodeId="9009622095742611551" fileName="RecursiveScenario_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="32" />
-    <scopeInfo nodeId="2385733296660308873" fileName="RecursiveScenario_Test.java" startLine="51" startPosition="35" endLine="52" endPosition="33" />
-    <scopeInfo nodeId="913704554380632516" fileName="RecursiveScenario_Test.java" startLine="53" startPosition="29" endLine="54" endPosition="22" />
-    <scopeInfo nodeId="4322693879000315841" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="43" endLine="12" endPosition="60" />
-    <scopeInfo nodeId="4322693879000315865" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="44" endLine="17" endPosition="55" />
-    <scopeInfo nodeId="9009622095742629914" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="49" endLine="22" endPosition="86" />
-    <scopeInfo nodeId="913704554380631765" fileName="RecursiveScenario_Test.java" startLine="55" startPosition="18" endLine="57" endPosition="46" />
-    <scopeInfo nodeId="4322693879000223795" fileName="RecursiveScenario_Test.java" startLine="66" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="4322693879000315838" fileName="RecursiveScenario_Test.java" startLine="10" startPosition="0" endLine="14" endPosition="0" />
-    <scopeInfo nodeId="4322693879000315862" fileName="RecursiveScenario_Test.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="9009622095742629911" fileName="RecursiveScenario_Test.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="9009622095742611542" fileName="RecursiveScenario_Test.java" startLine="30" startPosition="22" endLine="35" endPosition="42" />
-    <scopeInfo nodeId="2385733296660308868" fileName="RecursiveScenario_Test.java" startLine="50" startPosition="22" endLine="58" endPosition="11" />
-    <scopeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="27" startPosition="65" endLine="36" endPosition="9">
-      <varInfo nodeId="9009622095742611541" varName="localParam_8" />
-      <varInfo nodeId="9009622095742611541" varName="localParam_9" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="27" startPosition="0" endLine="38" endPosition="0">
-      <varInfo nodeId="9009622095742611541" varName="acc" />
-      <varInfo nodeId="9009622095742611541" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="59" endLine="59" endPosition="9">
-      <varInfo nodeId="2385733296660308867" varName="localParam_10" />
-      <varInfo nodeId="2385733296660308867" varName="localParam_11" />
-    </scopeInfo>
-    <scopeInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="47" startPosition="0" endLine="61" endPosition="0">
-      <varInfo nodeId="2385733296660308867" varName="acc" />
-      <varInfo nodeId="2385733296660308867" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742611530" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="47" endLine="42" endPosition="46">
-      <varInfo nodeId="9009622095742611532" varName="fun" />
-    </scopeInfo>
-    <scopeInfo nodeId="2385733296660308860" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="56" endLine="63" endPosition="72">
-      <varInfo nodeId="2385733296660308862" varName="factorial" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742611527" fileName="RecursiveScenario_Test.java" startLine="25" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="2385733296660308857" fileName="RecursiveScenario_Test.java" startLine="45" startPosition="0" endLine="65" endPosition="0" />
-    <unitInfo nodeId="9009622095742611541" fileName="RecursiveScenario_Test.java" startLine="26" startPosition="96" endLine="38" endPosition="5" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
-    <unitInfo nodeId="2385733296660308867" fileName="RecursiveScenario_Test.java" startLine="46" startPosition="96" endLine="61" endPosition="5" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
-    <unitInfo nodeId="4322693879000223793" fileName="RecursiveScenario_Test.java" startLine="9" startPosition="0" endLine="69" endPosition="0" unitName="TailRecursion.sandbox.test.RecursiveScenario_Test" />
+    <file name="RecursiveScenario_Test.java">
+      <node id="4322693879000315842" at="10,43,11,60" concept="2" />
+      <node id="4322693879000315876" at="11,60,12,60" concept="2" />
+      <node id="4322693879000315866" at="14,44,15,55" concept="2" />
+      <node id="4322693879000315884" at="15,55,16,55" concept="2" />
+      <node id="9009622095742629915" at="18,49,19,73" concept="2" />
+      <node id="9009622095742630413" at="19,73,20,86" concept="2" />
+      <node id="9009622095742611541" at="24,65,25,31" concept="5" />
+      <node id="9009622095742611541" at="25,31,26,29" concept="5" />
+      <node id="9009622095742611565" at="28,34,29,32" concept="6" />
+      <node id="9009622095742611542" at="30,11,31,53" concept="2" />
+      <node id="9009622095742611542" at="31,53,32,42" concept="2" />
+      <node id="9009622095742611601" at="35,6,36,63" concept="2" />
+      <node id="9009622095742611620" at="36,63,37,63" concept="2" />
+      <node id="9009622095742611747" at="37,63,38,46" concept="2" />
+      <node id="9009622095742611783" at="38,46,39,46" concept="2" />
+      <node id="2385733296660308867" at="43,59,44,33" concept="5" />
+      <node id="2385733296660308867" at="44,33,45,30" concept="5" />
+      <node id="2385733296660308874" at="47,35,48,33" concept="6" />
+      <node id="913704554380632518" at="49,29,50,22" concept="6" />
+      <node id="913704554380631765" at="51,18,52,58" concept="2" />
+      <node id="913704554380631765" at="52,58,53,46" concept="2" />
+      <node id="2385733296660308905" at="57,6,58,59" concept="2" />
+      <node id="2385733296660308912" at="58,59,59,72" concept="2" />
+      <node id="4322693879000223795" at="61,0,63,0" concept="1" trace="RecursiveScenario_Test#()V" />
+      <node id="9009622095742611549" at="27,22,30,11" concept="3" />
+      <node id="913704554380631764" at="51,16,54,11" concept="0" />
+      <node id="4322693879000315838" at="10,0,14,0" concept="4" trace="test_sum#()V" />
+      <node id="4322693879000315862" at="14,0,18,0" concept="4" trace="test_sumS#()V" />
+      <node id="9009622095742629911" at="18,0,22,0" concept="4" trace="test_factorial#()V" />
+      <node id="9009622095742611541" at="26,29,33,9" concept="9" />
+      <node id="2385733296660308869" at="46,22,54,11" concept="3" />
+      <node id="2385733296660308867" at="45,30,55,9" concept="9" />
+      <node id="9009622095742611541" at="24,0,35,0" concept="4" trace="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
+      <node id="9009622095742611531" at="22,47,35,6" concept="5" />
+      <node id="2385733296660308867" at="43,0,57,0" concept="4" trace="invoke#(Ljava/lang/Long;Ljava/lang/Integer;)Ljava/lang/Long;" />
+      <node id="2385733296660308861" at="41,56,57,6" concept="5" />
+      <node id="9009622095742611527" at="22,0,41,0" concept="4" trace="test_closure#()V" />
+      <node id="2385733296660308857" at="41,0,61,0" concept="4" trace="test_closureFactorial#()V" />
+      <scope id="4322693879000223798" at="61,35,61,35" />
+      <scope id="9009622095742611551" at="28,34,29,32" />
+      <scope id="2385733296660308873" at="47,35,48,33" />
+      <scope id="913704554380632516" at="49,29,50,22" />
+      <scope id="4322693879000315841" at="10,43,12,60" />
+      <scope id="4322693879000315865" at="14,44,16,55" />
+      <scope id="9009622095742629914" at="18,49,20,86" />
+      <scope id="913704554380631765" at="51,18,53,46" />
+      <scope id="4322693879000223795" at="61,0,63,0" />
+      <scope id="4322693879000315838" at="10,0,14,0" />
+      <scope id="4322693879000315862" at="14,0,18,0" />
+      <scope id="9009622095742629911" at="18,0,22,0" />
+      <scope id="9009622095742611542" at="27,22,32,42" />
+      <scope id="2385733296660308868" at="46,22,54,11" />
+      <scope id="9009622095742611541" at="24,65,33,9">
+        <var name="localParam_8" id="9009622095742611541" />
+        <var name="localParam_9" id="9009622095742611541" />
+      </scope>
+      <scope id="9009622095742611541" at="24,0,35,0">
+        <var name="acc" id="9009622095742611541" />
+        <var name="n" id="9009622095742611541" />
+      </scope>
+      <scope id="2385733296660308867" at="43,59,55,9">
+        <var name="localParam_10" id="2385733296660308867" />
+        <var name="localParam_11" id="2385733296660308867" />
+      </scope>
+      <scope id="2385733296660308867" at="43,0,57,0">
+        <var name="acc" id="2385733296660308867" />
+        <var name="n" id="2385733296660308867" />
+      </scope>
+      <scope id="9009622095742611530" at="22,47,39,46">
+        <var name="fun" id="9009622095742611532" />
+      </scope>
+      <scope id="2385733296660308860" at="41,56,59,72">
+        <var name="factorial" id="2385733296660308862" />
+      </scope>
+      <scope id="9009622095742611527" at="22,0,41,0" />
+      <scope id="2385733296660308857" at="41,0,61,0" />
+      <unit id="9009622095742611541" at="23,96,35,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
+      <unit id="2385733296660308867" at="42,96,57,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
+      <unit id="4322693879000223793" at="9,0,64,0" name="TailRecursion.sandbox.test.RecursiveScenario_Test" />
+    </file>
   </root>
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000233987">
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="46" endLine="12" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="12" startPosition="27" endLine="13" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315751" fileName="TestCalculator.java" startLine="15" startPosition="30" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="17" startPosition="7" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="18" startPosition="49" endLine="19" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="54" endLine="24" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="24" startPosition="28" endLine="25" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9009622095742629875" fileName="TestCalculator.java" startLine="27" startPosition="30" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="29" startPosition="7" endLine="30" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="30" startPosition="49" endLine="31" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="54" endLine="36" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="36" startPosition="27" endLine="37" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4322693879000315797" fileName="TestCalculator.java" startLine="39" startPosition="30" endLine="40" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="41" startPosition="14" endLine="42" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="42" startPosition="51" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6332794702258051031" fileName="TestCalculator.java" startLine="48" startPosition="45" endLine="49" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="64" endLine="53" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="53" startPosition="34" endLine="54" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6332794702258051004" fileName="TestCalculator.java" startLine="56" startPosition="56" endLine="57" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="58" startPosition="7" endLine="59" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="59" startPosition="57" endLine="60" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TestCalculator#()V" />
-    <nodeInfo nodeId="4322693879000234003" fileName="TestCalculator.java" startLine="14" startPosition="18" endLine="17" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742629859" fileName="TestCalculator.java" startLine="26" startPosition="18" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="913704554380557752" fileName="TestCalculator.java" startLine="41" startPosition="12" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6332794702258049132" fileName="TestCalculator.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="factorial#(I)Ljava/math/BigInteger;" />
-    <nodeInfo nodeId="6332794702258050996" fileName="TestCalculator.java" startLine="55" startPosition="18" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4322693879000315792" fileName="TestCalculator.java" startLine="38" startPosition="18" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="13" startPosition="25" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="25" startPosition="25" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="54" startPosition="32" endLine="61" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="37" startPosition="25" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="sum#(II)I" />
-    <nodeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="factorial#(JI)J" />
-    <nodeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="fact#(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;" />
-    <nodeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="sumS#(II)I" />
-    <scopeInfo nodeId="4322693879000233992" fileName="TestCalculator.java" startLine="8" startPosition="27" endLine="8" endPosition="27" />
-    <scopeInfo nodeId="4322693879000234005" fileName="TestCalculator.java" startLine="15" startPosition="30" endLine="16" endPosition="28" />
-    <scopeInfo nodeId="9009622095742629861" fileName="TestCalculator.java" startLine="27" startPosition="30" endLine="28" endPosition="28" />
-    <scopeInfo nodeId="4322693879000315796" fileName="TestCalculator.java" startLine="39" startPosition="30" endLine="40" endPosition="28" />
-    <scopeInfo nodeId="6332794702258049137" fileName="TestCalculator.java" startLine="48" startPosition="45" endLine="49" endPosition="55" />
-    <scopeInfo nodeId="6332794702258051003" fileName="TestCalculator.java" startLine="56" startPosition="56" endLine="57" endPosition="28" />
-    <scopeInfo nodeId="4322693879000233989" fileName="TestCalculator.java" startLine="8" startPosition="0" endLine="10" endPosition="0" />
-    <scopeInfo nodeId="913704554380557753" fileName="TestCalculator.java" startLine="41" startPosition="14" endLine="43" endPosition="40" />
-    <scopeInfo nodeId="6332794702258049132" fileName="TestCalculator.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="6332794702258049135" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="4322693879000233996" fileName="TestCalculator.java" startLine="14" startPosition="18" endLine="19" endPosition="38" />
-    <scopeInfo nodeId="9009622095742629852" fileName="TestCalculator.java" startLine="26" startPosition="18" endLine="31" endPosition="38" />
-    <scopeInfo nodeId="6332794702258050995" fileName="TestCalculator.java" startLine="55" startPosition="18" endLine="60" endPosition="59" />
-    <scopeInfo nodeId="4322693879000315785" fileName="TestCalculator.java" startLine="38" startPosition="18" endLine="44" endPosition="7" />
-    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="46" endLine="20" endPosition="5">
-      <varInfo nodeId="4322693879000233993" varName="localParam_0" />
-      <varInfo nodeId="4322693879000233993" varName="localParam_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="54" endLine="32" endPosition="5">
-      <varInfo nodeId="9009622095742629849" varName="localParam_2" />
-      <varInfo nodeId="9009622095742629849" varName="localParam_3" />
-    </scopeInfo>
-    <scopeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="64" endLine="61" endPosition="5">
-      <varInfo nodeId="6332794702258050988" varName="localParam_6" />
-      <varInfo nodeId="6332794702258050988" varName="localParam_7" />
-    </scopeInfo>
-    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="54" endLine="45" endPosition="5">
-      <varInfo nodeId="4322693879000315782" varName="localParam_4" />
-      <varInfo nodeId="4322693879000315782" varName="localParam_5" />
-    </scopeInfo>
-    <scopeInfo nodeId="4322693879000233993" fileName="TestCalculator.java" startLine="11" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="4322693879000234000" varName="acc" />
-      <varInfo nodeId="4322693879000233998" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742629849" fileName="TestCalculator.java" startLine="23" startPosition="0" endLine="34" endPosition="0">
-      <varInfo nodeId="9009622095742629854" varName="acc" />
-      <varInfo nodeId="9009622095742629856" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="6332794702258050988" fileName="TestCalculator.java" startLine="52" startPosition="0" endLine="63" endPosition="0">
-      <varInfo nodeId="6332794702258050991" varName="acc" />
-      <varInfo nodeId="6332794702258050993" varName="n" />
-    </scopeInfo>
-    <scopeInfo nodeId="4322693879000315782" fileName="TestCalculator.java" startLine="35" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="4322693879000315787" varName="acc" />
-      <varInfo nodeId="4322693879000315789" varName="n" />
-    </scopeInfo>
-    <unitInfo nodeId="4322693879000233987" fileName="TestCalculator.java" startLine="7" startPosition="0" endLine="64" endPosition="0" unitName="TailRecursion.sandbox.test.TestCalculator" />
+    <file name="TestCalculator.java">
+      <node id="4322693879000233993" at="10,46,11,27" concept="5" />
+      <node id="4322693879000233993" at="11,27,12,25" concept="5" />
+      <node id="4322693879000315751" at="14,30,15,28" concept="6" />
+      <node id="4322693879000233996" at="16,7,17,49" concept="2" />
+      <node id="4322693879000233996" at="17,49,18,38" concept="2" />
+      <node id="9009622095742629849" at="21,54,22,28" concept="5" />
+      <node id="9009622095742629849" at="22,28,23,25" concept="5" />
+      <node id="9009622095742629875" at="25,30,26,28" concept="6" />
+      <node id="9009622095742629852" at="27,7,28,49" concept="2" />
+      <node id="9009622095742629852" at="28,49,29,38" concept="2" />
+      <node id="4322693879000315782" at="32,54,33,27" concept="5" />
+      <node id="4322693879000315782" at="33,27,34,25" concept="5" />
+      <node id="4322693879000315797" at="36,30,37,28" concept="6" />
+      <node id="913704554380557753" at="38,14,39,51" concept="2" />
+      <node id="913704554380557753" at="39,51,40,40" concept="2" />
+      <node id="6332794702258051031" at="44,45,45,55" concept="6" />
+      <node id="6332794702258050988" at="47,64,48,34" concept="5" />
+      <node id="6332794702258050988" at="48,34,49,32" concept="5" />
+      <node id="6332794702258051004" at="51,56,52,28" concept="6" />
+      <node id="6332794702258050995" at="53,7,54,57" concept="2" />
+      <node id="6332794702258050995" at="54,57,55,59" concept="2" />
+      <node id="4322693879000233989" at="8,0,10,0" concept="1" trace="TestCalculator#()V" />
+      <node id="4322693879000234003" at="13,18,16,7" concept="3" />
+      <node id="9009622095742629859" at="24,18,27,7" concept="3" />
+      <node id="913704554380557752" at="38,12,41,7" concept="0" />
+      <node id="6332794702258049132" at="44,0,47,0" concept="8" trace="factorial#(I)Ljava/math/BigInteger;" />
+      <node id="6332794702258050996" at="50,18,53,7" concept="3" />
+      <node id="4322693879000315792" at="35,18,41,7" concept="3" />
+      <node id="4322693879000233993" at="12,25,19,5" concept="9" />
+      <node id="9009622095742629849" at="23,25,30,5" concept="9" />
+      <node id="6332794702258050988" at="49,32,56,5" concept="9" />
+      <node id="4322693879000315782" at="34,25,42,5" concept="9" />
+      <node id="4322693879000233993" at="10,0,21,0" concept="4" trace="sum#(II)I" />
+      <node id="9009622095742629849" at="21,0,32,0" concept="4" trace="factorial#(JI)J" />
+      <node id="6332794702258050988" at="47,0,58,0" concept="8" trace="fact#(Ljava/math/BigInteger;Ljava/math/BigInteger;)Ljava/math/BigInteger;" />
+      <node id="4322693879000315782" at="32,0,44,0" concept="8" trace="sumS#(II)I" />
+      <scope id="4322693879000233992" at="8,27,8,27" />
+      <scope id="4322693879000234005" at="14,30,15,28" />
+      <scope id="9009622095742629861" at="25,30,26,28" />
+      <scope id="4322693879000315796" at="36,30,37,28" />
+      <scope id="6332794702258049137" at="44,45,45,55" />
+      <scope id="6332794702258051003" at="51,56,52,28" />
+      <scope id="4322693879000233989" at="8,0,10,0" />
+      <scope id="913704554380557753" at="38,14,40,40" />
+      <scope id="6332794702258049132" at="44,0,47,0">
+        <var name="n" id="6332794702258049135" />
+      </scope>
+      <scope id="4322693879000233996" at="13,18,18,38" />
+      <scope id="9009622095742629852" at="24,18,29,38" />
+      <scope id="6332794702258050995" at="50,18,55,59" />
+      <scope id="4322693879000315785" at="35,18,41,7" />
+      <scope id="4322693879000233993" at="10,46,19,5">
+        <var name="localParam_0" id="4322693879000233993" />
+        <var name="localParam_1" id="4322693879000233993" />
+      </scope>
+      <scope id="9009622095742629849" at="21,54,30,5">
+        <var name="localParam_2" id="9009622095742629849" />
+        <var name="localParam_3" id="9009622095742629849" />
+      </scope>
+      <scope id="6332794702258050988" at="47,64,56,5">
+        <var name="localParam_6" id="6332794702258050988" />
+        <var name="localParam_7" id="6332794702258050988" />
+      </scope>
+      <scope id="4322693879000315782" at="32,54,42,5">
+        <var name="localParam_4" id="4322693879000315782" />
+        <var name="localParam_5" id="4322693879000315782" />
+      </scope>
+      <scope id="4322693879000233993" at="10,0,21,0">
+        <var name="acc" id="4322693879000234000" />
+        <var name="n" id="4322693879000233998" />
+      </scope>
+      <scope id="9009622095742629849" at="21,0,32,0">
+        <var name="acc" id="9009622095742629854" />
+        <var name="n" id="9009622095742629856" />
+      </scope>
+      <scope id="6332794702258050988" at="47,0,58,0">
+        <var name="acc" id="6332794702258050991" />
+        <var name="n" id="6332794702258050993" />
+      </scope>
+      <scope id="4322693879000315782" at="32,0,44,0">
+        <var name="acc" id="4322693879000315787" />
+        <var name="n" id="4322693879000315789" />
+      </scope>
+      <unit id="4322693879000233987" at="7,0,59,0" name="TailRecursion.sandbox.test.TestCalculator" />
+    </file>
   </root>
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/6963853100979795905">
-    <nodeInfo nodeId="6963853100979854372" fileName="CornerCaseTailSpecialist.java" startLine="10" startPosition="18" endLine="11" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6963853100979795988" fileName="CornerCaseTailSpecialist.java" startLine="12" startPosition="7" endLine="13" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979796028" fileName="CornerCaseTailSpecialist.java" startLine="19" startPosition="20" endLine="20" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6963853100979854391" fileName="CornerCaseTailSpecialist.java" startLine="27" startPosition="18" endLine="28" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6963853100979796006" fileName="CornerCaseTailSpecialist.java" startLine="29" startPosition="7" endLine="30" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979795955" fileName="CornerCaseTailSpecialist.java" startLine="37" startPosition="41" endLine="38" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979795930" fileName="CornerCaseTailSpecialist.java" startLine="43" startPosition="18" endLine="44" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6963853100979795969" fileName="CornerCaseTailSpecialist.java" startLine="49" startPosition="40" endLine="50" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6963853100979795907" fileName="CornerCaseTailSpecialist.java" startLine="34" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CornerCaseTailSpecialist#()V" />
-    <nodeInfo nodeId="6963853100979854355" fileName="CornerCaseTailSpecialist.java" startLine="9" startPosition="26" endLine="12" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6963853100979796011" fileName="CornerCaseTailSpecialist.java" startLine="18" startPosition="20" endLine="21" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6963853100979854374" fileName="CornerCaseTailSpecialist.java" startLine="26" startPosition="35" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6963853100979795911" fileName="CornerCaseTailSpecialist.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="noArgsVoidMethod#()V" />
-    <nodeInfo nodeId="6963853100979795925" fileName="CornerCaseTailSpecialist.java" startLine="42" startPosition="18" endLine="45" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6963853100979795946" fileName="CornerCaseTailSpecialist.java" startLine="49" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="voidMethod#(I)V" />
-    <nodeInfo nodeId="6963853100979795995" fileName="CornerCaseTailSpecialist.java" startLine="17" startPosition="29" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="6963853100979795916" fileName="CornerCaseTailSpecialist.java" startLine="41" startPosition="35" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="6963853100979795986" fileName="CornerCaseTailSpecialist.java" startLine="9" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()V" />
-    <nodeInfo nodeId="6963853100979796004" fileName="CornerCaseTailSpecialist.java" startLine="26" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/Integer;)V" />
-    <nodeInfo nodeId="6963853100979795995" fileName="CornerCaseTailSpecialist.java" startLine="17" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()Ljava/lang/Integer;" />
-    <nodeInfo nodeId="6963853100979795916" fileName="CornerCaseTailSpecialist.java" startLine="41" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="noArgMethod#()I" />
-    <nodeInfo nodeId="6963853100979795978" fileName="CornerCaseTailSpecialist.java" startLine="8" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="noArgsVoidFunction" />
-    <nodeInfo nodeId="6963853100979796000" fileName="CornerCaseTailSpecialist.java" startLine="25" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="voidFunction" />
-    <nodeInfo nodeId="6963853100979795991" fileName="CornerCaseTailSpecialist.java" startLine="16" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="noArgsFunction" />
-    <scopeInfo nodeId="6963853100979795910" fileName="CornerCaseTailSpecialist.java" startLine="34" startPosition="37" endLine="34" endPosition="37" />
-    <scopeInfo nodeId="6963853100979854356" fileName="CornerCaseTailSpecialist.java" startLine="10" startPosition="18" endLine="11" endPosition="15" />
-    <scopeInfo nodeId="6963853100979796012" fileName="CornerCaseTailSpecialist.java" startLine="19" startPosition="20" endLine="20" endPosition="19" />
-    <scopeInfo nodeId="6963853100979854375" fileName="CornerCaseTailSpecialist.java" startLine="27" startPosition="18" endLine="28" endPosition="15" />
-    <scopeInfo nodeId="6963853100979795914" fileName="CornerCaseTailSpecialist.java" startLine="37" startPosition="41" endLine="38" endPosition="23" />
-    <scopeInfo nodeId="6963853100979795926" fileName="CornerCaseTailSpecialist.java" startLine="43" startPosition="18" endLine="44" endPosition="17" />
-    <scopeInfo nodeId="6963853100979795949" fileName="CornerCaseTailSpecialist.java" startLine="49" startPosition="40" endLine="50" endPosition="18" />
-    <scopeInfo nodeId="6963853100979795907" fileName="CornerCaseTailSpecialist.java" startLine="34" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="6963853100979795996" fileName="CornerCaseTailSpecialist.java" startLine="18" startPosition="20" endLine="21" endPosition="9" />
-    <scopeInfo nodeId="6963853100979795911" fileName="CornerCaseTailSpecialist.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="6963853100979795919" fileName="CornerCaseTailSpecialist.java" startLine="42" startPosition="18" endLine="45" endPosition="7" />
-    <scopeInfo nodeId="6963853100979795946" fileName="CornerCaseTailSpecialist.java" startLine="49" startPosition="0" endLine="52" endPosition="0">
-      <varInfo nodeId="6963853100979795951" varName="a" />
-    </scopeInfo>
-    <scopeInfo nodeId="6963853100979795987" fileName="CornerCaseTailSpecialist.java" startLine="9" startPosition="26" endLine="13" endPosition="15" />
-    <scopeInfo nodeId="6963853100979796005" fileName="CornerCaseTailSpecialist.java" startLine="26" startPosition="35" endLine="30" endPosition="16" />
-    <scopeInfo nodeId="6963853100979795995" fileName="CornerCaseTailSpecialist.java" startLine="17" startPosition="29" endLine="22" endPosition="7" />
-    <scopeInfo nodeId="6963853100979795916" fileName="CornerCaseTailSpecialist.java" startLine="41" startPosition="35" endLine="46" endPosition="5" />
-    <scopeInfo nodeId="6963853100979795986" fileName="CornerCaseTailSpecialist.java" startLine="9" startPosition="0" endLine="15" endPosition="0" />
-    <scopeInfo nodeId="6963853100979796004" fileName="CornerCaseTailSpecialist.java" startLine="26" startPosition="0" endLine="32" endPosition="0">
-      <varInfo nodeId="6963853100979796004" varName="a" />
-    </scopeInfo>
-    <scopeInfo nodeId="6963853100979795995" fileName="CornerCaseTailSpecialist.java" startLine="17" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="6963853100979795916" fileName="CornerCaseTailSpecialist.java" startLine="41" startPosition="0" endLine="48" endPosition="0" />
-    <unitInfo nodeId="6963853100979795986" fileName="CornerCaseTailSpecialist.java" startLine="8" startPosition="68" endLine="15" endPosition="3" unitName="TailRecursion.sandbox.test.CornerCaseTailSpecialist$1" />
-    <unitInfo nodeId="6963853100979796004" fileName="CornerCaseTailSpecialist.java" startLine="25" startPosition="79" endLine="32" endPosition="3" unitName="TailRecursion.sandbox.test.CornerCaseTailSpecialist$3" />
-    <unitInfo nodeId="6963853100979795995" fileName="CornerCaseTailSpecialist.java" startLine="16" startPosition="85" endLine="24" endPosition="3" unitName="TailRecursion.sandbox.test.CornerCaseTailSpecialist$2" />
-    <unitInfo nodeId="6963853100979795905" fileName="CornerCaseTailSpecialist.java" startLine="7" startPosition="0" endLine="53" endPosition="0" unitName="TailRecursion.sandbox.test.CornerCaseTailSpecialist" />
+    <file name="CornerCaseTailSpecialist.java">
+      <node id="6963853100979854372" at="10,18,11,15" concept="6" />
+      <node id="6963853100979795988" at="12,7,13,15" concept="2" />
+      <node id="6963853100979796028" at="19,20,20,19" concept="6" />
+      <node id="6963853100979854391" at="27,18,28,15" concept="6" />
+      <node id="6963853100979796006" at="29,7,30,16" concept="2" />
+      <node id="6963853100979795955" at="35,41,36,23" concept="2" />
+      <node id="6963853100979795930" at="40,18,41,17" concept="6" />
+      <node id="6963853100979795969" at="45,40,46,18" concept="2" />
+      <node id="6963853100979795907" at="33,0,35,0" concept="1" trace="CornerCaseTailSpecialist#()V" />
+      <node id="6963853100979854355" at="9,26,12,7" concept="3" />
+      <node id="6963853100979796011" at="18,20,21,9" concept="3" />
+      <node id="6963853100979854374" at="26,35,29,7" concept="3" />
+      <node id="6963853100979795911" at="35,0,38,0" concept="8" trace="noArgsVoidMethod#()V" />
+      <node id="6963853100979795925" at="39,18,42,7" concept="3" />
+      <node id="6963853100979795946" at="45,0,48,0" concept="8" trace="voidMethod#(I)V" />
+      <node id="6963853100979795995" at="17,29,22,7" concept="9" />
+      <node id="6963853100979795916" at="38,35,43,5" concept="9" />
+      <node id="6963853100979795986" at="9,0,15,0" concept="4" trace="invoke#()V" />
+      <node id="6963853100979796004" at="26,0,32,0" concept="4" trace="invoke#(Ljava/lang/Integer;)V" />
+      <node id="6963853100979795995" at="17,0,24,0" concept="4" trace="invoke#()Ljava/lang/Integer;" />
+      <node id="6963853100979795916" at="38,0,45,0" concept="8" trace="noArgMethod#()I" />
+      <node id="6963853100979795978" at="8,0,16,0" concept="7" trace="noArgsVoidFunction" />
+      <node id="6963853100979796000" at="25,0,33,0" concept="7" trace="voidFunction" />
+      <node id="6963853100979795991" at="16,0,25,0" concept="7" trace="noArgsFunction" />
+      <scope id="6963853100979795910" at="33,37,33,37" />
+      <scope id="6963853100979854356" at="10,18,11,15" />
+      <scope id="6963853100979796012" at="19,20,20,19" />
+      <scope id="6963853100979854375" at="27,18,28,15" />
+      <scope id="6963853100979795914" at="35,41,36,23" />
+      <scope id="6963853100979795926" at="40,18,41,17" />
+      <scope id="6963853100979795949" at="45,40,46,18" />
+      <scope id="6963853100979795907" at="33,0,35,0" />
+      <scope id="6963853100979795996" at="18,20,21,9" />
+      <scope id="6963853100979795911" at="35,0,38,0" />
+      <scope id="6963853100979795919" at="39,18,42,7" />
+      <scope id="6963853100979795946" at="45,0,48,0">
+        <var name="a" id="6963853100979795951" />
+      </scope>
+      <scope id="6963853100979795987" at="9,26,13,15" />
+      <scope id="6963853100979796005" at="26,35,30,16" />
+      <scope id="6963853100979795995" at="17,29,22,7" />
+      <scope id="6963853100979795916" at="38,35,43,5" />
+      <scope id="6963853100979795986" at="9,0,15,0" />
+      <scope id="6963853100979796004" at="26,0,32,0">
+        <var name="a" id="6963853100979796004" />
+      </scope>
+      <scope id="6963853100979795995" at="17,0,24,0" />
+      <scope id="6963853100979795916" at="38,0,45,0" />
+      <unit id="6963853100979795986" at="8,68,15,3" name="TailRecursion.sandbox.test.CornerCaseTailSpecialist$1" />
+      <unit id="6963853100979796004" at="25,79,32,3" name="TailRecursion.sandbox.test.CornerCaseTailSpecialist$3" />
+      <unit id="6963853100979795995" at="16,85,24,3" name="TailRecursion.sandbox.test.CornerCaseTailSpecialist$2" />
+      <unit id="6963853100979795905" at="7,0,49,0" name="TailRecursion.sandbox.test.CornerCaseTailSpecialist" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

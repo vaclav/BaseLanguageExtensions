@@ -1,357 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.IntentionsDescriptor" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)/9009622095742545593">
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545602" fileName="MakeMethodTailRecursive_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="71" startPosition="5" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545598" fileName="MakeMethodTailRecursive_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579443" fileName="MakeMethodTailRecursive_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeMethodTailRecursive_Intention#()V" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="49" startPosition="84" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="68" startPosition="99" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="22" startPosition="46" endLine="22" endPosition="46" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="76" startPosition="38" endLine="76" endPosition="38" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="72" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="37" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="99" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="54" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" />
-    <scopeInfo nodeId="9009622095742545601" fileName="MakeMethodTailRecursive_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="166" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="146" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="139" />
-    <scopeInfo nodeId="9009622095742545595" fileName="MakeMethodTailRecursive_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="42" />
-    <scopeInfo nodeId="9009622095742545597" fileName="MakeMethodTailRecursive_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="227" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="52" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="9009622095742545593" varName="editorContext" />
-      <varInfo nodeId="9009622095742545593" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="9009622095742545593" varName="editorContext" />
-      <varInfo nodeId="9009622095742545593" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
-      <varInfo nodeId="9009622095742545593" varName="editorContext" />
-      <varInfo nodeId="9009622095742545593" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="49" startPosition="84" endLine="53" endPosition="16" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="68" startPosition="99" endLine="72" endPosition="30" />
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="9009622095742545593" varName="editorContext" />
-      <varInfo nodeId="9009622095742545593" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0">
-      <varInfo nodeId="9009622095742545593" varName="context" />
-      <varInfo nodeId="9009622095742545593" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="75" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention$IntentionImplementation" />
-    <unitInfo nodeId="9009622095742545593" fileName="MakeMethodTailRecursive_Intention.java" startLine="19" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention" />
+    <file name="MakeMethodTailRecursive_Intention.java">
+      <node id="9009622095742545593" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
+      <node id="9009622095742545593" at="24,30,25,72" concept="5" />
+      <node id="9009622095742545593" at="27,35,28,37" concept="5" />
+      <node id="9009622095742545593" at="30,41,31,99" concept="5" />
+      <node id="9009622095742545593" at="33,37,34,54" concept="5" />
+      <node id="9009622095742545593" at="36,34,37,32" concept="5" />
+      <node id="9009622095742545593" at="39,44,40,17" concept="5" />
+      <node id="9009622095742545593" at="43,53,44,19" concept="5" />
+      <node id="9009622095742545593" at="45,5,46,16" concept="5" />
+      <node id="9009622095742545602" at="48,91,49,260" concept="5" />
+      <node id="9009622095742545593" at="51,53,52,146" concept="5" />
+      <node id="9009622095742545593" at="54,35,55,17" concept="5" />
+      <node id="9009622095742545593" at="58,37,59,139" concept="1" />
+      <node id="9009622095742545593" at="60,5,61,30" concept="5" />
+      <node id="9009622095742545598" at="66,87,67,42" concept="5" />
+      <node id="9009622095742579443" at="69,78,70,457" concept="1" />
+      <node id="9009622095742545593" at="72,48,73,52" concept="5" />
+      <node id="9009622095742545593" at="22,0,24,0" concept="0" trace="MakeMethodTailRecursive_Intention#()V" />
+      <node id="9009622095742545593" at="64,0,66,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="9009622095742545593" at="24,0,27,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="9009622095742545593" at="27,0,30,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="9009622095742545593" at="30,0,33,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="9009622095742545593" at="33,0,36,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="9009622095742545593" at="36,0,39,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="9009622095742545593" at="39,0,42,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="9009622095742545593" at="42,84,45,5" concept="3" />
+      <node id="9009622095742545593" at="48,0,51,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742545593" at="51,0,54,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9009622095742545593" at="54,0,57,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="9009622095742545593" at="57,99,60,5" concept="3" />
+      <node id="9009622095742545593" at="66,0,69,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="9009622095742545593" at="69,0,72,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="9009622095742545593" at="72,0,75,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="9009622095742545593" at="42,0,48,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742545593" at="57,0,63,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="9009622095742545593" at="22,46,22,46" />
+      <scope id="9009622095742545593" at="64,38,64,38" />
+      <scope id="9009622095742545593" at="24,30,25,72" />
+      <scope id="9009622095742545593" at="27,35,28,37" />
+      <scope id="9009622095742545593" at="30,41,31,99" />
+      <scope id="9009622095742545593" at="33,37,34,54" />
+      <scope id="9009622095742545593" at="36,34,37,32" />
+      <scope id="9009622095742545593" at="39,44,40,17" />
+      <scope id="9009622095742545593" at="43,53,44,19" />
+      <scope id="9009622095742545601" at="48,91,49,260" />
+      <scope id="9009622095742545593" at="51,53,52,146" />
+      <scope id="9009622095742545593" at="54,35,55,17" />
+      <scope id="9009622095742545593" at="58,37,59,139" />
+      <scope id="9009622095742545595" at="66,87,67,42" />
+      <scope id="9009622095742545597" at="69,78,70,457" />
+      <scope id="9009622095742545593" at="72,48,73,52" />
+      <scope id="9009622095742545593" at="22,0,24,0" />
+      <scope id="9009622095742545593" at="64,0,66,0" />
+      <scope id="9009622095742545593" at="24,0,27,0" />
+      <scope id="9009622095742545593" at="27,0,30,0" />
+      <scope id="9009622095742545593" at="30,0,33,0" />
+      <scope id="9009622095742545593" at="33,0,36,0" />
+      <scope id="9009622095742545593" at="36,0,39,0" />
+      <scope id="9009622095742545593" at="39,0,42,0" />
+      <scope id="9009622095742545593" at="48,0,51,0">
+        <var name="editorContext" id="9009622095742545593" />
+        <var name="node" id="9009622095742545593" />
+      </scope>
+      <scope id="9009622095742545593" at="51,0,54,0" />
+      <scope id="9009622095742545593" at="54,0,57,0" />
+      <scope id="9009622095742545593" at="66,0,69,0">
+        <var name="editorContext" id="9009622095742545593" />
+        <var name="node" id="9009622095742545593" />
+      </scope>
+      <scope id="9009622095742545593" at="69,0,72,0">
+        <var name="editorContext" id="9009622095742545593" />
+        <var name="node" id="9009622095742545593" />
+      </scope>
+      <scope id="9009622095742545593" at="72,0,75,0" />
+      <scope id="9009622095742545593" at="42,84,46,16" />
+      <scope id="9009622095742545593" at="57,99,61,30" />
+      <scope id="9009622095742545593" at="42,0,48,0">
+        <var name="editorContext" id="9009622095742545593" />
+        <var name="node" id="9009622095742545593" />
+      </scope>
+      <scope id="9009622095742545593" at="57,0,63,0">
+        <var name="context" id="9009622095742545593" />
+        <var name="node" id="9009622095742545593" />
+      </scope>
+      <unit id="9009622095742545593" at="63,0,76,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention$IntentionImplementation" />
+      <unit id="9009622095742545593" at="20,0,77,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention" />
+    </file>
   </root>
   <root nodeRef="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)/9009622095742579504">
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="51" startPosition="5" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579513" fileName="MakeMethodRecursive_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="70" startPosition="5" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579509" fileName="MakeMethodRecursive_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579570" fileName="MakeMethodRecursive_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeMethodRecursive_Intention#()V" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="67" startPosition="99" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="21" startPosition="42" endLine="21" endPosition="42" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="75" startPosition="38" endLine="75" endPosition="38" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="72" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="33" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="95" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="54" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
-    <scopeInfo nodeId="9009622095742579512" fileName="MakeMethodRecursive_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="166" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="146" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="135" />
-    <scopeInfo nodeId="9009622095742579506" fileName="MakeMethodRecursive_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="37" />
-    <scopeInfo nodeId="9009622095742579508" fileName="MakeMethodRecursive_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="159" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="48" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="9009622095742579504" varName="editorContext" />
-      <varInfo nodeId="9009622095742579504" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0">
-      <varInfo nodeId="9009622095742579504" varName="editorContext" />
-      <varInfo nodeId="9009622095742579504" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="9009622095742579504" varName="editorContext" />
-      <varInfo nodeId="9009622095742579504" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="67" startPosition="99" endLine="71" endPosition="30" />
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="9009622095742579504" varName="editorContext" />
-      <varInfo nodeId="9009622095742579504" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0">
-      <varInfo nodeId="9009622095742579504" varName="context" />
-      <varInfo nodeId="9009622095742579504" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="74" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention$IntentionImplementation" />
-    <unitInfo nodeId="9009622095742579504" fileName="MakeMethodRecursive_Intention.java" startLine="18" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention" />
+    <file name="MakeMethodRecursive_Intention.java">
+      <node id="9009622095742579504" at="20,0,21,0" concept="2" trace="myCachedExecutable" />
+      <node id="9009622095742579504" at="23,30,24,72" concept="5" />
+      <node id="9009622095742579504" at="26,35,27,33" concept="5" />
+      <node id="9009622095742579504" at="29,41,30,95" concept="5" />
+      <node id="9009622095742579504" at="32,37,33,54" concept="5" />
+      <node id="9009622095742579504" at="35,34,36,32" concept="5" />
+      <node id="9009622095742579504" at="38,44,39,17" concept="5" />
+      <node id="9009622095742579504" at="42,53,43,19" concept="5" />
+      <node id="9009622095742579504" at="44,5,45,16" concept="5" />
+      <node id="9009622095742579513" at="47,91,48,260" concept="5" />
+      <node id="9009622095742579504" at="50,53,51,146" concept="5" />
+      <node id="9009622095742579504" at="53,35,54,17" concept="5" />
+      <node id="9009622095742579504" at="57,37,58,135" concept="1" />
+      <node id="9009622095742579504" at="59,5,60,30" concept="5" />
+      <node id="9009622095742579509" at="65,87,66,37" concept="5" />
+      <node id="9009622095742579570" at="68,78,69,253" concept="1" />
+      <node id="9009622095742579504" at="71,48,72,48" concept="5" />
+      <node id="9009622095742579504" at="21,0,23,0" concept="0" trace="MakeMethodRecursive_Intention#()V" />
+      <node id="9009622095742579504" at="63,0,65,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="9009622095742579504" at="23,0,26,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="9009622095742579504" at="26,0,29,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="9009622095742579504" at="29,0,32,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="9009622095742579504" at="32,0,35,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="9009622095742579504" at="35,0,38,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="9009622095742579504" at="38,0,41,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="9009622095742579504" at="41,84,44,5" concept="3" />
+      <node id="9009622095742579504" at="47,0,50,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742579504" at="50,0,53,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9009622095742579504" at="53,0,56,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="9009622095742579504" at="56,99,59,5" concept="3" />
+      <node id="9009622095742579504" at="65,0,68,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="9009622095742579504" at="68,0,71,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="9009622095742579504" at="71,0,74,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="9009622095742579504" at="41,0,47,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742579504" at="56,0,62,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="9009622095742579504" at="21,42,21,42" />
+      <scope id="9009622095742579504" at="63,38,63,38" />
+      <scope id="9009622095742579504" at="23,30,24,72" />
+      <scope id="9009622095742579504" at="26,35,27,33" />
+      <scope id="9009622095742579504" at="29,41,30,95" />
+      <scope id="9009622095742579504" at="32,37,33,54" />
+      <scope id="9009622095742579504" at="35,34,36,32" />
+      <scope id="9009622095742579504" at="38,44,39,17" />
+      <scope id="9009622095742579504" at="42,53,43,19" />
+      <scope id="9009622095742579512" at="47,91,48,260" />
+      <scope id="9009622095742579504" at="50,53,51,146" />
+      <scope id="9009622095742579504" at="53,35,54,17" />
+      <scope id="9009622095742579504" at="57,37,58,135" />
+      <scope id="9009622095742579506" at="65,87,66,37" />
+      <scope id="9009622095742579508" at="68,78,69,253" />
+      <scope id="9009622095742579504" at="71,48,72,48" />
+      <scope id="9009622095742579504" at="21,0,23,0" />
+      <scope id="9009622095742579504" at="63,0,65,0" />
+      <scope id="9009622095742579504" at="23,0,26,0" />
+      <scope id="9009622095742579504" at="26,0,29,0" />
+      <scope id="9009622095742579504" at="29,0,32,0" />
+      <scope id="9009622095742579504" at="32,0,35,0" />
+      <scope id="9009622095742579504" at="35,0,38,0" />
+      <scope id="9009622095742579504" at="38,0,41,0" />
+      <scope id="9009622095742579504" at="47,0,50,0">
+        <var name="editorContext" id="9009622095742579504" />
+        <var name="node" id="9009622095742579504" />
+      </scope>
+      <scope id="9009622095742579504" at="50,0,53,0" />
+      <scope id="9009622095742579504" at="53,0,56,0" />
+      <scope id="9009622095742579504" at="65,0,68,0">
+        <var name="editorContext" id="9009622095742579504" />
+        <var name="node" id="9009622095742579504" />
+      </scope>
+      <scope id="9009622095742579504" at="68,0,71,0">
+        <var name="editorContext" id="9009622095742579504" />
+        <var name="node" id="9009622095742579504" />
+      </scope>
+      <scope id="9009622095742579504" at="71,0,74,0" />
+      <scope id="9009622095742579504" at="41,84,45,16" />
+      <scope id="9009622095742579504" at="56,99,60,30" />
+      <scope id="9009622095742579504" at="41,0,47,0">
+        <var name="editorContext" id="9009622095742579504" />
+        <var name="node" id="9009622095742579504" />
+      </scope>
+      <scope id="9009622095742579504" at="56,0,62,0">
+        <var name="context" id="9009622095742579504" />
+        <var name="node" id="9009622095742579504" />
+      </scope>
+      <unit id="9009622095742579504" at="62,0,75,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention$IntentionImplementation" />
+      <unit id="9009622095742579504" at="19,0,76,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention" />
+    </file>
   </root>
   <root nodeRef="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)/9009622095742619462">
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619471" fileName="MakeClosureTailRecursive_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="71" startPosition="5" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619467" fileName="MakeClosureTailRecursive_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619479" fileName="MakeClosureTailRecursive_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeClosureTailRecursive_Intention#()V" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="49" startPosition="84" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="68" startPosition="99" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="22" startPosition="47" endLine="22" endPosition="47" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="76" startPosition="38" endLine="76" endPosition="38" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="74" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="38" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="100" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="54" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" />
-    <scopeInfo nodeId="9009622095742619470" fileName="MakeClosureTailRecursive_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="166" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="146" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="140" />
-    <scopeInfo nodeId="9009622095742619464" fileName="MakeClosureTailRecursive_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="43" />
-    <scopeInfo nodeId="9009622095742619466" fileName="MakeClosureTailRecursive_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="227" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="53" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="9009622095742619462" varName="editorContext" />
-      <varInfo nodeId="9009622095742619462" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="9009622095742619462" varName="editorContext" />
-      <varInfo nodeId="9009622095742619462" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
-      <varInfo nodeId="9009622095742619462" varName="editorContext" />
-      <varInfo nodeId="9009622095742619462" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="49" startPosition="84" endLine="53" endPosition="16" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="68" startPosition="99" endLine="72" endPosition="30" />
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="9009622095742619462" varName="editorContext" />
-      <varInfo nodeId="9009622095742619462" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0">
-      <varInfo nodeId="9009622095742619462" varName="context" />
-      <varInfo nodeId="9009622095742619462" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="75" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention$IntentionImplementation" />
-    <unitInfo nodeId="9009622095742619462" fileName="MakeClosureTailRecursive_Intention.java" startLine="19" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention" />
+    <file name="MakeClosureTailRecursive_Intention.java">
+      <node id="9009622095742619462" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
+      <node id="9009622095742619462" at="24,30,25,74" concept="5" />
+      <node id="9009622095742619462" at="27,35,28,38" concept="5" />
+      <node id="9009622095742619462" at="30,41,31,100" concept="5" />
+      <node id="9009622095742619462" at="33,37,34,54" concept="5" />
+      <node id="9009622095742619462" at="36,34,37,32" concept="5" />
+      <node id="9009622095742619462" at="39,44,40,17" concept="5" />
+      <node id="9009622095742619462" at="43,53,44,19" concept="5" />
+      <node id="9009622095742619462" at="45,5,46,16" concept="5" />
+      <node id="9009622095742619471" at="48,91,49,260" concept="5" />
+      <node id="9009622095742619462" at="51,53,52,146" concept="5" />
+      <node id="9009622095742619462" at="54,35,55,17" concept="5" />
+      <node id="9009622095742619462" at="58,37,59,140" concept="1" />
+      <node id="9009622095742619462" at="60,5,61,30" concept="5" />
+      <node id="9009622095742619467" at="66,87,67,43" concept="5" />
+      <node id="9009622095742619479" at="69,78,70,457" concept="1" />
+      <node id="9009622095742619462" at="72,48,73,53" concept="5" />
+      <node id="9009622095742619462" at="22,0,24,0" concept="0" trace="MakeClosureTailRecursive_Intention#()V" />
+      <node id="9009622095742619462" at="64,0,66,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="9009622095742619462" at="24,0,27,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="9009622095742619462" at="27,0,30,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="9009622095742619462" at="30,0,33,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="9009622095742619462" at="33,0,36,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="9009622095742619462" at="36,0,39,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="9009622095742619462" at="39,0,42,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="9009622095742619462" at="42,84,45,5" concept="3" />
+      <node id="9009622095742619462" at="48,0,51,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742619462" at="51,0,54,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9009622095742619462" at="54,0,57,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="9009622095742619462" at="57,99,60,5" concept="3" />
+      <node id="9009622095742619462" at="66,0,69,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="9009622095742619462" at="69,0,72,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="9009622095742619462" at="72,0,75,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="9009622095742619462" at="42,0,48,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742619462" at="57,0,63,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="9009622095742619462" at="22,47,22,47" />
+      <scope id="9009622095742619462" at="64,38,64,38" />
+      <scope id="9009622095742619462" at="24,30,25,74" />
+      <scope id="9009622095742619462" at="27,35,28,38" />
+      <scope id="9009622095742619462" at="30,41,31,100" />
+      <scope id="9009622095742619462" at="33,37,34,54" />
+      <scope id="9009622095742619462" at="36,34,37,32" />
+      <scope id="9009622095742619462" at="39,44,40,17" />
+      <scope id="9009622095742619462" at="43,53,44,19" />
+      <scope id="9009622095742619470" at="48,91,49,260" />
+      <scope id="9009622095742619462" at="51,53,52,146" />
+      <scope id="9009622095742619462" at="54,35,55,17" />
+      <scope id="9009622095742619462" at="58,37,59,140" />
+      <scope id="9009622095742619464" at="66,87,67,43" />
+      <scope id="9009622095742619466" at="69,78,70,457" />
+      <scope id="9009622095742619462" at="72,48,73,53" />
+      <scope id="9009622095742619462" at="22,0,24,0" />
+      <scope id="9009622095742619462" at="64,0,66,0" />
+      <scope id="9009622095742619462" at="24,0,27,0" />
+      <scope id="9009622095742619462" at="27,0,30,0" />
+      <scope id="9009622095742619462" at="30,0,33,0" />
+      <scope id="9009622095742619462" at="33,0,36,0" />
+      <scope id="9009622095742619462" at="36,0,39,0" />
+      <scope id="9009622095742619462" at="39,0,42,0" />
+      <scope id="9009622095742619462" at="48,0,51,0">
+        <var name="editorContext" id="9009622095742619462" />
+        <var name="node" id="9009622095742619462" />
+      </scope>
+      <scope id="9009622095742619462" at="51,0,54,0" />
+      <scope id="9009622095742619462" at="54,0,57,0" />
+      <scope id="9009622095742619462" at="66,0,69,0">
+        <var name="editorContext" id="9009622095742619462" />
+        <var name="node" id="9009622095742619462" />
+      </scope>
+      <scope id="9009622095742619462" at="69,0,72,0">
+        <var name="editorContext" id="9009622095742619462" />
+        <var name="node" id="9009622095742619462" />
+      </scope>
+      <scope id="9009622095742619462" at="72,0,75,0" />
+      <scope id="9009622095742619462" at="42,84,46,16" />
+      <scope id="9009622095742619462" at="57,99,61,30" />
+      <scope id="9009622095742619462" at="42,0,48,0">
+        <var name="editorContext" id="9009622095742619462" />
+        <var name="node" id="9009622095742619462" />
+      </scope>
+      <scope id="9009622095742619462" at="57,0,63,0">
+        <var name="context" id="9009622095742619462" />
+        <var name="node" id="9009622095742619462" />
+      </scope>
+      <unit id="9009622095742619462" at="63,0,76,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention$IntentionImplementation" />
+      <unit id="9009622095742619462" at="20,0,77,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention" />
+    </file>
   </root>
   <root nodeRef="r:6df770e3-0000-4824-9d7d-6d58a2073987(jetbrains.mps.baseLanguage.tailRecursion.intentions)/9009622095742619488">
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="51" startPosition="5" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619498" fileName="MakeClosureRecursive_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="70" startPosition="5" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619493" fileName="MakeClosureRecursive_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619506" fileName="MakeClosureRecursive_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeClosureRecursive_Intention#()V" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="67" startPosition="99" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="21" startPosition="43" endLine="21" endPosition="43" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="75" startPosition="38" endLine="75" endPosition="38" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="74" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="34" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="96" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="54" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
-    <scopeInfo nodeId="9009622095742619496" fileName="MakeClosureRecursive_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="166" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="146" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="136" />
-    <scopeInfo nodeId="9009622095742619490" fileName="MakeClosureRecursive_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="38" />
-    <scopeInfo nodeId="9009622095742619492" fileName="MakeClosureRecursive_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="159" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="49" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="9009622095742619488" varName="editorContext" />
-      <varInfo nodeId="9009622095742619488" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0">
-      <varInfo nodeId="9009622095742619488" varName="editorContext" />
-      <varInfo nodeId="9009622095742619488" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="9009622095742619488" varName="editorContext" />
-      <varInfo nodeId="9009622095742619488" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="67" startPosition="99" endLine="71" endPosition="30" />
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="9009622095742619488" varName="editorContext" />
-      <varInfo nodeId="9009622095742619488" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0">
-      <varInfo nodeId="9009622095742619488" varName="context" />
-      <varInfo nodeId="9009622095742619488" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="74" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention$IntentionImplementation" />
-    <unitInfo nodeId="9009622095742619488" fileName="MakeClosureRecursive_Intention.java" startLine="18" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention" />
+    <file name="MakeClosureRecursive_Intention.java">
+      <node id="9009622095742619488" at="20,0,21,0" concept="2" trace="myCachedExecutable" />
+      <node id="9009622095742619488" at="23,30,24,74" concept="5" />
+      <node id="9009622095742619488" at="26,35,27,34" concept="5" />
+      <node id="9009622095742619488" at="29,41,30,96" concept="5" />
+      <node id="9009622095742619488" at="32,37,33,54" concept="5" />
+      <node id="9009622095742619488" at="35,34,36,32" concept="5" />
+      <node id="9009622095742619488" at="38,44,39,17" concept="5" />
+      <node id="9009622095742619488" at="42,53,43,19" concept="5" />
+      <node id="9009622095742619488" at="44,5,45,16" concept="5" />
+      <node id="9009622095742619498" at="47,91,48,260" concept="5" />
+      <node id="9009622095742619488" at="50,53,51,146" concept="5" />
+      <node id="9009622095742619488" at="53,35,54,17" concept="5" />
+      <node id="9009622095742619488" at="57,37,58,136" concept="1" />
+      <node id="9009622095742619488" at="59,5,60,30" concept="5" />
+      <node id="9009622095742619493" at="65,87,66,38" concept="5" />
+      <node id="9009622095742619506" at="68,78,69,253" concept="1" />
+      <node id="9009622095742619488" at="71,48,72,49" concept="5" />
+      <node id="9009622095742619488" at="21,0,23,0" concept="0" trace="MakeClosureRecursive_Intention#()V" />
+      <node id="9009622095742619488" at="63,0,65,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="9009622095742619488" at="23,0,26,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="9009622095742619488" at="26,0,29,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="9009622095742619488" at="29,0,32,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="9009622095742619488" at="32,0,35,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="9009622095742619488" at="35,0,38,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="9009622095742619488" at="38,0,41,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="9009622095742619488" at="41,84,44,5" concept="3" />
+      <node id="9009622095742619488" at="47,0,50,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742619488" at="50,0,53,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="9009622095742619488" at="53,0,56,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="9009622095742619488" at="56,99,59,5" concept="3" />
+      <node id="9009622095742619488" at="65,0,68,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="9009622095742619488" at="68,0,71,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="9009622095742619488" at="71,0,74,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="9009622095742619488" at="41,0,47,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="9009622095742619488" at="56,0,62,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="9009622095742619488" at="21,43,21,43" />
+      <scope id="9009622095742619488" at="63,38,63,38" />
+      <scope id="9009622095742619488" at="23,30,24,74" />
+      <scope id="9009622095742619488" at="26,35,27,34" />
+      <scope id="9009622095742619488" at="29,41,30,96" />
+      <scope id="9009622095742619488" at="32,37,33,54" />
+      <scope id="9009622095742619488" at="35,34,36,32" />
+      <scope id="9009622095742619488" at="38,44,39,17" />
+      <scope id="9009622095742619488" at="42,53,43,19" />
+      <scope id="9009622095742619496" at="47,91,48,260" />
+      <scope id="9009622095742619488" at="50,53,51,146" />
+      <scope id="9009622095742619488" at="53,35,54,17" />
+      <scope id="9009622095742619488" at="57,37,58,136" />
+      <scope id="9009622095742619490" at="65,87,66,38" />
+      <scope id="9009622095742619492" at="68,78,69,253" />
+      <scope id="9009622095742619488" at="71,48,72,49" />
+      <scope id="9009622095742619488" at="21,0,23,0" />
+      <scope id="9009622095742619488" at="63,0,65,0" />
+      <scope id="9009622095742619488" at="23,0,26,0" />
+      <scope id="9009622095742619488" at="26,0,29,0" />
+      <scope id="9009622095742619488" at="29,0,32,0" />
+      <scope id="9009622095742619488" at="32,0,35,0" />
+      <scope id="9009622095742619488" at="35,0,38,0" />
+      <scope id="9009622095742619488" at="38,0,41,0" />
+      <scope id="9009622095742619488" at="47,0,50,0">
+        <var name="editorContext" id="9009622095742619488" />
+        <var name="node" id="9009622095742619488" />
+      </scope>
+      <scope id="9009622095742619488" at="50,0,53,0" />
+      <scope id="9009622095742619488" at="53,0,56,0" />
+      <scope id="9009622095742619488" at="65,0,68,0">
+        <var name="editorContext" id="9009622095742619488" />
+        <var name="node" id="9009622095742619488" />
+      </scope>
+      <scope id="9009622095742619488" at="68,0,71,0">
+        <var name="editorContext" id="9009622095742619488" />
+        <var name="node" id="9009622095742619488" />
+      </scope>
+      <scope id="9009622095742619488" at="71,0,74,0" />
+      <scope id="9009622095742619488" at="41,84,45,16" />
+      <scope id="9009622095742619488" at="56,99,60,30" />
+      <scope id="9009622095742619488" at="41,0,47,0">
+        <var name="editorContext" id="9009622095742619488" />
+        <var name="node" id="9009622095742619488" />
+      </scope>
+      <scope id="9009622095742619488" at="56,0,62,0">
+        <var name="context" id="9009622095742619488" />
+        <var name="node" id="9009622095742619488" />
+      </scope>
+      <unit id="9009622095742619488" at="62,0,75,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention$IntentionImplementation" />
+      <unit id="9009622095742619488" at="19,0,76,0" name="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

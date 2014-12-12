@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root nodeRef="r:9b304b44-9312-417e-95eb-d532258d7c8b(TailRecursion.sandbox.sandbox)/8318062847653492842">
-    <nodeInfo nodeId="8318062847653494084" fileName="Foo.java" startLine="8" startPosition="17" endLine="9" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8318062847653494220" fileName="Foo.java" startLine="10" startPosition="5" endLine="11" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8318062847653501672" fileName="Foo.java" startLine="16" startPosition="42" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8318062847653493000" fileName="Foo.java" startLine="7" startPosition="47" endLine="10" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8318062847653501265" fileName="Foo.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <nodeInfo nodeId="8318062847653502959" fileName="Foo.java" startLine="7" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="factorial#(II)I" />
-    <scopeInfo nodeId="8318062847653493001" fileName="Foo.java" startLine="8" startPosition="17" endLine="9" endPosition="17" />
-    <scopeInfo nodeId="8318062847653501271" fileName="Foo.java" startLine="16" startPosition="42" endLine="17" endPosition="54" />
-    <scopeInfo nodeId="8318062847653501265" fileName="Foo.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="8318062847653501266" varName="args" />
-    </scopeInfo>
-    <scopeInfo nodeId="8318062847653492935" fileName="Foo.java" startLine="7" startPosition="47" endLine="11" endPosition="37" />
-    <scopeInfo nodeId="8318062847653502959" fileName="Foo.java" startLine="7" startPosition="0" endLine="13" endPosition="0">
-      <varInfo nodeId="8318062847653492963" varName="acc" />
-      <varInfo nodeId="8318062847653492946" varName="n" />
-    </scopeInfo>
-    <unitInfo nodeId="8318062847653492842" fileName="Foo.java" startLine="6" startPosition="0" endLine="20" endPosition="0" unitName="TailRecursion.sandbox.sandbox.Foo" />
+    <file name="Foo.java">
+      <node id="8318062847653494084" at="8,17,9,17" concept="2" />
+      <node id="8318062847653494220" at="10,5,11,37" concept="2" />
+      <node id="8318062847653501672" at="14,42,15,54" concept="0" />
+      <node id="8318062847653493000" at="7,47,10,5" concept="1" />
+      <node id="8318062847653501265" at="14,0,17,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <node id="8318062847653502959" at="7,0,13,0" concept="3" trace="factorial#(II)I" />
+      <scope id="8318062847653493001" at="8,17,9,17" />
+      <scope id="8318062847653501271" at="14,42,15,54" />
+      <scope id="8318062847653501265" at="14,0,17,0">
+        <var name="args" id="8318062847653501266" />
+      </scope>
+      <scope id="8318062847653492935" at="7,47,11,37" />
+      <scope id="8318062847653502959" at="7,0,13,0">
+        <var name="acc" id="8318062847653492963" />
+        <var name="n" id="8318062847653492946" />
+      </scope>
+      <unit id="8318062847653492842" at="6,0,18,0" name="TailRecursion.sandbox.sandbox.Foo" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

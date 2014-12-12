@@ -9,6 +9,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
@@ -22,13 +24,12 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-
   public static void mappingScript_CodeBlock_9009622095742524456(final MappingScriptContext _context) {
-    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
+    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
-        return ListSequence.fromList(SNodeOperations.getDescendants(it, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration", false, new String[]{})).where(new IWhereFilter<SNode>() {
+        return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion")) != null;
+            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null;
           }
         });
       }
@@ -36,7 +37,7 @@ public class QueriesGenerated {
 
     Sequence.fromIterable(methods).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "returnType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType")), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType"));
       }
     }).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
@@ -46,38 +47,37 @@ public class QueriesGenerated {
 
     Sequence.fromIterable(methods).visitAll(new IVisitor<SNode>() {
       public void visit(final SNode method) {
-        SNode lastNode = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(method, "body", true), "statement", true)).last();
+        SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(method, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement"))).last();
         if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
           return;
         }
 
-        final SNode methodCall = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.structure.IMethodCall", false, new String[]{})).first();
-        final SNode containingStatementList = SNodeOperations.getAncestor(methodCall, "jetbrains.mps.baseLanguage.structure.StatementList", false, false);
+        final SNode methodCall = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, MetaAdapterFactory.getInterfaceConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, "jetbrains.mps.baseLanguage.structure.IMethodCall"), false, new SAbstractConcept[]{})).first();
+        final SNode containingStatementList = SNodeOperations.getNodeAncestor(methodCall, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"), false, false);
 
         if (GenHelper.checkMethodCallInvokesCorrectMethod(method, _context, methodCall)) {
           return;
         }
         GenHelper.checkPathForIncorrectNodes(_context, lastNode, methodCall);
 
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StatementList", null);
-        ListSequence.fromList(SLinkOperations.getTargets(method, "parameter", true)).visitAll(new IVisitor<SNode>() {
+        final SNode parameterCopyBlock = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList")));
+        ListSequence.fromList(SLinkOperations.getChildren(method, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1feL, "parameter"))).visitAll(new IVisitor<SNode>() {
           public void visit(SNode param) {
-            GenHelper.handleParameter(method, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getTargets(methodCall, "actualArgument", true)).getElement(SNodeOperations.getIndexInParent(param)), _context);
+            GenHelper.handleParameter(method, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(methodCall, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301aeL, "actualArgument"))).getElement(SNodeOperations.getIndexInParent(param)), _context);
           }
         });
         GenHelper.removeTailStatement(methodCall);
 
-        SLinkOperations.setTarget(method, "body", GenHelper.wrapInLoop(SLinkOperations.getTarget(method, "body", true), parameterCopyBlock), true);
+        SLinkOperations.setTarget(method, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body"), GenHelper.wrapInLoop(SLinkOperations.getTarget(method, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body")), parameterCopyBlock));
       }
     });
   }
-
   public static void mappingScript_CodeBlock_9009622095742619517(final MappingScriptContext _context) {
-    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
+    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
-        return ListSequence.fromList(SNodeOperations.getDescendants(it, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral", false, new String[]{})).where(new IWhereFilter<SNode>() {
+        return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion")) != null;
+            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null;
           }
         });
       }
@@ -85,7 +85,7 @@ public class QueriesGenerated {
 
     Sequence.fromIterable(closures).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(it), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true), "jetbrains.mps.baseLanguage.structure.VoidType");
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(it), MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, "jetbrains.mps.baseLanguage.closures.structure.FunctionType")), MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, 0x1174a4d5371L, "resultType")), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType"));
       }
     }).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
@@ -95,25 +95,25 @@ public class QueriesGenerated {
 
     Sequence.fromIterable(closures).visitAll(new IVisitor<SNode>() {
       public void visit(final SNode closure) {
-        SNode lastNode = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(closure, "body", true), "statement", true)).last();
+        SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(closure, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf0522fL, "body")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement"))).last();
         if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
           return;
         }
 
-        final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression", false, new String[]{})).first();
-        final SNode containingStatementList = SNodeOperations.getAncestor(invokeExpression, "jetbrains.mps.baseLanguage.structure.StatementList", false, false);
+        final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x117545d385aL, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression"), false, new SAbstractConcept[]{})).first();
+        final SNode containingStatementList = SNodeOperations.getNodeAncestor(invokeExpression, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"), false, false);
 
         GenHelper.checkPathForIncorrectNodes(_context, lastNode, invokeExpression);
 
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StatementList", null);
-        ListSequence.fromList(SLinkOperations.getTargets(closure, "parameter", true)).visitAll(new IVisitor<SNode>() {
+        final SNode parameterCopyBlock = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList")));
+        ListSequence.fromList(SLinkOperations.getChildren(closure, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf02c34L, "parameter"))).visitAll(new IVisitor<SNode>() {
           public void visit(SNode param) {
-            GenHelper.handleParameter(closure, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getTargets(invokeExpression, "parameter", true)).getElement(SNodeOperations.getIndexInParent(param)), _context);
+            GenHelper.handleParameter(closure, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(invokeExpression, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x117545d385aL, 0x117545e58d8L, "parameter"))).getElement(SNodeOperations.getIndexInParent(param)), _context);
           }
         });
         GenHelper.removeTailStatement(invokeExpression);
 
-        SLinkOperations.setTarget(closure, "body", GenHelper.wrapInLoop(SLinkOperations.getTarget(closure, "body", true), parameterCopyBlock), true);
+        SLinkOperations.setTarget(closure, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf0522fL, "body"), GenHelper.wrapInLoop(SLinkOperations.getTarget(closure, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf0522fL, "body")), parameterCopyBlock));
       }
     });
   }

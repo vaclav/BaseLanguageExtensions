@@ -16,7 +16,6 @@ public class TailRecursion_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6plbyl_a(editorContext, node);
   }
-
   private EditorCell createCollection_6plbyl_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6plbyl_a");
@@ -25,14 +24,12 @@ public class TailRecursion_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createAttributedNodeCell_6plbyl_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_6plbyl_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "tail recursive");
     editorCell.setCellId("Constant_6plbyl_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createAttributedNodeCell_6plbyl_b0(EditorContext editorContext, SNode node) {
     IOperationContext opContext = editorContext.getOperationContext();
     EditorManager manager = EditorManager.getInstanceFromContext(opContext);

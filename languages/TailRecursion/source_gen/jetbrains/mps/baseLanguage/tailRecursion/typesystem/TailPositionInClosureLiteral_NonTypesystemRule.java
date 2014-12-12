@@ -9,11 +9,13 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -22,15 +24,14 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class TailPositionInClosureLiteral_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public TailPositionInClosureLiteral_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode closureLiteral, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (AttributeOperations.getAttribute(closureLiteral, new IAttributeDescriptor.NodeAttribute("jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion")) != null) {
-      CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(closureLiteral), "jetbrains.mps.baseLanguage.closures.structure.FunctionType"), "resultType", true), closureLiteral);
+    if (AttributeOperations.getAttribute(closureLiteral, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion"))) != null) {
+      CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(SNodeOperations.cast(TypeChecker.getInstance().getTypeOf(closureLiteral), MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, "jetbrains.mps.baseLanguage.closures.structure.FunctionType")), MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, 0x1174a4d5371L, "resultType")), closureLiteral);
 
-      SNode lastNode = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(closureLiteral, "body", true), "statement", true)).last();
+      SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(closureLiteral, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf0522fL, "body")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement"))).last();
       CheckingUtil.checkCorrectKindOfLastNode(typeCheckingContext, lastNode);
 
-      List<SNode> invocations = SNodeOperations.getDescendants(lastNode, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression", false, new String[]{});
+      List<SNode> invocations = SNodeOperations.getNodeDescendants(lastNode, MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x117545d385aL, "jetbrains.mps.baseLanguage.closures.structure.InvokeExpression"), false, new SAbstractConcept[]{});
       if (ListSequence.fromList(invocations).isEmpty()) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
@@ -42,18 +43,15 @@ public class TailPositionInClosureLiteral_NonTypesystemRule extends AbstractNonT
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

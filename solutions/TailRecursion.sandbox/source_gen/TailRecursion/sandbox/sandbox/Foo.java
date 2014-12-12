@@ -11,8 +11,6 @@ public class Foo {
     return factorial(n - 1, n * acc);
   }
 
-
-
   public static void main(String[] args) {
     System.out.println("Result: " + factorial(10, 1));
   }

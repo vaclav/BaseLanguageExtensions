@@ -28,6 +28,10 @@
       <modulePath path="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" folder="" />
     </projectModules>
   </component>
+  <component name="MigrationProperties">
+    <entry key="jetbrains.mps.resaveModules" value="executed" />
+    <entry key="jetbrains.mps.name2id_gen" value="executed" />
+  </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>
@@ -39,4 +43,3 @@
     <mapping directory="" vcs="Git" />
   </component>
 </project>
-

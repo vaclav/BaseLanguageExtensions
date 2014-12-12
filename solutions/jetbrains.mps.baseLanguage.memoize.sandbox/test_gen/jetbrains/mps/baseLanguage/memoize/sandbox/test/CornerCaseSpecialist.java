@@ -37,13 +37,10 @@ public class CornerCaseSpecialist {
     public void invoke(Integer a) {
     }
   };
-
   public CornerCaseSpecialist() {
   }
-
   public static void noArgVoidFunction() {
   }
-
   public static int noArgFunction() {
     final KeyCalculator key = new KeyCalculator();
     Object value = Memoizator.retrieveFromCache(memoizedCache_6, key);
@@ -60,10 +57,8 @@ public class CornerCaseSpecialist {
     }
     return (value == NullValue.NULL_CACHED_VALUE ? null : (Integer) value);
   }
-
   public static void voidFunction(int a) {
   }
-
   private static Map<Integer, Object> memoizedCache_6 = Memoizator.buildMemoizeCache(0);
   private final Map<Integer, Object> memoizedCacheForClosures_9 = Memoizator.buildMemoizeCache(0);
   private _FunctionTypes._return_P0_E0<? extends Integer> memoizedCacheForClosures_9_Closure;

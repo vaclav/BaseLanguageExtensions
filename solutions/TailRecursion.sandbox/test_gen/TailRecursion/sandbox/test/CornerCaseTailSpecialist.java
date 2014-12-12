@@ -30,14 +30,11 @@ public class CornerCaseTailSpecialist {
       invoke(a);
     }
   };
-
   public CornerCaseTailSpecialist() {
   }
-
   public static void noArgsVoidMethod() {
     noArgsVoidMethod();
   }
-
   public static int noArgMethod() {
     while (true) {
       if (1 < 5) {
@@ -45,7 +42,6 @@ public class CornerCaseTailSpecialist {
       }
     }
   }
-
   public static void voidMethod(int a) {
     voidMethod(a);
   }

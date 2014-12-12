@@ -5,15 +5,12 @@ package jetbrains.mps.baseLanguage.memoize.util.caches;
 
 public final class NullValue {
   public static NullValue NULL_CACHED_VALUE = new NullValue();
-
   private NullValue() {
   }
-
   @Override
   public boolean equals(Object object) {
     return object == NULL_CACHED_VALUE;
   }
-
   @Override
   public int hashCode() {
     return "NullValue".hashCode();

@@ -1,129 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="33" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.editor.EditorAspectDescriptorImpl" />
-  <root nodeRef="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.memoize.editor)/1742094376849958742">
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="29" startPosition="88" endLine="30" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="30" startPosition="96" endLine="31" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="31" startPosition="47" endLine="32" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="32" startPosition="28" endLine="33" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="32" startPosition="28" endLine="33" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="33" startPosition="80" endLine="34" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="33" startPosition="80" endLine="34" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="34" startPosition="90" endLine="35" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="38" startPosition="87" endLine="39" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="39" startPosition="94" endLine="40" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="40" startPosition="46" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="45" startPosition="97" endLine="46" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="46" startPosition="70" endLine="47" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="47" startPosition="76" endLine="48" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="48" startPosition="95" endLine="49" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="52" startPosition="90" endLine="53" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="53" startPosition="96" endLine="54" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="54" startPosition="49" endLine="55" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="55" startPosition="28" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="55" startPosition="28" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="57" startPosition="80" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="61" startPosition="89" endLine="62" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="62" startPosition="96" endLine="63" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="63" startPosition="48" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="68" startPosition="87" endLine="69" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="69" startPosition="82" endLine="70" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="70" startPosition="34" endLine="71" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="71" startPosition="47" endLine="72" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="72" startPosition="26" endLine="73" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="73" startPosition="58" endLine="74" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="74" startPosition="47" endLine="75" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="75" startPosition="34" endLine="76" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="76" startPosition="60" endLine="77" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="77" startPosition="40" endLine="78" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="78" startPosition="73" endLine="79" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="79" startPosition="57" endLine="80" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="81" startPosition="35" endLine="82" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="82" startPosition="72" endLine="83" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="83" startPosition="78" endLine="84" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="85" startPosition="10" endLine="86" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="38" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_r31tt_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="45" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAttributedNodeCell_r31tt_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="61" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_r31tt_a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="80" startPosition="59" endLine="86" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="29" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_r31tt_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="52" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_r31tt_a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="68" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_r31tt_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="62" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="64" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="32" startPosition="28" endLine="33" endPosition="80" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="33" startPosition="80" endLine="34" endPosition="90" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="55" startPosition="28" endLine="56" endPosition="82" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="80" />
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="1742094376849958742" varName="editorContext" />
-      <varInfo nodeId="1742094376849958742" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="1742094376849958742" varName="editorContext" />
-      <varInfo nodeId="1742094376849958742" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="81" startPosition="35" endLine="84" endPosition="109">
-      <varInfo nodeId="9172390174097830856" varName="manager" />
-      <varInfo nodeId="9172390174097830856" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="38" startPosition="87" endLine="42" endPosition="22">
-      <varInfo nodeId="1742094376849958747" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="45" startPosition="97" endLine="49" endPosition="22">
-      <varInfo nodeId="1742094376849958749" varName="editorCell" />
-      <varInfo nodeId="1742094376849958749" varName="manager" />
-      <varInfo nodeId="1742094376849958749" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="61" startPosition="89" endLine="65" endPosition="22">
-      <varInfo nodeId="9172390174097830854" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="29" startPosition="88" endLine="35" endPosition="22">
-      <varInfo nodeId="1742094376849958742" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958747" fileName="MemoizeAnnotation_Editor.java" startLine="38" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="1742094376849958747" varName="editorContext" />
-      <varInfo nodeId="1742094376849958747" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958749" fileName="MemoizeAnnotation_Editor.java" startLine="45" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="1742094376849958749" varName="editorContext" />
-      <varInfo nodeId="1742094376849958749" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="52" startPosition="90" endLine="58" endPosition="22">
-      <varInfo nodeId="1742094376849958742" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097830854" fileName="MemoizeAnnotation_Editor.java" startLine="61" startPosition="0" endLine="67" endPosition="0">
-      <varInfo nodeId="9172390174097830854" varName="editorContext" />
-      <varInfo nodeId="9172390174097830854" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="29" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="1742094376849958742" varName="editorContext" />
-      <varInfo nodeId="1742094376849958742" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="52" startPosition="0" endLine="60" endPosition="0">
-      <varInfo nodeId="1742094376849958742" varName="editorContext" />
-      <varInfo nodeId="1742094376849958742" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="68" startPosition="87" endLine="86" endPosition="22">
-      <varInfo nodeId="9172390174097830856" varName="attributeConcept" />
-      <varInfo nodeId="9172390174097830856" varName="attributeKind" />
-      <varInfo nodeId="9172390174097830856" varName="editorCell" />
-      <varInfo nodeId="9172390174097830856" varName="provider" />
-      <varInfo nodeId="9172390174097830856" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097830856" fileName="MemoizeAnnotation_Editor.java" startLine="68" startPosition="0" endLine="88" endPosition="0">
-      <varInfo nodeId="9172390174097830856" varName="editorContext" />
-      <varInfo nodeId="9172390174097830856" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="1742094376849958742" fileName="MemoizeAnnotation_Editor.java" startLine="20" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.editor.MemoizeAnnotation_Editor" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="EditorAspectDescriptorImpl.java">
+      <unit at="13,0,30,0" name="jetbrains.mps.baseLanguage.memoize.editor.EditorAspectDescriptorImpl" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.memoize.editor)/1742094376849958742">
+    <file name="MemoizeAnnotation_Editor.java">
+      <node id="1742094376849958742" at="21,79,22,62" concept="5" />
+      <node id="1742094376849958742" at="24,82,25,64" concept="5" />
+      <node id="1742094376849958742" at="27,88,28,96" concept="4" />
+      <node id="1742094376849958742" at="28,96,29,47" concept="1" />
+      <node id="1742094376849958742" at="29,47,30,28" concept="1" />
+      <node id="1742094376849958742" at="30,28,31,80" concept="0" />
+      <node id="1742094376849958742" at="30,28,31,80" concept="1" />
+      <node id="1742094376849958742" at="31,80,32,90" concept="0" />
+      <node id="1742094376849958742" at="31,80,32,90" concept="1" />
+      <node id="1742094376849958742" at="32,90,33,22" concept="5" />
+      <node id="1742094376849958747" at="35,87,36,94" concept="4" />
+      <node id="1742094376849958747" at="36,94,37,46" concept="1" />
+      <node id="1742094376849958747" at="37,46,38,34" concept="1" />
+      <node id="1742094376849958747" at="38,34,39,22" concept="5" />
+      <node id="1742094376849958749" at="41,97,42,70" concept="4" />
+      <node id="1742094376849958749" at="42,70,43,76" concept="4" />
+      <node id="1742094376849958749" at="43,76,44,95" concept="4" />
+      <node id="1742094376849958749" at="44,95,45,22" concept="5" />
+      <node id="1742094376849958742" at="47,90,48,96" concept="4" />
+      <node id="1742094376849958742" at="48,96,49,49" concept="1" />
+      <node id="1742094376849958742" at="49,49,50,28" concept="1" />
+      <node id="1742094376849958742" at="50,28,51,82" concept="0" />
+      <node id="1742094376849958742" at="50,28,51,82" concept="1" />
+      <node id="1742094376849958742" at="51,82,52,80" concept="0" />
+      <node id="1742094376849958742" at="51,82,52,80" concept="1" />
+      <node id="1742094376849958742" at="52,80,53,22" concept="5" />
+      <node id="9172390174097830854" at="55,89,56,96" concept="4" />
+      <node id="9172390174097830854" at="56,96,57,48" concept="1" />
+      <node id="9172390174097830854" at="57,48,58,34" concept="1" />
+      <node id="9172390174097830854" at="58,34,59,22" concept="5" />
+      <node id="9172390174097830856" at="61,87,62,82" concept="4" />
+      <node id="9172390174097830856" at="62,82,63,34" concept="1" />
+      <node id="9172390174097830856" at="63,34,64,47" concept="1" />
+      <node id="9172390174097830856" at="64,47,65,26" concept="4" />
+      <node id="9172390174097830856" at="65,26,66,58" concept="1" />
+      <node id="9172390174097830856" at="66,58,67,47" concept="1" />
+      <node id="9172390174097830856" at="67,47,68,34" concept="4" />
+      <node id="9172390174097830856" at="68,34,69,63" concept="1" />
+      <node id="9172390174097830856" at="69,63,70,40" concept="1" />
+      <node id="9172390174097830856" at="70,40,71,73" concept="1" />
+      <node id="9172390174097830856" at="71,73,72,57" concept="4" />
+      <node id="9172390174097830856" at="72,57,73,59" concept="4" />
+      <node id="9172390174097830856" at="74,35,75,72" concept="4" />
+      <node id="9172390174097830856" at="75,72,76,78" concept="4" />
+      <node id="9172390174097830856" at="76,78,77,109" concept="5" />
+      <node id="9172390174097830856" at="78,10,79,22" concept="5" />
+      <node id="1742094376849958742" at="21,0,24,0" concept="3" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1742094376849958742" at="24,0,27,0" concept="3" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1742094376849958747" at="35,0,41,0" concept="3" trace="createConstant_r31tt_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1742094376849958749" at="41,0,47,0" concept="3" trace="createAttributedNodeCell_r31tt_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="9172390174097830854" at="55,0,61,0" concept="3" trace="createConstant_r31tt_a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="9172390174097830856" at="73,59,79,22" concept="2" />
+      <node id="1742094376849958742" at="27,0,35,0" concept="3" trace="createCollection_r31tt_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="1742094376849958742" at="47,0,55,0" concept="3" trace="createCollection_r31tt_a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="9172390174097830856" at="61,0,81,0" concept="3" trace="createProperty_r31tt_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="1742094376849958742" at="21,79,22,62" />
+      <scope id="1742094376849958742" at="24,82,25,64" />
+      <scope id="1742094376849958742" at="30,28,31,80" />
+      <scope id="1742094376849958742" at="31,80,32,90" />
+      <scope id="1742094376849958742" at="50,28,51,82" />
+      <scope id="1742094376849958742" at="51,82,52,80" />
+      <scope id="1742094376849958742" at="21,0,24,0">
+        <var name="editorContext" id="1742094376849958742" />
+        <var name="node" id="1742094376849958742" />
+      </scope>
+      <scope id="1742094376849958742" at="24,0,27,0">
+        <var name="editorContext" id="1742094376849958742" />
+        <var name="node" id="1742094376849958742" />
+      </scope>
+      <scope id="9172390174097830856" at="74,35,77,109">
+        <var name="manager" id="9172390174097830856" />
+        <var name="opContext" id="9172390174097830856" />
+      </scope>
+      <scope id="1742094376849958747" at="35,87,39,22">
+        <var name="editorCell" id="1742094376849958747" />
+      </scope>
+      <scope id="1742094376849958749" at="41,97,45,22">
+        <var name="editorCell" id="1742094376849958749" />
+        <var name="manager" id="1742094376849958749" />
+        <var name="opContext" id="1742094376849958749" />
+      </scope>
+      <scope id="9172390174097830854" at="55,89,59,22">
+        <var name="editorCell" id="9172390174097830854" />
+      </scope>
+      <scope id="1742094376849958742" at="27,88,33,22">
+        <var name="editorCell" id="1742094376849958742" />
+      </scope>
+      <scope id="1742094376849958747" at="35,0,41,0">
+        <var name="editorContext" id="1742094376849958747" />
+        <var name="node" id="1742094376849958747" />
+      </scope>
+      <scope id="1742094376849958749" at="41,0,47,0">
+        <var name="editorContext" id="1742094376849958749" />
+        <var name="node" id="1742094376849958749" />
+      </scope>
+      <scope id="1742094376849958742" at="47,90,53,22">
+        <var name="editorCell" id="1742094376849958742" />
+      </scope>
+      <scope id="9172390174097830854" at="55,0,61,0">
+        <var name="editorContext" id="9172390174097830854" />
+        <var name="node" id="9172390174097830854" />
+      </scope>
+      <scope id="1742094376849958742" at="27,0,35,0">
+        <var name="editorContext" id="1742094376849958742" />
+        <var name="node" id="1742094376849958742" />
+      </scope>
+      <scope id="1742094376849958742" at="47,0,55,0">
+        <var name="editorContext" id="1742094376849958742" />
+        <var name="node" id="1742094376849958742" />
+      </scope>
+      <scope id="9172390174097830856" at="61,87,79,22">
+        <var name="attributeConcept" id="9172390174097830856" />
+        <var name="attributeKind" id="9172390174097830856" />
+        <var name="editorCell" id="9172390174097830856" />
+        <var name="provider" id="9172390174097830856" />
+        <var name="style" id="9172390174097830856" />
+      </scope>
+      <scope id="9172390174097830856" at="61,0,81,0">
+        <var name="editorContext" id="9172390174097830856" />
+        <var name="node" id="9172390174097830856" />
+      </scope>
+      <unit id="1742094376849958742" at="20,0,82,0" name="jetbrains.mps.baseLanguage.memoize.editor.MemoizeAnnotation_Editor" />
+    </file>
+  </root>
+</debug-info>
 

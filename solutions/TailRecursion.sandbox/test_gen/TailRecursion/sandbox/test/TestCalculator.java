@@ -7,7 +7,6 @@ import java.math.BigInteger;
 public class TestCalculator {
   public TestCalculator() {
   }
-
   public int sum(final int acc, final int n) {
     int localParam_0 = acc;
     int localParam_1 = n;
@@ -19,7 +18,6 @@ public class TestCalculator {
       localParam_1 = localParam_1 - 1;
     }
   }
-
   public long factorial(final long acc, final int n) {
     long localParam_2 = acc;
     int localParam_3 = n;
@@ -31,7 +29,6 @@ public class TestCalculator {
       localParam_3 = localParam_3 - 1;
     }
   }
-
   public static int sumS(final int acc, final int n) {
     int localParam_4 = acc;
     int localParam_5 = n;
@@ -44,11 +41,9 @@ public class TestCalculator {
       }
     }
   }
-
   public static BigInteger factorial(int n) {
     return fact(BigInteger.ONE, BigInteger.valueOf(n));
   }
-
   private static BigInteger fact(BigInteger acc, BigInteger n) {
     BigInteger localParam_6 = acc;
     BigInteger localParam_7 = n;

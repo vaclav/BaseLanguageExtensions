@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
-</debugInfo>
+<debug-info>
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="13,0,34,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+</debug-info>
 

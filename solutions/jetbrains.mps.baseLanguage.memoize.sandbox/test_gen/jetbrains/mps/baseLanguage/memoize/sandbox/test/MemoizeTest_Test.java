@@ -64,7 +64,6 @@ public class MemoizeTest_Test extends TestCase {
   private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_2_Closure;
   private final Map<Integer, Object> memoizedCacheForClosures_3 = Memoizator.buildMemoizeCache(0);
   private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_3_Closure;
-
   public void test_instanceMethod() throws Exception {
     Calculator calculator = new Calculator();
     Assert.assertEquals(TEN, calculator.add(6, 4));
@@ -73,14 +72,12 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(TEN, calculator.add(6, 4));
     Assert.assertEquals(2, calculator.retrieveCounter());
   }
-
   public void test_fibonacci() throws Exception {
     Calculator calculator = new Calculator();
     Assert.assertEquals(Long.valueOf(55), calculator.fibonacci(10));
     Assert.assertEquals(10, calculator.retrieveCounter());
     Assert.assertEquals(Long.valueOf(12586269025L), calculator.fibonacci(50));
   }
-
   public void test_nestedFibonacci() throws Exception {
     Calculator calculator = new Calculator();
     Calculator.NestedCalculator nestedCalculator = calculator.createNestedCalculator();
@@ -88,14 +85,12 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(10, calculator.retrieveCounter());
     Assert.assertEquals(Long.valueOf(12586269025L), nestedCalculator.fibonacci(50));
   }
-
   public void test_staticNestedFibonacci() throws Exception {
     Calculator.StaticNestedCalculator nestedCalculator = new Calculator.StaticNestedCalculator();
     Assert.assertEquals(Long.valueOf(55), nestedCalculator.fibonacci(10));
     Assert.assertEquals(10, nestedCalculator.retrieveCounter());
     Assert.assertEquals(Long.valueOf(12586269025L), nestedCalculator.fibonacci(50));
   }
-
   public void test_staticMethod() throws Exception {
     Assert.assertEquals(TEN, Calculator.adds(6, 4));
     Assert.assertEquals(TEN, Calculator.adds(6, 4));
@@ -103,7 +98,6 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(TEN, Calculator.adds(6, 4));
     Assert.assertEquals(2, Calculator.staticCounter);
   }
-
   public void test_staticNestedClassStaticMethod() throws Exception {
     Assert.assertEquals(TEN, Calculator.StaticNestedCalculator.adds(6, 4));
     Assert.assertEquals(TEN, Calculator.StaticNestedCalculator.adds(6, 4));
@@ -111,7 +105,6 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(TEN, Calculator.StaticNestedCalculator.adds(6, 4));
     Assert.assertEquals(2, Calculator.staticCounter);
   }
-
   public void test_closure() throws Exception {
     Assert.assertEquals(TEN, add.invoke(6, 4));
     Assert.assertEquals(TEN, add.invoke(6, 4));
@@ -119,27 +112,23 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(TEN, add.invoke(6, 4));
     Assert.assertEquals(2, closureCounter);
   }
-
   public void test_fibonacciClosure() throws Exception {
     Assert.assertEquals(Long.valueOf(55), fibonacci.invoke(10));
     Assert.assertEquals(10, closureCounter);
     Assert.assertEquals(Long.valueOf(12586269025L), fibonacci.invoke(50));
   }
-
   public void test_factorial() throws Exception {
     Assert.assertEquals(Long.valueOf(3628800), Calculator.factorial.invoke(10));
     Assert.assertEquals(10, Calculator.staticCounter);
     Assert.assertEquals(Long.valueOf(479001600), Calculator.factorial.invoke(12));
     Assert.assertEquals(12, Calculator.staticCounter);
   }
-
   public void test_staticNestedFactorial() throws Exception {
     Assert.assertEquals(Long.valueOf(3628800), Calculator.StaticNestedCalculator.factorial.invoke(10));
     Assert.assertEquals(10, Calculator.staticCounter);
     Assert.assertEquals(Long.valueOf(479001600), Calculator.StaticNestedCalculator.factorial.invoke(12));
     Assert.assertEquals(12, Calculator.staticCounter);
   }
-
   public void test_instanceFactorial() throws Exception {
     Calculator calculator = new Calculator();
     Assert.assertEquals(Long.valueOf(3628800), calculator.instanceFactorial.invoke(10));
@@ -147,7 +136,6 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(Long.valueOf(479001600), calculator.instanceFactorial.invoke(12));
     Assert.assertEquals(12, calculator.retrieveCounter());
   }
-
   public void test_nestedInstanceFactorial() throws Exception {
     Calculator calculator = new Calculator();
     Calculator.NestedCalculator nestedCalculator = calculator.createNestedCalculator();
@@ -156,7 +144,6 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(Long.valueOf(479001600), nestedCalculator.nestedInstanceFactorial.invoke(12));
     Assert.assertEquals(12, calculator.retrieveCounter());
   }
-
   public void test_staticNestedInstanceFactorial() throws Exception {
     Calculator.StaticNestedCalculator nestedCalculator = new Calculator.StaticNestedCalculator();
     Assert.assertEquals(Long.valueOf(3628800), nestedCalculator.nestedInstanceFactorial.invoke(10));
@@ -164,7 +151,6 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(Long.valueOf(479001600), nestedCalculator.nestedInstanceFactorial.invoke(12));
     Assert.assertEquals(12, nestedCalculator.retrieveCounter());
   }
-
   public void test_closureInMethodCall() throws Exception {
     final Wrappers._int localCounter = new Wrappers._int(0);
     Assert.assertEquals(Long.valueOf(65), addFib(10, (memoizedCacheForClosures_2_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
@@ -191,7 +177,6 @@ public class MemoizeTest_Test extends TestCase {
     })));
     Assert.assertEquals(10, localCounter.value);
   }
-
   public void test_repeatedClosureInMethodCall() throws Exception {
     final Wrappers._int localCounter = new Wrappers._int(0);
     _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> function = (memoizedCacheForClosures_3_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
@@ -222,15 +207,12 @@ public class MemoizeTest_Test extends TestCase {
     Assert.assertEquals(Long.valueOf(65), addFib(10, function));
     Assert.assertEquals(0, localCounter.value);
   }
-
   public void setUp() {
     closureCounter = 0;
     Calculator.staticCounter = 0;
   }
-
   public MemoizeTest_Test() {
   }
-
   public Long addFib(int n, _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> fibClosure) {
     return n + fibClosure.invoke(n);
   }

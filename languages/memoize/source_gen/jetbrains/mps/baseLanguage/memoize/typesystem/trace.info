@@ -1,50 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.typesystem.TypesystemDescriptor" />
-  <root nodeRef="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.memoize.typesystem)/94989256191852868">
-    <nodeInfo nodeId="94989256191898242" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="22" startPosition="130" endLine="23" endPosition="641" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="94989256191898252" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="23" startPosition="641" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="94989256191898211" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="26" startPosition="7" endLine="27" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="94989256191898211" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="27" startPosition="60" endLine="28" endPosition="311" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="33" startPosition="46" endLine="34" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="38" startPosition="5" endLine="39" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="39" startPosition="130" endLine="40" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="44" startPosition="30" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_VoidMethodsCannotBeMemoized_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="94989256191898211" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="25" startPosition="100" endLine="29" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="94989256191898208" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="24" startPosition="0" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="19" startPosition="64" endLine="19" endPosition="64" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="33" startPosition="46" endLine="34" endPosition="76" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="44" startPosition="30" endLine="45" endPosition="17" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="94989256191898211" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="26" startPosition="7" endLine="28" endPosition="311">
-      <varInfo nodeId="94989256191898211" varName="_reporter_2309309498" />
-      <varInfo nodeId="94989256191898211" varName="errorTarget" />
-    </scopeInfo>
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="38" startPosition="5" endLine="40" endPosition="45">
-      <varInfo nodeId="94989256191852868" varName="b" />
-    </scopeInfo>
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="94989256191898210" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="25" startPosition="100" endLine="29" endPosition="7" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="37" startPosition="68" endLine="41" endPosition="5" />
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="43" endPosition="0">
-      <varInfo nodeId="94989256191852868" varName="argument" />
-    </scopeInfo>
-    <scopeInfo nodeId="94989256191852869" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="22" startPosition="130" endLine="30" endPosition="5">
-      <varInfo nodeId="94989256191898243" varName="returnType" />
-    </scopeInfo>
-    <scopeInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="32" endPosition="0">
-      <varInfo nodeId="94989256191852868" varName="memoizeAnnotation" />
-      <varInfo nodeId="94989256191852868" varName="status" />
-      <varInfo nodeId="94989256191852868" varName="typeCheckingContext" />
-    </scopeInfo>
-    <unitInfo nodeId="94989256191852868" fileName="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="48" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.typesystem.check_VoidMethodsCannotBeMemoized_NonTypesystemRule" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.baseLanguage.memoize.typesystem.TypesystemDescriptor" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.memoize.typesystem)/94989256191852868">
+    <file name="check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java">
+      <node id="94989256191898242" at="22,130,23,1207" concept="4" />
+      <node id="94989256191898252" at="23,1207,24,0" concept="6" />
+      <node id="94989256191898211" at="26,7,27,60" concept="4" />
+      <node id="94989256191898211" at="27,60,28,311" concept="4" />
+      <node id="94989256191852868" at="32,46,33,76" concept="5" />
+      <node id="94989256191852868" at="36,5,37,130" concept="4" />
+      <node id="94989256191852868" at="37,130,38,45" concept="5" />
+      <node id="94989256191852868" at="41,30,42,17" concept="5" />
+      <node id="94989256191852868" at="20,0,22,0" concept="1" trace="check_VoidMethodsCannotBeMemoized_NonTypesystemRule#()V" />
+      <node id="94989256191852868" at="32,0,35,0" concept="3" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="94989256191852868" at="41,0,44,0" concept="3" trace="overrides#()Z" />
+      <node id="94989256191898211" at="25,188,29,7" concept="0" />
+      <node id="94989256191852868" at="35,68,39,5" concept="0" />
+      <node id="94989256191898208" at="24,0,30,5" concept="2" />
+      <node id="94989256191852868" at="35,0,41,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="94989256191852868" at="22,0,32,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="94989256191852868" at="20,64,20,64" />
+      <scope id="94989256191852868" at="32,46,33,76" />
+      <scope id="94989256191852868" at="41,30,42,17" />
+      <scope id="94989256191852868" at="20,0,22,0" />
+      <scope id="94989256191898211" at="26,7,28,311">
+        <var name="_reporter_2309309498" id="94989256191898211" />
+        <var name="errorTarget" id="94989256191898211" />
+      </scope>
+      <scope id="94989256191852868" at="36,5,38,45">
+        <var name="b" id="94989256191852868" />
+      </scope>
+      <scope id="94989256191852868" at="32,0,35,0" />
+      <scope id="94989256191852868" at="41,0,44,0" />
+      <scope id="94989256191898210" at="25,188,29,7" />
+      <scope id="94989256191852868" at="35,68,39,5" />
+      <scope id="94989256191852868" at="35,0,41,0">
+        <var name="argument" id="94989256191852868" />
+      </scope>
+      <scope id="94989256191852869" at="22,130,30,5">
+        <var name="returnType" id="94989256191898243" />
+      </scope>
+      <scope id="94989256191852868" at="22,0,32,0">
+        <var name="memoizeAnnotation" id="94989256191852868" />
+        <var name="status" id="94989256191852868" />
+        <var name="typeCheckingContext" id="94989256191852868" />
+      </scope>
+      <unit id="94989256191852868" at="19,0,45,0" name="jetbrains.mps.baseLanguage.memoize.typesystem.check_VoidMethodsCannotBeMemoized_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
 

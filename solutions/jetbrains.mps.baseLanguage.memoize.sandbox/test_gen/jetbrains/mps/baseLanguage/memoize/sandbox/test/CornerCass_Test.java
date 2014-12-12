@@ -19,7 +19,6 @@ public class CornerCass_Test extends TestCase {
     CornerCaseSpecialist.voidFunction(1);
     CornerCaseSpecialist.voidFunction(1);
   }
-
   public void test_closures() throws Exception {
     CornerCaseSpecialist specialist = new CornerCaseSpecialist();
     specialist.noArgVoidClosure.invoke();
@@ -34,7 +33,6 @@ public class CornerCass_Test extends TestCase {
     specialist.noArgClosure.invoke();
     specialist.noArgClosure.invoke();
   }
-
   public CornerCass_Test() {
   }
 }

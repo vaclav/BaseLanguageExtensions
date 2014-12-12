@@ -1,357 +1,375 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.IntentionsDescriptor" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="8,0,16,0" name="jetbrains.mps.baseLanguage.memoize.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376849958750">
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850040488" fileName="MakeMethodMemoized_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="71" startPosition="5" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850040484" fileName="MakeMethodMemoized_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085637" fileName="MakeMethodMemoized_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="223" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeMethodMemoized_Intention#()V" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="49" startPosition="84" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="68" startPosition="99" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="22" startPosition="41" endLine="22" endPosition="41" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="76" startPosition="38" endLine="76" endPosition="38" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="72" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="32" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="88" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="48" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="17" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" />
-    <scopeInfo nodeId="1742094376850040487" fileName="MakeMethodMemoized_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="164" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="140" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="134" />
-    <scopeInfo nodeId="1742094376849958752" fileName="MakeMethodMemoized_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="36" />
-    <scopeInfo nodeId="1742094376849958754" fileName="MakeMethodMemoized_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="223" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="47" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="1742094376849958750" varName="editorContext" />
-      <varInfo nodeId="1742094376849958750" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="1742094376849958750" varName="editorContext" />
-      <varInfo nodeId="1742094376849958750" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
-      <varInfo nodeId="1742094376849958750" varName="editorContext" />
-      <varInfo nodeId="1742094376849958750" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="49" startPosition="84" endLine="53" endPosition="16" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="68" startPosition="99" endLine="72" endPosition="30" />
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="1742094376849958750" varName="editorContext" />
-      <varInfo nodeId="1742094376849958750" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0">
-      <varInfo nodeId="1742094376849958750" varName="context" />
-      <varInfo nodeId="1742094376849958750" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="75" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodMemoized_Intention$IntentionImplementation" />
-    <unitInfo nodeId="1742094376849958750" fileName="MakeMethodMemoized_Intention.java" startLine="19" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodMemoized_Intention" />
+    <file name="MakeMethodMemoized_Intention.java">
+      <node id="1742094376849958750" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
+      <node id="1742094376849958750" at="24,30,25,72" concept="5" />
+      <node id="1742094376849958750" at="27,35,28,32" concept="5" />
+      <node id="1742094376849958750" at="30,41,31,88" concept="5" />
+      <node id="1742094376849958750" at="33,37,34,48" concept="5" />
+      <node id="1742094376849958750" at="36,34,37,32" concept="5" />
+      <node id="1742094376849958750" at="39,44,40,17" concept="5" />
+      <node id="1742094376849958750" at="43,53,44,19" concept="5" />
+      <node id="1742094376849958750" at="45,5,46,16" concept="5" />
+      <node id="1742094376850040488" at="48,91,49,258" concept="5" />
+      <node id="1742094376849958750" at="51,53,52,140" concept="5" />
+      <node id="1742094376849958750" at="54,35,55,17" concept="5" />
+      <node id="1742094376849958750" at="58,37,59,134" concept="1" />
+      <node id="1742094376849958750" at="60,5,61,30" concept="5" />
+      <node id="1742094376850040484" at="66,87,67,36" concept="5" />
+      <node id="1742094376850085637" at="69,78,70,453" concept="1" />
+      <node id="1742094376849958750" at="72,48,73,47" concept="5" />
+      <node id="1742094376849958750" at="22,0,24,0" concept="0" trace="MakeMethodMemoized_Intention#()V" />
+      <node id="1742094376849958750" at="64,0,66,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="1742094376849958750" at="24,0,27,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="1742094376849958750" at="27,0,30,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1742094376849958750" at="30,0,33,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="1742094376849958750" at="33,0,36,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="1742094376849958750" at="36,0,39,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="1742094376849958750" at="39,0,42,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="1742094376849958750" at="42,84,45,5" concept="3" />
+      <node id="1742094376849958750" at="48,0,51,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376849958750" at="51,0,54,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1742094376849958750" at="54,0,57,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="1742094376849958750" at="57,99,60,5" concept="3" />
+      <node id="1742094376849958750" at="66,0,69,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1742094376849958750" at="69,0,72,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1742094376849958750" at="72,0,75,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="1742094376849958750" at="42,0,48,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376849958750" at="57,0,63,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="1742094376849958750" at="22,41,22,41" />
+      <scope id="1742094376849958750" at="64,38,64,38" />
+      <scope id="1742094376849958750" at="24,30,25,72" />
+      <scope id="1742094376849958750" at="27,35,28,32" />
+      <scope id="1742094376849958750" at="30,41,31,88" />
+      <scope id="1742094376849958750" at="33,37,34,48" />
+      <scope id="1742094376849958750" at="36,34,37,32" />
+      <scope id="1742094376849958750" at="39,44,40,17" />
+      <scope id="1742094376849958750" at="43,53,44,19" />
+      <scope id="1742094376850040487" at="48,91,49,258" />
+      <scope id="1742094376849958750" at="51,53,52,140" />
+      <scope id="1742094376849958750" at="54,35,55,17" />
+      <scope id="1742094376849958750" at="58,37,59,134" />
+      <scope id="1742094376849958752" at="66,87,67,36" />
+      <scope id="1742094376849958754" at="69,78,70,453" />
+      <scope id="1742094376849958750" at="72,48,73,47" />
+      <scope id="1742094376849958750" at="22,0,24,0" />
+      <scope id="1742094376849958750" at="64,0,66,0" />
+      <scope id="1742094376849958750" at="24,0,27,0" />
+      <scope id="1742094376849958750" at="27,0,30,0" />
+      <scope id="1742094376849958750" at="30,0,33,0" />
+      <scope id="1742094376849958750" at="33,0,36,0" />
+      <scope id="1742094376849958750" at="36,0,39,0" />
+      <scope id="1742094376849958750" at="39,0,42,0" />
+      <scope id="1742094376849958750" at="48,0,51,0">
+        <var name="editorContext" id="1742094376849958750" />
+        <var name="node" id="1742094376849958750" />
+      </scope>
+      <scope id="1742094376849958750" at="51,0,54,0" />
+      <scope id="1742094376849958750" at="54,0,57,0" />
+      <scope id="1742094376849958750" at="66,0,69,0">
+        <var name="editorContext" id="1742094376849958750" />
+        <var name="node" id="1742094376849958750" />
+      </scope>
+      <scope id="1742094376849958750" at="69,0,72,0">
+        <var name="editorContext" id="1742094376849958750" />
+        <var name="node" id="1742094376849958750" />
+      </scope>
+      <scope id="1742094376849958750" at="72,0,75,0" />
+      <scope id="1742094376849958750" at="42,84,46,16" />
+      <scope id="1742094376849958750" at="57,99,61,30" />
+      <scope id="1742094376849958750" at="42,0,48,0">
+        <var name="editorContext" id="1742094376849958750" />
+        <var name="node" id="1742094376849958750" />
+      </scope>
+      <scope id="1742094376849958750" at="57,0,63,0">
+        <var name="context" id="1742094376849958750" />
+        <var name="node" id="1742094376849958750" />
+      </scope>
+      <unit id="1742094376849958750" at="63,0,76,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodMemoized_Intention$IntentionImplementation" />
+      <unit id="1742094376849958750" at="20,0,77,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodMemoized_Intention" />
+    </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850085723">
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="52" startPosition="5" endLine="53" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085732" fileName="MakeClosureMemoized_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="71" startPosition="5" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085728" fileName="MakeClosureMemoized_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085788" fileName="MakeClosureMemoized_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="223" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeClosureMemoized_Intention#()V" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="49" startPosition="84" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="68" startPosition="99" endLine="71" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="22" startPosition="42" endLine="22" endPosition="42" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="76" startPosition="38" endLine="76" endPosition="38" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="74" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="29" startPosition="35" endLine="30" endPosition="33" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="33" startPosition="41" endLine="34" endPosition="89" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="37" startPosition="37" endLine="38" endPosition="48" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="41" startPosition="34" endLine="42" endPosition="32" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="45" startPosition="44" endLine="46" endPosition="16" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="50" startPosition="53" endLine="51" endPosition="19" />
-    <scopeInfo nodeId="1742094376850085731" fileName="MakeClosureMemoized_Intention.java" startLine="56" startPosition="91" endLine="57" endPosition="164" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="140" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="69" startPosition="37" endLine="70" endPosition="135" />
-    <scopeInfo nodeId="1742094376850085725" fileName="MakeClosureMemoized_Intention.java" startLine="79" startPosition="87" endLine="80" endPosition="37" />
-    <scopeInfo nodeId="1742094376850085727" fileName="MakeClosureMemoized_Intention.java" startLine="83" startPosition="78" endLine="84" endPosition="223" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="87" startPosition="48" endLine="88" endPosition="48" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="22" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="76" startPosition="0" endLine="78" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="25" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="33" startPosition="0" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="41" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="45" startPosition="0" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
-      <varInfo nodeId="1742094376850085723" varName="editorContext" />
-      <varInfo nodeId="1742094376850085723" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0">
-      <varInfo nodeId="1742094376850085723" varName="editorContext" />
-      <varInfo nodeId="1742094376850085723" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
-      <varInfo nodeId="1742094376850085723" varName="editorContext" />
-      <varInfo nodeId="1742094376850085723" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="87" startPosition="0" endLine="90" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="49" startPosition="84" endLine="53" endPosition="16" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="68" startPosition="99" endLine="72" endPosition="30" />
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="49" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="1742094376850085723" varName="editorContext" />
-      <varInfo nodeId="1742094376850085723" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="68" startPosition="0" endLine="74" endPosition="0">
-      <varInfo nodeId="1742094376850085723" varName="context" />
-      <varInfo nodeId="1742094376850085723" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="75" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureMemoized_Intention$IntentionImplementation" />
-    <unitInfo nodeId="1742094376850085723" fileName="MakeClosureMemoized_Intention.java" startLine="19" startPosition="0" endLine="92" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureMemoized_Intention" />
+    <file name="MakeClosureMemoized_Intention.java">
+      <node id="1742094376850085723" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
+      <node id="1742094376850085723" at="24,30,25,74" concept="5" />
+      <node id="1742094376850085723" at="27,35,28,33" concept="5" />
+      <node id="1742094376850085723" at="30,41,31,89" concept="5" />
+      <node id="1742094376850085723" at="33,37,34,48" concept="5" />
+      <node id="1742094376850085723" at="36,34,37,32" concept="5" />
+      <node id="1742094376850085723" at="39,44,40,16" concept="5" />
+      <node id="1742094376850085723" at="43,53,44,19" concept="5" />
+      <node id="1742094376850085723" at="45,5,46,16" concept="5" />
+      <node id="1742094376850085732" at="48,91,49,258" concept="5" />
+      <node id="1742094376850085723" at="51,53,52,140" concept="5" />
+      <node id="1742094376850085723" at="54,35,55,17" concept="5" />
+      <node id="1742094376850085723" at="58,37,59,135" concept="1" />
+      <node id="1742094376850085723" at="60,5,61,30" concept="5" />
+      <node id="1742094376850085728" at="66,87,67,37" concept="5" />
+      <node id="1742094376850085788" at="69,78,70,453" concept="1" />
+      <node id="1742094376850085723" at="72,48,73,48" concept="5" />
+      <node id="1742094376850085723" at="22,0,24,0" concept="0" trace="MakeClosureMemoized_Intention#()V" />
+      <node id="1742094376850085723" at="64,0,66,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="1742094376850085723" at="24,0,27,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="1742094376850085723" at="27,0,30,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1742094376850085723" at="30,0,33,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="1742094376850085723" at="33,0,36,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="1742094376850085723" at="36,0,39,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="1742094376850085723" at="39,0,42,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="1742094376850085723" at="42,84,45,5" concept="3" />
+      <node id="1742094376850085723" at="48,0,51,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850085723" at="51,0,54,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1742094376850085723" at="54,0,57,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="1742094376850085723" at="57,99,60,5" concept="3" />
+      <node id="1742094376850085723" at="66,0,69,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1742094376850085723" at="69,0,72,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1742094376850085723" at="72,0,75,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="1742094376850085723" at="42,0,48,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850085723" at="57,0,63,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="1742094376850085723" at="22,42,22,42" />
+      <scope id="1742094376850085723" at="64,38,64,38" />
+      <scope id="1742094376850085723" at="24,30,25,74" />
+      <scope id="1742094376850085723" at="27,35,28,33" />
+      <scope id="1742094376850085723" at="30,41,31,89" />
+      <scope id="1742094376850085723" at="33,37,34,48" />
+      <scope id="1742094376850085723" at="36,34,37,32" />
+      <scope id="1742094376850085723" at="39,44,40,16" />
+      <scope id="1742094376850085723" at="43,53,44,19" />
+      <scope id="1742094376850085731" at="48,91,49,258" />
+      <scope id="1742094376850085723" at="51,53,52,140" />
+      <scope id="1742094376850085723" at="54,35,55,17" />
+      <scope id="1742094376850085723" at="58,37,59,135" />
+      <scope id="1742094376850085725" at="66,87,67,37" />
+      <scope id="1742094376850085727" at="69,78,70,453" />
+      <scope id="1742094376850085723" at="72,48,73,48" />
+      <scope id="1742094376850085723" at="22,0,24,0" />
+      <scope id="1742094376850085723" at="64,0,66,0" />
+      <scope id="1742094376850085723" at="24,0,27,0" />
+      <scope id="1742094376850085723" at="27,0,30,0" />
+      <scope id="1742094376850085723" at="30,0,33,0" />
+      <scope id="1742094376850085723" at="33,0,36,0" />
+      <scope id="1742094376850085723" at="36,0,39,0" />
+      <scope id="1742094376850085723" at="39,0,42,0" />
+      <scope id="1742094376850085723" at="48,0,51,0">
+        <var name="editorContext" id="1742094376850085723" />
+        <var name="node" id="1742094376850085723" />
+      </scope>
+      <scope id="1742094376850085723" at="51,0,54,0" />
+      <scope id="1742094376850085723" at="54,0,57,0" />
+      <scope id="1742094376850085723" at="66,0,69,0">
+        <var name="editorContext" id="1742094376850085723" />
+        <var name="node" id="1742094376850085723" />
+      </scope>
+      <scope id="1742094376850085723" at="69,0,72,0">
+        <var name="editorContext" id="1742094376850085723" />
+        <var name="node" id="1742094376850085723" />
+      </scope>
+      <scope id="1742094376850085723" at="72,0,75,0" />
+      <scope id="1742094376850085723" at="42,84,46,16" />
+      <scope id="1742094376850085723" at="57,99,61,30" />
+      <scope id="1742094376850085723" at="42,0,48,0">
+        <var name="editorContext" id="1742094376850085723" />
+        <var name="node" id="1742094376850085723" />
+      </scope>
+      <scope id="1742094376850085723" at="57,0,63,0">
+        <var name="context" id="1742094376850085723" />
+        <var name="node" id="1742094376850085723" />
+      </scope>
+      <unit id="1742094376850085723" at="63,0,76,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureMemoized_Intention$IntentionImplementation" />
+      <unit id="1742094376850085723" at="20,0,77,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureMemoized_Intention" />
+    </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850085849">
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="51" startPosition="5" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085858" fileName="MakeMethodNotMemoized_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="70" startPosition="5" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085854" fileName="MakeMethodNotMemoized_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085935" fileName="MakeMethodNotMemoized_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeMethodNotMemoized_Intention#()V" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="67" startPosition="99" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="21" startPosition="44" endLine="21" endPosition="44" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="75" startPosition="38" endLine="75" endPosition="38" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="72" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="35" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="91" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="48" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
-    <scopeInfo nodeId="1742094376850085857" fileName="MakeMethodNotMemoized_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="164" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="140" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="137" />
-    <scopeInfo nodeId="1742094376850085851" fileName="MakeMethodNotMemoized_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="40" />
-    <scopeInfo nodeId="1742094376850085853" fileName="MakeMethodNotMemoized_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="157" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="50" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="1742094376850085849" varName="editorContext" />
-      <varInfo nodeId="1742094376850085849" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0">
-      <varInfo nodeId="1742094376850085849" varName="editorContext" />
-      <varInfo nodeId="1742094376850085849" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="1742094376850085849" varName="editorContext" />
-      <varInfo nodeId="1742094376850085849" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="67" startPosition="99" endLine="71" endPosition="30" />
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="1742094376850085849" varName="editorContext" />
-      <varInfo nodeId="1742094376850085849" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0">
-      <varInfo nodeId="1742094376850085849" varName="context" />
-      <varInfo nodeId="1742094376850085849" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="74" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodNotMemoized_Intention$IntentionImplementation" />
-    <unitInfo nodeId="1742094376850085849" fileName="MakeMethodNotMemoized_Intention.java" startLine="18" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodNotMemoized_Intention" />
+    <file name="MakeMethodNotMemoized_Intention.java">
+      <node id="1742094376850085849" at="20,0,21,0" concept="2" trace="myCachedExecutable" />
+      <node id="1742094376850085849" at="23,30,24,72" concept="5" />
+      <node id="1742094376850085849" at="26,35,27,35" concept="5" />
+      <node id="1742094376850085849" at="29,41,30,91" concept="5" />
+      <node id="1742094376850085849" at="32,37,33,48" concept="5" />
+      <node id="1742094376850085849" at="35,34,36,32" concept="5" />
+      <node id="1742094376850085849" at="38,44,39,17" concept="5" />
+      <node id="1742094376850085849" at="42,53,43,19" concept="5" />
+      <node id="1742094376850085849" at="44,5,45,16" concept="5" />
+      <node id="1742094376850085858" at="47,91,48,258" concept="5" />
+      <node id="1742094376850085849" at="50,53,51,140" concept="5" />
+      <node id="1742094376850085849" at="53,35,54,17" concept="5" />
+      <node id="1742094376850085849" at="57,37,58,137" concept="1" />
+      <node id="1742094376850085849" at="59,5,60,30" concept="5" />
+      <node id="1742094376850085854" at="65,87,66,40" concept="5" />
+      <node id="1742094376850085935" at="68,78,69,251" concept="1" />
+      <node id="1742094376850085849" at="71,48,72,50" concept="5" />
+      <node id="1742094376850085849" at="21,0,23,0" concept="0" trace="MakeMethodNotMemoized_Intention#()V" />
+      <node id="1742094376850085849" at="63,0,65,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="1742094376850085849" at="23,0,26,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="1742094376850085849" at="26,0,29,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1742094376850085849" at="29,0,32,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="1742094376850085849" at="32,0,35,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="1742094376850085849" at="35,0,38,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="1742094376850085849" at="38,0,41,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="1742094376850085849" at="41,84,44,5" concept="3" />
+      <node id="1742094376850085849" at="47,0,50,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850085849" at="50,0,53,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1742094376850085849" at="53,0,56,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="1742094376850085849" at="56,99,59,5" concept="3" />
+      <node id="1742094376850085849" at="65,0,68,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1742094376850085849" at="68,0,71,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1742094376850085849" at="71,0,74,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="1742094376850085849" at="41,0,47,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850085849" at="56,0,62,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="1742094376850085849" at="21,44,21,44" />
+      <scope id="1742094376850085849" at="63,38,63,38" />
+      <scope id="1742094376850085849" at="23,30,24,72" />
+      <scope id="1742094376850085849" at="26,35,27,35" />
+      <scope id="1742094376850085849" at="29,41,30,91" />
+      <scope id="1742094376850085849" at="32,37,33,48" />
+      <scope id="1742094376850085849" at="35,34,36,32" />
+      <scope id="1742094376850085849" at="38,44,39,17" />
+      <scope id="1742094376850085849" at="42,53,43,19" />
+      <scope id="1742094376850085857" at="47,91,48,258" />
+      <scope id="1742094376850085849" at="50,53,51,140" />
+      <scope id="1742094376850085849" at="53,35,54,17" />
+      <scope id="1742094376850085849" at="57,37,58,137" />
+      <scope id="1742094376850085851" at="65,87,66,40" />
+      <scope id="1742094376850085853" at="68,78,69,251" />
+      <scope id="1742094376850085849" at="71,48,72,50" />
+      <scope id="1742094376850085849" at="21,0,23,0" />
+      <scope id="1742094376850085849" at="63,0,65,0" />
+      <scope id="1742094376850085849" at="23,0,26,0" />
+      <scope id="1742094376850085849" at="26,0,29,0" />
+      <scope id="1742094376850085849" at="29,0,32,0" />
+      <scope id="1742094376850085849" at="32,0,35,0" />
+      <scope id="1742094376850085849" at="35,0,38,0" />
+      <scope id="1742094376850085849" at="38,0,41,0" />
+      <scope id="1742094376850085849" at="47,0,50,0">
+        <var name="editorContext" id="1742094376850085849" />
+        <var name="node" id="1742094376850085849" />
+      </scope>
+      <scope id="1742094376850085849" at="50,0,53,0" />
+      <scope id="1742094376850085849" at="53,0,56,0" />
+      <scope id="1742094376850085849" at="65,0,68,0">
+        <var name="editorContext" id="1742094376850085849" />
+        <var name="node" id="1742094376850085849" />
+      </scope>
+      <scope id="1742094376850085849" at="68,0,71,0">
+        <var name="editorContext" id="1742094376850085849" />
+        <var name="node" id="1742094376850085849" />
+      </scope>
+      <scope id="1742094376850085849" at="71,0,74,0" />
+      <scope id="1742094376850085849" at="41,84,45,16" />
+      <scope id="1742094376850085849" at="56,99,60,30" />
+      <scope id="1742094376850085849" at="41,0,47,0">
+        <var name="editorContext" id="1742094376850085849" />
+        <var name="node" id="1742094376850085849" />
+      </scope>
+      <scope id="1742094376850085849" at="56,0,62,0">
+        <var name="context" id="1742094376850085849" />
+        <var name="node" id="1742094376850085849" />
+      </scope>
+      <unit id="1742094376850085849" at="62,0,75,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodNotMemoized_Intention$IntentionImplementation" />
+      <unit id="1742094376850085849" at="19,0,76,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeMethodNotMemoized_Intention" />
+    </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850086002">
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="51" startPosition="5" endLine="52" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086011" fileName="MakeClosureNotMemoized_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="70" startPosition="5" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086007" fileName="MakeClosureNotMemoized_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086067" fileName="MakeClosureNotMemoized_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MakeClosureNotMemoized_Intention#()V" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="48" startPosition="84" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="67" startPosition="99" endLine="70" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
-    <nodeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="21" startPosition="45" endLine="21" endPosition="45" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="75" startPosition="38" endLine="75" endPosition="38" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="74" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="36" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="92" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="48" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="16" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="49" startPosition="53" endLine="50" endPosition="19" />
-    <scopeInfo nodeId="1742094376850086010" fileName="MakeClosureNotMemoized_Intention.java" startLine="55" startPosition="91" endLine="56" endPosition="164" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="59" startPosition="53" endLine="60" endPosition="140" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="63" startPosition="35" endLine="64" endPosition="17" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="68" startPosition="37" endLine="69" endPosition="138" />
-    <scopeInfo nodeId="1742094376850086004" fileName="MakeClosureNotMemoized_Intention.java" startLine="78" startPosition="87" endLine="79" endPosition="41" />
-    <scopeInfo nodeId="1742094376850086006" fileName="MakeClosureNotMemoized_Intention.java" startLine="82" startPosition="78" endLine="83" endPosition="157" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="86" startPosition="48" endLine="87" endPosition="51" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="75" startPosition="0" endLine="77" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="1742094376850086002" varName="editorContext" />
-      <varInfo nodeId="1742094376850086002" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="63" startPosition="0" endLine="66" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="78" startPosition="0" endLine="81" endPosition="0">
-      <varInfo nodeId="1742094376850086002" varName="editorContext" />
-      <varInfo nodeId="1742094376850086002" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="82" startPosition="0" endLine="85" endPosition="0">
-      <varInfo nodeId="1742094376850086002" varName="editorContext" />
-      <varInfo nodeId="1742094376850086002" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="86" startPosition="0" endLine="89" endPosition="0" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="48" startPosition="84" endLine="52" endPosition="16" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="67" startPosition="99" endLine="71" endPosition="30" />
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="48" startPosition="0" endLine="54" endPosition="0">
-      <varInfo nodeId="1742094376850086002" varName="editorContext" />
-      <varInfo nodeId="1742094376850086002" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="67" startPosition="0" endLine="73" endPosition="0">
-      <varInfo nodeId="1742094376850086002" varName="context" />
-      <varInfo nodeId="1742094376850086002" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="74" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureNotMemoized_Intention$IntentionImplementation" />
-    <unitInfo nodeId="1742094376850086002" fileName="MakeClosureNotMemoized_Intention.java" startLine="18" startPosition="0" endLine="91" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureNotMemoized_Intention" />
+    <file name="MakeClosureNotMemoized_Intention.java">
+      <node id="1742094376850086002" at="20,0,21,0" concept="2" trace="myCachedExecutable" />
+      <node id="1742094376850086002" at="23,30,24,74" concept="5" />
+      <node id="1742094376850086002" at="26,35,27,36" concept="5" />
+      <node id="1742094376850086002" at="29,41,30,92" concept="5" />
+      <node id="1742094376850086002" at="32,37,33,48" concept="5" />
+      <node id="1742094376850086002" at="35,34,36,32" concept="5" />
+      <node id="1742094376850086002" at="38,44,39,16" concept="5" />
+      <node id="1742094376850086002" at="42,53,43,19" concept="5" />
+      <node id="1742094376850086002" at="44,5,45,16" concept="5" />
+      <node id="1742094376850086011" at="47,91,48,258" concept="5" />
+      <node id="1742094376850086002" at="50,53,51,140" concept="5" />
+      <node id="1742094376850086002" at="53,35,54,17" concept="5" />
+      <node id="1742094376850086002" at="57,37,58,138" concept="1" />
+      <node id="1742094376850086002" at="59,5,60,30" concept="5" />
+      <node id="1742094376850086007" at="65,87,66,41" concept="5" />
+      <node id="1742094376850086067" at="68,78,69,251" concept="1" />
+      <node id="1742094376850086002" at="71,48,72,51" concept="5" />
+      <node id="1742094376850086002" at="21,0,23,0" concept="0" trace="MakeClosureNotMemoized_Intention#()V" />
+      <node id="1742094376850086002" at="63,0,65,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="1742094376850086002" at="23,0,26,0" concept="4" trace="getConcept#()Ljava/lang/String;" />
+      <node id="1742094376850086002" at="26,0,29,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="1742094376850086002" at="29,0,32,0" concept="4" trace="getPersistentStateKey#()Ljava/lang/String;" />
+      <node id="1742094376850086002" at="32,0,35,0" concept="4" trace="getLanguageFqName#()Ljava/lang/String;" />
+      <node id="1742094376850086002" at="35,0,38,0" concept="4" trace="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+      <node id="1742094376850086002" at="38,0,41,0" concept="4" trace="isAvailableInChildNodes#()Z" />
+      <node id="1742094376850086002" at="41,84,44,5" concept="3" />
+      <node id="1742094376850086002" at="47,0,50,0" concept="4" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850086002" at="50,0,53,0" concept="4" trace="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="1742094376850086002" at="53,0,56,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="1742094376850086002" at="56,99,59,5" concept="3" />
+      <node id="1742094376850086002" at="65,0,68,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="1742094376850086002" at="68,0,71,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="1742094376850086002" at="71,0,74,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+      <node id="1742094376850086002" at="41,0,47,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="1742094376850086002" at="56,0,62,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="1742094376850086002" at="21,45,21,45" />
+      <scope id="1742094376850086002" at="63,38,63,38" />
+      <scope id="1742094376850086002" at="23,30,24,74" />
+      <scope id="1742094376850086002" at="26,35,27,36" />
+      <scope id="1742094376850086002" at="29,41,30,92" />
+      <scope id="1742094376850086002" at="32,37,33,48" />
+      <scope id="1742094376850086002" at="35,34,36,32" />
+      <scope id="1742094376850086002" at="38,44,39,16" />
+      <scope id="1742094376850086002" at="42,53,43,19" />
+      <scope id="1742094376850086010" at="47,91,48,258" />
+      <scope id="1742094376850086002" at="50,53,51,140" />
+      <scope id="1742094376850086002" at="53,35,54,17" />
+      <scope id="1742094376850086002" at="57,37,58,138" />
+      <scope id="1742094376850086004" at="65,87,66,41" />
+      <scope id="1742094376850086006" at="68,78,69,251" />
+      <scope id="1742094376850086002" at="71,48,72,51" />
+      <scope id="1742094376850086002" at="21,0,23,0" />
+      <scope id="1742094376850086002" at="63,0,65,0" />
+      <scope id="1742094376850086002" at="23,0,26,0" />
+      <scope id="1742094376850086002" at="26,0,29,0" />
+      <scope id="1742094376850086002" at="29,0,32,0" />
+      <scope id="1742094376850086002" at="32,0,35,0" />
+      <scope id="1742094376850086002" at="35,0,38,0" />
+      <scope id="1742094376850086002" at="38,0,41,0" />
+      <scope id="1742094376850086002" at="47,0,50,0">
+        <var name="editorContext" id="1742094376850086002" />
+        <var name="node" id="1742094376850086002" />
+      </scope>
+      <scope id="1742094376850086002" at="50,0,53,0" />
+      <scope id="1742094376850086002" at="53,0,56,0" />
+      <scope id="1742094376850086002" at="65,0,68,0">
+        <var name="editorContext" id="1742094376850086002" />
+        <var name="node" id="1742094376850086002" />
+      </scope>
+      <scope id="1742094376850086002" at="68,0,71,0">
+        <var name="editorContext" id="1742094376850086002" />
+        <var name="node" id="1742094376850086002" />
+      </scope>
+      <scope id="1742094376850086002" at="71,0,74,0" />
+      <scope id="1742094376850086002" at="41,84,45,16" />
+      <scope id="1742094376850086002" at="56,99,60,30" />
+      <scope id="1742094376850086002" at="41,0,47,0">
+        <var name="editorContext" id="1742094376850086002" />
+        <var name="node" id="1742094376850086002" />
+      </scope>
+      <scope id="1742094376850086002" at="56,0,62,0">
+        <var name="context" id="1742094376850086002" />
+        <var name="node" id="1742094376850086002" />
+      </scope>
+      <unit id="1742094376850086002" at="62,0,75,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureNotMemoized_Intention$IntentionImplementation" />
+      <unit id="1742094376850086002" at="19,0,76,0" name="jetbrains.mps.baseLanguage.memoize.intentions.MakeClosureNotMemoized_Intention" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

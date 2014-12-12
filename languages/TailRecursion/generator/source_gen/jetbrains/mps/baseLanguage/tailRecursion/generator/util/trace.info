@@ -1,359 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root nodeRef="r:20d0d55f-b190-430e-b14e-6a571c9f48dd(jetbrains.mps.baseLanguage.tailRecursion.generator.util)/7902470687820828182">
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="69" startPosition="29" endLine="69" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563371276" fileName="GenHelper.java" startLine="72" startPosition="29" endLine="72" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563371229" fileName="GenHelper.java" startLine="28" startPosition="160" endLine="29" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371253" fileName="GenHelper.java" startLine="32" startPosition="164" endLine="33" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="__CP__" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="48" startPosition="30" endLine="49" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.AssertStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="49" startPosition="56" endLine="50" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="52" startPosition="45" endLine="53" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="53" startPosition="42" endLine="54" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="55" startPosition="25" endLine="56" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="56" startPosition="40" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="59" startPosition="36" endLine="60" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="60" startPosition="42" endLine="61" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="62" startPosition="25" endLine="63" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="63" startPosition="40" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371283" fileName="GenHelper.java" startLine="65" startPosition="29" endLine="66" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371283" fileName="GenHelper.java" startLine="66" startPosition="40" endLine="67" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371283" fileName="GenHelper.java" startLine="67" startPosition="39" endLine="68" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="69" startPosition="29" endLine="70" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="70" startPosition="40" endLine="71" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371276" fileName="GenHelper.java" startLine="72" startPosition="29" endLine="73" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371276" fileName="GenHelper.java" startLine="73" startPosition="40" endLine="74" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371281" fileName="GenHelper.java" startLine="75" startPosition="29" endLine="76" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563371282" fileName="GenHelper.java" startLine="75" startPosition="29" endLine="76" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="77" startPosition="30" endLine="78" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="80" startPosition="33" endLine="81" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371299" fileName="GenHelper.java" startLine="89" startPosition="41" endLine="90" endPosition="295" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371288" fileName="GenHelper.java" startLine="92" startPosition="11" endLine="93" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563453276" fileName="GenHelper.java" startLine="94" startPosition="7" endLine="95" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371364" fileName="GenHelper.java" startLine="100" startPosition="90" endLine="101" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371370" fileName="GenHelper.java" startLine="101" startPosition="91" endLine="102" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371377" fileName="GenHelper.java" startLine="103" startPosition="5" endLine="104" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371405" fileName="GenHelper.java" startLine="108" startPosition="310" endLine="109" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563371411" fileName="GenHelper.java" startLine="109" startPosition="89" endLine="110" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371430" fileName="GenHelper.java" startLine="111" startPosition="5" endLine="112" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6376975402661061522" fileName="GenHelper.java" startLine="115" startPosition="215" endLine="116" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="3220419832563394874" fileName="GenHelper.java" startLine="116" startPosition="0" endLine="117" endPosition="192" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394922" fileName="GenHelper.java" startLine="117" startPosition="192" endLine="118" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394929" fileName="GenHelper.java" startLine="118" startPosition="120" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="3220419832563394930" fileName="GenHelper.java" startLine="119" startPosition="0" endLine="120" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394943" fileName="GenHelper.java" startLine="120" startPosition="137" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1742094376850117211" fileName="GenHelper.java" startLine="121" startPosition="0" endLine="122" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394976" fileName="GenHelper.java" startLine="122" startPosition="94" endLine="123" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394983" fileName="GenHelper.java" startLine="123" startPosition="158" endLine="124" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1232136333262809411" fileName="GenHelper.java" startLine="126" startPosition="39" endLine="127" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563394995" fileName="GenHelper.java" startLine="130" startPosition="39" endLine="131" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563395005" fileName="GenHelper.java" startLine="134" startPosition="35" endLine="135" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563427068" fileName="GenHelper.java" startLine="140" startPosition="68" endLine="141" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563427077" fileName="GenHelper.java" startLine="142" startPosition="34" endLine="143" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563427084" fileName="GenHelper.java" startLine="143" startPosition="156" endLine="144" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563427093" fileName="GenHelper.java" startLine="145" startPosition="12" endLine="146" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563427153" fileName="GenHelper.java" startLine="150" startPosition="80" endLine="151" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609169802" fileName="GenHelper.java" startLine="151" startPosition="66" endLine="152" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563427179" fileName="GenHelper.java" startLine="154" startPosition="35" endLine="155" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563427207" fileName="GenHelper.java" startLine="157" startPosition="7" endLine="158" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="161" startPosition="119" endLine="162" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="162" startPosition="63" endLine="163" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="163" startPosition="30" endLine="164" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="164" startPosition="30" endLine="165" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="165" startPosition="30" endLine="166" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="166" startPosition="30" endLine="167" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="167" startPosition="157" endLine="168" endPosition="148" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="168" startPosition="148" endLine="169" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="169" startPosition="76" endLine="170" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="171" startPosition="31" endLine="172" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="173" startPosition="5" endLine="174" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="174" startPosition="141" endLine="175" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="175" startPosition="97" endLine="176" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="176" startPosition="55" endLine="177" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="177" startPosition="68" endLine="178" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="181" startPosition="79" endLine="182" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="182" startPosition="63" endLine="183" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="183" startPosition="30" endLine="184" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="184" startPosition="141" endLine="185" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="185" startPosition="97" endLine="186" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="189" startPosition="99" endLine="190" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="190" startPosition="63" endLine="191" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="191" startPosition="30" endLine="192" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="192" startPosition="30" endLine="193" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="193" startPosition="30" endLine="194" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="194" startPosition="144" endLine="195" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="196" startPosition="31" endLine="197" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="198" startPosition="5" endLine="199" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="200" startPosition="31" endLine="201" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="202" startPosition="5" endLine="203" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="206" startPosition="80" endLine="207" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="207" startPosition="63" endLine="208" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="208" startPosition="30" endLine="209" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="209" startPosition="30" endLine="210" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="210" startPosition="143" endLine="211" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="212" startPosition="31" endLine="213" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="214" startPosition="5" endLine="215" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="218" startPosition="79" endLine="219" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="219" startPosition="63" endLine="220" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="220" startPosition="30" endLine="221" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="221" startPosition="30" endLine="222" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="222" startPosition="30" endLine="223" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="223" startPosition="30" endLine="224" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="224" startPosition="137" endLine="225" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="225" startPosition="138" endLine="226" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="226" startPosition="139" endLine="227" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="227" startPosition="63" endLine="228" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="228" startPosition="53" endLine="229" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="230" startPosition="31" endLine="231" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="232" startPosition="5" endLine="233" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="233" startPosition="53" endLine="234" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7902470687820828184" fileName="GenHelper.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GenHelper#()V" />
-    <nodeInfo nodeId="3220419832563427091" fileName="GenHelper.java" startLine="145" startPosition="10" endLine="147" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="183" startPosition="30" endLine="185" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="183" startPosition="30" endLine="185" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563371227" fileName="GenHelper.java" startLine="27" startPosition="105" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371251" fileName="GenHelper.java" startLine="31" startPosition="116" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371297" fileName="GenHelper.java" startLine="89" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="1232136333262809409" fileName="GenHelper.java" startLine="126" startPosition="0" endLine="129" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="3220419832563394993" fileName="GenHelper.java" startLine="130" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="3220419832563395003" fileName="GenHelper.java" startLine="134" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="3220419832563427177" fileName="GenHelper.java" startLine="154" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="170" startPosition="39" endLine="173" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="173" startPosition="5" endLine="176" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="173" startPosition="5" endLine="176" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="195" startPosition="39" endLine="198" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="199" startPosition="39" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="211" startPosition="39" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="225" startPosition="138" endLine="228" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="225" startPosition="138" endLine="228" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="229" startPosition="39" endLine="232" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="51" startPosition="29" endLine="55" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="58" startPosition="29" endLine="62" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371362" fileName="GenHelper.java" startLine="99" startPosition="126" endLine="103" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371403" fileName="GenHelper.java" startLine="107" startPosition="106" endLine="111" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="169" startPosition="76" endLine="173" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="169" startPosition="76" endLine="173" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="194" startPosition="144" endLine="198" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="194" startPosition="144" endLine="198" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="198" startPosition="5" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="198" startPosition="5" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="210" startPosition="143" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="210" startPosition="143" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="228" startPosition="53" endLine="232" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="228" startPosition="53" endLine="232" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563427171" fileName="GenHelper.java" startLine="152" startPosition="110" endLine="157" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="209" startPosition="30" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="209" startPosition="30" endLine="214" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563427075" fileName="GenHelper.java" startLine="141" startPosition="146" endLine="147" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371286" fileName="GenHelper.java" startLine="87" startPosition="9" endLine="94" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371353" fileName="GenHelper.java" startLine="99" startPosition="0" endLine="106" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkMethodCallInvokesCorrectMethod#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="3220419832563371395" fileName="GenHelper.java" startLine="107" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkLastNodeBeingOfCorrectKind#(Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="181" startPosition="0" endLine="188" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_bzcigv_a0e0e#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="3220419832563427061" fileName="GenHelper.java" startLine="140" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="removeTailStatement#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="193" startPosition="30" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="193" startPosition="30" endLine="202" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="224" startPosition="137" endLine="233" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="224" startPosition="137" endLine="233" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563427115" fileName="GenHelper.java" startLine="150" startPosition="0" endLine="160" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="wrapInLoop#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="167" startPosition="157" endLine="177" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="167" startPosition="157" endLine="177" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="223" startPosition="30" endLine="233" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="223" startPosition="30" endLine="233" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="166" startPosition="30" endLine="177" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="166" startPosition="30" endLine="177" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="206" startPosition="0" endLine="217" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_bzcigv_a0a7a4#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="3220419832563394984" fileName="GenHelper.java" startLine="124" startPosition="0" endLine="137" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="189" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_bzcigv_a0g0e#(Ljava/lang/Object;Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="218" startPosition="0" endLine="236" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_bzcigv_a0a0g#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="161" startPosition="0" endLine="180" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_bzcigv_a0b0e#(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="3220419832563394864" fileName="GenHelper.java" startLine="115" startPosition="0" endLine="139" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="handleParameter#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)V" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="45" startPosition="22" endLine="79" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="43" startPosition="48" endLine="80" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="43" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="moveToNext#()Z" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="39" startPosition="47" endLine="83" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="39" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="iterator#()Ljava/util/Iterator;" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="37" startPosition="58" endLine="85" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="37" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="3220419832563371267" fileName="GenHelper.java" startLine="35" startPosition="12" endLine="87" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3220419832563371265" fileName="GenHelper.java" startLine="35" startPosition="10" endLine="96" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3220419832563371225" fileName="GenHelper.java" startLine="26" startPosition="122" endLine="96" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3220419832563371214" fileName="GenHelper.java" startLine="26" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="checkPathForIncorrectNodes#(Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="7902470687820828187" fileName="GenHelper.java" startLine="23" startPosition="22" endLine="23" endPosition="22" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="69" startPosition="29" endLine="69" endPosition="29" />
-    <scopeInfo nodeId="3220419832563371276" fileName="GenHelper.java" startLine="72" startPosition="29" endLine="72" endPosition="29" />
-    <scopeInfo nodeId="3220419832563371228" fileName="GenHelper.java" startLine="28" startPosition="160" endLine="29" endPosition="93" />
-    <scopeInfo nodeId="3220419832563371252" fileName="GenHelper.java" startLine="32" startPosition="164" endLine="33" endPosition="93" />
-    <scopeInfo nodeId="3220419832563371281" fileName="GenHelper.java" startLine="75" startPosition="29" endLine="76" endPosition="59" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="77" startPosition="30" endLine="78" endPosition="39" />
-    <scopeInfo nodeId="3220419832563371298" fileName="GenHelper.java" startLine="89" startPosition="41" endLine="90" endPosition="295" />
-    <scopeInfo nodeId="3220419832563371287" fileName="GenHelper.java" startLine="92" startPosition="11" endLine="93" endPosition="93" />
-    <scopeInfo nodeId="1232136333262809410" fileName="GenHelper.java" startLine="126" startPosition="39" endLine="127" endPosition="166" />
-    <scopeInfo nodeId="3220419832563394994" fileName="GenHelper.java" startLine="130" startPosition="39" endLine="131" endPosition="84" />
-    <scopeInfo nodeId="3220419832563395004" fileName="GenHelper.java" startLine="134" startPosition="35" endLine="135" endPosition="81" />
-    <scopeInfo nodeId="3220419832563427092" fileName="GenHelper.java" startLine="145" startPosition="12" endLine="146" endPosition="50" />
-    <scopeInfo nodeId="3220419832563427178" fileName="GenHelper.java" startLine="154" startPosition="35" endLine="155" endPosition="89" />
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="171" startPosition="31" endLine="172" endPosition="73" />
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="196" startPosition="31" endLine="197" endPosition="75" />
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="200" startPosition="31" endLine="201" endPosition="75" />
-    <scopeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="212" startPosition="31" endLine="213" endPosition="79" />
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="230" startPosition="31" endLine="231" endPosition="73" />
-    <scopeInfo nodeId="7902470687820828184" fileName="GenHelper.java" startLine="23" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="48" startPosition="30" endLine="50" endPosition="37" />
-    <scopeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="52" startPosition="45" endLine="54" endPosition="32" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="59" startPosition="36" endLine="61" endPosition="32" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="69" startPosition="29" endLine="71" endPosition="30" />
-    <scopeInfo nodeId="3220419832563371276" fileName="GenHelper.java" startLine="72" startPosition="29" endLine="74" endPosition="30" />
-    <scopeInfo nodeId="3220419832563371363" fileName="GenHelper.java" startLine="100" startPosition="90" endLine="102" endPosition="18" />
-    <scopeInfo nodeId="3220419832563371404" fileName="GenHelper.java" startLine="108" startPosition="310" endLine="110" endPosition="18" />
-    <scopeInfo nodeId="3220419832563427076" fileName="GenHelper.java" startLine="142" startPosition="34" endLine="144" endPosition="54">
-      <varInfo nodeId="3220419832563427059" varName="expressionStatement" />
-    </scopeInfo>
-    <scopeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="183" startPosition="30" endLine="185" endPosition="97" />
-    <scopeInfo nodeId="3220419832563371226" fileName="GenHelper.java" startLine="27" startPosition="105" endLine="30" endPosition="7" />
-    <scopeInfo nodeId="3220419832563371250" fileName="GenHelper.java" startLine="31" startPosition="116" endLine="34" endPosition="7" />
-    <scopeInfo nodeId="3220419832563371283" fileName="GenHelper.java" startLine="65" startPosition="29" endLine="68" endPosition="36" />
-    <scopeInfo nodeId="3220419832563371297" fileName="GenHelper.java" startLine="89" startPosition="0" endLine="92" endPosition="0">
-      <varInfo nodeId="3220419832563371297" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="1232136333262809409" fileName="GenHelper.java" startLine="126" startPosition="0" endLine="129" endPosition="0">
-      <varInfo nodeId="1232136333262809409" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394993" fileName="GenHelper.java" startLine="130" startPosition="0" endLine="133" endPosition="0">
-      <varInfo nodeId="3220419832563394993" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563395003" fileName="GenHelper.java" startLine="134" startPosition="0" endLine="137" endPosition="0">
-      <varInfo nodeId="3220419832563395003" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563427177" fileName="GenHelper.java" startLine="154" startPosition="0" endLine="157" endPosition="0">
-      <varInfo nodeId="3220419832563427177" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="173" startPosition="5" endLine="176" endPosition="55" />
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="225" startPosition="138" endLine="228" endPosition="53" />
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="169" startPosition="76" endLine="173" endPosition="5" />
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="194" startPosition="144" endLine="198" endPosition="5" />
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="198" startPosition="5" endLine="202" endPosition="5" />
-    <scopeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="210" startPosition="143" endLine="214" endPosition="5" />
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="228" startPosition="53" endLine="232" endPosition="5" />
-    <scopeInfo nodeId="3220419832563371358" fileName="GenHelper.java" startLine="99" startPosition="126" endLine="104" endPosition="17" />
-    <scopeInfo nodeId="3220419832563371399" fileName="GenHelper.java" startLine="107" startPosition="106" endLine="112" endPosition="17" />
-    <scopeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="181" startPosition="79" endLine="186" endPosition="24">
-      <varInfo nodeId="6376975402661065493" varName="facade" />
-      <varInfo nodeId="6376975402661065493" varName="quotedNode_2" />
-    </scopeInfo>
-    <scopeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="209" startPosition="30" endLine="214" endPosition="5" />
-    <scopeInfo nodeId="3220419832563371277" fileName="GenHelper.java" startLine="51" startPosition="29" endLine="57" endPosition="30" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="58" startPosition="29" endLine="64" endPosition="30" />
-    <scopeInfo nodeId="3220419832563371353" fileName="GenHelper.java" startLine="99" startPosition="0" endLine="106" endPosition="0">
-      <varInfo nodeId="3220419832563371351" varName="genContext" />
-      <varInfo nodeId="3220419832563371352" varName="method" />
-      <varInfo nodeId="3220419832563371385" varName="methodCall" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563371395" fileName="GenHelper.java" startLine="107" startPosition="0" endLine="114" endPosition="0">
-      <varInfo nodeId="3220419832563371394" varName="genContext" />
-      <varInfo nodeId="3220419832563371438" varName="lastNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563427064" fileName="GenHelper.java" startLine="140" startPosition="68" endLine="147" endPosition="5">
-      <varInfo nodeId="3220419832563427060" varName="returnStatement" />
-    </scopeInfo>
-    <scopeInfo nodeId="6376975402661065493" fileName="GenHelper.java" startLine="181" startPosition="0" endLine="188" endPosition="0">
-      <varInfo nodeId="6376975402661065493" varName="parameter_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563427119" fileName="GenHelper.java" startLine="150" startPosition="80" endLine="158" endPosition="16">
-      <varInfo nodeId="3220419832563427112" varName="body" />
-      <varInfo nodeId="2522420642609169803" varName="loopNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563427061" fileName="GenHelper.java" startLine="140" startPosition="0" endLine="149" endPosition="0">
-      <varInfo nodeId="3220419832563427100" varName="functionInvocation" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="193" startPosition="30" endLine="202" endPosition="5" />
-    <scopeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="206" startPosition="80" endLine="215" endPosition="24">
-      <varInfo nodeId="4821781367347049603" varName="facade" />
-      <varInfo nodeId="4821781367347049603" varName="quotedNode_2" />
-      <varInfo nodeId="4821781367347049603" varName="quotedNode_3" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="224" startPosition="137" endLine="233" endPosition="53" />
-    <scopeInfo nodeId="3220419832563427115" fileName="GenHelper.java" startLine="150" startPosition="0" endLine="160" endPosition="0">
-      <varInfo nodeId="3220419832563427114" varName="functionBody" />
-      <varInfo nodeId="3220419832563427193" varName="parameterCopyBlock" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="167" startPosition="157" endLine="177" endPosition="68" />
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="223" startPosition="30" endLine="233" endPosition="53" />
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="166" startPosition="30" endLine="177" endPosition="68" />
-    <scopeInfo nodeId="4821781367347049603" fileName="GenHelper.java" startLine="206" startPosition="0" endLine="217" endPosition="0">
-      <varInfo nodeId="4821781367347049603" varName="parameter_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="189" startPosition="99" endLine="203" endPosition="24">
-      <varInfo nodeId="1742094376850117215" varName="facade" />
-      <varInfo nodeId="1742094376850117215" varName="quotedNode_3" />
-      <varInfo nodeId="1742094376850117215" varName="quotedNode_4" />
-      <varInfo nodeId="1742094376850117215" varName="quotedNode_5" />
-    </scopeInfo>
-    <scopeInfo nodeId="1742094376850117215" fileName="GenHelper.java" startLine="189" startPosition="0" endLine="205" endPosition="0">
-      <varInfo nodeId="1742094376850117215" varName="parameter_1" />
-      <varInfo nodeId="1742094376850117215" varName="parameter_2" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="218" startPosition="79" endLine="234" endPosition="24">
-      <varInfo nodeId="2522420642609108530" varName="facade" />
-      <varInfo nodeId="2522420642609108530" varName="quotedNode_2" />
-      <varInfo nodeId="2522420642609108530" varName="quotedNode_3" />
-      <varInfo nodeId="2522420642609108530" varName="quotedNode_4" />
-      <varInfo nodeId="2522420642609108530" varName="quotedNode_5" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="161" startPosition="119" endLine="178" endPosition="24">
-      <varInfo nodeId="3220419832563394876" varName="facade" />
-      <varInfo nodeId="3220419832563394876" varName="quotedNode_4" />
-      <varInfo nodeId="3220419832563394876" varName="quotedNode_5" />
-      <varInfo nodeId="3220419832563394876" varName="quotedNode_6" />
-      <varInfo nodeId="3220419832563394876" varName="quotedNode_7" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609108530" fileName="GenHelper.java" startLine="218" startPosition="0" endLine="236" endPosition="0">
-      <varInfo nodeId="2522420642609108530" varName="parameter_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394876" fileName="GenHelper.java" startLine="161" startPosition="0" endLine="180" endPosition="0">
-      <varInfo nodeId="3220419832563394876" varName="parameter_1" />
-      <varInfo nodeId="3220419832563394876" varName="parameter_2" />
-      <varInfo nodeId="3220419832563394876" varName="parameter_3" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394873" fileName="GenHelper.java" startLine="115" startPosition="215" endLine="137" endPosition="7">
-      <varInfo nodeId="1742094376850117212" varName="assignment" />
-      <varInfo nodeId="3220419832563394851" varName="varDeclaration" />
-      <varInfo nodeId="3220419832563394853" varName="varRef" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563394864" fileName="GenHelper.java" startLine="115" startPosition="0" endLine="139" endPosition="0">
-      <varInfo nodeId="3220419832563394862" varName="containingStatementList" />
-      <varInfo nodeId="3220419832563394861" varName="currentInvocationParameter" />
-      <varInfo nodeId="3220419832563394859" varName="genContext" />
-      <varInfo nodeId="3220419832563394863" varName="originalFunctionDefinition" />
-      <varInfo nodeId="3220419832563394858" varName="param" />
-      <varInfo nodeId="3220419832563394860" varName="parameterCopyBlock" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="45" startPosition="22" endLine="79" endPosition="21" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="43" startPosition="48" endLine="81" endPosition="31" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="43" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="39" startPosition="47" endLine="83" endPosition="16" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="39" startPosition="0" endLine="85" endPosition="0" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="37" startPosition="58" endLine="85" endPosition="12" />
-    <scopeInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="37" startPosition="0" endLine="87" endPosition="0">
-      <varInfo nodeId="3220419832563371275" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563371266" fileName="GenHelper.java" startLine="35" startPosition="12" endLine="95" endPosition="89">
-      <varInfo nodeId="3220419832563371211" varName="predecesors" />
-    </scopeInfo>
-    <scopeInfo nodeId="3220419832563371218" fileName="GenHelper.java" startLine="26" startPosition="122" endLine="96" endPosition="5" />
-    <scopeInfo nodeId="3220419832563371214" fileName="GenHelper.java" startLine="26" startPosition="0" endLine="98" endPosition="0">
-      <varInfo nodeId="3220419832563371213" varName="genContext" />
-      <varInfo nodeId="3220419832563371319" varName="lastNode" />
-      <varInfo nodeId="3220419832563371327" varName="methodCall" />
-    </scopeInfo>
-    <unitInfo nodeId="3220419832563371297" fileName="GenHelper.java" startLine="88" startPosition="53" endLine="92" endPosition="7" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$2" />
-    <unitInfo nodeId="1232136333262809409" fileName="GenHelper.java" startLine="125" startPosition="177" endLine="129" endPosition="5" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$3" />
-    <unitInfo nodeId="3220419832563394993" fileName="GenHelper.java" startLine="129" startPosition="34" endLine="133" endPosition="5" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$4" />
-    <unitInfo nodeId="3220419832563395003" fileName="GenHelper.java" startLine="133" startPosition="20" endLine="137" endPosition="5" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$5" />
-    <unitInfo nodeId="3220419832563427177" fileName="GenHelper.java" startLine="153" startPosition="106" endLine="157" endPosition="5" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$6" />
-    <unitInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="40" startPosition="25" endLine="83" endPosition="15" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$3" />
-    <unitInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="38" startPosition="21" endLine="85" endPosition="11" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$2" />
-    <unitInfo nodeId="3220419832563371275" fileName="GenHelper.java" startLine="36" startPosition="127" endLine="87" endPosition="7" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$1" />
-    <unitInfo nodeId="7902470687820828182" fileName="GenHelper.java" startLine="22" startPosition="0" endLine="237" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper" />
+    <file name="GenHelper.java">
+      <node id="3220419832563371275" at="69,29,69,29" concept="1" />
+      <node id="3220419832563371276" at="72,29,72,29" concept="1" />
+      <node id="3220419832563371229" at="29,353,30,93" concept="5" />
+      <node id="3220419832563371253" at="33,357,34,93" concept="5" />
+      <node id="3220419832563371275" at="42,0,43,0" concept="6" trace="__CP__" />
+      <node id="3220419832563371275" at="48,30,49,56" concept="0" />
+      <node id="3220419832563371275" at="49,56,50,37" concept="10" />
+      <node id="3220419832563371277" at="52,45,53,42" concept="5" />
+      <node id="3220419832563371277" at="53,42,54,32" concept="2" />
+      <node id="3220419832563371277" at="55,25,56,40" concept="5" />
+      <node id="3220419832563371277" at="56,40,57,30" concept="2" />
+      <node id="3220419832563371275" at="59,36,60,42" concept="5" />
+      <node id="3220419832563371275" at="60,42,61,32" concept="2" />
+      <node id="3220419832563371275" at="62,25,63,40" concept="5" />
+      <node id="3220419832563371275" at="63,40,64,30" concept="2" />
+      <node id="3220419832563371283" at="65,29,66,40" concept="5" />
+      <node id="3220419832563371283" at="66,40,67,39" concept="5" />
+      <node id="3220419832563371283" at="67,39,68,36" concept="10" />
+      <node id="3220419832563371275" at="69,29,70,40" concept="5" />
+      <node id="3220419832563371275" at="70,40,71,30" concept="2" />
+      <node id="3220419832563371276" at="72,29,73,40" concept="5" />
+      <node id="3220419832563371276" at="73,40,74,30" concept="2" />
+      <node id="3220419832563371281" at="75,29,76,59" concept="1" />
+      <node id="3220419832563371282" at="75,29,76,59" concept="14" />
+      <node id="3220419832563371275" at="77,30,78,39" concept="2" />
+      <node id="3220419832563371275" at="80,33,81,31" concept="10" />
+      <node id="3220419832563371299" at="89,41,90,562" concept="10" />
+      <node id="3220419832563371288" at="92,11,93,93" concept="5" />
+      <node id="3220419832563453276" at="94,7,95,89" concept="5" />
+      <node id="3220419832563371364" at="99,193,100,91" concept="5" />
+      <node id="3220419832563371370" at="100,91,101,18" concept="10" />
+      <node id="3220419832563371377" at="102,5,103,17" concept="10" />
+      <node id="3220419832563371405" at="106,574,107,89" concept="5" />
+      <node id="3220419832563371411" at="107,89,108,18" concept="10" />
+      <node id="3220419832563371430" at="109,5,110,17" concept="10" />
+      <node id="6376975402661061522" at="112,215,113,0" concept="11" />
+      <node id="3220419832563394874" at="113,0,114,309" concept="9" />
+      <node id="3220419832563394922" at="114,309,115,226" concept="5" />
+      <node id="3220419832563394929" at="115,226,116,0" concept="11" />
+      <node id="3220419832563394930" at="116,0,117,242" concept="9" />
+      <node id="3220419832563394943" at="117,242,118,0" concept="11" />
+      <node id="1742094376850117211" at="118,0,119,94" concept="9" />
+      <node id="3220419832563394976" at="119,94,120,264" concept="5" />
+      <node id="3220419832563394983" at="120,264,121,0" concept="11" />
+      <node id="1232136333262809411" at="123,39,124,356" concept="10" />
+      <node id="3220419832563394995" at="127,39,128,186" concept="10" />
+      <node id="3220419832563395005" at="131,35,132,81" concept="5" />
+      <node id="3220419832563427068" at="136,68,137,238" concept="9" />
+      <node id="3220419832563427077" at="138,34,139,248" concept="9" />
+      <node id="3220419832563427084" at="139,248,140,54" concept="5" />
+      <node id="3220419832563427093" at="141,12,142,50" concept="5" />
+      <node id="3220419832563427153" at="145,80,146,66" concept="9" />
+      <node id="2522420642609169802" at="146,66,147,216" concept="9" />
+      <node id="3220419832563427179" at="149,35,150,89" concept="5" />
+      <node id="3220419832563427207" at="152,7,153,16" concept="10" />
+      <node id="3220419832563394876" at="155,119,156,63" concept="9" />
+      <node id="3220419832563394876" at="156,63,157,30" concept="9" />
+      <node id="3220419832563394876" at="157,30,158,30" concept="9" />
+      <node id="3220419832563394876" at="158,30,159,30" concept="9" />
+      <node id="3220419832563394876" at="159,30,160,30" concept="9" />
+      <node id="3220419832563394876" at="160,30,161,245" concept="5" />
+      <node id="3220419832563394876" at="161,245,162,236" concept="5" />
+      <node id="3220419832563394876" at="162,236,163,182" concept="5" />
+      <node id="3220419832563394876" at="163,182,164,39" concept="5" />
+      <node id="3220419832563394876" at="165,31,166,196" concept="5" />
+      <node id="3220419832563394876" at="167,5,168,229" concept="5" />
+      <node id="3220419832563394876" at="168,229,169,206" concept="5" />
+      <node id="3220419832563394876" at="169,206,170,166" concept="5" />
+      <node id="3220419832563394876" at="170,166,171,179" concept="5" />
+      <node id="3220419832563394876" at="171,179,172,24" concept="10" />
+      <node id="6376975402661065493" at="174,79,175,63" concept="9" />
+      <node id="6376975402661065493" at="175,63,176,30" concept="9" />
+      <node id="6376975402661065493" at="176,30,177,229" concept="5" />
+      <node id="6376975402661065493" at="177,229,178,206" concept="5" />
+      <node id="6376975402661065493" at="178,206,179,24" concept="10" />
+      <node id="1742094376850117215" at="181,99,182,63" concept="9" />
+      <node id="1742094376850117215" at="182,63,183,30" concept="9" />
+      <node id="1742094376850117215" at="183,30,184,30" concept="9" />
+      <node id="1742094376850117215" at="184,30,185,30" concept="9" />
+      <node id="1742094376850117215" at="185,30,186,232" concept="5" />
+      <node id="1742094376850117215" at="186,232,187,39" concept="5" />
+      <node id="1742094376850117215" at="188,31,189,187" concept="5" />
+      <node id="1742094376850117215" at="190,5,191,39" concept="5" />
+      <node id="1742094376850117215" at="192,31,193,187" concept="5" />
+      <node id="1742094376850117215" at="194,5,195,24" concept="10" />
+      <node id="4821781367347049603" at="197,80,198,63" concept="9" />
+      <node id="4821781367347049603" at="198,63,199,30" concept="9" />
+      <node id="4821781367347049603" at="199,30,200,30" concept="9" />
+      <node id="4821781367347049603" at="200,30,201,231" concept="5" />
+      <node id="4821781367347049603" at="201,231,202,39" concept="5" />
+      <node id="4821781367347049603" at="203,31,204,190" concept="5" />
+      <node id="4821781367347049603" at="205,5,206,24" concept="10" />
+      <node id="2522420642609108530" at="208,79,209,63" concept="9" />
+      <node id="2522420642609108530" at="209,63,210,30" concept="9" />
+      <node id="2522420642609108530" at="210,30,211,30" concept="9" />
+      <node id="2522420642609108530" at="211,30,212,30" concept="9" />
+      <node id="2522420642609108530" at="212,30,213,30" concept="9" />
+      <node id="2522420642609108530" at="213,30,214,225" concept="5" />
+      <node id="2522420642609108530" at="214,225,215,226" concept="5" />
+      <node id="2522420642609108530" at="215,226,216,227" concept="5" />
+      <node id="2522420642609108530" at="216,227,217,167" concept="5" />
+      <node id="2522420642609108530" at="217,167,218,164" concept="5" />
+      <node id="2522420642609108530" at="218,164,219,39" concept="5" />
+      <node id="2522420642609108530" at="220,31,221,186" concept="5" />
+      <node id="2522420642609108530" at="222,5,223,164" concept="5" />
+      <node id="2522420642609108530" at="223,164,224,24" concept="10" />
+      <node id="7902470687820828184" at="25,0,27,0" concept="3" trace="GenHelper#()V" />
+      <node id="3220419832563427091" at="141,10,143,5" concept="1" />
+      <node id="6376975402661065493" at="176,30,178,206" concept="1" />
+      <node id="6376975402661065493" at="176,30,178,206" concept="1" />
+      <node id="3220419832563371227" at="28,193,31,7" concept="7" />
+      <node id="3220419832563371251" at="32,204,35,7" concept="7" />
+      <node id="3220419832563371297" at="89,0,92,0" concept="8" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="1232136333262809409" at="123,0,126,0" concept="8" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3220419832563394993" at="127,0,130,0" concept="8" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3220419832563395003" at="131,0,134,0" concept="8" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3220419832563427177" at="149,0,152,0" concept="8" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3220419832563394876" at="164,39,167,5" concept="7" />
+      <node id="3220419832563394876" at="167,5,170,166" concept="1" />
+      <node id="3220419832563394876" at="167,5,170,166" concept="1" />
+      <node id="1742094376850117215" at="187,39,190,5" concept="7" />
+      <node id="1742094376850117215" at="191,39,194,5" concept="7" />
+      <node id="4821781367347049603" at="202,39,205,5" concept="7" />
+      <node id="2522420642609108530" at="215,226,218,164" concept="1" />
+      <node id="2522420642609108530" at="215,226,218,164" concept="1" />
+      <node id="2522420642609108530" at="219,39,222,5" concept="7" />
+      <node id="3220419832563371277" at="51,29,55,25" concept="7" />
+      <node id="3220419832563371275" at="58,29,62,25" concept="7" />
+      <node id="3220419832563371362" at="98,126,102,5" concept="7" />
+      <node id="3220419832563371403" at="105,106,109,5" concept="7" />
+      <node id="3220419832563394876" at="163,182,167,5" concept="1" />
+      <node id="3220419832563394876" at="163,182,167,5" concept="1" />
+      <node id="1742094376850117215" at="186,232,190,5" concept="1" />
+      <node id="1742094376850117215" at="186,232,190,5" concept="1" />
+      <node id="1742094376850117215" at="190,5,194,5" concept="1" />
+      <node id="1742094376850117215" at="190,5,194,5" concept="1" />
+      <node id="4821781367347049603" at="201,231,205,5" concept="1" />
+      <node id="4821781367347049603" at="201,231,205,5" concept="1" />
+      <node id="2522420642609108530" at="218,164,222,5" concept="1" />
+      <node id="2522420642609108530" at="218,164,222,5" concept="1" />
+      <node id="3220419832563427171" at="147,216,152,7" concept="5" />
+      <node id="4821781367347049603" at="200,30,205,5" concept="1" />
+      <node id="4821781367347049603" at="200,30,205,5" concept="1" />
+      <node id="3220419832563427075" at="137,238,143,5" concept="7" />
+      <node id="3220419832563371286" at="87,9,94,7" concept="7" />
+      <node id="3220419832563371353" at="98,0,105,0" concept="12" trace="checkMethodCallInvokesCorrectMethod#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="3220419832563371395" at="105,0,112,0" concept="12" trace="checkLastNodeBeingOfCorrectKind#(Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="6376975402661065493" at="174,0,181,0" concept="12" trace="_quotation_createNode_bzcigv_a0e0e#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3220419832563427061" at="136,0,145,0" concept="12" trace="removeTailStatement#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1742094376850117215" at="185,30,194,5" concept="1" />
+      <node id="1742094376850117215" at="185,30,194,5" concept="1" />
+      <node id="2522420642609108530" at="214,225,223,164" concept="1" />
+      <node id="2522420642609108530" at="214,225,223,164" concept="1" />
+      <node id="3220419832563427115" at="145,0,155,0" concept="12" trace="wrapInLoop#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3220419832563394876" at="161,245,171,179" concept="1" />
+      <node id="3220419832563394876" at="161,245,171,179" concept="1" />
+      <node id="2522420642609108530" at="213,30,223,164" concept="1" />
+      <node id="2522420642609108530" at="213,30,223,164" concept="1" />
+      <node id="3220419832563394876" at="160,30,171,179" concept="1" />
+      <node id="3220419832563394876" at="160,30,171,179" concept="1" />
+      <node id="4821781367347049603" at="197,0,208,0" concept="12" trace="_quotation_createNode_bzcigv_a0a7a4#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3220419832563394984" at="121,0,134,7" concept="5" />
+      <node id="1742094376850117215" at="181,0,197,0" concept="12" trace="_quotation_createNode_bzcigv_a0g0e#(Ljava/lang/Object;Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="2522420642609108530" at="208,0,226,0" concept="12" trace="_quotation_createNode_bzcigv_a0a0g#(Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3220419832563394876" at="155,0,174,0" concept="12" trace="_quotation_createNode_bzcigv_a0b0e#(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3220419832563394864" at="112,0,136,0" concept="12" trace="handleParameter#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/generator/template/TemplateQueryContext;)V" />
+      <node id="3220419832563371275" at="45,22,79,21" concept="13" />
+      <node id="3220419832563371275" at="43,48,80,33" concept="4" />
+      <node id="3220419832563371275" at="43,0,83,0" concept="8" trace="moveToNext#()Z" />
+      <node id="3220419832563371275" at="40,47,83,16" concept="10" />
+      <node id="3220419832563371275" at="40,0,85,0" concept="8" trace="iterator#()Ljava/util/Iterator;" />
+      <node id="3220419832563371275" at="38,58,85,12" concept="10" />
+      <node id="3220419832563371275" at="38,0,87,0" concept="8" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+      <node id="3220419832563371267" at="36,12,87,9" concept="9" />
+      <node id="3220419832563371265" at="36,10,96,5" concept="1" />
+      <node id="3220419832563371225" at="27,122,96,5" concept="7" />
+      <node id="3220419832563371214" at="27,0,98,0" concept="12" trace="checkPathForIncorrectNodes#(Ljetbrains/mps/generator/template/TemplateQueryContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="7902470687820828187" at="25,22,25,22" />
+      <scope id="3220419832563371275" at="69,29,69,29" />
+      <scope id="3220419832563371276" at="72,29,72,29" />
+      <scope id="3220419832563371228" at="29,353,30,93" />
+      <scope id="3220419832563371252" at="33,357,34,93" />
+      <scope id="3220419832563371281" at="75,29,76,59" />
+      <scope id="3220419832563371275" at="77,30,78,39" />
+      <scope id="3220419832563371298" at="89,41,90,562" />
+      <scope id="3220419832563371287" at="92,11,93,93" />
+      <scope id="1232136333262809410" at="123,39,124,356" />
+      <scope id="3220419832563394994" at="127,39,128,186" />
+      <scope id="3220419832563395004" at="131,35,132,81" />
+      <scope id="3220419832563427092" at="141,12,142,50" />
+      <scope id="3220419832563427178" at="149,35,150,89" />
+      <scope id="3220419832563394876" at="165,31,166,196" />
+      <scope id="1742094376850117215" at="188,31,189,187" />
+      <scope id="1742094376850117215" at="192,31,193,187" />
+      <scope id="4821781367347049603" at="203,31,204,190" />
+      <scope id="2522420642609108530" at="220,31,221,186" />
+      <scope id="7902470687820828184" at="25,0,27,0" />
+      <scope id="3220419832563371275" at="48,30,50,37" />
+      <scope id="3220419832563371277" at="52,45,54,32" />
+      <scope id="3220419832563371275" at="59,36,61,32" />
+      <scope id="3220419832563371275" at="69,29,71,30" />
+      <scope id="3220419832563371276" at="72,29,74,30" />
+      <scope id="3220419832563371363" at="99,193,101,18" />
+      <scope id="3220419832563371404" at="106,574,108,18" />
+      <scope id="3220419832563427076" at="138,34,140,54">
+        <var name="expressionStatement" id="3220419832563427059" />
+      </scope>
+      <scope id="6376975402661065493" at="176,30,178,206" />
+      <scope id="3220419832563371226" at="28,193,31,7" />
+      <scope id="3220419832563371250" at="32,204,35,7" />
+      <scope id="3220419832563371283" at="65,29,68,36" />
+      <scope id="3220419832563371297" at="89,0,92,0">
+        <var name="it" id="3220419832563371297" />
+      </scope>
+      <scope id="1232136333262809409" at="123,0,126,0">
+        <var name="it" id="1232136333262809409" />
+      </scope>
+      <scope id="3220419832563394993" at="127,0,130,0">
+        <var name="it" id="3220419832563394993" />
+      </scope>
+      <scope id="3220419832563395003" at="131,0,134,0">
+        <var name="it" id="3220419832563395003" />
+      </scope>
+      <scope id="3220419832563427177" at="149,0,152,0">
+        <var name="it" id="3220419832563427177" />
+      </scope>
+      <scope id="3220419832563394876" at="167,5,170,166" />
+      <scope id="2522420642609108530" at="215,226,218,164" />
+      <scope id="3220419832563394876" at="163,182,167,5" />
+      <scope id="1742094376850117215" at="186,232,190,5" />
+      <scope id="1742094376850117215" at="190,5,194,5" />
+      <scope id="4821781367347049603" at="201,231,205,5" />
+      <scope id="2522420642609108530" at="218,164,222,5" />
+      <scope id="3220419832563371358" at="98,126,103,17" />
+      <scope id="3220419832563371399" at="105,106,110,17" />
+      <scope id="6376975402661065493" at="174,79,179,24">
+        <var name="facade" id="6376975402661065493" />
+        <var name="quotedNode_2" id="6376975402661065493" />
+      </scope>
+      <scope id="4821781367347049603" at="200,30,205,5" />
+      <scope id="3220419832563371277" at="51,29,57,30" />
+      <scope id="3220419832563371275" at="58,29,64,30" />
+      <scope id="3220419832563371353" at="98,0,105,0">
+        <var name="genContext" id="3220419832563371351" />
+        <var name="method" id="3220419832563371352" />
+        <var name="methodCall" id="3220419832563371385" />
+      </scope>
+      <scope id="3220419832563371395" at="105,0,112,0">
+        <var name="genContext" id="3220419832563371394" />
+        <var name="lastNode" id="3220419832563371438" />
+      </scope>
+      <scope id="3220419832563427064" at="136,68,143,5">
+        <var name="returnStatement" id="3220419832563427060" />
+      </scope>
+      <scope id="6376975402661065493" at="174,0,181,0">
+        <var name="parameter_1" id="6376975402661065493" />
+      </scope>
+      <scope id="3220419832563427119" at="145,80,153,16">
+        <var name="body" id="3220419832563427112" />
+        <var name="loopNode" id="2522420642609169803" />
+      </scope>
+      <scope id="3220419832563427061" at="136,0,145,0">
+        <var name="functionInvocation" id="3220419832563427100" />
+      </scope>
+      <scope id="1742094376850117215" at="185,30,194,5" />
+      <scope id="4821781367347049603" at="197,80,206,24">
+        <var name="facade" id="4821781367347049603" />
+        <var name="quotedNode_2" id="4821781367347049603" />
+        <var name="quotedNode_3" id="4821781367347049603" />
+      </scope>
+      <scope id="2522420642609108530" at="214,225,223,164" />
+      <scope id="3220419832563427115" at="145,0,155,0">
+        <var name="functionBody" id="3220419832563427114" />
+        <var name="parameterCopyBlock" id="3220419832563427193" />
+      </scope>
+      <scope id="3220419832563394876" at="161,245,171,179" />
+      <scope id="2522420642609108530" at="213,30,223,164" />
+      <scope id="3220419832563394876" at="160,30,171,179" />
+      <scope id="4821781367347049603" at="197,0,208,0">
+        <var name="parameter_1" id="4821781367347049603" />
+      </scope>
+      <scope id="1742094376850117215" at="181,99,195,24">
+        <var name="facade" id="1742094376850117215" />
+        <var name="quotedNode_3" id="1742094376850117215" />
+        <var name="quotedNode_4" id="1742094376850117215" />
+        <var name="quotedNode_5" id="1742094376850117215" />
+      </scope>
+      <scope id="1742094376850117215" at="181,0,197,0">
+        <var name="parameter_1" id="1742094376850117215" />
+        <var name="parameter_2" id="1742094376850117215" />
+      </scope>
+      <scope id="2522420642609108530" at="208,79,224,24">
+        <var name="facade" id="2522420642609108530" />
+        <var name="quotedNode_2" id="2522420642609108530" />
+        <var name="quotedNode_3" id="2522420642609108530" />
+        <var name="quotedNode_4" id="2522420642609108530" />
+        <var name="quotedNode_5" id="2522420642609108530" />
+      </scope>
+      <scope id="3220419832563394876" at="155,119,172,24">
+        <var name="facade" id="3220419832563394876" />
+        <var name="quotedNode_4" id="3220419832563394876" />
+        <var name="quotedNode_5" id="3220419832563394876" />
+        <var name="quotedNode_6" id="3220419832563394876" />
+        <var name="quotedNode_7" id="3220419832563394876" />
+      </scope>
+      <scope id="2522420642609108530" at="208,0,226,0">
+        <var name="parameter_1" id="2522420642609108530" />
+      </scope>
+      <scope id="3220419832563394876" at="155,0,174,0">
+        <var name="parameter_1" id="3220419832563394876" />
+        <var name="parameter_2" id="3220419832563394876" />
+        <var name="parameter_3" id="3220419832563394876" />
+      </scope>
+      <scope id="3220419832563394873" at="112,215,134,7">
+        <var name="assignment" id="1742094376850117212" />
+        <var name="varDeclaration" id="3220419832563394851" />
+        <var name="varRef" id="3220419832563394853" />
+      </scope>
+      <scope id="3220419832563394864" at="112,0,136,0">
+        <var name="containingStatementList" id="3220419832563394862" />
+        <var name="currentInvocationParameter" id="3220419832563394861" />
+        <var name="genContext" id="3220419832563394859" />
+        <var name="originalFunctionDefinition" id="3220419832563394863" />
+        <var name="param" id="3220419832563394858" />
+        <var name="parameterCopyBlock" id="3220419832563394860" />
+      </scope>
+      <scope id="3220419832563371275" at="45,22,79,21" />
+      <scope id="3220419832563371275" at="43,48,81,31" />
+      <scope id="3220419832563371275" at="43,0,83,0" />
+      <scope id="3220419832563371275" at="40,47,83,16" />
+      <scope id="3220419832563371275" at="40,0,85,0" />
+      <scope id="3220419832563371275" at="38,58,85,12" />
+      <scope id="3220419832563371275" at="38,0,87,0">
+        <var name="it" id="3220419832563371275" />
+      </scope>
+      <scope id="3220419832563371266" at="36,12,95,89">
+        <var name="predecesors" id="3220419832563371211" />
+      </scope>
+      <scope id="3220419832563371218" at="27,122,96,5" />
+      <scope id="3220419832563371214" at="27,0,98,0">
+        <var name="genContext" id="3220419832563371213" />
+        <var name="lastNode" id="3220419832563371319" />
+        <var name="methodCall" id="3220419832563371327" />
+      </scope>
+      <unit id="3220419832563371297" at="88,53,92,7" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$2" />
+      <unit id="1232136333262809409" at="122,279,126,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$3" />
+      <unit id="3220419832563394993" at="126,34,130,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$4" />
+      <unit id="3220419832563395003" at="130,20,134,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$5" />
+      <unit id="3220419832563427177" at="148,212,152,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$6" />
+      <unit id="3220419832563371275" at="41,25,83,15" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$3" />
+      <unit id="3220419832563371275" at="39,21,85,11" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$2" />
+      <unit id="3220419832563371275" at="37,131,87,7" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper$1" />
+      <unit id="7902470687820828182" at="24,0,227,0" name="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

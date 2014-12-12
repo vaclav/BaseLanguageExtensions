@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.dependencies.CheckingMethod;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -21,51 +22,47 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 public class CheckingUtil {
   public CheckingUtil() {
   }
-
   @CheckingMethod
   public static void checkForVoidReturnType(final TypeCheckingContext typeCheckingContext, SNode returnType, SNode functionDeclaration) {
-    if (SNodeOperations.isInstanceOf(returnType, "jetbrains.mps.baseLanguage.structure.VoidType")) {
+    if (SNodeOperations.isInstanceOf(returnType, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType"))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionDeclaration, "Tail recursive methods and closures must not return void", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796647", null, errorTarget);
       }
     }
   }
-
   @CheckingMethod
   public static void checkCorrectKindOfLastNode(final TypeCheckingContext typeCheckingContext, SNode lastNode) {
-    if (!(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ReturnStatement")) && !(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ExpressionStatement")) && !(SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.IfStatement"))) {
+    if (!(SNodeOperations.isInstanceOf(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement"))) && !(SNodeOperations.isInstanceOf(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"))) && !(SNodeOperations.isInstanceOf(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b217L, "jetbrains.mps.baseLanguage.structure.IfStatement")))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(lastNode, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796618", null, errorTarget);
       }
     }
   }
-
   @CheckingMethod
   public static void checkHierarchy(final TypeCheckingContext typeCheckingContext, final SNode lastNode, SNode functionCall) {
-    if (SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ReturnStatement")) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, "jetbrains.mps.baseLanguage.structure.ReturnStatement"), "expression", true) != functionCall) {
+    if (SNodeOperations.isInstanceOf(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement"))) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression")) != functionCall) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionCall, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "3220419832563448025", null, errorTarget);
         }
       }
-    } else if (SNodeOperations.isInstanceOf(lastNode, "jetbrains.mps.baseLanguage.structure.ExpressionStatement")) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true) != functionCall) {
+    } else if (SNodeOperations.isInstanceOf(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"))) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement")), MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression")) != functionCall) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionCall, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "3220419832563448046", null, errorTarget);
         }
       }
     } else {
-      Iterable<SNode> predecesors = ListSequence.fromList(SNodeOperations.getAncestors(functionCall, null, false)).translate(new ITranslator2<SNode, SNode>() {
+      Iterable<SNode> predecesors = ListSequence.fromList(SNodeOperations.getNodeAncestors(functionCall, null, false)).translate(new ITranslator2<SNode, SNode>() {
         public Iterable<SNode> translate(final SNode it) {
           return new Iterable<SNode>() {
             public Iterator<SNode> iterator() {
               return new YieldingIterator<SNode>() {
                 private int __CP__ = 0;
-
                 protected boolean moveToNext() {
 __loop__:
                   do {
@@ -113,7 +110,7 @@ __switch__:
       });
       if (Sequence.fromIterable(predecesors).any(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SNodeOperations.isInstanceOf(it, "jetbrains.mps.baseLanguage.structure.TryCatchStatement") || SNodeOperations.isInstanceOf(it, "jetbrains.mps.baseLanguage.structure.TryStatement") || SNodeOperations.isInstanceOf(it, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
+          return SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement")) || SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cacebf556L, "jetbrains.mps.baseLanguage.structure.TryStatement")) || SNodeOperations.isInstanceOf(it, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement"));
         }
       })) {
         {

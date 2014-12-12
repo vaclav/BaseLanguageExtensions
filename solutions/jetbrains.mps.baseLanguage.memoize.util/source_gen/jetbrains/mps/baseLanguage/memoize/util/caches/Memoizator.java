@@ -10,7 +10,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 public class Memoizator {
   public Memoizator() {
   }
-
   public static Map<Integer, Object> buildMemoizeCache(int sizeLimit) {
     if (sizeLimit < 0) {
       throw new IllegalArgumentException("A non-negative number is required as the fixed cache size parameter for memoize.");
@@ -22,23 +21,19 @@ public class Memoizator {
       return buildBoundedMemoizeCache(sizeLimit);
     }
   }
-
   private static ConcurrentHashMap<Integer, Object> createMap() {
     return new ConcurrentHashMap<Integer, Object>();
   }
-
   private static Map<Integer, Object> buildBoundedMemoizeCache(int fixedSize) {
     Map storage = new LRUProtectionStorage(fixedSize);
     return Collections.synchronizedMap(storage);
   }
-
   public static Object retrieveFromCache(Map<Integer, Object> cache, KeyCalculator key) {
     if (cache == null) {
       throw new IllegalStateException("Cannot use a null cache for memoize");
     }
     return MapSequence.fromMap(cache).get(key.getKey());
   }
-
   public static void storeInCache(Map<Integer, Object> cache, KeyCalculator key, Object value) {
     if (cache == null) {
       throw new IllegalStateException("Cannot use a null cache for memoize");

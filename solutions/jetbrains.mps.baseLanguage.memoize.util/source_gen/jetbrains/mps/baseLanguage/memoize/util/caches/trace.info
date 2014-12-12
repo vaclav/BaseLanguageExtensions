@@ -1,151 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/2522420642609174595">
-    <nodeInfo nodeId="4510567955453829907" fileName="Memoizator.java" startLine="15" startPosition="24" endLine="16" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="9172390174097872763" fileName="Memoizator.java" startLine="17" startPosition="5" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9172390174097872818" fileName="Memoizator.java" startLine="19" startPosition="25" endLine="20" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9172390174097872893" fileName="Memoizator.java" startLine="21" startPosition="12" endLine="22" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="9172390174097872879" fileName="Memoizator.java" startLine="26" startPosition="65" endLine="27" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4510567955453827456" fileName="Memoizator.java" startLine="30" startPosition="79" endLine="31" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4510567955453827475" fileName="Memoizator.java" startLine="31" startPosition="54" endLine="32" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2522420642609181986" fileName="Memoizator.java" startLine="36" startPosition="24" endLine="37" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="2522420642609182009" fileName="Memoizator.java" startLine="38" startPosition="5" endLine="39" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4510567955453819964" fileName="Memoizator.java" startLine="43" startPosition="24" endLine="44" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="2522420642609182112" fileName="Memoizator.java" startLine="46" startPosition="24" endLine="47" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="4510567955453819973" fileName="Memoizator.java" startLine="48" startPosition="5" endLine="49" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609174597" fileName="Memoizator.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Memoizator#()V" />
-    <nodeInfo nodeId="9172390174097872840" fileName="Memoizator.java" startLine="21" startPosition="10" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4510567955453829902" fileName="Memoizator.java" startLine="14" startPosition="71" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="9172390174097872873" fileName="Memoizator.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="createMap#()Ljava/util/concurrent/ConcurrentHashMap;" />
-    <nodeInfo nodeId="2522420642609181950" fileName="Memoizator.java" startLine="35" startPosition="89" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4510567955453819962" fileName="Memoizator.java" startLine="42" startPosition="96" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2522420642609182092" fileName="Memoizator.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4510567955453827279" fileName="Memoizator.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="buildBoundedMemoizeCache#(I)Ljava/util/Map;" />
-    <nodeInfo nodeId="9172390174097872758" fileName="Memoizator.java" startLine="18" startPosition="0" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2522420642609181882" fileName="Memoizator.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="retrieveFromCache#(Ljava/util/Map;Ljetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="2522420642609182080" fileName="Memoizator.java" startLine="42" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="storeInCache#(Ljava/util/Map;Ljetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator;Ljava/lang/Object;)V" />
-    <nodeInfo nodeId="1572979163263092479" fileName="Memoizator.java" startLine="14" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="buildMemoizeCache#(I)Ljava/util/Map;" />
-    <scopeInfo nodeId="2522420642609174600" fileName="Memoizator.java" startLine="11" startPosition="23" endLine="11" endPosition="23" />
-    <scopeInfo nodeId="4510567955453829906" fileName="Memoizator.java" startLine="15" startPosition="24" endLine="16" endPosition="125" />
-    <scopeInfo nodeId="9172390174097872759" fileName="Memoizator.java" startLine="19" startPosition="25" endLine="20" endPosition="36" />
-    <scopeInfo nodeId="9172390174097872841" fileName="Memoizator.java" startLine="21" startPosition="12" endLine="22" endPosition="49" />
-    <scopeInfo nodeId="9172390174097872878" fileName="Memoizator.java" startLine="26" startPosition="65" endLine="27" endPosition="52" />
-    <scopeInfo nodeId="2522420642609181951" fileName="Memoizator.java" startLine="36" startPosition="24" endLine="37" endPosition="77" />
-    <scopeInfo nodeId="4510567955453819963" fileName="Memoizator.java" startLine="43" startPosition="24" endLine="44" endPosition="77" />
-    <scopeInfo nodeId="2522420642609182094" fileName="Memoizator.java" startLine="46" startPosition="24" endLine="47" endPosition="86" />
-    <scopeInfo nodeId="2522420642609174597" fileName="Memoizator.java" startLine="11" startPosition="0" endLine="13" endPosition="0" />
-    <scopeInfo nodeId="4510567955453827282" fileName="Memoizator.java" startLine="30" startPosition="79" endLine="32" endPosition="48">
-      <varInfo nodeId="4510567955453827457" varName="storage" />
-    </scopeInfo>
-    <scopeInfo nodeId="9172390174097872873" fileName="Memoizator.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="4510567955453827279" fileName="Memoizator.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
-      <varInfo nodeId="4510567955453827300" varName="fixedSize" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609181885" fileName="Memoizator.java" startLine="35" startPosition="89" endLine="39" endPosition="56" />
-    <scopeInfo nodeId="2522420642609181882" fileName="Memoizator.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="2522420642609181887" varName="cache" />
-      <varInfo nodeId="2522420642609181889" varName="key" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609182083" fileName="Memoizator.java" startLine="42" startPosition="96" endLine="49" endPosition="56" />
-    <scopeInfo nodeId="1572979163263092482" fileName="Memoizator.java" startLine="14" startPosition="71" endLine="23" endPosition="5" />
-    <scopeInfo nodeId="2522420642609182080" fileName="Memoizator.java" startLine="42" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="4820070488200495272" varName="cache" />
-      <varInfo nodeId="2522420642609182086" varName="key" />
-      <varInfo nodeId="2522420642609182089" varName="value" />
-    </scopeInfo>
-    <scopeInfo nodeId="1572979163263092479" fileName="Memoizator.java" startLine="14" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="9172390174097872752" varName="sizeLimit" />
-    </scopeInfo>
-    <unitInfo nodeId="2522420642609174595" fileName="Memoizator.java" startLine="10" startPosition="0" endLine="52" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" />
+    <file name="Memoizator.java">
+      <node id="4510567955453829907" at="14,24,15,125" concept="12" />
+      <node id="9172390174097872763" at="16,5,17,0" concept="8" />
+      <node id="9172390174097872818" at="18,25,19,36" concept="7" />
+      <node id="9172390174097872893" at="20,12,21,49" concept="7" />
+      <node id="9172390174097872879" at="24,65,25,52" concept="7" />
+      <node id="4510567955453827456" at="27,79,28,54" concept="6" />
+      <node id="4510567955453827475" at="28,54,29,48" concept="7" />
+      <node id="2522420642609181986" at="32,24,33,77" concept="12" />
+      <node id="2522420642609182009" at="34,5,35,56" concept="7" />
+      <node id="4510567955453819964" at="38,24,39,77" concept="12" />
+      <node id="2522420642609182112" at="41,24,42,86" concept="12" />
+      <node id="4510567955453819973" at="43,5,44,56" concept="2" />
+      <node id="2522420642609174597" at="11,0,13,0" concept="1" trace="Memoizator#()V" />
+      <node id="9172390174097872840" at="20,10,22,5" concept="0" />
+      <node id="4510567955453829902" at="13,71,16,5" concept="4" />
+      <node id="9172390174097872873" at="24,0,27,0" concept="10" trace="createMap#()Ljava/util/concurrent/ConcurrentHashMap;" />
+      <node id="2522420642609181950" at="31,89,34,5" concept="4" />
+      <node id="4510567955453819962" at="37,96,40,5" concept="4" />
+      <node id="2522420642609182092" at="40,5,43,5" concept="4" />
+      <node id="4510567955453827279" at="27,0,31,0" concept="10" trace="buildBoundedMemoizeCache#(I)Ljava/util/Map;" />
+      <node id="9172390174097872758" at="17,0,22,5" concept="4" />
+      <node id="2522420642609181882" at="31,0,37,0" concept="10" trace="retrieveFromCache#(Ljava/util/Map;Ljetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator;)Ljava/lang/Object;" />
+      <node id="2522420642609182080" at="37,0,46,0" concept="10" trace="storeInCache#(Ljava/util/Map;Ljetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator;Ljava/lang/Object;)V" />
+      <node id="1572979163263092479" at="13,0,24,0" concept="10" trace="buildMemoizeCache#(I)Ljava/util/Map;" />
+      <scope id="2522420642609174600" at="11,23,11,23" />
+      <scope id="4510567955453829906" at="14,24,15,125" />
+      <scope id="9172390174097872759" at="18,25,19,36" />
+      <scope id="9172390174097872841" at="20,12,21,49" />
+      <scope id="9172390174097872878" at="24,65,25,52" />
+      <scope id="2522420642609181951" at="32,24,33,77" />
+      <scope id="4510567955453819963" at="38,24,39,77" />
+      <scope id="2522420642609182094" at="41,24,42,86" />
+      <scope id="2522420642609174597" at="11,0,13,0" />
+      <scope id="4510567955453827282" at="27,79,29,48">
+        <var name="storage" id="4510567955453827457" />
+      </scope>
+      <scope id="9172390174097872873" at="24,0,27,0" />
+      <scope id="4510567955453827279" at="27,0,31,0">
+        <var name="fixedSize" id="4510567955453827300" />
+      </scope>
+      <scope id="2522420642609181885" at="31,89,35,56" />
+      <scope id="2522420642609181882" at="31,0,37,0">
+        <var name="cache" id="2522420642609181887" />
+        <var name="key" id="2522420642609181889" />
+      </scope>
+      <scope id="2522420642609182083" at="37,96,44,56" />
+      <scope id="1572979163263092482" at="13,71,22,5" />
+      <scope id="2522420642609182080" at="37,0,46,0">
+        <var name="cache" id="4820070488200495272" />
+        <var name="key" id="2522420642609182086" />
+        <var name="value" id="2522420642609182089" />
+      </scope>
+      <scope id="1572979163263092479" at="13,0,24,0">
+        <var name="sizeLimit" id="9172390174097872752" />
+      </scope>
+      <unit id="2522420642609174595" at="10,0,47,0" name="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" />
+    </file>
   </root>
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/2522420642609181621">
-    <nodeInfo nodeId="2522420642609181627" fileName="KeyCalculator.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="acc" />
-    <nodeInfo nodeId="2522420642609181723" fileName="KeyCalculator.java" startLine="13" startPosition="19" endLine="14" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609181798" fileName="KeyCalculator.java" startLine="15" startPosition="12" endLine="16" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2522420642609181696" fileName="KeyCalculator.java" startLine="20" startPosition="23" endLine="21" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2522420642609181855" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="25" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2522420642609181623" fileName="KeyCalculator.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="KeyCalculator#()V" />
-    <nodeInfo nodeId="2522420642609181796" fileName="KeyCalculator.java" startLine="15" startPosition="10" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2522420642609181691" fileName="KeyCalculator.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getKey#()I" />
-    <nodeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="calculateIndividualHash#(Ljava/lang/Object;)I" />
-    <nodeInfo nodeId="2522420642609181701" fileName="KeyCalculator.java" startLine="12" startPosition="37" endLine="17" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2522420642609181633" fileName="KeyCalculator.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addKey#(Ljava/lang/Object;)V" />
-    <scopeInfo nodeId="2522420642609181626" fileName="KeyCalculator.java" startLine="9" startPosition="26" endLine="9" endPosition="26" />
-    <scopeInfo nodeId="2522420642609181702" fileName="KeyCalculator.java" startLine="13" startPosition="19" endLine="14" endPosition="44" />
-    <scopeInfo nodeId="2522420642609181797" fileName="KeyCalculator.java" startLine="15" startPosition="12" endLine="16" endPosition="57" />
-    <scopeInfo nodeId="2522420642609181694" fileName="KeyCalculator.java" startLine="20" startPosition="23" endLine="21" endPosition="15" />
-    <scopeInfo nodeId="2522420642609181854" fileName="KeyCalculator.java" startLine="24" startPosition="61" endLine="25" endPosition="52" />
-    <scopeInfo nodeId="2522420642609181623" fileName="KeyCalculator.java" startLine="9" startPosition="0" endLine="11" endPosition="0" />
-    <scopeInfo nodeId="2522420642609181691" fileName="KeyCalculator.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="2522420642609181868" fileName="KeyCalculator.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
-      <varInfo nodeId="2522420642609181849" varName="object" />
-    </scopeInfo>
-    <scopeInfo nodeId="2522420642609181636" fileName="KeyCalculator.java" startLine="12" startPosition="37" endLine="17" endPosition="5" />
-    <scopeInfo nodeId="2522420642609181633" fileName="KeyCalculator.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
-      <varInfo nodeId="2522420642609181637" varName="object" />
-    </scopeInfo>
-    <unitInfo nodeId="2522420642609181621" fileName="KeyCalculator.java" startLine="6" startPosition="0" endLine="28" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
+    <file name="KeyCalculator.java">
+      <node id="2522420642609181627" at="7,0,8,0" concept="3" trace="acc" />
+      <node id="2522420642609181723" at="11,19,12,44" concept="2" />
+      <node id="2522420642609181798" at="13,12,14,57" concept="2" />
+      <node id="2522420642609181696" at="17,23,18,15" concept="7" />
+      <node id="2522420642609181855" at="20,61,21,52" concept="7" />
+      <node id="2522420642609181623" at="8,0,10,0" concept="1" trace="KeyCalculator#()V" />
+      <node id="2522420642609181796" at="13,10,15,5" concept="0" />
+      <node id="2522420642609181691" at="17,0,20,0" concept="5" trace="getKey#()I" />
+      <node id="2522420642609181868" at="20,0,23,0" concept="10" trace="calculateIndividualHash#(Ljava/lang/Object;)I" />
+      <node id="2522420642609181701" at="10,37,15,5" concept="4" />
+      <node id="2522420642609181633" at="10,0,17,0" concept="5" trace="addKey#(Ljava/lang/Object;)V" />
+      <scope id="2522420642609181626" at="8,26,8,26" />
+      <scope id="2522420642609181702" at="11,19,12,44" />
+      <scope id="2522420642609181797" at="13,12,14,57" />
+      <scope id="2522420642609181694" at="17,23,18,15" />
+      <scope id="2522420642609181854" at="20,61,21,52" />
+      <scope id="2522420642609181623" at="8,0,10,0" />
+      <scope id="2522420642609181691" at="17,0,20,0" />
+      <scope id="2522420642609181868" at="20,0,23,0">
+        <var name="object" id="2522420642609181849" />
+      </scope>
+      <scope id="2522420642609181636" at="10,37,15,5" />
+      <scope id="2522420642609181633" at="10,0,17,0">
+        <var name="object" id="2522420642609181637" />
+      </scope>
+      <unit id="2522420642609181621" at="6,0,24,0" name="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" />
+    </file>
   </root>
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/4821781367346988959">
-    <nodeInfo nodeId="3629985228611555673" fileName="NullValue.java" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="NULL_CACHED_VALUE" />
-    <nodeInfo nodeId="4821781367346989124" fileName="NullValue.java" startLine="13" startPosition="40" endLine="14" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346989137" fileName="NullValue.java" startLine="18" startPosition="25" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346988961" fileName="NullValue.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NullValue#()V" />
-    <nodeInfo nodeId="4821781367346988965" fileName="NullValue.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="equals#(Ljava/lang/Object;)Z" />
-    <nodeInfo nodeId="4821781367346989130" fileName="NullValue.java" startLine="17" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hashCode#()I" />
-    <scopeInfo nodeId="4821781367346988964" fileName="NullValue.java" startLine="9" startPosition="23" endLine="9" endPosition="23" />
-    <scopeInfo nodeId="4821781367346988970" fileName="NullValue.java" startLine="13" startPosition="40" endLine="14" endPosition="39" />
-    <scopeInfo nodeId="4821781367346989133" fileName="NullValue.java" startLine="18" startPosition="25" endLine="19" endPosition="34" />
-    <scopeInfo nodeId="4821781367346988961" fileName="NullValue.java" startLine="9" startPosition="0" endLine="11" endPosition="0" />
-    <scopeInfo nodeId="4821781367346988965" fileName="NullValue.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
-      <varInfo nodeId="4821781367346988968" varName="object" />
-    </scopeInfo>
-    <scopeInfo nodeId="4821781367346989130" fileName="NullValue.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
-    <unitInfo nodeId="4821781367346988959" fileName="NullValue.java" startLine="6" startPosition="0" endLine="22" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" />
+    <file name="NullValue.java">
+      <node id="3629985228611555673" at="7,0,8,0" concept="9" trace="NULL_CACHED_VALUE" />
+      <node id="4821781367346989124" at="11,40,12,39" concept="7" />
+      <node id="4821781367346989137" at="15,25,16,34" concept="7" />
+      <node id="4821781367346988961" at="8,0,10,0" concept="1" trace="NullValue#()V" />
+      <node id="4821781367346988965" at="10,0,14,0" concept="5" trace="equals#(Ljava/lang/Object;)Z" />
+      <node id="4821781367346989130" at="14,0,18,0" concept="5" trace="hashCode#()I" />
+      <scope id="4821781367346988964" at="8,23,8,23" />
+      <scope id="4821781367346988970" at="11,40,12,39" />
+      <scope id="4821781367346989133" at="15,25,16,34" />
+      <scope id="4821781367346988961" at="8,0,10,0" />
+      <scope id="4821781367346988965" at="10,0,14,0">
+        <var name="object" id="4821781367346988968" />
+      </scope>
+      <scope id="4821781367346989130" at="14,0,18,0" />
+      <unit id="4821781367346988959" at="6,0,19,0" name="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" />
+    </file>
   </root>
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/4821781367346989817">
-    <nodeInfo nodeId="4821781367346989819" fileName="NullProtectionStorage.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NullProtectionStorage#()V" />
-    <nodeInfo nodeId="4821781367346989823" fileName="NullProtectionStorage.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="touch#(Ljava/lang/Object;Ljava/lang/Object;)V" />
-    <scopeInfo nodeId="4821781367346989822" fileName="NullProtectionStorage.java" startLine="8" startPosition="34" endLine="8" endPosition="34" />
-    <scopeInfo nodeId="4821781367346989830" fileName="NullProtectionStorage.java" startLine="11" startPosition="59" endLine="11" endPosition="59" />
-    <scopeInfo nodeId="4821781367346989819" fileName="NullProtectionStorage.java" startLine="8" startPosition="0" endLine="10" endPosition="0" />
-    <scopeInfo nodeId="4821781367346989823" fileName="NullProtectionStorage.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
-      <varInfo nodeId="4821781367346989826" varName="key" />
-      <varInfo nodeId="4821781367346989828" varName="value" />
-    </scopeInfo>
-    <unitInfo nodeId="4821781367346989817" fileName="NullProtectionStorage.java" startLine="7" startPosition="0" endLine="14" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage" />
+    <file name="NullProtectionStorage.java">
+      <node id="4821781367346989819" at="8,0,10,0" concept="1" trace="NullProtectionStorage#()V" />
+      <node id="4821781367346989823" at="10,0,12,0" concept="5" trace="touch#(Ljava/lang/Object;Ljava/lang/Object;)V" />
+      <scope id="4821781367346989822" at="8,34,8,34" />
+      <scope id="4821781367346989830" at="10,59,10,59" />
+      <scope id="4821781367346989819" at="8,0,10,0" />
+      <scope id="4821781367346989823" at="10,0,12,0">
+        <var name="key" id="4821781367346989826" />
+        <var name="value" id="4821781367346989828" />
+      </scope>
+      <unit id="4821781367346989817" at="7,0,13,0" name="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage" />
+    </file>
   </root>
   <root nodeRef="r:d86f44a6-ea93-4f46-aeec-53d09ee769b1(jetbrains.mps.baseLanguage.memoize.util.caches)/4821781367346989831">
-    <nodeInfo nodeId="4821781367346989842" fileName="LRUProtectionStorage.java" startLine="9" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="maxSize" />
-    <nodeInfo nodeId="4821781367346989846" fileName="LRUProtectionStorage.java" startLine="11" startPosition="50" endLine="12" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4821781367346989850" fileName="LRUProtectionStorage.java" startLine="12" startPosition="32" endLine="13" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346989874" fileName="LRUProtectionStorage.java" startLine="17" startPosition="117" endLine="18" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346989894" fileName="LRUProtectionStorage.java" startLine="22" startPosition="28" endLine="23" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346989895" fileName="LRUProtectionStorage.java" startLine="24" startPosition="5" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346989898" fileName="LRUProtectionStorage.java" startLine="25" startPosition="16" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4821781367346989906" fileName="LRUProtectionStorage.java" startLine="30" startPosition="25" endLine="31" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4821781367346989888" fileName="LRUProtectionStorage.java" startLine="21" startPosition="72" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4821781367346989833" fileName="LRUProtectionStorage.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="LRUProtectionStorage#(I)V" />
-    <nodeInfo nodeId="4821781367346989863" fileName="LRUProtectionStorage.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="removeEldestEntry#(Ljava/util/Map/Entry;)Z" />
-    <nodeInfo nodeId="4821781367346989902" fileName="LRUProtectionStorage.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="clone#()Ljava/lang/Object;" />
-    <nodeInfo nodeId="4821781367346989880" fileName="LRUProtectionStorage.java" startLine="21" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="touch#(Ljava/lang/Object;Ljava/lang/Object;)V" />
-    <scopeInfo nodeId="4821781367346989873" fileName="LRUProtectionStorage.java" startLine="17" startPosition="117" endLine="18" endPosition="28" />
-    <scopeInfo nodeId="4821781367346989893" fileName="LRUProtectionStorage.java" startLine="22" startPosition="28" endLine="23" endPosition="13" />
-    <scopeInfo nodeId="4821781367346989905" fileName="LRUProtectionStorage.java" startLine="30" startPosition="25" endLine="31" endPosition="25" />
-    <scopeInfo nodeId="4821781367346989836" fileName="LRUProtectionStorage.java" startLine="11" startPosition="50" endLine="13" endPosition="27" />
-    <scopeInfo nodeId="4821781367346989833" fileName="LRUProtectionStorage.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
-      <varInfo nodeId="4821781367346989858" varName="maxSize" />
-    </scopeInfo>
-    <scopeInfo nodeId="4821781367346989863" fileName="LRUProtectionStorage.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
-      <varInfo nodeId="4821781367346989866" varName="eldest" />
-    </scopeInfo>
-    <scopeInfo nodeId="4821781367346989902" fileName="LRUProtectionStorage.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="4821781367346989887" fileName="LRUProtectionStorage.java" startLine="21" startPosition="72" endLine="26" endPosition="20" />
-    <scopeInfo nodeId="4821781367346989880" fileName="LRUProtectionStorage.java" startLine="21" startPosition="0" endLine="28" endPosition="0">
-      <varInfo nodeId="4821781367346989883" varName="key" />
-      <varInfo nodeId="4821781367346989885" varName="value" />
-    </scopeInfo>
-    <unitInfo nodeId="4821781367346989831" fileName="LRUProtectionStorage.java" startLine="8" startPosition="0" endLine="34" endPosition="0" unitName="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" />
+    <file name="LRUProtectionStorage.java">
+      <node id="4821781367346989842" at="9,0,10,0" concept="3" trace="maxSize" />
+      <node id="4821781367346989846" at="10,50,11,32" concept="11" />
+      <node id="4821781367346989850" at="11,32,12,27" concept="2" />
+      <node id="4821781367346989874" at="15,117,16,28" concept="7" />
+      <node id="4821781367346989894" at="19,28,20,13" concept="7" />
+      <node id="4821781367346989895" at="21,5,22,16" concept="2" />
+      <node id="4821781367346989898" at="22,16,23,20" concept="2" />
+      <node id="4821781367346989906" at="26,25,27,25" concept="7" />
+      <node id="4821781367346989888" at="18,72,21,5" concept="4" />
+      <node id="4821781367346989833" at="10,0,14,0" concept="1" trace="LRUProtectionStorage#(I)V" />
+      <node id="4821781367346989863" at="14,0,18,0" concept="5" trace="removeEldestEntry#(Ljava/util/Map/Entry;)Z" />
+      <node id="4821781367346989902" at="25,0,29,0" concept="5" trace="clone#()Ljava/lang/Object;" />
+      <node id="4821781367346989880" at="18,0,25,0" concept="5" trace="touch#(Ljava/lang/Object;Ljava/lang/Object;)V" />
+      <scope id="4821781367346989873" at="15,117,16,28" />
+      <scope id="4821781367346989893" at="19,28,20,13" />
+      <scope id="4821781367346989905" at="26,25,27,25" />
+      <scope id="4821781367346989836" at="10,50,12,27" />
+      <scope id="4821781367346989833" at="10,0,14,0">
+        <var name="maxSize" id="4821781367346989858" />
+      </scope>
+      <scope id="4821781367346989863" at="14,0,18,0">
+        <var name="eldest" id="4821781367346989866" />
+      </scope>
+      <scope id="4821781367346989902" at="25,0,29,0" />
+      <scope id="4821781367346989887" at="18,72,23,20" />
+      <scope id="4821781367346989880" at="18,0,25,0">
+        <var name="key" id="4821781367346989883" />
+        <var name="value" id="4821781367346989885" />
+      </scope>
+      <unit id="4821781367346989831" at="8,0,30,0" name="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 

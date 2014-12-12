@@ -21,11 +21,9 @@ public class MemoizeAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_r31tt_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createCollection_r31tt_a_0(editorContext, node);
   }
-
   private EditorCell createCollection_r31tt_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_r31tt_a");
@@ -34,21 +32,18 @@ public class MemoizeAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createAttributedNodeCell_r31tt_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_r31tt_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "memoized");
     editorCell.setCellId("Constant_r31tt_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createAttributedNodeCell_r31tt_b0(EditorContext editorContext, SNode node) {
     IOperationContext opContext = editorContext.getOperationContext();
     EditorManager manager = EditorManager.getInstanceFromContext(opContext);
     EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class);
     return editorCell;
   }
-
   private EditorCell createCollection_r31tt_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_r31tt_a_0");
@@ -57,14 +52,12 @@ public class MemoizeAnnotation_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_r31tt_b0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_r31tt_a0_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Size limit");
     editorCell.setCellId("Constant_r31tt_a0_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createProperty_r31tt_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("sizeLimit");
@@ -73,7 +66,7 @@ public class MemoizeAnnotation_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_sizeLimit");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="TailRecursion_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.behavior.TailRecursion_BehaviorDescriptor" />
-  <root nodeRef="r:8825f650-98d4-4631-806d-d57ed8893484(jetbrains.mps.baseLanguage.tailRecursion.behavior)/1232136333264820728">
-    <nodeInfo nodeId="1232136333264820728" fileName="TailRecursion_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="1232136333264820730" fileName="TailRecursion_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
-    <scopeInfo nodeId="1232136333264820728" fileName="TailRecursion_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
-      <varInfo nodeId="1232136333264820728" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1232136333264820728" fileName="TailRecursion_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="jetbrains.mps.baseLanguage.tailRecursion.behavior.TailRecursion_Behavior" />
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,22,0" name="jetbrains.mps.baseLanguage.tailRecursion.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="TailRecursion_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="jetbrains.mps.baseLanguage.tailRecursion.behavior.TailRecursion_BehaviorDescriptor" />
+    </file>
   </root>
-</debugInfo>
+  <root nodeRef="r:8825f650-98d4-4631-806d-d57ed8893484(jetbrains.mps.baseLanguage.tailRecursion.behavior)/1232136333264820728">
+    <file name="TailRecursion_Behavior.java">
+      <node id="1232136333264820728" at="8,0,10,0" concept="0" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1232136333264820730" at="8,43,8,43" />
+      <scope id="1232136333264820728" at="8,0,10,0">
+        <var name="thisNode" id="1232136333264820728" />
+      </scope>
+      <unit id="1232136333264820728" at="7,0,11,0" name="jetbrains.mps.baseLanguage.tailRecursion.behavior.TailRecursion_Behavior" />
+    </file>
+  </root>
+</debug-info>
 

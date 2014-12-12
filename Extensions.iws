@@ -2,27 +2,629 @@
 <project version="4">
   <component name="BookmarksTool">
     <option name="myTreeState">
-      <TreeState>
-        <option name="expansion">
-          <list>
-            <option value="/" />
-          </list>
-        </option>
-      </TreeState>
+      <TreeState />
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e21c6bab-61a2-4071-9ad5-925557533140" name="Default" comment="" />
+    <list default="true" id="e21c6bab-61a2-4071-9ad5-925557533140" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule$QuotationClass_7eky51_a0a2a0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullValue$NullProtectionStorage.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/BehaviorAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/BehaviorAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$3.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$4.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$5.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$1$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$2.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$NestedCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$1$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$2$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$2.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$3.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$4.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator$StaticNestedCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1$1$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$2.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist$4.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCass_Test.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCass_Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/EditorAspectDescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/EditorAspectDescriptorImpl.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/EditorAspectDescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/sandbox/Foo.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/sandbox/Foo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1$1$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$2.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$3.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$4.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$5.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$6.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/IntentionsDescriptor.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/IntentionsDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/IntentionsDescriptor.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/IntentionsDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/LRUProtectionStorage.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/LRUProtectionStorage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/Language.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/Language.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/Memoizator.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/Memoizator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/MemoizeAnnotation_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/MemoizeAnnotation_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/MemoizeAnnotation_Editor.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/MemoizeAnnotation_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$3$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$3.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$4$1.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$4.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullProtectionStorage.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullProtectionStorage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullValue.class" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$1$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$1.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$10.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$11.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$12.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$2.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$2.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$3.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$3.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$4$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$4.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$4.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$5$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$5.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$5.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$6.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$6.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$7.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$8$1.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$8$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$8.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$8.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$9.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/structure/StructureAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/TailRecursion_BehaviorDescriptor.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/TailRecursion_BehaviorDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/TailRecursion_Editor.class" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/TailRecursion_Editor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/TestCalculator.class" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/TestCalculator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule.class" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/BehaviorAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCaseSpecialist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/CornerCaseTailSpecialist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCass_Test.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/CornerCass_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/EditorAspectDescriptorImpl.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/EditorAspectDescriptorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.iws" afterPath="$PROJECT_DIR$/Extensions.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Extensions.mpr" afterPath="$PROJECT_DIR$/Extensions.mpr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/Extensions.xml" afterPath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/Extensions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/Extensions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen/TailRecursion/sandbox/sandbox/Foo.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen/TailRecursion/sandbox/sandbox/Foo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/GenHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/IntentionsDescriptor.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/IntentionsDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/IntentionsDescriptor.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/IntentionsDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/KeyCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/LRUProtectionStorage.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/LRUProtectionStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/Language.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/Language.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureMemoized_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeClosureNotMemoized_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureRecursive_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeClosureTailRecursive_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodMemoized_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/MakeMethodNotMemoized_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodRecursive_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/MakeMethodTailRecursive_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/Memoizator.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/Memoizator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/MemoizeAnnotation_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/MemoizeAnnotation_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/MemoizeAnnotation_Editor.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/MemoizeAnnotation_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/MemoizeTest_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullProtectionStorage.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullProtectionStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullValue.java" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/NullValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/memoize/generator/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/RecursiveScenario_Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/StructureAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/structure/StructureAspectDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInClosureLiteral_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/TailPositionInMethod_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/TailRecursion.mpl" afterPath="$PROJECT_DIR$/languages/TailRecursion/TailRecursion.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/TailRecursion.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/TailRecursion_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/TailRecursion_BehaviorDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/TailRecursion_Editor.java" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/TailRecursion_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/TestCalculator.java" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/TestCalculator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" afterPath="$PROJECT_DIR$/solutions/Extensions.build/models/Extensions/build.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/build.msd" afterPath="$PROJECT_DIR$/solutions/Extensions.build/build.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/models/jetbrains/mps/baseLanguage/memoize/util/caches.mps" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/models/jetbrains/mps/baseLanguage/memoize/util/caches.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/constraints.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/util/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/util/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/intentions/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/intentions/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/structure/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/structure/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/generator/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/intentions/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/intentions/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/structure/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/structure/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/util/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generator/util/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/behavior/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/constraints/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/editor/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/intentions/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/intentions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/structure/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen.caches/jetbrains/mps/baseLanguage/tailRecursion/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/memoize/generator/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/behavior/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/constraints/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/editor/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/intentions/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/intentions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/structure/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/generated" afterPath="$PROJECT_DIR$/languages/memoize/source_gen.caches/jetbrains/mps/baseLanguage/memoize/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen.caches/Extensions/build/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen.caches/TailRecursion/sandbox/sandbox/generated" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen.caches/TailRecursion/sandbox/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen.caches/TailRecursion/sandbox/test/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/generated" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen.caches/jetbrains/mps/baseLanguage/memoize/sandbox/test/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen.caches/jetbrains/mps/baseLanguage/memoize/util/caches/generated" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen.caches/jetbrains/mps/baseLanguage/memoize/util/caches/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/intentions.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/intentions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/intentions.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/intentions.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/template/jetbrains/mps/baseLanguage/memoize/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/memoize/generator/template/jetbrains/mps/baseLanguage/memoize/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/memoize.mpl" afterPath="$PROJECT_DIR$/languages/memoize/memoize.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/models/TailRecursion/sandbox/test@tests.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/models/jetbrains/mps/baseLanguage/memoize/sandbox/test@tests.mps" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/models/jetbrains/mps/baseLanguage/memoize/sandbox/test@tests.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/classes_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/source_gen/jetbrains/mps/baseLanguage/tailRecursion/generator/util/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/structure/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/classes_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/generator/classes_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/generator/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/generator/source_gen/jetbrains/mps/baseLanguage/memoize/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/constraints/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/structure/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/memoize/source_gen/jetbrains/mps/baseLanguage/memoize/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/trace.info" afterPath="$PROJECT_DIR$/solutions/Extensions.build/classes_gen/Extensions/build/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/trace.info" afterPath="$PROJECT_DIR$/solutions/Extensions.build/source_gen/Extensions/build/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/classes_gen/TailRecursion/sandbox/test/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen/TailRecursion/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/source_gen/TailRecursion/sandbox/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/TailRecursion.sandbox/test_gen/TailRecursion/sandbox/test/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/classes_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.sandbox/test_gen/jetbrains/mps/baseLanguage/memoize/sandbox/test/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/classes_gen/jetbrains/mps/baseLanguage/memoize/util/caches/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/trace.info" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen/jetbrains/mps/baseLanguage/memoize/util/caches/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/memoize/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/memoize/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/util.mps" afterPath="$PROJECT_DIR$/languages/TailRecursion/generator/template/TailRecursion/generator/util.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" afterPath="$PROJECT_DIR$/solutions/jetbrains.mps.baseLanguage.memoize.util/util.msd" />
+    </list>
     <list id="99619d15-f8bf-4613-a47b-0ea0d259e36c" name="project files" comment="" />
     <ignored path="Extensions.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/dataFlowRuntime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/findUsages-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/actions-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/migration-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/testWeavingGenerated.data/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/typesystemEngine/solutions/jetbrains.mps.typesystemEngine/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/testWeavingGenerated.data/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/make-runtime/solutions/jetbrains.mps.make.runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-platform/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/traceMacro.testlang/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/refactoring-runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/traceMacro.testlang/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/migration-runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-debugger/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/traceMacro.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/generator/solutions/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceable/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/analyzers/solutions/jetbrains.mps.analyzers.runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-ui/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/structure/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/make-runtime/solutions/jetbrains.mps.make.facets/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/structure/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/persistence/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/kernelSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/smodelRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/editorlang-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/analyzers/solutions/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/dataFlowRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/tool/builder/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/internalCommandsRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/testWeavingInterpreted.data/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/stubUtils/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceinfo/testWeavingInterpreted.data/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/resources/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/generationParameters/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/blCommandRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/migration/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/internalCommands/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/generationContext/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/internalCommands/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/generationParameters/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/ideCommandsRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/blCommand/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/ideCommands/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/ideCommands/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/scriptsRuntime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/resources/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/base/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/resources/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/scripts/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/quotation/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/scripts/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/quotation/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/blCommand/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/migration/util/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/migration/solutions/actions/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/migration/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/make-runtime/solutions/jetbrains.mps.make.facets/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/migration/util/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/console/lang/base/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/constructors/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/constructors/solutions/jetbrains.mps.baseLanguage.constructors.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/doubleDispatch/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/doubleDispatch/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/doubleDispatch/solutions/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/refactoring-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/overloadedOperators/languages/overloadedOperators/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/overloadedOperators/languages/overloadedOperators/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/overloadedOperators/solutions/jetbrains.mps.baseLanguage.overloadedOperators.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/varVariable/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.scopes/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/constructors/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/classifiers/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/languages/trove/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-editor/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/languages/trove/runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/languages/trove/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/varVariable/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/collections/solutions/collections/samples/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/logging/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/logging/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/checkDot/languages/checkedDots/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/checkDot/languages/checkedDots/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-api/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/closures/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/checkDot/languages/checkedDots/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/classifiers/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/closures/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/tuples/languages/tuples/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.shared/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/jdk7/solutions/jetbrains.mps.baseLanguage.jdk7.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/tuples/languages/tuples/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/javadoc/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/javadoc/jetbrains.mps.baseLanguage.javadoc.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/tuples/solutions/jetbrains.mps.baseLanguage.tuples.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/blTypes/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/plugin/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/library/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/templateLanguage/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/generationContext/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/descriptor/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/errorReporting/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/errorReporting/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/templateLanguage/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/jetbrains.mps.execution.impl/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/outputLang/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/outputLang/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/incremental/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/languages/descriptor/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/property/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/inputLang/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/inputLang/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/crossmodel/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/entity/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/entity/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/property/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/generator/test/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/classLike/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/classLike/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/extension/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/extension/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/dataFlow/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/dataFlow/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/analyzers/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/analyzers/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/behavior/languages/behavior/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/textGen/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/behavior/languages/testlang/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/behavior/languages/behavior/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/project/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/textGen/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/pattern/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/pattern/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/actions/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/actions/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/smodel/solutions/util/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/smodel/solutions/samples/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/smodel/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/smodel/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/script/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/closures/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/script/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/typesystemIntegration/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/scopes/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/scopes/runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-api/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/plugin/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/scopes/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/plugin/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/editor/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/editor/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/access/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/access/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/solutions/jetbrains.mps.make.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/reduced/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/outlook/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/outlook/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/gentest/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-api/api/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/script/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/script/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/facet/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/make/languages/facet/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguageInternal/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguageInternal/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.mps.tests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.mps.tests/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.workflow/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.workflow/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsmake/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/vcs/languages/modelmetadata/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/vcs/languages/mergehints/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/vcs/languages/mergehints/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.xml.sax/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.xml.sax/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.xml/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.xml/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/tool/ant/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/persistence/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/configurations/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/configurations/solutions/pluginSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.mps/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/solutions/jetbrains.mps.build.tests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.mps/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/solutions/jetbrains.mps.build.mps.runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/solutions/jetbrains.mps.build.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.startup/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/languages/build.startup/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/languageDesign/table/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/languageDesign/table/runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/api/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/languageDesign/table/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/regexp/solutions/jetbrains.mps.regexp.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/regexp/solutions/jetbrains.mps.regexp.examples/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/regexp/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/regexp/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.properties/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/core/core/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.properties/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-core/languages/core.properties/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.typesystem.devkit/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/extensionMethod/solutions/jetbrains.mps.baseLanguage.extensionMethods.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.structure/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/extensionMethod/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/pluginSolutions/jetbrains.mps.build.pluginSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/extensionMethod/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsjava/jetbrains.mps.ide.java.tests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/execution/util/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-workbench/pluginSolutions/lang.core/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/builders/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-build/pluginSolutions/jetbrains.mps.build.mps.pluginSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/builders/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-workbench/pluginSolutions/lang.classLike/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/builders/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-workbench/pluginSolutions/lang.script/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/util/regexp/solutions/jetbrains.mps.baseLanguage.regexp.runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-workbench/pluginSolutions/lang.typesystem/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/tool/common/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/jetbrains.mps.lang.test.util/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/editor-runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/jdk7/languages/jdk7/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/jdk7/languages/jdk7/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/tool/builder/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsjava/basePlatform/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/solutions/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-configurations/languages/unitTests/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/api/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-api/languages/jetbrains.mps.debugger.api.lang/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/baseLanguage/unitTest/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-api/languages/jetbrains.mps.debugger.api.lang/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/languages/evaluation/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.quotation/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.dataFlow/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/baseLanguage/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-configurations/languages/ant/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mpsdevkit/languages/pluginSolutions/lang.plugin/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/smodelTests/solutions/jetbrains.mps.smodel.test/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-configurations/languages/plugin/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/typesystem/languages/test/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/checkedName/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/typesystem/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/typesystem/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/intentions/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/intentions/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/findUsages/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/findUsages/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/patternTest/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/smodelTests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/tuples/runtime/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/editorTest/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/patternTest/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/pluginSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/mps-testing/languages/languageDesign/test/solutions/jetbrains.mps.lang.test.runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.diagram/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.diagram/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.testHybridEditor.diagram.generated/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.testHybridEditor.diagram.generated/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.lang.editor.diagram.testLanguage/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/constraints/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/checkedName/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/core/kernel/resources/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceable.operations/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/configurations/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/traceable.operations/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/commands/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/workbench/mps-workbench/jetbrains.mps.ide/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/commands/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/demo/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/demo/pluginSolution/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.startup/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-languages/languages/demo/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-api/languages/settings/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/constraints/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-api/languages/settings/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/refactoring/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/editorlang-runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/refactoring/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-api/languages/common/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/sharedConcepts/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/solutions/jetbrains.mps.lang.editor.figures.library/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/sharedConcepts/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/editor/editor-runtime/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/plugin-standalone/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.figures/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/languageDesign/plugin-standalone/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.figures/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/execution-configurations/languages/baseLanguage/jetbrains.mps.baseLanguage.execution.api/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.search/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.lang.editor.diagram.tests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.lang.editor.figures.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/languages/baseLanguage/baseLanguage/solutions/jetbrains.mps.baseLanguage.util/classes/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/solutions/jetbrains.mps.debugger.java.run.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/solutions/jetbrains.mps.debugger.java.runtime.tests/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.testHybridEditor/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/diagramEditor/test/jetbrains.mps.testHybridEditor.sandbox/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/languages/evaluation/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/languages/customViewers/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/languages/customViewers/generator/classes_gen/" />
+    <ignored path="$APPLICATION_HOME_DIR$/plugins/debugger-java/languages/privateMembers/classes_gen/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <option name="history" value="kaurqQAABAAHKJJ5BHSlWkE4iKxHzjFed54AAB1UZW1wTW9kZWxfMTQxODM3ODQ2NTA3NjM4NDAwMBdIklc2NvRMSi2agSL7ftw3gwAALlRlbXBNb2R1bGU5MjU3MzYzNi1mNDRjLTRhMmQtOWE4MS0yMmZiN2VkYzM3ODP/////q6urq1paWloAAs6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAADeGthtblBKArMG1NF/ZMN1AAAaamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2UAAxX7NAUfclosAAALQ29uc29sZVJvb3QAEgAAAAAAAhX7NAUfcluvAAAHaGlzdG9yeQAV+zQFH3JbsQAADWNvbW1hbmRIb2xkZXIABOJxYKy0SEsAAA1Db21tYW5kSG9sZGVyABIAAAAAAAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAKWlpaUABd4a2G1uUEoCswbU0X9kw3UBAAAABf/////yZpHSDe9MBq7GLLkMSvCkAAAdamV0YnJhaW5zLm1wcy5jb25zb2xlLnNjcmlwdHP/////GoVUxOuEQ7qMNG8NkMbnWgAAH2pldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmT/////peTeU0ajRNqqs2j98cNO0AAAIWpldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kc/////+ZWnOUf3ZLi6kpxTRIcIEGAAAmamV0YnJhaW5zLm1wcy5jb25zb2xlLmludGVybmFsQ29tbWFuZHP/////AAAAARdI+8Jd0l2kSDqLGXCSjhti1wAAJGpldGJyYWlucy5tcHMuZGV2a2l0LmdlbmVyYWwtcHVycG9zZQAAAAUHKDWbHSt3xEbfm/KyXL6jIlQAACRqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZS5zdHJ1Y3R1cmVw/////wco5xLzU1w8QoitzofJVqUv+wAAJ2pldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRzLnN0cnVjdHVyZXD/////ByiTW6DucpFMqqgH126PxpORAAApamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZC5zdHJ1Y3R1cmVw/////wcoE1pgbwN2TFyauEAw8FGgYgAAK2pldGJyYWlucy5tcHMuY29uc29sZS5pZGVDb21tYW5kcy5zdHJ1Y3R1cmVw/////wcokERSBqlzTB23YDDlx3t0lwAAMGpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRzLnN0cnVjdHVyZXD/////urq6ugAAAAEAARhWpmh0u62YK///ewAAAAAAAAAAAAIAAxhWpmh0u62YLAAAewAAAAAAAAAAAAB9AAIYVqZodLutmC0AAXsAAQAAAQAAAAkAAAAAAAAAAH19" />
+        </TabState>
+      </list>
+    </option>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -38,7 +640,38 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Extensions" pinned="false" current-in-tab="true">
+        <entry file="mps://node://Extensions.build/Extensions.build/Extensions">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="269" />
+                    <property name="caretX" value="388" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_url" cellNumber="0" isInList="false">
+                      <node node_reference="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/7140414760427132407" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/7140414760427132407" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,16 +698,10 @@
       </array>
     </option>
   </component>
-  <component name="MessagesViewTool">
-    <option name="autoscrollToSource" value="true" />
-    <option name="info" value="true" />
-    <option name="warnings" value="true" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="22" />
-    <option name="width" value="1900" />
-    <option name="height" value="1160" />
+    <option name="width" value="1916" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -89,6 +716,11 @@
   <component name="ProjectPluginManager">
     <option name="pluginsState">
       <option name="jetbrains.mps.baseLanguage.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
         <value>
           <PluginState />
         </value>
@@ -134,10 +766,10 @@
     </option>
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -149,6 +781,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,38 +805,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Extensions.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Extensions">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Extensions.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -227,12 +837,17 @@
         <MyState>
           <option name="myModel" value="TailRecursion.sandbox.test@tests" />
           <option name="myModule" value="jetbrains.mps.baseLanguage.tailRecursion.sandbox" />
+          <option name="myLightExec" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="/var/folders/9k/4pvms6pn5xbbq4pfrxd41h0r0000gn/T/mps_test_dir0" />
           <option name="myTestCases">
             <list />
           </option>
           <option name="myTestMethods">
             <list />
           </option>
+          <option name="myTestNodes" />
           <option name="myRunType" value="PROJECT" />
         </MyState>
       </myJUnitSettings>
@@ -287,7 +902,9 @@
           <option name="myAntOptions" />
         </MyState>
       </mySettings>
-      <method />
+      <method>
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="false" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
       <MyState />
@@ -295,12 +912,17 @@
         <MyState>
           <option name="myModel" />
           <option name="myModule" />
+          <option name="myLightExec" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="/var/folders/9k/4pvms6pn5xbbq4pfrxd41h0r0000gn/T/mps_test_dir0" />
           <option name="myTestCases">
             <list />
           </option>
           <option name="myTestMethods">
             <list />
           </option>
+          <option name="myTestNodes" />
           <option name="myRunType" />
         </MyState>
       </myJUnitSettings>
@@ -317,59 +939,41 @@
           </option>
         </MyState>
       </myJavaRunParameters>
-      <method />
+      <method>
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="false" />
+      </method>
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit Tests.Tests in 'test'" />
       <item index="1" class="java.lang.String" itemvalue="Build Script.Extensions" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Build Script.Extensions" />
-        <item index="1" class="java.lang.String" itemvalue="Build Script.Extensions" />
-        <item index="2" class="java.lang.String" itemvalue="Build Script.Extensions" />
-        <item index="3" class="java.lang.String" itemvalue="Build Script.Extensions" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1900" height="1160" extended-state="0" />
+    <frame x="0" y="22" width="1916" height="1178" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32855865" sideWeight="0.4955605" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32772365" sideWeight="0.4955605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294849" sideWeight="0.4955605" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947369" sideWeight="0.6714414" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855865" sideWeight="0.4955605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24895616" sideWeight="0.6714414" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772365" sideWeight="0.4955605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,16 +981,18 @@
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855865" sideWeight="0.49112096" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32772365" sideWeight="0.49112096" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,73 +1008,83 @@
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added check for void return type" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initialized git" />
     <MESSAGE value="Added build script" />
     <MESSAGE value="Fixed method call detection in cases when method calls are present in parameters" />
     <MESSAGE value="Updated the plugin information" />
     <MESSAGE value="Rebuild the project" />
     <MESSAGE value="Added check for void return type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added check for void return type" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/languages/TailRecursion/source_gen/jetbrains/mps/baseLanguage/tailRecursion/typesystem/CheckingUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="6" selection-start="6695" selection-end="6695" vertical-scroll-proportion="0.7550432" />
+    <entry file="mps://node://Extensions.build/Extensions.build/Extensions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="22" />
+                <property name="caretX" value="584" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_head" cellNumber="0" isInList="false">
+                  <node node_reference="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/6243792783964043880" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/6243792783964043880" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage.memoize.sandbox/jetbrains.mps.baseLanguage.memoize.sandbox.test@tests/MemoizeTest_Test">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="958">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="115" />
+                <property name="caretX" value="353" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/1020370389589239212" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/1020370389589239212" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
       </provider>
     </entry>
     <entry file="mps://node://Extensions.build/Extensions.build/Extensions">
@@ -478,25 +1094,87 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="30" />
-                <property name="caretX" value="160" />
+                <property name="caretXRelative" value="269" />
+                <property name="caretX" value="388" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
-                  <node node_reference="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/6332794702258037770" />
+                <cellInfo cellId="property_url" cellNumber="0" isInList="false">
+                  <node node_reference="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/7140414760427132407" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
+            <errorLabels />
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/7140414760427132407" viewPositionX="0" viewPositionY="0">
             <selectionStack />
+            <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
         </state>
       </provider>
     </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage.memoize/jetbrains.mps.baseLanguage.memoize.intentions/MakeClosureNotMemoized">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="165" />
+                <property name="caretX" value="202" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_trik0f_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850086009" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850086009" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage.memoize/jetbrains.mps.baseLanguage.memoize.structure/MemoizeAnnotation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-75" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_2sbeba_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)/1020370389589004598" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)/1020370389589004598" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-15" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_2sbeba_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)/1020370389589004598" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:c358e6a3-b975-4f97-bc80-4f4e58b9c6a7(jetbrains.mps.baseLanguage.memoize.generator.template.main@generator)/1020370389589004580" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
-
