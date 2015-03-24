@@ -4,7 +4,7 @@
   <property name="build.tmp" location="${build.dir}/tmp/Extensions" />
   <property name="build.layout" location="${build.dir}/artifacts/Extensions" />
   <property name="idea_home" location="${basedir}/../../../../../Applications/IntelliJ IDEA 14.app/Contents" />
-  <property name="mps_home" location="${basedir}/../../myMPS/build/artifacts/mps" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.2.app/Contents" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.IDEA" location="${idea_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -189,7 +189,7 @@
   
   <target name="generate" depends="declare-mps-tasks, fetchDependencies">
     <echo message="generating" />
-    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" fork="true">
+    <generate strictMode="true" parallelMode="true" parallelThreads="8" useInplaceTransform="false" hideWarnings="false" createStaticRefs="true" fork="true" targetJavaVersion="1.6">
       <plugin path="${artifacts.mps}/plugins/mps-core/META-INF/plugin.xml/../.." />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
@@ -198,6 +198,7 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.extensionMethods.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.javadoc.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
@@ -232,7 +233,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.script.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.util.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.textGen.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -269,7 +269,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.tailRecursion" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/TailRecursion/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/TailRecursion/source_gen" />
@@ -303,12 +303,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion">
+      <fileset dir="${basedir}/languages/TailRecursion/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" depends="java.compile.jetbrains.mps.baseLanguage.tailRecursion, fetchDependencies">
     <mkdir dir="${basedir}/languages/TailRecursion/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/TailRecursion/generator/source_gen" />
@@ -343,12 +346,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866">
+      <fileset dir="${basedir}/languages/TailRecursion/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize" depends="java.compile.jetbrains.mps.baseLanguage.memoize.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/memoize/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/memoize/source_gen" />
@@ -383,12 +389,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize">
+      <fileset dir="${basedir}/languages/memoize/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize#1742094376850086130" depends="java.compile.jetbrains.mps.baseLanguage.memoize, java.compile.jetbrains.mps.baseLanguage.memoize.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/memoize/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/memoize/generator/source_gen" />
@@ -424,12 +433,15 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130">
+      <fileset dir="${basedir}/languages/memoize/generator/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize.util" depends="fetchDependencies">
     <mkdir dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" />
@@ -439,6 +451,9 @@
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
       </classpath>
     </javac>
+    <copy todir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util">
+      <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" excludes="**/*.java" />
+    </copy>
   </target>
   
   <target name="cleanSources">

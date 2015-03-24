@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="-1" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
@@ -17,6 +17,9 @@
       <concept id="4993211115183325728" name="jetbrains.mps.build.structure.BuildProjectDependency" flags="ng" index="2sgV4H">
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
+      </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -163,19 +166,25 @@
     </node>
     <node concept="398rNT" id="5jx1EOa73bQ" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
-      <node concept="55IIr" id="5jx1EOa73fu" role="398pKh">
-        <node concept="2Ry0Ak" id="5jx1EOa73gS" role="iGT6I">
+      <node concept="55IIr" id="3HBFXmOuarF" role="398pKh">
+        <node concept="2Ry0Ak" id="3HBFXmOuarG" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5jx1EOa73gU" role="2Ry0An">
+          <node concept="2Ry0Ak" id="3HBFXmOuarH" role="2Ry0An">
             <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5jx1EOa73gY" role="2Ry0An">
-              <property role="2Ry0Am" value="myMPS" />
-              <node concept="2Ry0Ak" id="5jx1EOa73ij" role="2Ry0An">
-                <property role="2Ry0Am" value="build" />
-                <node concept="2Ry0Ak" id="5jx1EOa73o7" role="2Ry0An">
-                  <property role="2Ry0Am" value="artifacts" />
-                  <node concept="2Ry0Ak" id="5jx1EOa73ov" role="2Ry0An">
-                    <property role="2Ry0Am" value="mps" />
+            <node concept="2Ry0Ak" id="3HBFXmOuarI" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="3HBFXmOuarJ" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="3HBFXmOuarK" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="3HBFXmOuarL" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="3HBFXmOuaLJ" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 3.2.app" />
+                      <node concept="2Ry0Ak" id="3HBFXmOuaO1" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -394,6 +403,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2_Ic$z" id="3HBFXmOtVbv" role="3989C9">
+      <property role="TZNOO" value="1.6" />
     </node>
   </node>
 </model>
