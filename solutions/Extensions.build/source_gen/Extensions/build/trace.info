@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info>
+  <root nodeRef="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/4280583303230595052">
+    <file name="plugin.xml">
+      <unit id="4280583303230595052" at="1,0,15,14" name="Extensions.build.plugin" />
+    </file>
+  </root>
   <root nodeRef="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)/6332794702258037749">
     <file name="Extensions.xml">
-      <unit id="6332794702258037749" at="1,0,462,10" name="Extensions.build.Extensions" />
+      <unit id="6332794702258037749" at="1,0,448,10" name="Extensions.build.Extensions" />
     </file>
   </root>
 </debug-info>

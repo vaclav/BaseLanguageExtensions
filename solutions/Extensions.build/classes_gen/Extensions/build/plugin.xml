@@ -1,0 +1,16 @@
+<!DOCTYPE idea-plugin PUBLIC 'plugin/DTD' 'http://plugins.intellij.net/plugin.dtd'>
+<idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+  <id>jetbrains.mps.baseLanguage.extensions</id>
+  <name>MPS BaseLanguage Extensions</name>
+  <description>A set of handy extensions to BaseLanguage, such as tail recursion optimization and function memoization</description>
+  <idea-version since-build="139.1" until-build="140.1" />
+  <version>0.7</version>
+  <vendor url="http://www.jetbrains.com">JetBrains</vendor>
+  
+  <depends>jetbrains.mps.core</depends>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <mps.ModelFactoryProvider implementationClass="jetbrains.mps.persistence.XmlModelPersistence" />
+    <mps.LanguageLibrary dir="" />
+  </extensions>
+</idea-plugin>
