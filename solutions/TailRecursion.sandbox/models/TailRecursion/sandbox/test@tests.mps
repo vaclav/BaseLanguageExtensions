@@ -2,14 +2,14 @@
 <model ref="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
-    <use id="f142cd5e-ea1d-466a-86a8-52891b6256a4" name="jetbrains.mps.baseLanguage.tailRecursion" version="-1" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
+    <use id="f142cd5e-ea1d-466a-86a8-52891b6256a4" name="jetbrains.mps.baseLanguage.tailRecursion" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
-    <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f142cd5e-ea1d-466a-86a8-52891b6256a4" name="jetbrains.mps.baseLanguage.tailRecursion">
@@ -379,8 +379,8 @@
           </node>
           <node concept="3vlDli" id="7O8ASYxfV2h" role="3cqZAp">
             <node concept="2YIFZM" id="6QFdNyNvQay" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
               <node concept="3cmrfG" id="6QFdNyNvQaz" role="37wK5m">
                 <property role="3cmrfH" value="15" />
               </node>
@@ -410,8 +410,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="6QFdNyNvQfh" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
               <node concept="3cmrfG" id="6QFdNyNvQfi" role="37wK5m">
                 <property role="3cmrfH" value="21" />
               </node>
@@ -763,7 +763,7 @@
       <property role="TrG5h" value="factorial" />
       <node concept="3Tm1VV" id="5vyANEB$h1H" role="1B3o_S" />
       <node concept="3uibUv" id="5vyANEB$huA" role="3clF45">
-        <ref role="3uigEE" to="epq1:~BigInteger" resolve="BigInteger" />
+        <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
       </node>
       <node concept="37vLTG" id="5vyANEB$h1J" role="3clF46">
         <property role="TrG5h" value="n" />
@@ -775,12 +775,12 @@
           <node concept="1rXfSq" id="14prnuaYQjy" role="3clFbG">
             <ref role="37wK5l" node="5vyANEB$huG" resolve="fact" />
             <node concept="10M0yZ" id="5vyANEB$h1O" role="37wK5m">
-              <ref role="1PxDUh" to="epq1:~BigInteger" resolve="BigInteger" />
-              <ref role="3cqZAo" to="epq1:~BigInteger.ONE" resolve="ONE" />
+              <ref role="1PxDUh" to="xlxw:~BigInteger" resolve="BigInteger" />
+              <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />
             </node>
             <node concept="2YIFZM" id="5vyANEB$huC" role="37wK5m">
-              <ref role="37wK5l" to="epq1:~BigInteger.valueOf(long):java.math.BigInteger" resolve="valueOf" />
-              <ref role="1Pybhc" to="epq1:~BigInteger" resolve="BigInteger" />
+              <ref role="37wK5l" to="xlxw:~BigInteger.valueOf(long):java.math.BigInteger" resolve="valueOf" />
+              <ref role="1Pybhc" to="xlxw:~BigInteger" resolve="BigInteger" />
               <node concept="37vLTw" id="14prnuaYQzq" role="37wK5m">
                 <ref role="3cqZAo" node="5vyANEB$h1J" resolve="n" />
               </node>
@@ -794,20 +794,20 @@
       <property role="TrG5h" value="fact" />
       <node concept="3Tm6S6" id="5vyANEB$huH" role="1B3o_S" />
       <node concept="3uibUv" id="5vyANEB$huI" role="3clF45">
-        <ref role="3uigEE" to="epq1:~BigInteger" resolve="BigInteger" />
+        <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
       </node>
       <node concept="37vLTG" id="5vyANEB$huJ" role="3clF46">
         <property role="TrG5h" value="acc" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="5vyANEB$huK" role="1tU5fm">
-          <ref role="3uigEE" to="epq1:~BigInteger" resolve="BigInteger" />
+          <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
         </node>
       </node>
       <node concept="37vLTG" id="5vyANEB$huL" role="3clF46">
         <property role="TrG5h" value="n" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="5vyANEB$huM" role="1tU5fm">
-          <ref role="3uigEE" to="epq1:~BigInteger" resolve="BigInteger" />
+          <ref role="3uigEE" to="xlxw:~BigInteger" resolve="BigInteger" />
         </node>
       </node>
       <node concept="3clFbS" id="5vyANEB$huN" role="3clF47">
@@ -818,10 +818,10 @@
                 <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
               </node>
               <node concept="liA8E" id="5vyANEB$huS" role="2OqNvi">
-                <ref role="37wK5l" to="epq1:~BigInteger.compareTo(java.math.BigInteger):int" resolve="compareTo" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.compareTo(java.math.BigInteger):int" resolve="compareTo" />
                 <node concept="10M0yZ" id="5vyANEB$huT" role="37wK5m">
-                  <ref role="1PxDUh" to="epq1:~BigInteger" resolve="BigInteger" />
-                  <ref role="3cqZAo" to="epq1:~BigInteger.ONE" resolve="ONE" />
+                  <ref role="1PxDUh" to="xlxw:~BigInteger" resolve="BigInteger" />
+                  <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />
                 </node>
               </node>
             </node>
@@ -845,7 +845,7 @@
                 <ref role="3cqZAo" node="5vyANEB$huJ" resolve="acc" />
               </node>
               <node concept="liA8E" id="5vyANEB$jeP" role="2OqNvi">
-                <ref role="37wK5l" to="epq1:~BigInteger.multiply(java.math.BigInteger):java.math.BigInteger" resolve="multiply" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.multiply(java.math.BigInteger):java.math.BigInteger" resolve="multiply" />
                 <node concept="37vLTw" id="14prnuaYQzc" role="37wK5m">
                   <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
                 </node>
@@ -856,10 +856,10 @@
                 <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
               </node>
               <node concept="liA8E" id="5vyANEB$jeT" role="2OqNvi">
-                <ref role="37wK5l" to="epq1:~BigInteger.subtract(java.math.BigInteger):java.math.BigInteger" resolve="subtract" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.subtract(java.math.BigInteger):java.math.BigInteger" resolve="subtract" />
                 <node concept="10M0yZ" id="5vyANEB$jeU" role="37wK5m">
-                  <ref role="1PxDUh" to="epq1:~BigInteger" resolve="BigInteger" />
-                  <ref role="3cqZAo" to="epq1:~BigInteger.ONE" resolve="ONE" />
+                  <ref role="1PxDUh" to="xlxw:~BigInteger" resolve="BigInteger" />
+                  <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />
                 </node>
               </node>
             </node>

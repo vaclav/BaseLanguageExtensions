@@ -14,7 +14,7 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
-import jetbrains.mps.smodel.SModelUtil_new;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_VoidMethodsCannotBeMemoized_NonTypesystemRule() {
@@ -29,14 +29,11 @@ public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends Abstrac
       }
     }
   }
-  public String getApplicableConceptFQName() {
-    return "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation";
+  public SAbstractConcept getApplicableConcept() {
+    return MetaAdapterFactory.getConcept(0x9f9722b27c9743c8L, 0x9771bea4630e2676L, 0x182d299b1158e74fL, "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation");
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
-    {
-      boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
-      return new IsApplicableStatus(b, null);
-    }
+    return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
   }
   public boolean overrides() {
     return false;

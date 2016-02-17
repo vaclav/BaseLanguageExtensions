@@ -2,7 +2,7 @@
 <model ref="r:a6224a24-2af0-43a8-b6dc-551b1b885227(Extensions.build)">
   <persistence version="9" />
   <languages>
-    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
+    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
@@ -54,9 +54,6 @@
       <concept id="4993211115183325728" name="jetbrains.mps.build.structure.BuildProjectDependency" flags="ng" index="2sgV4H">
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
-      </concept>
-      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
-        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -189,7 +186,7 @@
                   <node concept="2Ry0Ak" id="5vyANEB$egG" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="5qAq7iVkJCU" role="2Ry0An">
-                      <property role="2Ry0Am" value="IntelliJ IDEA 14.app" />
+                      <property role="2Ry0Am" value="IntelliJ IDEA 15.app" />
                       <node concept="2Ry0Ak" id="5qAq7iVlXF6" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -218,7 +215,7 @@
                   <node concept="2Ry0Ak" id="3HBFXmOuarL" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="3HBFXmOuaLJ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 3.2.app" />
+                      <property role="2Ry0Am" value="MPS 3.3.app" />
                       <node concept="2Ry0Ak" id="3HBFXmOuaO1" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -264,7 +261,7 @@
       </node>
       <node concept="3_J27D" id="5vyANEB$eg9" role="m$_w8">
         <node concept="3Mxwew" id="5vyANEB$ega" role="3MwsjC">
-          <property role="3MwjfP" value="0.7" />
+          <property role="3MwjfP" value="0.8" />
         </node>
       </node>
       <node concept="m$f5U" id="5vyANEB$egb" role="m$_yh">
@@ -462,9 +459,6 @@
         </node>
       </node>
     </node>
-    <node concept="2_Ic$z" id="3HBFXmOtVbv" role="3989C9">
-      <property role="TZNOO" value="1.6" />
-    </node>
   </node>
   <node concept="2pMbU2" id="3HBFXmOxLZG">
     <property role="TrG5h" value="plugin" />
@@ -500,20 +494,20 @@
           <node concept="2pNUuL" id="3HBFXmOxQmk" role="2pNNFR">
             <property role="2pNUuO" value="since-build" />
             <node concept="2pMdtt" id="3HBFXmOxQs7" role="2pMdts">
-              <property role="2pMdty" value="139.1" />
+              <property role="2pMdty" value="143.1" />
             </node>
           </node>
           <node concept="2pNUuL" id="3HBFXmOxQsb" role="2pNNFR">
             <property role="2pNUuO" value="until-build" />
             <node concept="2pMdtt" id="3HBFXmOxQsf" role="2pMdts">
-              <property role="2pMdty" value="140.1" />
+              <property role="2pMdty" value="146.1" />
             </node>
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MO3" role="3o6s8t">
           <property role="2pNNFO" value="version" />
           <node concept="3o6iSG" id="3HBFXmO$MOg" role="3o6s8t">
-            <property role="3o6i5n" value="0.7" />
+            <property role="3o6i5n" value="0.8" />
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MQt" role="3o6s8t">

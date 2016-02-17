@@ -23,7 +23,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 
 @Generated
 public class QueriesGenerated {
-  public final boolean NEEDS_OPCONTEXT = false;
   public static void mappingScript_CodeBlock_9009622095742524456(final MappingScriptContext _context) {
     Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {

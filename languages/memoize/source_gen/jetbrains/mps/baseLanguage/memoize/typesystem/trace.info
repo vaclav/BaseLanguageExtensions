@@ -18,36 +18,32 @@
       <node id="94989256191898252" at="23,1207,24,0" concept="6" />
       <node id="94989256191898211" at="26,7,27,60" concept="4" />
       <node id="94989256191898211" at="27,60,28,311" concept="4" />
-      <node id="94989256191852868" at="32,46,33,76" concept="5" />
-      <node id="94989256191852868" at="36,5,37,130" concept="4" />
-      <node id="94989256191852868" at="37,130,38,45" concept="5" />
-      <node id="94989256191852868" at="41,30,42,17" concept="5" />
+      <node id="94989256191852868" at="32,50,33,170" concept="5" />
+      <node id="94989256191852868" at="35,68,36,102" concept="0" />
+      <node id="94989256191852868" at="35,68,36,102" concept="5" />
+      <node id="94989256191852868" at="38,30,39,17" concept="5" />
       <node id="94989256191852868" at="20,0,22,0" concept="1" trace="check_VoidMethodsCannotBeMemoized_NonTypesystemRule#()V" />
-      <node id="94989256191852868" at="32,0,35,0" concept="3" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
-      <node id="94989256191852868" at="41,0,44,0" concept="3" trace="overrides#()Z" />
+      <node id="94989256191852868" at="32,0,35,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="94989256191852868" at="35,0,38,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="94989256191852868" at="38,0,41,0" concept="3" trace="overrides#()Z" />
       <node id="94989256191898211" at="25,188,29,7" concept="0" />
-      <node id="94989256191852868" at="35,68,39,5" concept="0" />
       <node id="94989256191898208" at="24,0,30,5" concept="2" />
-      <node id="94989256191852868" at="35,0,41,0" concept="3" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="94989256191852868" at="22,0,32,0" concept="3" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
       <scope id="94989256191852868" at="20,64,20,64" />
-      <scope id="94989256191852868" at="32,46,33,76" />
-      <scope id="94989256191852868" at="41,30,42,17" />
+      <scope id="94989256191852868" at="32,50,33,170" />
+      <scope id="94989256191852868" at="35,68,36,102" />
+      <scope id="94989256191852868" at="38,30,39,17" />
       <scope id="94989256191852868" at="20,0,22,0" />
       <scope id="94989256191898211" at="26,7,28,311">
         <var name="_reporter_2309309498" id="94989256191898211" />
         <var name="errorTarget" id="94989256191898211" />
       </scope>
-      <scope id="94989256191852868" at="36,5,38,45">
-        <var name="b" id="94989256191852868" />
-      </scope>
       <scope id="94989256191852868" at="32,0,35,0" />
-      <scope id="94989256191852868" at="41,0,44,0" />
-      <scope id="94989256191898210" at="25,188,29,7" />
-      <scope id="94989256191852868" at="35,68,39,5" />
-      <scope id="94989256191852868" at="35,0,41,0">
+      <scope id="94989256191852868" at="35,0,38,0">
         <var name="argument" id="94989256191852868" />
       </scope>
+      <scope id="94989256191852868" at="38,0,41,0" />
+      <scope id="94989256191898210" at="25,188,29,7" />
       <scope id="94989256191852869" at="22,130,30,5">
         <var name="returnType" id="94989256191898243" />
       </scope>
@@ -56,7 +52,7 @@
         <var name="status" id="94989256191852868" />
         <var name="typeCheckingContext" id="94989256191852868" />
       </scope>
-      <unit id="94989256191852868" at="19,0,45,0" name="jetbrains.mps.baseLanguage.memoize.typesystem.check_VoidMethodsCannotBeMemoized_NonTypesystemRule" />
+      <unit id="94989256191852868" at="19,0,42,0" name="jetbrains.mps.baseLanguage.memoize.typesystem.check_VoidMethodsCannotBeMemoized_NonTypesystemRule" />
     </file>
   </root>
 </debug-info>

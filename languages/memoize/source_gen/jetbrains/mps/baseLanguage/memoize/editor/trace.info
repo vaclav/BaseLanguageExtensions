@@ -8,7 +8,7 @@
   <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="13,0,30,0" name="jetbrains.mps.baseLanguage.memoize.editor.EditorAspectDescriptorImpl" />
+      <unit at="14,0,28,0" name="jetbrains.mps.baseLanguage.memoize.editor.EditorAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:b45c7251-ba0e-4490-817d-8a5323bf23a3(jetbrains.mps.baseLanguage.memoize.editor)/1742094376849958742">
@@ -28,8 +28,8 @@
       <node id="1742094376849958747" at="36,46,37,34" concept="1" />
       <node id="1742094376849958747" at="37,34,38,22" concept="5" />
       <node id="1742094376849958749" at="40,97,41,80" concept="4" />
-      <node id="1742094376849958749" at="41,80,42,95" concept="4" />
-      <node id="1742094376849958749" at="42,95,43,22" concept="5" />
+      <node id="1742094376849958749" at="41,80,42,101" concept="4" />
+      <node id="1742094376849958749" at="42,101,43,22" concept="5" />
       <node id="1742094376849958742" at="45,90,46,96" concept="4" />
       <node id="1742094376849958742" at="46,96,47,49" concept="1" />
       <node id="1742094376849958742" at="47,49,48,28" concept="1" />
@@ -55,7 +55,7 @@
       <node id="9172390174097830856" at="69,73,70,57" concept="4" />
       <node id="9172390174097830856" at="70,57,71,59" concept="4" />
       <node id="9172390174097830856" at="72,35,73,82" concept="4" />
-      <node id="9172390174097830856" at="73,82,74,109" concept="5" />
+      <node id="9172390174097830856" at="73,82,74,94" concept="5" />
       <node id="9172390174097830856" at="75,10,76,22" concept="5" />
       <node id="1742094376849958742" at="20,0,23,0" concept="3" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="1742094376849958742" at="23,0,26,0" concept="3" trace="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -72,7 +72,7 @@
       <scope id="1742094376849958742" at="30,80,31,90" />
       <scope id="1742094376849958742" at="48,28,49,82" />
       <scope id="1742094376849958742" at="49,82,50,80" />
-      <scope id="9172390174097830856" at="72,35,74,109">
+      <scope id="9172390174097830856" at="72,35,74,94">
         <var name="manager" id="9172390174097830856" />
       </scope>
       <scope id="1742094376849958742" at="20,0,23,0">

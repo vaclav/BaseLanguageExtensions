@@ -2,13 +2,13 @@
 <model ref="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
-    <use id="9f9722b2-7c97-43c8-9771-bea4630e2676" name="jetbrains.mps.baseLanguage.memoize" version="-1" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
+    <use id="9f9722b2-7c97-43c8-9771-bea4630e2676" name="jetbrains.mps.baseLanguage.memoize" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -179,7 +179,7 @@
     <node concept="3clFb_" id="4sK2HJ4qQGu" role="3MN40a">
       <property role="TrG5h" value="addFib" />
       <node concept="3uibUv" id="4sK2HJ4qW0P" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~Long" resolve="Long" />
+        <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
       </node>
       <node concept="3Tm1VV" id="4sK2HJ4qQGw" role="1B3o_S" />
       <node concept="3clFbS" id="4sK2HJ4qQGx" role="3clF47">
@@ -465,8 +465,8 @@
           </node>
           <node concept="3vlDli" id="SD5nqiLR0l" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiLR0p" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="SD5nqiLRSq" role="37wK5m">
                 <property role="3cmrfH" value="55" />
               </node>
@@ -498,8 +498,8 @@
           </node>
           <node concept="3vlDli" id="SD5nqiLRsb" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiLRsc" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="1adDum" id="SD5nqiLS1P" role="37wK5m">
                 <property role="1adDun" value="12586269025L" />
               </node>
@@ -554,8 +554,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMyB$" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMyB_" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMyBA" role="37wK5m">
                 <property role="3cmrfH" value="55" />
               </node>
@@ -587,8 +587,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMyBK" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMyBL" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="1adDum" id="7hXQrCLMyBM" role="37wK5m">
                 <property role="1adDun" value="12586269025L" />
               </node>
@@ -627,8 +627,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMzNZ" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMzO0" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMzO1" role="37wK5m">
                 <property role="3cmrfH" value="55" />
               </node>
@@ -660,8 +660,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMzOb" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMzOc" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="1adDum" id="7hXQrCLMzOd" role="37wK5m">
                 <property role="1adDun" value="12586269025L" />
               </node>
@@ -918,8 +918,8 @@
         <node concept="3clFbS" id="SD5nqiMxY5" role="3clF47">
           <node concept="3vlDli" id="SD5nqiMxY6" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiMxY7" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
               <node concept="3cmrfG" id="SD5nqiMxY8" role="37wK5m">
                 <property role="3cmrfH" value="55" />
               </node>
@@ -943,8 +943,8 @@
           </node>
           <node concept="3vlDli" id="SD5nqiMxYi" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiMxYj" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="1adDum" id="SD5nqiMxYk" role="37wK5m">
                 <property role="1adDun" value="12586269025L" />
               </node>
@@ -969,8 +969,8 @@
         <node concept="3clFbS" id="SD5nqiMJyD" role="3clF47">
           <node concept="3vlDli" id="SD5nqiMJyE" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiMJyI" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="SD5nqiMJyJ" role="37wK5m">
                 <property role="3cmrfH" value="3628800" />
               </node>
@@ -996,8 +996,8 @@
           </node>
           <node concept="3vlDli" id="SD5nqiMMmw" role="3cqZAp">
             <node concept="2YIFZM" id="SD5nqiMMmx" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="SD5nqiMMmy" role="37wK5m">
                 <property role="3cmrfH" value="479001600" />
               </node>
@@ -1030,8 +1030,8 @@
         <node concept="3clFbS" id="7hXQrCLM_VE" role="3clF47">
           <node concept="3vlDli" id="7hXQrCLM_VF" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLM_VG" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLM_VH" role="37wK5m">
                 <property role="3cmrfH" value="3628800" />
               </node>
@@ -1057,8 +1057,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLM_VO" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLM_VP" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLM_VQ" role="37wK5m">
                 <property role="3cmrfH" value="479001600" />
               </node>
@@ -1104,8 +1104,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMv0x" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMv0y" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMv0z" role="37wK5m">
                 <property role="3cmrfH" value="3628800" />
               </node>
@@ -1139,8 +1139,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMv0E" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMv0F" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMv0G" role="37wK5m">
                 <property role="3cmrfH" value="479001600" />
               </node>
@@ -1210,8 +1210,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMw1Q" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMw1R" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMw1S" role="37wK5m">
                 <property role="3cmrfH" value="3628800" />
               </node>
@@ -1245,8 +1245,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLMw23" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLMw24" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLMw25" role="37wK5m">
                 <property role="3cmrfH" value="479001600" />
               </node>
@@ -1300,8 +1300,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLM$wO" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLM$wP" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLM$wQ" role="37wK5m">
                 <property role="3cmrfH" value="3628800" />
               </node>
@@ -1335,8 +1335,8 @@
           </node>
           <node concept="3vlDli" id="7hXQrCLM$x1" role="3cqZAp">
             <node concept="2YIFZM" id="7hXQrCLM$x2" role="3tpDZB">
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
               <node concept="3cmrfG" id="7hXQrCLM$x3" role="37wK5m">
                 <property role="3cmrfH" value="479001600" />
               </node>
@@ -1452,8 +1452,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="4sK2HJ4qQH9" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
               <node concept="3cmrfG" id="4sK2HJ4qQHa" role="37wK5m">
                 <property role="3cmrfH" value="65" />
               </node>
@@ -1563,8 +1563,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="7hXQrCLMuyG" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
               <node concept="3cmrfG" id="7hXQrCLMuyH" role="37wK5m">
                 <property role="3cmrfH" value="65" />
               </node>
@@ -1599,8 +1599,8 @@
               </node>
             </node>
             <node concept="2YIFZM" id="7hXQrCLMuzp" role="3tpDZB">
-              <ref role="37wK5l" to="e2lb:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
-              <ref role="1Pybhc" to="e2lb:~Long" resolve="Long" />
+              <ref role="37wK5l" to="wyt6:~Long.valueOf(long):java.lang.Long" resolve="valueOf" />
+              <ref role="1Pybhc" to="wyt6:~Long" resolve="Long" />
               <node concept="3cmrfG" id="7hXQrCLMuzq" role="37wK5m">
                 <property role="3cmrfH" value="65" />
               </node>
@@ -1622,11 +1622,11 @@
       <property role="TrG5h" value="TEN" />
       <node concept="3Tm6S6" id="SD5nqiMvLE" role="1B3o_S" />
       <node concept="3uibUv" id="SD5nqiMvLF" role="1tU5fm">
-        <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
       <node concept="2YIFZM" id="SD5nqiMvLG" role="33vP2m">
-        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
-        <ref role="37wK5l" to="e2lb:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
+        <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+        <ref role="37wK5l" to="wyt6:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
         <node concept="3cmrfG" id="SD5nqiMvLH" role="37wK5m">
           <property role="3cmrfH" value="10" />
         </node>
@@ -1819,7 +1819,7 @@
     <node concept="3clFb_" id="4bEq9Hhk81T" role="jymVt">
       <property role="TrG5h" value="add" />
       <node concept="3uibUv" id="1nkm3s9oNeo" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
       <node concept="3Tm1VV" id="4bEq9Hhk81V" role="1B3o_S" />
       <node concept="3clFbS" id="4bEq9Hhk81W" role="3clF47">
@@ -1857,7 +1857,7 @@
     <node concept="3clFb_" id="SD5nqiLQYK" role="jymVt">
       <property role="TrG5h" value="fibonacci" />
       <node concept="3uibUv" id="SD5nqiLRIM" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~Long" resolve="Long" />
+        <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
       </node>
       <node concept="3Tm1VV" id="SD5nqiLQYM" role="1B3o_S" />
       <node concept="3clFbS" id="SD5nqiLQYN" role="3clF47">
@@ -1943,7 +1943,7 @@
     <node concept="2YIFZL" id="4bEq9Hhk82g" role="jymVt">
       <property role="TrG5h" value="adds" />
       <node concept="3uibUv" id="56ISlm2GdOF" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
       <node concept="3Tm1VV" id="4bEq9Hhk82i" role="1B3o_S" />
       <node concept="3clFbS" id="4bEq9Hhk82j" role="3clF47">
@@ -2055,7 +2055,7 @@
           <node concept="10Oyi0" id="7hXQrCLMvZM" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="7hXQrCLMzdq" role="3clF45">
-          <ref role="3uigEE" to="e2lb:~Long" resolve="Long" />
+          <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
         </node>
         <node concept="3Tm1VV" id="7hXQrCLMvZI" role="1B3o_S" />
         <node concept="3clFbS" id="7hXQrCLMvZJ" role="3clF47">
@@ -2262,7 +2262,7 @@
           <node concept="10Oyi0" id="7hXQrCLMzN1" role="1tU5fm" />
         </node>
         <node concept="3uibUv" id="7hXQrCLMzN2" role="3clF45">
-          <ref role="3uigEE" to="e2lb:~Long" resolve="Long" />
+          <ref role="3uigEE" to="wyt6:~Long" resolve="Long" />
         </node>
         <node concept="3Tm1VV" id="7hXQrCLMzN3" role="1B3o_S" />
         <node concept="3clFbS" id="7hXQrCLMzN4" role="3clF47">
@@ -2339,7 +2339,7 @@
       <node concept="2YIFZL" id="7hXQrCLM_cj" role="jymVt">
         <property role="TrG5h" value="adds" />
         <node concept="3uibUv" id="7hXQrCLM_ck" role="3clF45">
-          <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
         </node>
         <node concept="3Tm1VV" id="7hXQrCLM_cl" role="1B3o_S" />
         <node concept="3clFbS" id="7hXQrCLM_cm" role="3clF47">

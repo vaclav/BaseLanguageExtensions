@@ -1,22 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root>
     <file name="BehaviorAspectDescriptor.java">
-      <unit at="9,0,22,0" name="jetbrains.mps.baseLanguage.memoize.behavior.BehaviorAspectDescriptor" />
+      <unit at="14,0,42,0" name="jetbrains.mps.baseLanguage.memoize.behavior.BehaviorAspectDescriptor" />
     </file>
     <file name="MemoizeAnnotation_BehaviorDescriptor.java">
-      <unit at="7,0,15,0" name="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_BehaviorDescriptor" />
+      <unit at="12,0,21,0" name="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:f9b870c0-1866-4e58-afc8-0b38edf2ab0c(jetbrains.mps.baseLanguage.memoize.behavior)/1232136333264820719">
     <file name="MemoizeAnnotation_Behavior.java">
-      <node id="1232136333264820719" at="8,0,10,0" concept="0" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <scope id="1232136333264820721" at="8,43,8,43" />
-      <scope id="1232136333264820719" at="8,0,10,0">
-        <var name="thisNode" id="1232136333264820719" />
+      <unit id="1232136333264820719" at="10,0,13,0" name="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_Behavior" />
+    </file>
+    <file name="MemoizeAnnotation__BehaviorDescriptor.java">
+      <node id="1232136333264820719" at="20,0,21,0" concept="6" trace="CONCEPT" />
+      <node id="1232136333264820719" at="21,0,22,0" concept="6" trace="REGISTRY" />
+      <node id="1232136333264820719" at="24,0,25,0" concept="6" trace="BH_METHODS" />
+      <node id="1232136333264820719" at="30,55,31,20" concept="8" />
+      <node id="1232136333264820719" at="35,114,36,21" concept="1" />
+      <node id="1232136333264820719" at="40,114,41,49" concept="4" />
+      <node id="1232136333264820719" at="42,26,43,56" concept="10" />
+      <node id="1232136333264820719" at="46,14,47,58" concept="10" />
+      <node id="1232136333264820719" at="52,128,53,49" concept="4" />
+      <node id="1232136333264820719" at="54,26,55,56" concept="10" />
+      <node id="1232136333264820719" at="58,14,59,58" concept="10" />
+      <node id="1232136333264820719" at="65,48,66,22" concept="5" />
+      <node id="1232136333264820719" at="71,40,72,19" concept="5" />
+      <node id="1232136333264820719" at="26,0,28,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1232136333264820719" at="30,0,33,0" concept="0" trace="MemoizeAnnotation__BehaviorDescriptor#()V" />
+      <node id="1232136333264820719" at="41,49,44,5" concept="2" />
+      <node id="1232136333264820719" at="53,49,56,5" concept="2" />
+      <node id="1232136333264820719" at="34,0,38,0" concept="3" trace="initNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SConstructor;[Ljava/lang/Object;)V" />
+      <node id="1232136333264820719" at="44,5,48,5" concept="9" />
+      <node id="1232136333264820719" at="56,5,60,5" concept="9" />
+      <node id="1232136333264820719" at="63,0,68,0" concept="3" trace="getDeclaredMethods#()Ljava/util/List;" />
+      <node id="1232136333264820719" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1232136333264820719" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <node id="1232136333264820719" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
+      <scope id="1232136333264820719" at="26,63,26,63" />
+      <scope id="1232136333264820719" at="30,55,31,20" />
+      <scope id="1232136333264820719" at="35,114,36,21" />
+      <scope id="1232136333264820719" at="42,26,43,56" />
+      <scope id="1232136333264820719" at="46,14,47,58" />
+      <scope id="1232136333264820719" at="54,26,55,56" />
+      <scope id="1232136333264820719" at="58,14,59,58" />
+      <scope id="1232136333264820719" at="65,48,66,22" />
+      <scope id="1232136333264820719" at="71,40,72,19" />
+      <scope id="1232136333264820719" at="26,0,28,0">
+        <var name="__thisNode__" id="1232136333264820719" />
       </scope>
-      <unit id="1232136333264820719" at="7,0,11,0" name="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation_Behavior" />
+      <scope id="1232136333264820719" at="30,0,33,0" />
+      <scope id="1232136333264820719" at="34,0,38,0">
+        <var name="constructor" id="1232136333264820719" />
+        <var name="node" id="1232136333264820719" />
+        <var name="parameters" id="1232136333264820719" />
+      </scope>
+      <scope id="1232136333264820719" at="63,0,68,0" />
+      <scope id="1232136333264820719" at="69,0,74,0" />
+      <scope id="1232136333264820719" at="40,114,48,5">
+        <var name="methodIndex" id="1232136333264820719" />
+      </scope>
+      <scope id="1232136333264820719" at="52,128,60,5">
+        <var name="methodIndex" id="1232136333264820719" />
+      </scope>
+      <scope id="1232136333264820719" at="39,0,50,0">
+        <var name="method" id="1232136333264820719" />
+        <var name="node" id="1232136333264820719" />
+        <var name="parameters" id="1232136333264820719" />
+      </scope>
+      <scope id="1232136333264820719" at="51,0,62,0">
+        <var name="concept" id="1232136333264820719" />
+        <var name="method" id="1232136333264820719" />
+        <var name="parameters" id="1232136333264820719" />
+      </scope>
+      <unit id="1232136333264820719" at="19,0,75,0" name="jetbrains.mps.baseLanguage.memoize.behavior.MemoizeAnnotation__BehaviorDescriptor" />
     </file>
   </root>
 </debug-info>
