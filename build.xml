@@ -277,7 +277,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.tailRecursion" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/TailRecursion/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" fork="true" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/TailRecursion/source_gen" />
@@ -319,7 +319,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" depends="java.compile.jetbrains.mps.baseLanguage.tailRecursion, fetchDependencies">
     <mkdir dir="${basedir}/languages/TailRecursion/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" fork="true" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/TailRecursion/generator/source_gen" />
@@ -362,7 +362,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize" depends="java.compile.jetbrains.mps.baseLanguage.memoize.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/memoize/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" fork="true" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/memoize/source_gen" />
@@ -406,7 +406,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize#1742094376850086130" depends="java.compile.jetbrains.mps.baseLanguage.memoize, java.compile.jetbrains.mps.baseLanguage.memoize.util, fetchDependencies">
     <mkdir dir="${basedir}/languages/memoize/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" fork="true" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/memoize/generator/source_gen" />
@@ -451,7 +451,7 @@
   <target name="java.compile.jetbrains.mps.baseLanguage.memoize.util" depends="fetchDependencies">
     <mkdir dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" />
     <mkdir dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
-    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" fork="true" includeantruntime="false">
+    <javac destdir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" fork="true" encoding="utf8" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" />
