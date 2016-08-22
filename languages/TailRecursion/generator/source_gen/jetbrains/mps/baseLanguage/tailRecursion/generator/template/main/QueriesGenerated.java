@@ -59,7 +59,7 @@ public class QueriesGenerated {
         }
         GenHelper.checkPathForIncorrectNodes(_context, lastNode, methodCall);
 
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList")));
+        final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
         ListSequence.fromList(SLinkOperations.getChildren(method, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1feL, "parameter"))).visitAll(new IVisitor<SNode>() {
           public void visit(SNode param) {
             GenHelper.handleParameter(method, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(methodCall, MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301aeL, "actualArgument"))).getElement(SNodeOperations.getIndexInParent(param)), _context);
@@ -104,7 +104,7 @@ public class QueriesGenerated {
 
         GenHelper.checkPathForIncorrectNodes(_context, lastNode, invokeExpression);
 
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList")));
+        final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
         ListSequence.fromList(SLinkOperations.getChildren(closure, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf02c34L, "parameter"))).visitAll(new IVisitor<SNode>() {
           public void visit(SNode param) {
             GenHelper.handleParameter(closure, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(invokeExpression, MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x117545d385aL, 0x117545e58d8L, "parameter"))).getElement(SNodeOperations.getIndexInParent(param)), _context);

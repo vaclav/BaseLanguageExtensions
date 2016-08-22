@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info>
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <root>
     <file name="QueriesGenerated.java">
       <unit at="24,0,120,0" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated" />
@@ -27,7 +27,7 @@
       <node id="7902470687820831622" at="57,90,58,17" concept="4" />
       <node id="3220419832563371315" at="59,9,60,77" concept="0" />
       <node id="3220419832563371164" at="60,77,61,0" concept="5" />
-      <node id="7902470687820840705" at="61,0,62,251" concept="3" />
+      <node id="7902470687820840705" at="61,0,62,216" concept="3" />
       <node id="3220419832563427042" at="64,42,65,354" concept="0" />
       <node id="3220419832563427097" at="67,11,68,50" concept="0" />
       <node id="913704554380623053" at="68,50,69,0" concept="5" />
@@ -39,7 +39,7 @@
       <node id="3220419832563371379" at="56,0,59,9" concept="1" />
       <node id="9009622095742585081" at="64,0,67,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9009622095742582865" at="28,50,33,11" concept="4" />
-      <node id="9009622095742585001" at="62,251,67,11" concept="0" />
+      <node id="9009622095742585001" at="62,216,67,11" concept="0" />
       <node id="9009622095742582863" at="28,0,35,0" concept="2" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
       <node id="9009622095742582854" at="26,103,35,7" concept="3" />
       <node id="6963853100979891696" at="36,0,45,7" concept="0" />
@@ -102,7 +102,7 @@
       <node id="16043358604475204" at="103,252,104,0" concept="5" />
       <node id="3220419832563371343" at="104,0,105,83" concept="0" />
       <node id="3220419832563371342" at="105,83,106,0" concept="5" />
-      <node id="16043358604475198" at="106,0,107,251" concept="3" />
+      <node id="16043358604475198" at="106,0,107,216" concept="3" />
       <node id="3220419832563395013" at="109,42,110,357" concept="0" />
       <node id="3220419832563427106" at="112,11,113,56" concept="0" />
       <node id="3220419832563427105" at="113,56,114,0" concept="5" />
@@ -113,7 +113,7 @@
       <node id="3220419832563371446" at="97,364,100,9" concept="1" />
       <node id="9009622095742619600" at="109,0,112,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="9009622095742619541" at="76,50,81,11" concept="4" />
-      <node id="9009622095742619594" at="107,251,112,11" concept="0" />
+      <node id="9009622095742619594" at="107,216,112,11" concept="0" />
       <node id="9009622095742619539" at="76,0,83,0" concept="2" trace="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
       <node id="9009622095742619530" at="74,103,83,7" concept="3" />
       <node id="6963853100979891490" at="84,0,93,7" concept="0" />

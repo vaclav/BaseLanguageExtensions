@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info>
+<debug-info version="2">
   <root>
     <file name="Language.java">
-      <unit at="21,0,66,0" name="jetbrains.mps.baseLanguage.memoize.Language" />
+      <unit at="23,0,83,0" name="jetbrains.mps.baseLanguage.memoize.Language" />
     </file>
   </root>
 </debug-info>

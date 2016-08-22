@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.tailRecursion.intentions.IntentionsDescriptor" file="IntentionsDescriptor.java">
+    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureTailRecursive_Intention" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodRecursive_Intention" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeMethodTailRecursive_Intention" />
     <classNode dependClassName="jetbrains.mps.intentions.IntentionFactory" />
-    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SConceptId" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.intentions.IntentionAspectBase" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.tailRecursion.intentions.MakeClosureRecursive_Intention" file="MakeClosureRecursive_Intention.java">

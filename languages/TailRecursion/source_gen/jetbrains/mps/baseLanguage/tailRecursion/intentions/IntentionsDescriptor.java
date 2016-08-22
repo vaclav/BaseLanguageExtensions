@@ -4,47 +4,56 @@ package jetbrains.mps.baseLanguage.tailRecursion.intentions;
 
 import jetbrains.mps.intentions.IntentionAspectBase;
 import jetbrains.mps.intentions.IntentionFactory;
+import java.util.Map;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import java.util.HashMap;
 import org.jetbrains.annotations.Nullable;
 import java.util.Collection;
 import org.jetbrains.annotations.NotNull;
-import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import java.util.Arrays;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public final class IntentionsDescriptor extends IntentionAspectBase {
-  private final long[] myId2Index;
-  private IntentionFactory[] myIntentions0;
-  private IntentionFactory[] myIntentions1;
+  private static final IntentionFactory[] EMPTY_ARRAY = new IntentionFactory[0];
+  private Map<SAbstractConcept, IntentionFactory[]> myCached = new HashMap<SAbstractConcept, IntentionFactory[]>();
 
   public IntentionsDescriptor() {
-    myId2Index = new long[2];
-    myId2Index[0] = 0xf8cc56b1fcL;
-    myId2Index[1] = 0x1174bed3125L;
   }
 
-  @Override
   @Nullable
-  public Collection<IntentionFactory> getIntentions(@NotNull SConceptId conceptId) {
-    final int index = Arrays.binarySearch(myId2Index, conceptId.getIdValue());
-    switch (index) {
-      case 0:
-        // Concept: BaseMethodDeclaration 
-        if (myIntentions0 == null) {
-          myIntentions0 = new IntentionFactory[2];
-          myIntentions0[0] = new MakeMethodTailRecursive_Intention();
-          myIntentions0[1] = new MakeMethodRecursive_Intention();
-        }
-        return Arrays.asList(myIntentions0);
-      case 1:
-        // Concept: ClosureLiteral 
-        if (myIntentions1 == null) {
-          myIntentions1 = new IntentionFactory[2];
-          myIntentions1[0] = new MakeClosureTailRecursive_Intention();
-          myIntentions1[1] = new MakeClosureRecursive_Intention();
-        }
-        return Arrays.asList(myIntentions1);
-      default:
-        return null;
+  public Collection<IntentionFactory> getIntentions(@NotNull SAbstractConcept concept) {
+    if (myCached.containsKey(concept)) {
+      return Arrays.asList(myCached.get(concept));
     }
+
+    IntentionFactory[] intentions = EMPTY_ARRAY;
+    {
+      SAbstractConcept cncpt = concept;
+      Integer preIndex = indices_hphjzv_d0f.get(cncpt);
+      int switchIndex = (preIndex == null ? -1 : preIndex);
+      switch (switchIndex) {
+        case 0:
+          if (true) {
+            // Concept: BaseMethodDeclaration 
+            intentions = new IntentionFactory[2];
+            intentions[0] = new MakeMethodTailRecursive_Intention();
+            intentions[1] = new MakeMethodRecursive_Intention();
+          }
+          break;
+        case 1:
+          if (true) {
+            // Concept: ClosureLiteral 
+            intentions = new IntentionFactory[2];
+            intentions[0] = new MakeClosureTailRecursive_Intention();
+            intentions[1] = new MakeClosureRecursive_Intention();
+          }
+          break;
+        default:
+          // default 
+      }
+    }
+    myCached.put(concept, intentions);
+    return Arrays.asList(intentions);
   }
 
   @NotNull
@@ -57,4 +66,13 @@ public final class IntentionsDescriptor extends IntentionAspectBase {
     rv[3] = new MakeClosureRecursive_Intention();
     return Arrays.asList(rv);
   }
+  private static Map<SAbstractConcept, Integer> buildConceptIndices(SAbstractConcept... concepts) {
+    HashMap<SAbstractConcept, Integer> res = new HashMap<SAbstractConcept, Integer>();
+    int counter = 0;
+    for (SAbstractConcept c : concepts) {
+      res.put(c, counter++);
+    }
+    return res;
+  }
+  private static final Map<SAbstractConcept, Integer> indices_hphjzv_d0f = buildConceptIndices(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration"), MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"));
 }

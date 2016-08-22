@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
@@ -186,7 +186,7 @@
                   <node concept="2Ry0Ak" id="5vyANEB$egG" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="5qAq7iVkJCU" role="2Ry0An">
-                      <property role="2Ry0Am" value="IntelliJ IDEA 15.app" />
+                      <property role="2Ry0Am" value="IntelliJ IDEA.app" />
                       <node concept="2Ry0Ak" id="5qAq7iVlXF6" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -215,7 +215,7 @@
                   <node concept="2Ry0Ak" id="3HBFXmOuarL" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="3HBFXmOuaLJ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 3.3.app" />
+                      <property role="2Ry0Am" value="MPS 3.4 EAP.app" />
                       <node concept="2Ry0Ak" id="3HBFXmOuaO1" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>

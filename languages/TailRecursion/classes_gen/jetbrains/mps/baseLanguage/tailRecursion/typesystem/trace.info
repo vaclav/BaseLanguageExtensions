@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info>
-  <concept fqn="jetbrains.mps.baseLanguage.structure.AssertStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
-  <concept fqn="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1160998861373:jetbrains.mps.baseLanguage.structure.AssertStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081855346303:jetbrains.mps.baseLanguage.structure.BreakStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1177666668936:jetbrains.mps.baseLanguage.structure.DoWhileStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
   <root>
     <file name="TypesystemDescriptor.java">
       <unit at="8,0,20,0" name="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TypesystemDescriptor" />
@@ -22,8 +22,6 @@
   </root>
   <root nodeRef="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)/7902470687820875309">
     <file name="CheckingUtil.java">
-      <node id="3220419832563448066" at="92,29,92,29" concept="1" />
-      <node id="3220419832563448067" at="95,29,95,29" concept="1" />
       <node id="6963853100979796647" at="28,7,29,60" concept="9" />
       <node id="6963853100979796647" at="29,60,30,300" concept="9" />
       <node id="6963853100979796618" at="37,7,38,60" concept="9" />
@@ -50,7 +48,6 @@
       <node id="3220419832563448066" at="93,40,94,30" concept="2" />
       <node id="3220419832563448067" at="95,29,96,40" concept="5" />
       <node id="3220419832563448067" at="96,40,97,30" concept="2" />
-      <node id="3220419832563448072" at="98,29,99,59" concept="1" />
       <node id="3220419832563448073" at="98,29,99,59" concept="14" />
       <node id="3220419832563448066" at="100,30,101,39" concept="2" />
       <node id="3220419832563448066" at="103,33,104,31" concept="10" />
@@ -86,8 +83,6 @@
       <node id="3220419832563448021" at="44,126,122,5" concept="7" />
       <node id="3220419832563447930" at="43,0,124,0" concept="12" trace="checkHierarchy#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <scope id="7902470687820875314" at="23,25,23,25" />
-      <scope id="3220419832563448066" at="92,29,92,29" />
-      <scope id="3220419832563448067" at="95,29,95,29" />
       <scope id="3220419832563448072" at="98,29,99,59" />
       <scope id="3220419832563448066" at="100,30,101,39" />
       <scope id="3220419832563448087" at="112,41,113,562" />
@@ -183,7 +178,6 @@
       <node id="9009622095742637954" at="45,11,46,17" concept="10" />
       <node id="3220419832563448209" at="47,9,48,79" concept="5" />
       <node id="9009622095742633284" at="52,50,53,160" concept="10" />
-      <node id="9009622095742633284" at="55,68,56,102" concept="1" />
       <node id="9009622095742633284" at="55,68,56,102" concept="10" />
       <node id="9009622095742633284" at="58,30,59,17" concept="10" />
       <node id="9009622095742633284" at="23,0,25,0" concept="3" trace="TailPositionInMethod_NonTypesystemRule#()V" />
@@ -246,7 +240,6 @@
       <node id="9009622095742638314" at="39,14,40,69" concept="9" />
       <node id="3220419832563448203" at="40,69,41,79" concept="5" />
       <node id="9009622095742638274" at="45,50,46,163" concept="10" />
-      <node id="9009622095742638274" at="48,68,49,102" concept="1" />
       <node id="9009622095742638274" at="48,68,49,102" concept="10" />
       <node id="9009622095742638274" at="51,30,52,17" concept="10" />
       <node id="9009622095742638274" at="24,0,26,0" concept="3" trace="TailPositionInClosureLiteral_NonTypesystemRule#()V" />

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info>
+<debug-info version="2">
   <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="14,0,28,0" name="jetbrains.mps.baseLanguage.memoize.structure.ConceptPresentationAspectImpl" />
+    </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="13,0,34,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
+      <unit at="20,0,62,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
     </file>
   </root>
 </debug-info>
