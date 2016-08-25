@@ -63,10 +63,6 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
-      <concept id="7181125477683417252" name="jetbrains.mps.build.structure.BuildExternalLayoutDependency" flags="ng" index="13uUGR">
-        <reference id="7181125477683417255" name="layout" index="13uUGO" />
-        <child id="7181125477683417254" name="artifacts" index="13uUGP" />
-      </concept>
       <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
@@ -170,35 +166,6 @@
     </node>
     <node concept="10PD9b" id="5vyANEB$efQ" role="10PD9s" />
     <node concept="3b7kt6" id="5vyANEB$efR" role="10PD9s" />
-    <node concept="398rNT" id="5vyANEB$efS" role="1l3spd">
-      <property role="TrG5h" value="idea_home" />
-      <node concept="55IIr" id="5vyANEB$egA" role="398pKh">
-        <node concept="2Ry0Ak" id="5vyANEB$egB" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5vyANEB$egC" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="5vyANEB$egD" role="2Ry0An">
-              <property role="2Ry0Am" value=".." />
-              <node concept="2Ry0Ak" id="5vyANEB$egE" role="2Ry0An">
-                <property role="2Ry0Am" value=".." />
-                <node concept="2Ry0Ak" id="5vyANEB$egF" role="2Ry0An">
-                  <property role="2Ry0Am" value=".." />
-                  <node concept="2Ry0Ak" id="5vyANEB$egG" role="2Ry0An">
-                    <property role="2Ry0Am" value="Applications" />
-                    <node concept="2Ry0Ak" id="5qAq7iVkJCU" role="2Ry0An">
-                      <property role="2Ry0Am" value="IntelliJ IDEA.app" />
-                      <node concept="2Ry0Ak" id="5qAq7iVlXF6" role="2Ry0An">
-                        <property role="2Ry0Am" value="Contents" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="398rNT" id="5jx1EOa73bQ" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
       <node concept="55IIr" id="3HBFXmOuarF" role="398pKh">
@@ -226,12 +193,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="13uUGR" id="5vyANEB$efX" role="1l3spa">
-      <ref role="13uUGO" to="ffeo:6eCuTcwOnJO" resolve="IDEA" />
-      <node concept="398BVA" id="5vyANEB$efY" role="13uUGP">
-        <ref role="398BVh" node="5vyANEB$efS" resolve="idea_home" />
       </node>
     </node>
     <node concept="2sgV4H" id="5jx1EOa73pB" role="1l3spa">
