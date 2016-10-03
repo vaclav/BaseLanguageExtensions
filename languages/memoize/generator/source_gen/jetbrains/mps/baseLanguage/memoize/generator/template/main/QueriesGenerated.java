@@ -28,7 +28,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import jetbrains.mps.generator.template.TemplateQueryContext;
+import jetbrains.mps.generator.template.TemplateVarContext;
 
 @Generated
 public class QueriesGenerated {
@@ -323,10 +323,10 @@ public class QueriesGenerated {
     });
 
   }
-  public static Object insertMacro_varValue_1020370389589178100(final TemplateQueryContext _context) {
+  public static Object insertMacro_varValue_1020370389589178100(final TemplateVarContext _context) {
     return SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"), false, false);
   }
-  public static Object insertMacro_varValue_1020370389589215261(final TemplateQueryContext _context) {
+  public static Object insertMacro_varValue_1020370389589215261(final TemplateVarContext _context) {
     return SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"), false, false);
   }
 }
