@@ -4,7 +4,7 @@
   <languages>
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -118,8 +118,8 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG" />
@@ -647,12 +647,14 @@
                       <node concept="2OqwBi" id="62$$RZfUaQ$" role="3clFbG">
                         <node concept="2OqwBi" id="62$$RZfUaQ9" role="2Oq$k0">
                           <node concept="1PxgMI" id="62$$RZfUaPN" role="2Oq$k0">
-                            <ref role="1m5ApE" to="tp2c:htajhBZ" resolve="FunctionType" />
                             <node concept="2OqwBi" id="62$$RZfUaPo" role="1m5AlR">
                               <node concept="37vLTw" id="14prnuaYQwd" role="2Oq$k0">
                                 <ref role="3cqZAo" node="62$$RZfUaP0" resolve="it" />
                               </node>
                               <node concept="3JvlWi" id="62$$RZfUaPt" role="2OqNvi" />
+                            </node>
+                            <node concept="chp4Y" id="66BOIol7Cc5" role="3oSUPX">
+                              <ref role="cht4Q" to="tp2c:htajhBZ" resolve="FunctionType" />
                             </node>
                           </node>
                           <node concept="3TrEf2" id="62$$RZfUaQe" role="2OqNvi">

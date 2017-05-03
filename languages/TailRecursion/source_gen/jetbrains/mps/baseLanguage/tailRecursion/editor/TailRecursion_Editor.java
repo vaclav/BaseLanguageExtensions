@@ -6,32 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.attribute.AttributeKind;
 
 public class TailRecursion_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6plbyl_a(editorContext, node);
-  }
-  private EditorCell createCollection_6plbyl_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6plbyl_a");
-    editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_6plbyl_a0(editorContext, node));
-    editorCell.addEditorCell(this.createAttributedNodeCell_6plbyl_b0(editorContext, node));
-    return editorCell;
-  }
-  private EditorCell createConstant_6plbyl_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "tail recursive");
-    editorCell.setCellId("Constant_6plbyl_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createAttributedNodeCell_6plbyl_b0(EditorContext editorContext, SNode node) {
-    EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
-    EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class, node);
-    return editorCell;
+    return new TailRecursion_EditorBuilder_a(editorContext, node).createCell();
   }
 }

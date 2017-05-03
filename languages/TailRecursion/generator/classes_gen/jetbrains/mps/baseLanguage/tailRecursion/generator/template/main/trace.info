@@ -79,10 +79,10 @@
       <scope id="9009622095742524457" at="26,103,72,7">
         <var name="methods" id="9009622095742582855" />
       </scope>
-      <unit id="9009622095742582873" at="29,270,33,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$2" />
+      <unit id="9009622095742582873" at="29,270,33,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$1$1" />
       <unit id="6963853100979891724" at="37,45,41,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$2" />
       <unit id="6963853100979891814" at="41,20,45,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$3" />
-      <unit id="9009622095742585081" at="63,204,67,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$5" />
+      <unit id="9009622095742585081" at="63,204,67,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$4$1" />
       <unit id="9009622095742582863" at="27,117,35,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$1" />
       <unit id="9009622095742582914" at="47,48,72,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$4" />
     </file>
@@ -152,10 +152,10 @@
       <scope id="9009622095742619518" at="74,103,117,7">
         <var name="closures" id="9009622095742619531" />
       </scope>
-      <unit id="9009622095742619549" at="77,273,81,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$6" />
+      <unit id="9009622095742619549" at="77,273,81,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$5$1" />
       <unit id="6963853100979891518" at="85,46,89,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$6" />
       <unit id="6963853100979891657" at="89,20,93,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$7" />
-      <unit id="9009622095742619600" at="108,207,112,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$9" />
+      <unit id="9009622095742619600" at="108,207,112,9" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$8$1" />
       <unit id="9009622095742619539" at="75,118,83,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$5" />
       <unit id="9009622095742619566" at="95,49,117,5" name="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated$8" />
     </file>

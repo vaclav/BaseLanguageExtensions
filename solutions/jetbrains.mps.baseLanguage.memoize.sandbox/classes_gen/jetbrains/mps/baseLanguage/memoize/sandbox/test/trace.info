@@ -300,10 +300,10 @@
         <var name="localCounter" id="8394104674210932876" />
       </scope>
       <scope id="8394104674210932871" at="180,0,210,0" />
-      <unit id="4821781367346987276" at="24,111,29,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
-      <unit id="1020370389589171995" at="43,91,51,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
-      <unit id="5129611914584484688" at="162,93,170,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
-      <unit id="8394104674210932920" at="188,93,196,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$5" />
+      <unit id="4821781367346987276" at="24,111,29,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1$1" />
+      <unit id="1020370389589171995" at="43,91,51,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2$1" />
+      <unit id="5129611914584484688" at="162,93,170,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3$1" />
+      <unit id="8394104674210932920" at="188,93,196,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4$1" />
       <unit id="4821781367346987275" at="17,140,36,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$1" />
       <unit id="1020370389589171994" at="37,126,58,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
       <unit id="5129611914584484687" at="156,95,177,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
@@ -705,20 +705,20 @@
       </scope>
       <unit id="4821781367346987132" at="69,109,74,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
       <unit id="4821781367346987155" at="112,109,117,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$5" />
-      <unit id="8394104674210960150" at="252,111,257,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
-      <unit id="1020370389589227639" at="19,91,27,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-      <unit id="8394104674210934734" at="42,91,50,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
+      <unit id="8394104674210960150" at="252,111,257,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$4" />
+      <unit id="1020370389589227639" at="19,91,27,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1$1" />
+      <unit id="8394104674210934734" at="42,91,50,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2$1" />
       <unit id="1020370389588996019" at="87,89,95,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
-      <unit id="8394104674210938940" at="131,93,139,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-      <unit id="8394104674210938863" at="154,91,162,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-      <unit id="8394104674210963134" at="181,93,189,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-      <unit id="8394104674210954409" at="204,93,212,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
-      <unit id="8394104674210954436" at="227,91,235,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$3" />
+      <unit id="8394104674210938940" at="131,93,139,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$1$1" />
+      <unit id="8394104674210938863" at="154,91,162,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$2" />
+      <unit id="8394104674210963134" at="181,93,189,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$1$1" />
+      <unit id="8394104674210954409" at="204,93,212,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$2$1" />
+      <unit id="8394104674210954436" at="227,91,235,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$3" />
       <unit id="1020370389589227638" at="13,132,34,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
       <unit id="8394104674210934733" at="36,133,57,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
-      <unit id="8394104674210938939" at="125,141,146,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
-      <unit id="8394104674210963133" at="175,134,196,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
-      <unit id="8394104674210954408" at="198,141,219,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
+      <unit id="8394104674210938939" at="125,141,146,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$1" />
+      <unit id="8394104674210963133" at="175,134,196,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$1" />
+      <unit id="8394104674210954408" at="198,141,219,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$2" />
       <unit id="8394104674210938854" at="124,0,174,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator" />
       <unit id="8394104674210954402" at="174,0,271,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator" />
       <unit id="4821781367346987123" at="11,0,279,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator" />
@@ -840,7 +840,7 @@
       <scope id="94989256191832267" at="44,0,60,0" />
       <unit id="94989256191935564" at="14,59,17,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$1" />
       <unit id="6963853100979668773" at="36,71,39,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
-      <unit id="6963853100979668740" at="23,77,28,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$3" />
+      <unit id="6963853100979668740" at="23,77,28,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$2$1" />
       <unit id="94989256191832270" at="48,75,53,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$4" />
       <unit id="6963853100979668739" at="18,114,35,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist$2" />
       <unit id="94989256191809309" at="11,0,66,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCaseSpecialist" />

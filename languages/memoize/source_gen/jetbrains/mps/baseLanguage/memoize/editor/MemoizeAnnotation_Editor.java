@@ -6,73 +6,12 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.attribute.AttributeKind;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.openapi.editor.style.Style;
-import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.editor.runtime.style.StyleAttributes;
 
 public class MemoizeAnnotation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_r31tt_a(editorContext, node);
+    return new MemoizeAnnotation_EditorBuilder_a(editorContext, node).createCell();
   }
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_r31tt_a_0(editorContext, node);
-  }
-  private EditorCell createCollection_r31tt_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_r31tt_a");
-    editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_r31tt_a0(editorContext, node));
-    editorCell.addEditorCell(this.createAttributedNodeCell_r31tt_b0(editorContext, node));
-    return editorCell;
-  }
-  private EditorCell createConstant_r31tt_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "memoized");
-    editorCell.setCellId("Constant_r31tt_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createAttributedNodeCell_r31tt_b0(EditorContext editorContext, SNode node) {
-    EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
-    EditorCell editorCell = manager.getCurrentAttributedCellWithRole(AttributeKind.Node.class, node);
-    return editorCell;
-  }
-  private EditorCell createCollection_r31tt_a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_r31tt_a_0");
-    editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_r31tt_a0_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_r31tt_b0(editorContext, node));
-    return editorCell;
-  }
-  private EditorCell createConstant_r31tt_a0_0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Size limit");
-    editorCell.setCellId("Constant_r31tt_a0_0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createProperty_r31tt_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("sizeLimit");
-    provider.setNoTargetText("<no sizeLimit>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_sizeLimit");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
-    editorCell.getStyle().putAll(style);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      EditorManager manager = EditorManager.getInstanceFromContext(editorContext);
-      return manager.createNodeRoleAttributeCell(attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
+    return new MemoizeAnnotation_InspectorBuilder_a(editorContext, node).createCell();
   }
 }
