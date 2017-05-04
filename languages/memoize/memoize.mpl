@@ -49,7 +49,6 @@
         <module reference="985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
         <module reference="857d0a79-6f44-4f46-84ed-9c5b42632011(jetbrains.mps.baseLanguage.closures#1199623535494)" version="0" />
-        <module reference="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" version="0" />
         <module reference="9f9722b2-7c97-43c8-9771-bea4630e2676(jetbrains.mps.baseLanguage.memoize)" version="0" />
         <module reference="51326dcc-4e4f-4f9f-b1c6-9389204f3b1c(jetbrains.mps.baseLanguage.memoize#1742094376850086130)" version="0" />
         <module reference="5b46d476-f1a0-431f-9f49-e6675252d759(jetbrains.mps.baseLanguage.memoize.util)" version="0" />
