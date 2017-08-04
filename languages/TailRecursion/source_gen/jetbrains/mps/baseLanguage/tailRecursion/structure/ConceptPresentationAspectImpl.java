@@ -4,12 +4,12 @@ package jetbrains.mps.baseLanguage.tailRecursion.structure;
 
 import jetbrains.mps.smodel.runtime.ConceptPresentationAspectBase;
 import jetbrains.mps.smodel.runtime.ConceptPresentation;
-import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
-  private final ConceptPresentation props_TailRecursion = new ConceptPresentationBuilder().create();
+  private ConceptPresentation props_TailRecursion;
 
   @Override
   @Nullable
@@ -17,6 +17,11 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
       case LanguageConceptSwitch.TailRecursion:
+        if (props_TailRecursion == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("TailRecursion");
+          props_TailRecursion = cpb.create();
+        }
         return props_TailRecursion;
     }
     return null;

@@ -2,7 +2,14 @@
 <dependenciesRoot>
   <dependency className="jetbrains.mps.baseLanguage.tailRecursion.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
     <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper" />
+    <classNode dependClassName="jetbrains.mps.generator.impl.GenerationFailureException" />
+    <classNode dependClassName="jetbrains.mps.generator.impl.query.QueryKey" />
+    <classNode dependClassName="jetbrains.mps.generator.impl.query.ScriptCodeBlock" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.Generated" />
     <classNode dependClassName="jetbrains.mps.generator.template.MappingScriptContext" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ITranslator2" />
@@ -18,8 +25,10 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.generator.impl.query.QueryProviderBase" />
   </dependency>
 </dependenciesRoot>
 
