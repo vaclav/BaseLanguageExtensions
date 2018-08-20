@@ -13,6 +13,10 @@
     </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376849958750">
+    <file name="IntentionsDescriptor.java">
+      <node id="1742094376849958750" at="37,47,38,61" concept="1" />
+      <node id="1742094376849958750" at="59,52,60,47" concept="1" />
+    </file>
     <file name="MakeMethodMemoized_Intention.java">
       <node id="1742094376849958750" at="22,0,23,0" concept="2" trace="myCachedExecutable" />
       <node id="1742094376849958750" at="23,41,24,160" concept="6" />
@@ -80,6 +84,10 @@
     </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850085723">
+    <file name="IntentionsDescriptor.java">
+      <node id="1742094376850085723" at="45,47,46,62" concept="1" />
+      <node id="1742094376850085723" at="60,47,61,48" concept="1" />
+    </file>
     <file name="MakeClosureMemoized_Intention.java">
       <node id="1742094376850085723" at="22,0,23,0" concept="2" trace="myCachedExecutable" />
       <node id="1742094376850085723" at="23,42,24,159" concept="6" />
@@ -147,6 +155,10 @@
     </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850085849">
+    <file name="IntentionsDescriptor.java">
+      <node id="1742094376850085849" at="38,61,39,64" concept="1" />
+      <node id="1742094376850085849" at="61,48,62,50" concept="1" />
+    </file>
     <file name="MakeMethodNotMemoized_Intention.java">
       <node id="1742094376850085849" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
       <node id="1742094376850085849" at="22,44,23,160" concept="6" />
@@ -214,6 +226,10 @@
     </file>
   </root>
   <root nodeRef="r:73d9b7c1-7a0a-4715-9de3-9f81c22388bf(jetbrains.mps.baseLanguage.memoize.intentions)/1742094376850086002">
+    <file name="IntentionsDescriptor.java">
+      <node id="1742094376850086002" at="46,62,47,65" concept="1" />
+      <node id="1742094376850086002" at="62,50,63,51" concept="1" />
+    </file>
     <file name="MakeClosureNotMemoized_Intention.java">
       <node id="1742094376850086002" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
       <node id="1742094376850086002" at="22,45,23,159" concept="6" />

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="ConceptPresentationAspectImpl.java">
       <unit at="11,0,30,0" name="jetbrains.mps.baseLanguage.memoize.structure.ConceptPresentationAspectImpl" />
@@ -8,7 +15,42 @@
       <unit at="10,0,28,0" name="jetbrains.mps.baseLanguage.memoize.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="14,0,51,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
+      <unit at="14,0,52,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)/1742094376849958735">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1742094376849958735" at="12,0,13,0" concept="1" trace="props_MemoizeAnnotation" />
+      <node id="1742094376849958735" at="20,46,21,76" concept="3" />
+      <node id="1742094376849958735" at="21,76,22,51" concept="0" />
+      <node id="1742094376849958735" at="22,51,23,49" concept="0" />
+      <node id="1742094376849958735" at="24,9,25,39" concept="4" />
+      <node id="1742094376849958735" at="19,51,24,9" concept="2" />
+      <scope id="1742094376849958735" at="20,46,23,49">
+        <var name="cpb" id="1742094376849958735" />
+      </scope>
+      <scope id="1742094376849958735" at="19,51,25,39" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1742094376849958735" at="12,0,13,0" concept="5" trace="MemoizeAnnotation" />
+      <node id="1742094376849958735" at="15,116,16,56" concept="0" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1742094376849958735" at="15,0,16,0" concept="1" trace="myConceptMemoizeAnnotation" />
+      <node id="1742094376849958735" at="31,51,32,42" concept="4" />
+      <node id="1742094376849958735" at="42,75,43,186" concept="3" />
+      <node id="1742094376849958735" at="43,186,44,34" concept="0" />
+      <node id="1742094376849958735" at="44,34,45,127" concept="0" />
+      <node id="1742094376849958735" at="45,127,46,121" concept="0" />
+      <node id="1742094376849958735" at="46,121,47,17" concept="0" />
+      <node id="1742094376849958736" at="47,17,48,68" concept="0" />
+      <node id="1742094376849958735" at="48,68,49,22" concept="4" />
+      <node id="1742094376849958735" at="42,0,51,0" concept="6" trace="createDescriptorForMemoizeAnnotation#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1742094376849958735" at="31,51,32,42" />
+      <scope id="1742094376849958735" at="42,75,49,22">
+        <var name="b" id="1742094376849958735" />
+      </scope>
+      <scope id="1742094376849958735" at="42,0,51,0" />
     </file>
   </root>
 </debug-info>

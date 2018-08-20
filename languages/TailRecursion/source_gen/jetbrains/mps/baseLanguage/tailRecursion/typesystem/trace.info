@@ -226,6 +226,14 @@
       </scope>
       <unit id="9009622095742633284" at="22,0,62,0" name="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule" />
     </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="9009622095742633284" at="14,5,15,97" concept="9" />
+      <node id="9009622095742633284" at="15,97,16,55" concept="5" />
+      <node id="9009622095742633284" at="13,5,17,5" concept="1" />
+      <scope id="9009622095742633284" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="9009622095742633284" />
+      </scope>
+    </file>
   </root>
   <root nodeRef="r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)/9009622095742638274">
     <file name="TailPositionInClosureLiteral_NonTypesystemRule.java">
@@ -280,6 +288,14 @@
         <var name="typeCheckingContext" id="9009622095742638274" />
       </scope>
       <unit id="9009622095742638274" at="23,0,55,0" name="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule" />
+    </file>
+    <file name="TypesystemDescriptor.java">
+      <node id="9009622095742638274" at="10,5,11,105" concept="9" />
+      <node id="9009622095742638274" at="11,105,12,55" concept="5" />
+      <node id="9009622095742638274" at="9,33,13,5" concept="1" />
+      <scope id="9009622095742638274" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="9009622095742638274" />
+      </scope>
     </file>
   </root>
 </debug-info>

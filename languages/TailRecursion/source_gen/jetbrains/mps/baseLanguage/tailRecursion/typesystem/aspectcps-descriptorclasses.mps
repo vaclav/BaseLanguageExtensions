@@ -236,7 +236,6 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1018,7 +1017,6 @@
     </node>
   </node>
   <node concept="312cEu" id="4A">
-    <property role="3GE5qa" value="definition.rule" />
     <property role="TrG5h" value="TailPositionInClosureLiteral_NonTypesystemRule" />
     <node concept="3clFbW" id="4B" role="jymVt">
       <node concept="3clFbS" id="4J" role="3clF47" />
@@ -1343,7 +1341,6 @@
     <node concept="3Tm1VV" id="4I" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="6H">
-    <property role="3GE5qa" value="definition.rule" />
     <property role="TrG5h" value="TailPositionInMethod_NonTypesystemRule" />
     <node concept="3clFbW" id="6I" role="jymVt">
       <node concept="3clFbS" id="6Q" role="3clF47" />

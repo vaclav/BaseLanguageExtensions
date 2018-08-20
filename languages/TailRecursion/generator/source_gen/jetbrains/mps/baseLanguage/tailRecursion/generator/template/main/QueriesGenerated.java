@@ -33,7 +33,7 @@ public class QueriesGenerated extends QueryProviderBase {
   public QueriesGenerated() {
     super(1);
   }
-  public static void mappingScript_CodeBlock_9009622095742524456(final MappingScriptContext _context) {
+  public static void mappingScript_CodeBlock_1(final MappingScriptContext _context) {
     Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
@@ -81,7 +81,7 @@ public class QueriesGenerated extends QueryProviderBase {
       }
     });
   }
-  public static void mappingScript_CodeBlock_9009622095742619517(final MappingScriptContext _context) {
+  public static void mappingScript_CodeBlock_2(final MappingScriptContext _context) {
     Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
@@ -150,10 +150,10 @@ public class QueriesGenerated extends QueryProviderBase {
     public void invoke(MappingScriptContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          QueriesGenerated.mappingScript_CodeBlock_9009622095742524456(ctx);
+          QueriesGenerated.mappingScript_CodeBlock_1(ctx);
           return;
         case 1:
-          QueriesGenerated.mappingScript_CodeBlock_9009622095742619517(ctx);
+          QueriesGenerated.mappingScript_CodeBlock_2(ctx);
           return;
         default:
           throw new GenerationFailureException(String.format("There's no code block with method index %d ", methodKey));

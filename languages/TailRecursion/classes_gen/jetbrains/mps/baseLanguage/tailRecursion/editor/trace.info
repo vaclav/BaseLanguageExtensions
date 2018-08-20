@@ -27,33 +27,33 @@
       <node id="4322693879000316858" at="20,93,21,19" concept="6" />
       <node id="4322693879000316858" at="21,19,22,18" concept="1" />
       <node id="4322693879000316858" at="27,26,28,18" concept="5" />
-      <node id="4322693879000316858" at="31,39,32,39" concept="5" />
-      <node id="4322693879000316858" at="35,50,36,118" concept="4" />
+      <node id="4322693879000316858" at="31,39,32,32" concept="5" />
+      <node id="4322693879000316858" at="35,43,36,118" concept="4" />
       <node id="4322693879000316858" at="36,118,37,48" concept="1" />
       <node id="4322693879000316858" at="37,48,38,28" concept="1" />
-      <node id="4322693879000316858" at="38,28,39,65" concept="1" />
-      <node id="4322693879000316858" at="39,65,40,57" concept="1" />
-      <node id="4322693879000316858" at="40,57,41,67" concept="1" />
-      <node id="4322693879000316858" at="41,67,42,22" concept="5" />
-      <node id="4322693879000316863" at="44,49,45,107" concept="4" />
+      <node id="4322693879000316858" at="38,28,39,31" concept="1" />
+      <node id="4322693879000316863" at="39,31,40,49" concept="1" />
+      <node id="4322693879000316865" at="40,49,41,59" concept="1" />
+      <node id="4322693879000316858" at="41,59,42,22" concept="5" />
+      <node id="4322693879000316863" at="44,41,45,107" concept="4" />
       <node id="4322693879000316863" at="45,107,46,47" concept="1" />
       <node id="4322693879000316863" at="46,47,47,34" concept="1" />
       <node id="4322693879000316863" at="47,34,48,22" concept="5" />
-      <node id="4322693879000316865" at="50,59,51,85" concept="4" />
+      <node id="4322693879000316865" at="50,51,51,85" concept="4" />
       <node id="4322693879000316865" at="51,85,52,93" concept="4" />
       <node id="4322693879000316865" at="52,93,53,22" concept="5" />
       <node id="4322693879000316858" at="17,0,19,0" concept="2" trace="myNode" />
       <node id="4322693879000316858" at="31,0,34,0" concept="3" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="4322693879000316858" at="20,0,24,0" concept="0" trace="TailRecursion_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="4322693879000316858" at="25,0,30,0" concept="3" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="4322693879000316865" at="50,0,55,0" concept="3" trace="createAttributedNodeCell_6plbyl_b0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4322693879000316863" at="44,0,50,0" concept="3" trace="createConstant_6plbyl_a0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4322693879000316858" at="35,0,44,0" concept="3" trace="createCollection_6plbyl_a#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4322693879000316865" at="50,0,55,0" concept="3" trace="createAttributedNodeCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4322693879000316863" at="44,0,50,0" concept="3" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4322693879000316858" at="35,0,44,0" concept="3" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <scope id="4322693879000316858" at="27,26,28,18" />
-      <scope id="4322693879000316858" at="31,39,32,39" />
+      <scope id="4322693879000316858" at="31,39,32,32" />
       <scope id="4322693879000316858" at="20,93,22,18" />
       <scope id="4322693879000316858" at="31,0,34,0" />
-      <scope id="4322693879000316865" at="50,59,53,22">
+      <scope id="4322693879000316865" at="50,51,53,22">
         <var name="editorCell" id="4322693879000316865" />
         <var name="manager" id="4322693879000316865" />
       </scope>
@@ -61,13 +61,13 @@
         <var name="context" id="4322693879000316858" />
         <var name="node" id="4322693879000316858" />
       </scope>
-      <scope id="4322693879000316863" at="44,49,48,22">
+      <scope id="4322693879000316863" at="44,41,48,22">
         <var name="editorCell" id="4322693879000316863" />
       </scope>
       <scope id="4322693879000316858" at="25,0,30,0" />
       <scope id="4322693879000316865" at="50,0,55,0" />
       <scope id="4322693879000316863" at="44,0,50,0" />
-      <scope id="4322693879000316858" at="35,50,42,22">
+      <scope id="4322693879000316858" at="35,43,42,22">
         <var name="editorCell" id="4322693879000316858" />
       </scope>
       <scope id="4322693879000316858" at="35,0,44,0" />
