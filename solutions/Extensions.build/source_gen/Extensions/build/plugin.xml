@@ -4,7 +4,7 @@
   <name>MPS BaseLanguage Extensions</name>
   <description>A set of handy extensions to BaseLanguage, such as tail recursion optimization and function memoization</description>
   <idea-version since-build="181.1" until-build="182.*" />
-  <version>2018.2</version>
+  <version>2018.2.1</version>
   <vendor url="http://www.jetbrains.com">JetBrains</vendor>
   
   <depends>jetbrains.mps.core</depends>
