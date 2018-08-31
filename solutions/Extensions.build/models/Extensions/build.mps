@@ -55,6 +55,9 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
+      <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
+        <child id="2750015747481074432" name="path" index="2HvfZ0" />
+      </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -67,6 +70,7 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
+      <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
       </concept>
@@ -203,6 +207,9 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="28ymrlKRYb4" role="1l3spd">
+      <property role="TrG5h" value="build.layout" />
+    </node>
     <node concept="2sgV4H" id="5jx1EOa73pB" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="5jx1EOa73qn" role="2JcizS">
@@ -210,14 +217,29 @@
       </node>
     </node>
     <node concept="1l3spV" id="5vyANEB$eg1" role="1l3spN">
+      <node concept="m$_wl" id="28ymrlKRY99" role="39821P">
+        <ref role="m_rDy" node="5vyANEB$eg6" resolve="jetbrains.mps.baseLanguage.extensions" />
+      </node>
       <node concept="3981dG" id="5vyANEB$eg2" role="39821P">
+        <node concept="398223" id="28ymrlKRYcT" role="39821P">
+          <node concept="3_J27D" id="28ymrlKRYcU" role="Nbhlr">
+            <node concept="3Mxwew" id="28ymrlKRYdn" role="3MwsjC">
+              <property role="3MwjfP" value="BaseLanguageExtensions" />
+            </node>
+          </node>
+          <node concept="2HvfSZ" id="28ymrlKRYdp" role="39821P">
+            <node concept="398BVA" id="28ymrlKRYdR" role="2HvfZ0">
+              <ref role="398BVh" node="28ymrlKRYb4" resolve="build.layout" />
+              <node concept="2Ry0Ak" id="28ymrlKRYel" role="iGT6I">
+                <property role="2Ry0Am" value="BaseLanguageExtensions" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3_J27D" id="5vyANEB$eg3" role="Nbhlr">
           <node concept="3Mxwew" id="5vyANEB$eg4" role="3MwsjC">
             <property role="3MwjfP" value="BaseLanguageExtensions.zip" />
           </node>
-        </node>
-        <node concept="m$_wl" id="5vyANEB$eg5" role="39821P">
-          <ref role="m_rDy" node="5vyANEB$eg6" resolve="jetbrains.mps.baseLanguage.extensions" />
         </node>
       </node>
     </node>
@@ -238,6 +260,9 @@
       </node>
       <node concept="m$_yC" id="5vyANEB$egc" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="28ymrlKRTrR" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="5vyANEB$egd" role="m_cZH">
         <node concept="3Mxwew" id="5vyANEB$ege" role="3MwsjC">
@@ -452,6 +477,29 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="28ymrlKRTmx" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="Extensions.build" />
+        <property role="3LESm3" value="a974bf17-8a6e-4d70-8fb5-6788235ee120" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="28ymrlKRTm$" role="3LF7KH">
+          <node concept="2Ry0Ak" id="28ymrlKRToC" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="28ymrlKRTpp" role="2Ry0An">
+              <property role="2Ry0Am" value="Extensions.build" />
+              <node concept="2Ry0Ak" id="28ymrlKRTqa" role="2Ry0An">
+                <property role="2Ry0Am" value="build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="28ymrlKRTqS" role="3bR37C">
+          <node concept="3bR9La" id="28ymrlKRTqT" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
           </node>
         </node>
       </node>
