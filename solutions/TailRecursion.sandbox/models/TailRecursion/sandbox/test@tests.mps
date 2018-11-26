@@ -2,10 +2,10 @@
 <model ref="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="f142cd5e-ea1d-466a-86a8-52891b6256a4" name="jetbrains.mps.baseLanguage.tailRecursion" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
@@ -37,9 +37,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
-        <child id="1068390468201" name="constructor" index="312cEh" />
-      </concept>
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -169,11 +167,6 @@
   <node concept="3s_ewN" id="3JXiMSE$50L">
     <property role="3s_ewP" value="RecursiveScenario" />
     <node concept="3Tm1VV" id="3JXiMSE$50M" role="1B3o_S" />
-    <node concept="3clFbW" id="3JXiMSE$50N" role="312cEh">
-      <node concept="3cqZAl" id="3JXiMSE$50O" role="3clF45" />
-      <node concept="3Tm1VV" id="3JXiMSE$50P" role="1B3o_S" />
-      <node concept="3clFbS" id="3JXiMSE$50Q" role="3clF47" />
-    </node>
     <node concept="3s_gsd" id="3JXiMSE$50R" role="3s_ewO">
       <node concept="3s$Bmu" id="3JXiMSE$ruY" role="3s_gse">
         <property role="3s$Bm0" value="sum" />

@@ -133,12 +133,11 @@
       <node id="8394104674210932946" at="207,64,208,47" concept="1" />
       <node id="1020370389589174110" at="210,23,211,23" concept="1" />
       <node id="1020370389589227753" at="211,23,212,33" concept="1" />
-      <node id="5129611914584484652" at="216,103,217,36" concept="6" />
-      <node id="1742094376849958730" at="214,0,216,0" concept="0" trace="MemoizeTest_Test#()V" />
+      <node id="5129611914584484652" at="214,103,215,36" concept="6" />
       <node id="1020370389589171999" at="45,32,48,13" concept="3" />
       <node id="5129611914584484693" at="164,38,167,15" concept="3" />
       <node id="8394104674210932925" at="190,38,193,15" concept="3" />
-      <node id="5129611914584484638" at="216,0,219,0" concept="4" trace="addFib#(ILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/lang/Long;" />
+      <node id="5129611914584484638" at="214,0,217,0" concept="4" trace="addFib#(ILjetbrains/mps/baseLanguage/closures/runtime/_FunctionTypes/_return_P1_E0;)Ljava/lang/Long;" />
       <node id="4821781367346987276" at="25,0,29,0" concept="4" trace="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
       <node id="1742094376849958728" at="210,0,214,0" concept="4" trace="setUp#()V" />
       <node id="1020370389589172098" at="115,0,120,0" concept="4" trace="test_fibonacciClosure#()V" />
@@ -175,16 +174,14 @@
       <node id="8394104674210932914" at="181,60,203,7" concept="5" />
       <node id="5129611914584484634" at="154,0,180,0" concept="4" trace="test_closureInMethodCall#()V" />
       <node id="8394104674210932871" at="180,0,210,0" concept="4" trace="test_repeatedClosureInMethodCall#()V" />
-      <scope id="1742094376849958733" at="214,29,214,29" />
       <scope id="1020370389589172001" at="46,25,47,24" />
       <scope id="5129611914584484695" at="165,27,166,26" />
       <scope id="8394104674210932929" at="191,27,192,26" />
-      <scope id="5129611914584484641" at="216,103,217,36" />
+      <scope id="5129611914584484641" at="214,103,215,36" />
       <scope id="4821781367346987276" at="25,55,27,25" />
       <scope id="1020370389589174109" at="210,23,212,33" />
-      <scope id="1742094376849958730" at="214,0,216,0" />
       <scope id="1020370389589172101" at="115,56,118,74" />
-      <scope id="5129611914584484638" at="216,0,219,0">
+      <scope id="5129611914584484638" at="214,0,217,0">
         <var name="fibClosure" id="5129611914584484643" />
         <var name="n" id="5129611914584484649" />
       </scope>
@@ -308,7 +305,7 @@
       <unit id="1020370389589171994" at="37,126,58,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$2" />
       <unit id="5129611914584484687" at="156,95,177,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$3" />
       <unit id="8394104674210932919" at="182,119,203,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test$4" />
-      <unit id="1742094376849958728" at="14,0,220,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
+      <unit id="1742094376849958728" at="14,0,218,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.MemoizeTest_Test" />
     </file>
   </root>
   <root nodeRef="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/4821781367346987123">
@@ -749,18 +746,15 @@
       <node id="6963853100979668907" at="31,47,32,0" concept="7" />
       <node id="6963853100979668828" at="32,0,33,37" concept="1" />
       <node id="6963853100979668835" at="33,37,34,37" concept="1" />
-      <node id="94989256191809304" at="36,0,38,0" concept="0" trace="CornerCass_Test#()V" />
       <node id="94989256191809320" at="9,0,22,0" concept="4" trace="test_methods#()V" />
       <node id="6963853100979668781" at="22,0,36,0" concept="4" trace="test_closures#()V" />
-      <scope id="94989256191809307" at="36,28,36,28" />
-      <scope id="94989256191809304" at="36,0,38,0" />
       <scope id="94989256191809323" at="9,47,20,41" />
       <scope id="6963853100979668784" at="22,48,34,37">
         <var name="specialist" id="6963853100979668790" />
       </scope>
       <scope id="94989256191809320" at="9,0,22,0" />
       <scope id="6963853100979668781" at="22,0,36,0" />
-      <unit id="94989256191809302" at="8,0,39,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCass_Test" />
+      <unit id="94989256191809302" at="8,0,37,0" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.CornerCass_Test" />
     </file>
   </root>
   <root nodeRef="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)/94989256191809309">

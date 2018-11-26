@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-e5gtin7f3i3x245wikhwn2yz8tsul2d" />
+<product version="3" modelHash="d7djqgef1xehmd6btrppbvka2p46lj8">
+  <files names="EditorAspectDescriptorImpl.java:TailRecursion_Editor.java:TailRecursion_EditorBuilder_a.java" />
+</product>
 

@@ -211,8 +211,6 @@ public class MemoizeTest_Test extends TestCase {
     closureCounter = 0;
     Calculator.staticCounter = 0;
   }
-  public MemoizeTest_Test() {
-  }
   public Long addFib(int n, _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> fibClosure) {
     return n + fibClosure.invoke(n);
   }

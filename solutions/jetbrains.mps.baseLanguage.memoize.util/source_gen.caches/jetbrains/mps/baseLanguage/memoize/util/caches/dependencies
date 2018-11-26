@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator" file="KeyCalculator.java">
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator">
     <classNode dependClassName="java.lang.Object" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" file="LRUProtectionStorage.java">
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.SuppressWarnings" />
     <classNode dependClassName="java.util.Map" />
     <classNode extendsClassName="java.util.LinkedHashMap" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator" file="Memoizator.java">
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator">
     <classNode dependClassName="java.lang.IllegalArgumentException" />
     <classNode dependClassName="java.lang.IllegalStateException" />
     <classNode dependClassName="java.lang.Integer" />
@@ -22,11 +22,11 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.memoize.util.caches.LRUProtectionStorage" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage" file="NullProtectionStorage.java">
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullProtectionStorage">
     <classNode dependClassName="java.lang.Object" />
     <classNode extendsClassName="java.util.LinkedHashMap" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue" file="NullValue.java">
+  <dependency className="jetbrains.mps.baseLanguage.memoize.util.caches.NullValue">
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
   </dependency>

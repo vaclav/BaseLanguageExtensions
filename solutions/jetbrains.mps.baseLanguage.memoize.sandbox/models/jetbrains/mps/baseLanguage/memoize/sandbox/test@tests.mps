@@ -2,10 +2,10 @@
 <model ref="r:4c8ddaed-83c9-4991-8c0b-e9786cb1efb9(jetbrains.mps.baseLanguage.memoize.sandbox.test@tests)">
   <persistence version="9" />
   <languages>
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <use id="9f9722b2-7c97-43c8-9771-bea4630e2676" name="jetbrains.mps.baseLanguage.memoize" version="0" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
   </languages>
   <imports>
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -43,7 +43,6 @@
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
-        <child id="1068390468201" name="constructor" index="312cEh" />
         <child id="1068390468199" name="field" index="312cEv" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -330,11 +329,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1wHapGhmet9" role="1B3o_S" />
-    <node concept="3clFbW" id="1wHapGhmeta" role="312cEh">
-      <node concept="3cqZAl" id="1wHapGhmetb" role="3clF45" />
-      <node concept="3Tm1VV" id="1wHapGhmetc" role="1B3o_S" />
-      <node concept="3clFbS" id="1wHapGhmetd" role="3clF47" />
-    </node>
     <node concept="3s_gsd" id="1wHapGhmete" role="3s_ewO">
       <node concept="3s$Bmu" id="4bEq9Hhk81J" role="3s_gse">
         <property role="3s$Bm0" value="instanceMethod" />
@@ -2380,11 +2374,6 @@
   <node concept="3s_ewN" id="5hu3ACMDsm">
     <property role="3s_ewP" value="CornerCass" />
     <node concept="3Tm1VV" id="5hu3ACMDsn" role="1B3o_S" />
-    <node concept="3clFbW" id="5hu3ACMDso" role="312cEh">
-      <node concept="3cqZAl" id="5hu3ACMDsp" role="3clF45" />
-      <node concept="3Tm1VV" id="5hu3ACMDsq" role="1B3o_S" />
-      <node concept="3clFbS" id="5hu3ACMDsr" role="3clF47" />
-    </node>
     <node concept="3s_gsd" id="5hu3ACMDss" role="3s_ewO">
       <node concept="3s$Bmu" id="5hu3ACMDsC" role="3s_gse">
         <property role="3s$Bm0" value="methods" />

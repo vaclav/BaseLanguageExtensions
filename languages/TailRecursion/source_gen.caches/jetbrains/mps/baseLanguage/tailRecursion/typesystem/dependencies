@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.CheckingUtil" file="CheckingUtil.java">
+  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.CheckingUtil">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.YieldingIterator" />
@@ -19,7 +19,7 @@
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule" file="TailPositionInClosureLiteral_NonTypesystemRule.java">
+  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule">
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.CheckingUtil" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
@@ -39,7 +39,7 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule" file="TailPositionInMethod_NonTypesystemRule.java">
+  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule">
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.CheckingUtil" />
     <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
@@ -58,7 +58,7 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
   </dependency>
-  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TypesystemDescriptor" file="TypesystemDescriptor.java">
+  <dependency className="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TypesystemDescriptor">
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInClosureLiteral_NonTypesystemRule" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tailRecursion.typesystem.TailPositionInMethod_NonTypesystemRule" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />

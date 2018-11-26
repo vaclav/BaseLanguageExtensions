@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-6mshhc7xt14n5tkntx1my1zw6m28c53" />
+<product version="3" modelHash="237wa7etwyva27ofblsh9nv3v5gz7cn">
+  <files names="KeyCalculator.java:LRUProtectionStorage.java:Memoizator.java:NullProtectionStorage.java:NullValue.java" />
+</product>
 

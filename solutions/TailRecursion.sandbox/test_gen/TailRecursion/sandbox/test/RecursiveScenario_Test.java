@@ -58,6 +58,4 @@ public class RecursiveScenario_Test extends TestCase {
     Assert.assertTrue(3628800 == factorial.invoke(1L, 10));
     Assert.assertTrue(2432902008176640000L == factorial.invoke(1L, 20));
   }
-  public RecursiveScenario_Test() {
-  }
 }

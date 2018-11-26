@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="5" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
   <imports>
@@ -55,9 +55,6 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
-      <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
-        <child id="2750015747481074432" name="path" index="2HvfZ0" />
-      </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -66,11 +63,6 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
-      <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
-      <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
-        <child id="4380385936562148502" name="containerName" index="Nbhlr" />
-      </concept>
-      <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
       </concept>
@@ -131,10 +123,12 @@
       </concept>
       <concept id="6592112598314498926" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_Plugin" flags="ng" index="m$_wl">
         <reference id="6592112598314801433" name="plugin" index="m_rDy" />
+        <child id="3570488090019868128" name="packagingType" index="pUk7w" />
       </concept>
       <concept id="6592112598314499027" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginDependency" flags="ng" index="m$_yC">
         <reference id="6592112598314499066" name="target" index="m$_y1" />
       </concept>
+      <concept id="3570488090019868065" name="jetbrains.mps.build.mps.structure.BuildMpsLayout_AutoPluginLayoutType" flags="ng" index="pUk6x" />
       <concept id="1500819558095907805" name="jetbrains.mps.build.mps.structure.BuildMps_Group" flags="ng" index="2G$12M">
         <child id="1500819558095907806" name="modules" index="2G$12L" />
       </concept>
@@ -194,7 +188,7 @@
                   <node concept="2Ry0Ak" id="3HBFXmOuarL" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="3HBFXmOuaLJ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2018.2.app" />
+                      <property role="2Ry0Am" value="MPS 2018.3.app" />
                       <node concept="2Ry0Ak" id="3HBFXmOuaO1" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -207,9 +201,6 @@
         </node>
       </node>
     </node>
-    <node concept="398rNT" id="28ymrlKRYb4" role="1l3spd">
-      <property role="TrG5h" value="build.layout" />
-    </node>
     <node concept="2sgV4H" id="5jx1EOa73pB" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="5jx1EOa73qn" role="2JcizS">
@@ -219,28 +210,7 @@
     <node concept="1l3spV" id="5vyANEB$eg1" role="1l3spN">
       <node concept="m$_wl" id="28ymrlKRY99" role="39821P">
         <ref role="m_rDy" node="5vyANEB$eg6" resolve="jetbrains.mps.baseLanguage.extensions" />
-      </node>
-      <node concept="3981dG" id="5vyANEB$eg2" role="39821P">
-        <node concept="398223" id="28ymrlKRYcT" role="39821P">
-          <node concept="3_J27D" id="28ymrlKRYcU" role="Nbhlr">
-            <node concept="3Mxwew" id="28ymrlKRYdn" role="3MwsjC">
-              <property role="3MwjfP" value="BaseLanguageExtensions" />
-            </node>
-          </node>
-          <node concept="2HvfSZ" id="28ymrlKRYdp" role="39821P">
-            <node concept="398BVA" id="28ymrlKRYdR" role="2HvfZ0">
-              <ref role="398BVh" node="28ymrlKRYb4" resolve="build.layout" />
-              <node concept="2Ry0Ak" id="28ymrlKRYel" role="iGT6I">
-                <property role="2Ry0Am" value="BaseLanguageExtensions" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3_J27D" id="5vyANEB$eg3" role="Nbhlr">
-          <node concept="3Mxwew" id="5vyANEB$eg4" role="3MwsjC">
-            <property role="3MwjfP" value="BaseLanguageExtensions.zip" />
-          </node>
-        </node>
+        <node concept="pUk6x" id="4qSJzvNc6VZ" role="pUk7w" />
       </node>
     </node>
     <node concept="m$_wf" id="5vyANEB$eg6" role="3989C9">
@@ -252,7 +222,7 @@
       </node>
       <node concept="3_J27D" id="5vyANEB$eg9" role="m$_w8">
         <node concept="3Mxwew" id="5vyANEB$ega" role="3MwsjC">
-          <property role="3MwjfP" value="2018.2.1" />
+          <property role="3MwjfP" value="2018.3" />
         </node>
       </node>
       <node concept="m$f5U" id="5vyANEB$egb" role="m$_yh">
@@ -539,20 +509,20 @@
           <node concept="2pNUuL" id="3HBFXmOxQmk" role="2pNNFR">
             <property role="2pNUuO" value="since-build" />
             <node concept="2pMdtt" id="3HBFXmOxQs7" role="2pMdts">
-              <property role="2pMdty" value="181.1" />
+              <property role="2pMdty" value="183.1" />
             </node>
           </node>
           <node concept="2pNUuL" id="3HBFXmOxQsb" role="2pNNFR">
             <property role="2pNUuO" value="until-build" />
             <node concept="2pMdtt" id="3HBFXmOxQsf" role="2pMdts">
-              <property role="2pMdty" value="182.*" />
+              <property role="2pMdty" value="191.*" />
             </node>
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MO3" role="3o6s8t">
           <property role="2pNNFO" value="version" />
           <node concept="3o6iSG" id="3HBFXmO$MOg" role="3o6s8t">
-            <property role="3o6i5n" value="2018.2.1" />
+            <property role="3o6i5n" value="2018.3" />
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MQt" role="3o6s8t">

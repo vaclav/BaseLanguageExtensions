@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dcsi2f52ysjqcx2so17gy7tph1pflms" />
+<product version="3" modelHash="dcsi2f52ysjqcx2so17gy7tph1pflms">
+  <files names="TypesystemDescriptor.java:check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" />
+</product>
 

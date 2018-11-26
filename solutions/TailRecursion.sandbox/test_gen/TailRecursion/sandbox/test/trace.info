@@ -35,7 +35,6 @@
       <node id="913704554380631765" at="52,58,53,46" concept="2" />
       <node id="2385733296660308905" at="57,6,58,59" concept="2" />
       <node id="2385733296660308912" at="58,59,59,72" concept="2" />
-      <node id="4322693879000223795" at="61,0,63,0" concept="1" trace="RecursiveScenario_Test#()V" />
       <node id="9009622095742611549" at="27,22,30,11" concept="3" />
       <node id="913704554380631764" at="51,16,54,11" concept="0" />
       <node id="4322693879000315838" at="10,0,14,0" concept="4" trace="test_sum#()V" />
@@ -50,7 +49,6 @@
       <node id="2385733296660308861" at="41,56,57,6" concept="5" />
       <node id="9009622095742611527" at="22,0,41,0" concept="4" trace="test_closure#()V" />
       <node id="2385733296660308857" at="41,0,61,0" concept="4" trace="test_closureFactorial#()V" />
-      <scope id="4322693879000223798" at="61,35,61,35" />
       <scope id="9009622095742611551" at="28,34,29,32" />
       <scope id="2385733296660308873" at="47,35,48,33" />
       <scope id="913704554380632516" at="49,29,50,22" />
@@ -58,7 +56,6 @@
       <scope id="4322693879000315865" at="14,44,16,55" />
       <scope id="9009622095742629914" at="18,49,20,86" />
       <scope id="913704554380631765" at="51,18,53,46" />
-      <scope id="4322693879000223795" at="61,0,63,0" />
       <scope id="4322693879000315838" at="10,0,14,0" />
       <scope id="4322693879000315862" at="14,0,18,0" />
       <scope id="9009622095742629911" at="18,0,22,0" />
@@ -90,7 +87,7 @@
       <scope id="2385733296660308857" at="41,0,61,0" />
       <unit id="9009622095742611541" at="23,96,35,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
       <unit id="2385733296660308867" at="42,96,57,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
-      <unit id="4322693879000223793" at="9,0,64,0" name="TailRecursion.sandbox.test.RecursiveScenario_Test" />
+      <unit id="4322693879000223793" at="9,0,62,0" name="TailRecursion.sandbox.test.RecursiveScenario_Test" />
     </file>
   </root>
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000233987">
