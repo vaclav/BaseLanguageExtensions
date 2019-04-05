@@ -15,7 +15,7 @@
       <unit at="10,0,28,0" name="jetbrains.mps.baseLanguage.memoize.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="16,0,59,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
+      <unit at="16,0,65,0" name="jetbrains.mps.baseLanguage.memoize.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)/1742094376849958735">
@@ -37,20 +37,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="1742094376849958735" at="17,0,18,0" concept="1" trace="myConceptMemoizeAnnotation" />
-      <node id="1742094376849958735" at="33,51,34,42" concept="4" />
-      <node id="1742094376849958735" at="49,75,50,186" concept="3" />
-      <node id="1742094376849958735" at="50,186,51,34" concept="0" />
-      <node id="1742094376849958735" at="51,34,52,127" concept="0" />
-      <node id="1742094376849958735" at="52,127,53,121" concept="0" />
-      <node id="1742094376849958735" at="53,121,54,17" concept="0" />
-      <node id="1742094376849958736" at="54,17,55,116" concept="0" />
-      <node id="1742094376849958735" at="55,116,56,22" concept="4" />
-      <node id="1742094376849958735" at="49,0,58,0" concept="6" trace="createDescriptorForMemoizeAnnotation#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="1742094376849958735" at="33,51,34,42" />
-      <scope id="1742094376849958735" at="49,75,56,22">
+      <node id="1742094376849958735" at="39,51,40,42" concept="4" />
+      <node id="1742094376849958735" at="55,75,56,186" concept="3" />
+      <node id="1742094376849958735" at="56,186,57,34" concept="0" />
+      <node id="1742094376849958735" at="57,34,58,127" concept="0" />
+      <node id="1742094376849958735" at="58,127,59,121" concept="0" />
+      <node id="1742094376849958735" at="59,121,60,17" concept="0" />
+      <node id="1742094376849958736" at="60,17,61,116" concept="0" />
+      <node id="1742094376849958735" at="61,116,62,22" concept="4" />
+      <node id="1742094376849958735" at="55,0,64,0" concept="6" trace="createDescriptorForMemoizeAnnotation#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1742094376849958735" at="39,51,40,42" />
+      <scope id="1742094376849958735" at="55,75,62,22">
         <var name="b" id="1742094376849958735" />
       </scope>
-      <scope id="1742094376849958735" at="49,0,58,0" />
+      <scope id="1742094376849958735" at="55,0,64,0" />
     </file>
   </root>
 </debug-info>

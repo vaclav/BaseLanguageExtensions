@@ -372,7 +372,7 @@
           </node>
           <node concept="3vlDli" id="7O8ASYxfV2h" role="3cqZAp">
             <node concept="2YIFZM" id="6QFdNyNvQay" role="3tpDZB">
-              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
+              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int)" resolve="valueOf" />
               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
               <node concept="3cmrfG" id="6QFdNyNvQaz" role="37wK5m">
                 <property role="3cmrfH" value="15" />
@@ -403,7 +403,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="6QFdNyNvQfh" role="3tpDZB">
-              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int):java.lang.Integer" resolve="valueOf" />
+              <ref role="37wK5l" to="wyt6:~Integer.valueOf(int)" resolve="valueOf" />
               <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
               <node concept="3cmrfG" id="6QFdNyNvQfi" role="37wK5m">
                 <property role="3cmrfH" value="21" />
@@ -772,7 +772,7 @@
               <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />
             </node>
             <node concept="2YIFZM" id="5vyANEB$huC" role="37wK5m">
-              <ref role="37wK5l" to="xlxw:~BigInteger.valueOf(long):java.math.BigInteger" resolve="valueOf" />
+              <ref role="37wK5l" to="xlxw:~BigInteger.valueOf(long)" resolve="valueOf" />
               <ref role="1Pybhc" to="xlxw:~BigInteger" resolve="BigInteger" />
               <node concept="37vLTw" id="14prnuaYQzq" role="37wK5m">
                 <ref role="3cqZAo" node="5vyANEB$h1J" resolve="n" />
@@ -811,7 +811,7 @@
                 <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
               </node>
               <node concept="liA8E" id="5vyANEB$huS" role="2OqNvi">
-                <ref role="37wK5l" to="xlxw:~BigInteger.compareTo(java.math.BigInteger):int" resolve="compareTo" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.compareTo(java.math.BigInteger)" resolve="compareTo" />
                 <node concept="10M0yZ" id="5vyANEB$huT" role="37wK5m">
                   <ref role="1PxDUh" to="xlxw:~BigInteger" resolve="BigInteger" />
                   <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />
@@ -838,7 +838,7 @@
                 <ref role="3cqZAo" node="5vyANEB$huJ" resolve="acc" />
               </node>
               <node concept="liA8E" id="5vyANEB$jeP" role="2OqNvi">
-                <ref role="37wK5l" to="xlxw:~BigInteger.multiply(java.math.BigInteger):java.math.BigInteger" resolve="multiply" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.multiply(java.math.BigInteger)" resolve="multiply" />
                 <node concept="37vLTw" id="14prnuaYQzc" role="37wK5m">
                   <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
                 </node>
@@ -849,7 +849,7 @@
                 <ref role="3cqZAo" node="5vyANEB$huL" resolve="n" />
               </node>
               <node concept="liA8E" id="5vyANEB$jeT" role="2OqNvi">
-                <ref role="37wK5l" to="xlxw:~BigInteger.subtract(java.math.BigInteger):java.math.BigInteger" resolve="subtract" />
+                <ref role="37wK5l" to="xlxw:~BigInteger.subtract(java.math.BigInteger)" resolve="subtract" />
                 <node concept="10M0yZ" id="5vyANEB$jeU" role="37wK5m">
                   <ref role="1PxDUh" to="xlxw:~BigInteger" resolve="BigInteger" />
                   <ref role="3cqZAo" to="xlxw:~BigInteger.ONE" resolve="ONE" />

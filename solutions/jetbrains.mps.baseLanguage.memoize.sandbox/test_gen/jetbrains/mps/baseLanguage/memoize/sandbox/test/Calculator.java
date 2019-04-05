@@ -32,7 +32,6 @@ public class Calculator {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
-  private int counter = 0;
   public _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> instanceFactorial = (memoizedCacheForClosures_5_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
     public Long invoke(final Integer n) {
       final KeyCalculator key = new KeyCalculator();
@@ -55,6 +54,7 @@ public class Calculator {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
+  private int counter = 0;
   public Calculator() {
   }
   public int retrieveCounter() {

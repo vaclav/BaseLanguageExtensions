@@ -235,7 +235,7 @@
               <property role="Xl_RC" value="NullValue" />
             </node>
             <node concept="liA8E" id="4bEq9Hhk8xk" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+              <ref role="37wK5l" to="wyt6:~String.hashCode()" resolve="hashCode" />
             </node>
           </node>
         </node>
@@ -372,7 +372,7 @@
         <node concept="3cpWs6" id="4bEq9Hhk8GM" role="3cqZAp">
           <node concept="3eOSWO" id="4bEq9Hhk8GN" role="3cqZAk">
             <node concept="1rXfSq" id="14prnuaYQhg" role="3uHU7B">
-              <ref role="37wK5l" to="33ny:~HashMap.size():int" resolve="size" />
+              <ref role="37wK5l" to="33ny:~HashMap.size()" resolve="size" />
             </node>
             <node concept="37vLTw" id="14prnuaYQeA" role="3uHU7w">
               <ref role="3cqZAo" node="4bEq9Hhk8Gi" resolve="maxSize" />
@@ -412,7 +412,7 @@
               <ref role="3cqZAo" node="4bEq9Hhk8GX" resolve="value" />
             </node>
             <node concept="1rXfSq" id="14prnuaYQfC" role="3uHU7w">
-              <ref role="37wK5l" to="33ny:~LinkedHashMap.get(java.lang.Object):java.lang.Object" resolve="get" />
+              <ref role="37wK5l" to="33ny:~LinkedHashMap.get(java.lang.Object)" resolve="get" />
               <node concept="37vLTw" id="14prnuaYQuo" role="37wK5m">
                 <ref role="3cqZAo" node="4bEq9Hhk8GV" resolve="key" />
               </node>
@@ -424,7 +424,7 @@
         </node>
         <node concept="3clFbF" id="4bEq9Hhk8H7" role="3cqZAp">
           <node concept="1rXfSq" id="14prnuaYQf0" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~HashMap.remove(java.lang.Object):java.lang.Object" resolve="remove" />
+            <ref role="37wK5l" to="33ny:~HashMap.remove(java.lang.Object)" resolve="remove" />
             <node concept="37vLTw" id="14prnuaYQuG" role="37wK5m">
               <ref role="3cqZAo" node="4bEq9Hhk8GV" resolve="key" />
             </node>
@@ -432,7 +432,7 @@
         </node>
         <node concept="3clFbF" id="4bEq9Hhk8Ha" role="3cqZAp">
           <node concept="1rXfSq" id="14prnuaYQfq" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+            <ref role="37wK5l" to="33ny:~HashMap.put(java.lang.Object,java.lang.Object)" resolve="put" />
             <node concept="37vLTw" id="14prnuaYQvG" role="37wK5m">
               <ref role="3cqZAo" node="4bEq9Hhk8GV" resolve="key" />
             </node>
@@ -454,7 +454,7 @@
       <node concept="3clFbS" id="4bEq9Hhk8Hh" role="3clF47">
         <node concept="3cpWs6" id="4bEq9Hhk8Hi" role="3cqZAp">
           <node concept="3nyPlj" id="4bEq9Hhk8Hj" role="3cqZAk">
-            <ref role="37wK5l" to="33ny:~HashMap.clone():java.lang.Object" resolve="clone" />
+            <ref role="37wK5l" to="33ny:~HashMap.clone()" resolve="clone" />
           </node>
         </node>
       </node>
@@ -596,7 +596,7 @@
         </node>
         <node concept="3clFbF" id="3UoKqxg5tAj" role="3cqZAp">
           <node concept="2YIFZM" id="3UoKqxg5tzw" role="3clFbG">
-            <ref role="37wK5l" to="33ny:~Collections.synchronizedMap(java.util.Map):java.util.Map" resolve="synchronizedMap" />
+            <ref role="37wK5l" to="33ny:~Collections.synchronizedMap(java.util.Map)" resolve="synchronizedMap" />
             <ref role="1Pybhc" to="33ny:~Collections" resolve="Collections" />
             <node concept="37vLTw" id="14prnuaYQsu" role="37wK5m">
               <ref role="3cqZAo" node="3UoKqxg5tA1" resolve="storage" />
@@ -879,7 +879,7 @@
                 <ref role="3cqZAo" node="2c1s3n8Pjip" resolve="object" />
               </node>
               <node concept="liA8E" id="2c1s3n8Pjiz" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                <ref role="37wK5l" to="wyt6:~Object.hashCode()" resolve="hashCode" />
               </node>
             </node>
             <node concept="3cmrfG" id="2c1s3n8Pji$" role="3K4GZi">

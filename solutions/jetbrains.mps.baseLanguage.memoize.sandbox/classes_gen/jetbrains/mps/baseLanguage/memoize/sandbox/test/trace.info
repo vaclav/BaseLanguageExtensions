@@ -321,17 +321,17 @@
       <node id="1020370389589227639" at="28,49,29,122" concept="1" />
       <node id="1020370389589227639" at="29,122,30,23" concept="1" />
       <node id="1020370389589227639" at="31,7,32,74" concept="6" />
-      <node id="4821781367346987355" at="35,0,36,0" concept="2" trace="counter" />
-      <node id="8394104674210934734" at="37,41,38,52" concept="5" />
-      <node id="8394104674210934735" at="38,52,39,20" concept="1" />
-      <node id="8394104674210934734" at="39,20,40,83" concept="5" />
-      <node id="8394104674210934738" at="43,41,44,25" concept="1" />
-      <node id="8394104674210934770" at="45,25,46,24" concept="6" />
-      <node id="8394104674210934775" at="47,13,48,72" concept="6" />
-      <node id="8394104674210934734" at="50,10,51,49" concept="5" />
-      <node id="8394104674210934734" at="51,49,52,122" concept="1" />
-      <node id="8394104674210934734" at="52,122,53,23" concept="1" />
-      <node id="8394104674210934734" at="54,7,55,74" concept="6" />
+      <node id="8394104674210934734" at="36,41,37,52" concept="5" />
+      <node id="8394104674210934735" at="37,52,38,20" concept="1" />
+      <node id="8394104674210934734" at="38,20,39,83" concept="5" />
+      <node id="8394104674210934738" at="42,41,43,25" concept="1" />
+      <node id="8394104674210934770" at="44,25,45,24" concept="6" />
+      <node id="8394104674210934775" at="46,13,47,72" concept="6" />
+      <node id="8394104674210934734" at="49,10,50,49" concept="5" />
+      <node id="8394104674210934734" at="50,49,51,122" concept="1" />
+      <node id="8394104674210934734" at="51,122,52,23" concept="1" />
+      <node id="8394104674210934734" at="53,7,54,74" concept="6" />
+      <node id="4821781367346987355" at="57,0,58,0" concept="2" trace="counter" />
       <node id="4821781367346987391" at="60,32,61,19" concept="6" />
       <node id="4821781367346987132" at="63,48,64,50" concept="5" />
       <node id="4821781367346987133" at="64,50,65,18" concept="1" />
@@ -450,7 +450,7 @@
       <node id="8394104674210938856" at="147,0,149,0" concept="0" trace="NestedCalculator#()V" />
       <node id="8394104674210954460" at="220,0,222,0" concept="0" trace="StaticNestedCalculator#()V" />
       <node id="1020370389589227644" at="21,31,24,13" concept="3" />
-      <node id="8394104674210934753" at="44,25,47,13" concept="3" />
+      <node id="8394104674210934753" at="43,25,46,13" concept="3" />
       <node id="4821781367346987386" at="60,0,63,0" concept="4" trace="retrieveCounter#()I" />
       <node id="1020370389588996023" at="89,23,92,11" concept="3" />
       <node id="8394104674210947189" at="103,0,106,0" concept="4" trace="createNestedCalculator#()Ljetbrains/mps/baseLanguage/memoize/sandbox/test/Calculator/NestedCalculator;" />
@@ -467,7 +467,7 @@
       <node id="4821781367346987155" at="111,24,117,8" concept="5" />
       <node id="8394104674210960150" at="251,26,257,10" concept="5" />
       <node id="1020370389589227639" at="20,0,27,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-      <node id="8394104674210934734" at="43,0,50,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+      <node id="8394104674210934734" at="42,0,49,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="1020370389588996019" at="88,0,95,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210938940" at="132,0,139,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210938863" at="155,0,162,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
@@ -475,7 +475,7 @@
       <node id="8394104674210954409" at="205,0,212,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210954436" at="228,0,235,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="1020370389589227639" at="18,26,27,10" concept="5" />
-      <node id="8394104674210934734" at="41,26,50,10" concept="5" />
+      <node id="8394104674210934734" at="40,26,49,10" concept="5" />
       <node id="1020370389588996019" at="86,24,95,8" concept="5" />
       <node id="8394104674210938940" at="130,28,139,12" concept="5" />
       <node id="8394104674210938863" at="153,26,162,10" concept="5" />
@@ -486,7 +486,7 @@
       <node id="4821781367346987155" at="110,70,121,5" concept="3" />
       <node id="8394104674210960150" at="250,72,261,7" concept="3" />
       <node id="1020370389589227639" at="17,83,31,7" concept="3" />
-      <node id="8394104674210934734" at="40,83,54,7" concept="3" />
+      <node id="8394104674210934734" at="39,83,53,7" concept="3" />
       <node id="1020370389588996019" at="85,70,99,5" concept="3" />
       <node id="8394104674210938940" at="129,85,143,9" concept="3" />
       <node id="8394104674210938863" at="152,72,166,7" concept="3" />
@@ -497,7 +497,7 @@
       <node id="8394104674210960147" at="246,0,264,0" concept="9" trace="adds#(II)Ljava/lang/Integer;" />
       <node id="4821781367346987129" at="63,0,82,0" concept="4" trace="add#(II)Ljava/lang/Integer;" />
       <node id="1020370389589227638" at="14,0,34,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
-      <node id="8394104674210934733" at="37,0,57,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
+      <node id="8394104674210934733" at="36,0,56,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210938939" at="126,0,146,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210963133" at="176,0,196,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
       <node id="8394104674210954408" at="199,0,219,0" concept="4" trace="invoke#(Ljava/lang/Integer;)Ljava/lang/Long;" />
@@ -505,7 +505,7 @@
       <node id="8394104674210938860" at="149,0,170,0" concept="4" trace="fibonacci#(I)Ljava/lang/Long;" />
       <node id="8394104674210954431" at="222,0,243,0" concept="4" trace="fibonacci#(I)Ljava/lang/Long;" />
       <node id="1020370389589227629" at="13,0,35,0" concept="8" trace="factorial" />
-      <node id="8394104674210934724" at="36,0,58,0" concept="2" trace="instanceFactorial" />
+      <node id="8394104674210934724" at="35,0,57,0" concept="2" trace="instanceFactorial" />
       <node id="8394104674210938934" at="125,0,147,0" concept="2" trace="nestedInstanceFactorial" />
       <node id="8394104674210963128" at="175,0,197,0" concept="8" trace="factorial" />
       <node id="8394104674210954403" at="198,0,220,0" concept="2" trace="nestedInstanceFactorial" />
@@ -513,7 +513,7 @@
       <scope id="8394104674210938859" at="147,31,147,31" />
       <scope id="8394104674210954463" at="220,37,220,37" />
       <scope id="1020370389589227646" at="22,25,23,24" />
-      <scope id="8394104674210934754" at="45,25,46,24" />
+      <scope id="8394104674210934754" at="44,25,45,24" />
       <scope id="4821781367346987389" at="60,32,61,19" />
       <scope id="1020370389588996025" at="90,23,91,22" />
       <scope id="8394104674210947192" at="103,69,104,45" />
@@ -545,7 +545,7 @@
         <var name="b" id="8394104674210960150" />
       </scope>
       <scope id="1020370389589227639" at="20,41,25,72" />
-      <scope id="8394104674210934734" at="43,41,48,72" />
+      <scope id="8394104674210934734" at="42,41,47,72" />
       <scope id="1020370389588996019" at="88,39,93,53" />
       <scope id="8394104674210938940" at="132,43,137,74" />
       <scope id="8394104674210938863" at="155,41,160,55" />
@@ -555,7 +555,7 @@
       <scope id="1020370389589227639" at="20,0,27,0">
         <var name="n" id="1020370389589227639" />
       </scope>
-      <scope id="8394104674210934734" at="43,0,50,0">
+      <scope id="8394104674210934734" at="42,0,49,0">
         <var name="n" id="8394104674210934734" />
       </scope>
       <scope id="1020370389588996019" at="88,0,95,0">
@@ -592,7 +592,7 @@
         <var name="function" id="1020370389589227639" />
         <var name="result" id="1020370389589227639" />
       </scope>
-      <scope id="8394104674210934734" at="41,26,53,23">
+      <scope id="8394104674210934734" at="40,26,52,23">
         <var name="function" id="8394104674210934734" />
         <var name="result" id="8394104674210934734" />
       </scope>
@@ -636,7 +636,7 @@
         <var name="key" id="1020370389589227639" />
         <var name="value" id="1020370389589227639" />
       </scope>
-      <scope id="8394104674210934734" at="37,41,55,74">
+      <scope id="8394104674210934734" at="36,41,54,74">
         <var name="key" id="8394104674210934734" />
         <var name="value" id="8394104674210934734" />
       </scope>
@@ -679,7 +679,7 @@
       <scope id="1020370389589227638" at="14,0,34,0">
         <var name="n" id="1020370389589227638" />
       </scope>
-      <scope id="8394104674210934733" at="37,0,57,0">
+      <scope id="8394104674210934733" at="36,0,56,0">
         <var name="n" id="8394104674210934733" />
       </scope>
       <scope id="8394104674210938939" at="126,0,146,0">
@@ -704,7 +704,7 @@
       <unit id="4821781367346987155" at="112,109,117,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$5" />
       <unit id="8394104674210960150" at="252,111,257,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$4" />
       <unit id="1020370389589227639" at="19,91,27,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1$1" />
-      <unit id="8394104674210934734" at="42,91,50,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2$1" />
+      <unit id="8394104674210934734" at="41,91,49,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2$1" />
       <unit id="1020370389588996019" at="87,89,95,7" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$4" />
       <unit id="8394104674210938940" at="131,93,139,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$1$1" />
       <unit id="8394104674210938863" at="154,91,162,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$2" />
@@ -712,7 +712,7 @@
       <unit id="8394104674210954409" at="204,93,212,11" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$2$1" />
       <unit id="8394104674210954436" at="227,91,235,9" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$3" />
       <unit id="1020370389589227638" at="13,132,34,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$1" />
-      <unit id="8394104674210934733" at="36,133,57,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
+      <unit id="8394104674210934733" at="35,133,56,3" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$2" />
       <unit id="8394104674210938939" at="125,141,146,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$NestedCalculator$1" />
       <unit id="8394104674210963133" at="175,134,196,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$1" />
       <unit id="8394104674210954408" at="198,141,219,5" name="jetbrains.mps.baseLanguage.memoize.sandbox.test.Calculator$StaticNestedCalculator$2" />
