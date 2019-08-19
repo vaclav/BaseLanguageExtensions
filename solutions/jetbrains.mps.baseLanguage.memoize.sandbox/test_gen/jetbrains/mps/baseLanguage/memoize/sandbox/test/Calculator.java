@@ -100,8 +100,8 @@ public class Calculator {
     return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
 
   }
-  public final Calculator.NestedCalculator createNestedCalculator() {
-    return new Calculator.NestedCalculator();
+  public final NestedCalculator createNestedCalculator() {
+    return new NestedCalculator();
   }
   public static Integer adds(final int a, final int b) {
     final KeyCalculator key = new KeyCalculator();

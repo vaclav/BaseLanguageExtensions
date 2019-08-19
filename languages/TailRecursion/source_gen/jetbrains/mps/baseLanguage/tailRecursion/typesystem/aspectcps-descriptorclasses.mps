@@ -9,6 +9,7 @@
     <import index="2gg1" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.errors(MPS.Core/)" />
     <import index="zavc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.errors.messageTargets(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="1ka" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.typechecking(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
@@ -329,6 +330,7 @@
                 <node concept="3cpWs8" id="F" role="3cqZAp">
                   <node concept="3cpWsn" id="H" role="3cpWs9">
                     <property role="TrG5h" value="errorTarget" />
+                    <property role="3TUv4t" value="true" />
                     <node concept="3uibUv" id="I" role="1tU5fm">
                       <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                     </node>
@@ -518,6 +520,7 @@
                 <node concept="3cpWs8" id="1N" role="3cqZAp">
                   <node concept="3cpWsn" id="1P" role="3cpWs9">
                     <property role="TrG5h" value="errorTarget" />
+                    <property role="3TUv4t" value="true" />
                     <node concept="3uibUv" id="1Q" role="1tU5fm">
                       <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                     </node>
@@ -789,6 +792,7 @@
                     <node concept="3cpWs8" id="3_" role="3cqZAp">
                       <node concept="3cpWsn" id="3B" role="3cpWs9">
                         <property role="TrG5h" value="errorTarget" />
+                        <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="3C" role="1tU5fm">
                           <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                         </node>
@@ -995,6 +999,7 @@
                       <node concept="3cpWs8" id="4Q" role="3cqZAp">
                         <node concept="3cpWsn" id="4S" role="3cpWs9">
                           <property role="TrG5h" value="errorTarget" />
+                          <property role="3TUv4t" value="true" />
                           <node concept="3uibUv" id="4T" role="1tU5fm">
                             <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                           </node>
@@ -1301,6 +1306,7 @@
                       <node concept="3cpWs8" id="6L" role="3cqZAp">
                         <node concept="3cpWsn" id="6N" role="3cpWs9">
                           <property role="TrG5h" value="errorTarget" />
+                          <property role="3TUv4t" value="true" />
                           <node concept="3uibUv" id="6O" role="1tU5fm">
                             <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                           </node>
@@ -1947,11 +1953,11 @@
                   <node concept="1PxgMI" id="aE" role="2Oq$k0">
                     <node concept="2OqwBi" id="aH" role="1m5AlR">
                       <node concept="2YIFZM" id="aK" role="2Oq$k0">
-                        <ref role="37wK5l" to="u78q:~TypeChecker.getInstance()" resolve="getInstance" />
-                        <ref role="1Pybhc" to="u78q:~TypeChecker" resolve="TypeChecker" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getFromContext()" resolve="getFromContext" />
+                        <ref role="1Pybhc" to="1ka:~TypecheckingFacade" resolve="TypecheckingFacade" />
                       </node>
                       <node concept="liA8E" id="aL" role="2OqNvi">
-                        <ref role="37wK5l" to="u78q:~TypeChecker.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
+                        <ref role="37wK5l" to="1ka:~TypecheckingFacade.getTypeOf(org.jetbrains.mps.openapi.model.SNode)" resolve="getTypeOf" />
                         <node concept="37vLTw" id="aN" role="37wK5m">
                           <ref role="3cqZAo" node="9I" resolve="closureLiteral" />
                           <node concept="cd27G" id="aO" role="lGtFl">
@@ -2201,6 +2207,7 @@
                     <node concept="3cpWs8" id="cc" role="3cqZAp">
                       <node concept="3cpWsn" id="ce" role="3cpWs9">
                         <property role="TrG5h" value="errorTarget" />
+                        <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="cf" role="1tU5fm">
                           <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                         </node>
@@ -3067,6 +3074,7 @@
                     <node concept="3cpWs8" id="h_" role="3cqZAp">
                       <node concept="3cpWsn" id="hB" role="3cpWs9">
                         <property role="TrG5h" value="errorTarget" />
+                        <property role="3TUv4t" value="true" />
                         <node concept="3uibUv" id="hC" role="1tU5fm">
                           <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                         </node>
@@ -3215,6 +3223,7 @@
                           <node concept="3cpWs8" id="i_" role="3cqZAp">
                             <node concept="3cpWsn" id="iB" role="3cpWs9">
                               <property role="TrG5h" value="errorTarget" />
+                              <property role="3TUv4t" value="true" />
                               <node concept="3uibUv" id="iC" role="1tU5fm">
                                 <ref role="3uigEE" to="zavc:~MessageTarget" resolve="MessageTarget" />
                               </node>

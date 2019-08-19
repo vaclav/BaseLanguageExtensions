@@ -33,7 +33,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     switch (conceptIndex.index(cncpt)) {
       case 0:
         if (true) {
-          // Concept: BaseMethodDeclaration 
+          // concept 
           intentions = new IntentionFactory[2];
           intentions[0] = new MakeMethodMemoized_Intention();
           intentions[1] = new MakeMethodNotMemoized_Intention();
@@ -41,7 +41,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
         break;
       case 1:
         if (true) {
-          // Concept: ClosureLiteral 
+          // concept 
           intentions = new IntentionFactory[2];
           intentions[0] = new MakeClosureMemoized_Intention();
           intentions[1] = new MakeClosureNotMemoized_Intention();
