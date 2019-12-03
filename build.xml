@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/Extensions" />
   <property name="build.layout" location="${build.dir}/artifacts/Extensions" />
-  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 2019.2.app/Contents" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 2019.3 EAP.app/Contents" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -25,13 +25,11 @@
   </path>
   
   <target name="assemble" depends="classes, declare-mps-tasks">
-    <mkdir dir="${build.layout}/BaseLanguageExtensions" />
-    <mkdir dir="${build.layout}/BaseLanguageExtensions/META-INF" />
-    <copy todir="${build.layout}/BaseLanguageExtensions/META-INF">
-      <fileset file="${basedir}/solutions/Extensions.build/source_gen/Extensions/build/plugin.xml" />
-    </copy>
-    <mkdir dir="${build.layout}/BaseLanguageExtensions/languages" />
-    <mkdir dir="${build.layout}/BaseLanguageExtensions/languages/Extensions" />
+    <mkdir dir="${build.layout}" />
+    <mkdir dir="${build.tmp}/default/BaseLanguageExtensions.zip" />
+    <mkdir dir="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions" />
+    <mkdir dir="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages" />
+    <mkdir dir="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.tailRecursion.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.tailRecursion.jar/META-INF" />
     <echoxml file="${build.tmp}/default/jetbrains.mps.baseLanguage.tailRecursion.jar/META-INF/module.xml">
@@ -83,7 +81,7 @@
         <sources jar="jetbrains.mps.baseLanguage.tailRecursion-src.jar" descriptor="TailRecursion.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" />
       <fileset dir="${basedir}/languages/TailRecursion" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/languages/TailRecursion/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -133,17 +131,18 @@
         <sources jar="jetbrains.mps.baseLanguage.tailRecursion-src.jar" descriptor="TailRecursion.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion#4322693879000316866" />
+      <fileset dir="${basedir}/languages/TailRecursion/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.baseLanguage.tailRecursion-generator.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-generator-template">
-      <fileset dir="${basedir}/languages/TailRecursion/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-languageModels">
-      <fileset dir="${basedir}/languages/TailRecursion/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/languages/TailRecursion/languageModels" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion-src.jar" duplicate="preserve">
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-generator-template">
+      <fileset dir="${basedir}/languages/TailRecursion/generator/template" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.tailRecursion-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/TailRecursion/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -157,8 +156,8 @@
         <exclude name="**/*.mps" />
       </fileset>
       <zipfileset file="${basedir}/languages/TailRecursion/TailRecursion.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-languageModels" prefix="module/languageModels" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-TailRecursion-generator-template" prefix="module/generator/template" />
     </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize.jar/META-INF" />
@@ -213,7 +212,7 @@
         <sources jar="jetbrains.mps.baseLanguage.memoize-src.jar" descriptor="memoize.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" />
       <fileset dir="${basedir}/languages/memoize" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/languages/memoize/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -266,17 +265,18 @@
         <sources jar="jetbrains.mps.baseLanguage.memoize-src.jar" descriptor="memoize.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize#1742094376850086130" />
+      <fileset dir="${basedir}/languages/memoize/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize-generator.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-memoize-generator-template">
-      <fileset dir="${basedir}/languages/memoize/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-memoize-languageModels">
-      <fileset dir="${basedir}/languages/memoize/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/languages/memoize/languageModels" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize-src.jar" duplicate="preserve">
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-memoize-generator-template">
+      <fileset dir="${basedir}/languages/memoize/generator/template" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/memoize/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -290,8 +290,8 @@
         <exclude name="**/*.mps" />
       </fileset>
       <zipfileset file="${basedir}/languages/memoize/memoize.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-memoize-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-memoize-languageModels" prefix="module/languageModels" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-memoize-generator-template" prefix="module/generator/template" />
     </jar>
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize.util.jar" />
     <mkdir dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize.util.jar/META-INF" />
@@ -316,16 +316,16 @@
         <sources jar="jetbrains.mps.baseLanguage.memoize.util-src.jar" descriptor="util.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.util.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.util.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
       <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/jetbrains.mps.baseLanguage.memoize.util.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-jetbrains.mps.baseLanguage.memoize.util-models">
-      <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.util-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/jetbrains.mps.baseLanguage.memoize.util-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/jetbrains.mps.baseLanguage.memoize.util/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -353,15 +353,15 @@
         <sources jar="Extensions.build-src.jar" descriptor="build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/Extensions.build.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/Extensions.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/Extensions.build" />
       <fileset dir="${basedir}/solutions/Extensions.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/Extensions.build.jar" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-Extensions.build-models">
-      <fileset dir="${basedir}/solutions/Extensions.build/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+      <fileset dir="${basedir}/solutions/Extensions.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/BaseLanguageExtensions/languages/Extensions/Extensions.build-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/BaseLanguageExtensions.zip/BaseLanguageExtensions/languages/Extensions/Extensions.build-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/solutions/Extensions.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -371,6 +371,10 @@
       <zipfileset file="${basedir}/solutions/Extensions.build/build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-Extensions.build-models" prefix="module/models" />
     </jar>
+    <zip destfile="${build.layout}/BaseLanguageExtensions.zip">
+      <zipfileset file="${basedir}/solutions/Extensions.build/source_gen/Extensions/build/plugin.xml" prefix="BaseLanguageExtensions/META-INF" />
+      <fileset dir="${build.tmp}/default/BaseLanguageExtensions.zip" />
+    </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
@@ -469,7 +473,7 @@
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.search.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.baseLanguage.util.jar" />
       <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.platform.jar" />
-      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.ui.jar" />
+      <library file="${artifacts.mps}/languages/plaf/jetbrains.mps.ide.refactoring.platform.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
       <library file="${artifacts.mps}/languages/runtimes/jetbrains.mps.findUsages.runtime.jar" />
@@ -525,22 +529,20 @@
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -549,8 +551,8 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
@@ -576,22 +578,20 @@
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -601,8 +601,8 @@
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.baseLanguage.tailRecursion" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
@@ -627,24 +627,22 @@
         <path location="${basedir}/languages/memoize/source_gen" />
       </src>
       <classpath>
-        <pathelement path="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <pathelement path="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -653,8 +651,8 @@
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
@@ -680,22 +678,20 @@
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-logging.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
         <fileset file="${artifacts.mps}/lib/mps-messaging.jar" />
         <fileset file="${artifacts.mps}/lib/mps-boot-util.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
         <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
@@ -706,8 +702,8 @@
         <fileset file="${artifacts.mps}/lib/mps-textgen.jar" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize" />
         <pathelement path="${build.tmp}/java/out/jetbrains.mps.baseLanguage.memoize.util" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />

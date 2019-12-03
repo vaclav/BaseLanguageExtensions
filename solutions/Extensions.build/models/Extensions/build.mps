@@ -63,6 +63,10 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
+      <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
+      <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
+        <child id="4380385936562148502" name="containerName" index="Nbhlr" />
+      </concept>
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
       </concept>
@@ -188,7 +192,7 @@
                   <node concept="2Ry0Ak" id="3HBFXmOuarL" role="2Ry0An">
                     <property role="2Ry0Am" value="Applications" />
                     <node concept="2Ry0Ak" id="3HBFXmOuaLJ" role="2Ry0An">
-                      <property role="2Ry0Am" value="MPS 2019.2.app" />
+                      <property role="2Ry0Am" value="MPS 2019.3 EAP.app" />
                       <node concept="2Ry0Ak" id="3HBFXmOuaO1" role="2Ry0An">
                         <property role="2Ry0Am" value="Contents" />
                       </node>
@@ -208,9 +212,16 @@
       </node>
     </node>
     <node concept="1l3spV" id="5vyANEB$eg1" role="1l3spN">
-      <node concept="m$_wl" id="28ymrlKRY99" role="39821P">
-        <ref role="m_rDy" node="5vyANEB$eg6" resolve="jetbrains.mps.baseLanguage.extensions" />
-        <node concept="pUk6x" id="4qSJzvNc6VZ" role="pUk7w" />
+      <node concept="3981dG" id="3bagCubQXpt" role="39821P">
+        <node concept="m$_wl" id="28ymrlKRY99" role="39821P">
+          <ref role="m_rDy" node="5vyANEB$eg6" resolve="jetbrains.mps.baseLanguage.extensions" />
+          <node concept="pUk6x" id="4qSJzvNc6VZ" role="pUk7w" />
+        </node>
+        <node concept="3_J27D" id="3bagCubQXpu" role="Nbhlr">
+          <node concept="3Mxwew" id="3bagCubQXpx" role="3MwsjC">
+            <property role="3MwjfP" value="BaseLanguageExtensions.zip" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="m$_wf" id="5vyANEB$eg6" role="3989C9">
@@ -222,7 +233,7 @@
       </node>
       <node concept="3_J27D" id="5vyANEB$eg9" role="m$_w8">
         <node concept="3Mxwew" id="5vyANEB$ega" role="3MwsjC">
-          <property role="3MwjfP" value="2019.2" />
+          <property role="3MwjfP" value="2019.3" />
         </node>
       </node>
       <node concept="m$f5U" id="5vyANEB$egb" role="m$_yh">
@@ -509,20 +520,20 @@
           <node concept="2pNUuL" id="3HBFXmOxQmk" role="2pNNFR">
             <property role="2pNUuO" value="since-build" />
             <node concept="2pMdtt" id="3HBFXmOxQs7" role="2pMdts">
-              <property role="2pMdty" value="192.1" />
+              <property role="2pMdty" value="193.1" />
             </node>
           </node>
           <node concept="2pNUuL" id="3HBFXmOxQsb" role="2pNNFR">
             <property role="2pNUuO" value="until-build" />
             <node concept="2pMdtt" id="3HBFXmOxQsf" role="2pMdts">
-              <property role="2pMdty" value="193.1" />
+              <property role="2pMdty" value="201.1" />
             </node>
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MO3" role="3o6s8t">
           <property role="2pNNFO" value="version" />
           <node concept="3o6iSG" id="3HBFXmO$MOg" role="3o6s8t">
-            <property role="3o6i5n" value="2019.2" />
+            <property role="3o6i5n" value="2019.3" />
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MQt" role="3o6s8t">
