@@ -1465,7 +1465,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="7O" role="2OqNvi">
                                   <node concept="chp4Y" id="7S" role="cj9EA">
-                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryStatement" />
+                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryFinallyStatement" />
                                     <node concept="cd27G" id="7U" role="lGtFl">
                                       <node concept="3u3nmq" id="7V" role="cd27D">
                                         <property role="3u3nmv" value="3220419832563448102" />

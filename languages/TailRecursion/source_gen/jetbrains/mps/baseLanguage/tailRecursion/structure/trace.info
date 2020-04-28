@@ -15,7 +15,7 @@
       <unit at="10,0,28,0" name="jetbrains.mps.baseLanguage.tailRecursion.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="15,0,63,0" name="jetbrains.mps.baseLanguage.tailRecursion.structure.StructureAspectDescriptor" />
+      <unit at="14,0,58,0" name="jetbrains.mps.baseLanguage.tailRecursion.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:4219349e-1088-4ef0-9212-77549146b168(jetbrains.mps.baseLanguage.tailRecursion.structure)/4322693879000316852">
@@ -36,20 +36,20 @@
       <node id="4322693879000316852" at="15,116,16,52" concept="0" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <node id="4322693879000316852" at="16,0,17,0" concept="1" trace="myConceptTailRecursion" />
-      <node id="4322693879000316852" at="38,47,39,38" concept="4" />
-      <node id="4322693879000316852" at="54,71,55,188" concept="3" />
-      <node id="4322693879000316852" at="55,188,56,34" concept="0" />
-      <node id="4322693879000316852" at="56,34,57,127" concept="0" />
-      <node id="4322693879000316852" at="57,127,58,127" concept="0" />
-      <node id="4322693879000316852" at="58,127,59,17" concept="0" />
-      <node id="4322693879000316852" at="59,17,60,22" concept="4" />
-      <node id="4322693879000316852" at="54,0,62,0" concept="6" trace="createDescriptorForTailRecursion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4322693879000316852" at="38,47,39,38" />
-      <scope id="4322693879000316852" at="54,71,60,22">
+      <node id="4322693879000316852" at="15,0,16,0" concept="1" trace="myConceptTailRecursion" />
+      <node id="4322693879000316852" at="37,47,38,38" concept="4" />
+      <node id="4322693879000316852" at="49,71,50,188" concept="3" />
+      <node id="4322693879000316852" at="50,188,51,34" concept="0" />
+      <node id="4322693879000316852" at="51,34,52,127" concept="0" />
+      <node id="4322693879000316852" at="52,127,53,127" concept="0" />
+      <node id="4322693879000316852" at="53,127,54,17" concept="0" />
+      <node id="4322693879000316852" at="54,17,55,22" concept="4" />
+      <node id="4322693879000316852" at="49,0,57,0" concept="6" trace="createDescriptorForTailRecursion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4322693879000316852" at="37,47,38,38" />
+      <scope id="4322693879000316852" at="49,71,55,22">
         <var name="b" id="4322693879000316852" />
       </scope>
-      <scope id="4322693879000316852" at="54,0,62,0" />
+      <scope id="4322693879000316852" at="49,0,57,0" />
     </file>
   </root>
 </debug-info>
