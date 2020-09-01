@@ -26,7 +26,7 @@ public class CheckingUtil {
   }
   @CheckingMethod
   public static void checkForVoidReturnType(final TypeCheckingContext typeCheckingContext, SNode returnType, SNode functionDeclaration) {
-    if (SNodeOperations.isInstanceOf(returnType, CONCEPTS.VoidType$aT)) {
+    if (SNodeOperations.isInstanceOf(returnType, CONCEPTS.VoidType$BF)) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionDeclaration, "Tail recursive methods and closures must not return void", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796647", null, errorTarget);
@@ -35,7 +35,7 @@ public class CheckingUtil {
   }
   @CheckingMethod
   public static void checkCorrectKindOfLastNode(final TypeCheckingContext typeCheckingContext, SNode lastNode) {
-    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$SF)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$nm)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$pi))) {
+    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$Q4))) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(lastNode, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "6963853100979796618", null, errorTarget);
@@ -44,15 +44,15 @@ public class CheckingUtil {
   }
   @CheckingMethod
   public static void checkHierarchy(final TypeCheckingContext typeCheckingContext, final SNode lastNode, SNode functionCall) {
-    if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$SF)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$SF), LINKS.expression$EsbK) != functionCall) {
+    if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92) != functionCall) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionCall, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "3220419832563448025", null, errorTarget);
         }
       }
-    } else if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$nm)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$nm), LINKS.expression$WIP0) != functionCall) {
+    } else if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M) != functionCall) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(functionCall, "The recursive invocation doesn't seem to be in the tail position", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "3220419832563448046", null, errorTarget);
@@ -112,7 +112,7 @@ __switch__:
       });
       if (Sequence.fromIterable(predecesors).any(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$x5) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$Vw) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$wH);
+          return SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$XR) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$oi) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$Xv);
         }
       })) {
         {
@@ -125,17 +125,17 @@ __switch__:
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept VoidType$aT = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType");
-    /*package*/ static final SConcept IfStatement$pi = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b217L, "jetbrains.mps.baseLanguage.structure.IfStatement");
-    /*package*/ static final SConcept ReturnStatement$SF = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
-    /*package*/ static final SConcept ExpressionStatement$nm = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement");
-    /*package*/ static final SConcept AbstractLoopStatement$wH = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
-    /*package*/ static final SConcept TryCatchStatement$x5 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement");
-    /*package*/ static final SConcept TryFinallyStatement$Vw = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cacebf556L, "jetbrains.mps.baseLanguage.structure.TryFinallyStatement");
+    /*package*/ static final SConcept VoidType$BF = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType");
+    /*package*/ static final SConcept IfStatement$Q4 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b217L, "jetbrains.mps.baseLanguage.structure.IfStatement");
+    /*package*/ static final SConcept ReturnStatement$lt = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
+    /*package*/ static final SConcept ExpressionStatement$O8 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement");
+    /*package*/ static final SConcept AbstractLoopStatement$Xv = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
+    /*package*/ static final SConcept TryCatchStatement$XR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement");
+    /*package*/ static final SConcept TryFinallyStatement$oi = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cacebf556L, "jetbrains.mps.baseLanguage.structure.TryFinallyStatement");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$EsbK = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
-    /*package*/ static final SContainmentLink expression$WIP0 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression");
+    /*package*/ static final SContainmentLink expression$eJ92 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
+    /*package*/ static final SContainmentLink expression$5L7M = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression");
   }
 }

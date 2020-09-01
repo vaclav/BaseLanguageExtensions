@@ -35,7 +35,7 @@ public final class MakeClosureRecursive_Intention extends AbstractIntentionDescr
     return true;
   }
   private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$EX)) != null;
+    return AttributeOperations.getAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ)) != null;
   }
   @Override
   public boolean isSurroundWith() {
@@ -56,7 +56,7 @@ public final class MakeClosureRecursive_Intention extends AbstractIntentionDescr
     }
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$EX), null);
+      AttributeOperations.setAttribute(node, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ), null);
     }
     @Override
     public IntentionDescriptor getDescriptor() {
@@ -65,6 +65,6 @@ public final class MakeClosureRecursive_Intention extends AbstractIntentionDescr
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept TailRecursion$EX = MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion");
+    /*package*/ static final SConcept TailRecursion$OZ = MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion");
   }
 }

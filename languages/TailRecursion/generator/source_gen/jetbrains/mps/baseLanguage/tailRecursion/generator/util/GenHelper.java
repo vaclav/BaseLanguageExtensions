@@ -27,12 +27,12 @@ public class GenHelper {
   public GenHelper() {
   }
   public static void checkPathForIncorrectNodes(TemplateQueryContext genContext, final SNode lastNode, SNode methodCall) {
-    if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$SF)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$SF), LINKS.expression$EsbK) != methodCall) {
+    if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92) != methodCall) {
         genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
       }
-    } else if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$nm)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$nm), LINKS.expression$WIP0) != methodCall) {
+    } else if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) {
+      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M) != methodCall) {
         genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
       }
     } else {
@@ -89,7 +89,7 @@ __switch__:
       });
       if (Sequence.fromIterable(predecesors).any(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$x5) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$Vw) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$wH);
+          return SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$XR) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$oi) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$Xv);
         }
       })) {
         genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
@@ -98,14 +98,14 @@ __switch__:
     }
   }
   public static boolean checkMethodCallInvokesCorrectMethod(SNode method, TemplateQueryContext genContext, SNode methodCall) {
-    if (SLinkOperations.getTarget(methodCall, LINKS.baseMethodDeclaration$$A7i) != method) {
+    if (SLinkOperations.getTarget(methodCall, LINKS.baseMethodDeclaration$pyYw) != method) {
       genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
       return true;
     }
     return false;
   }
   public static boolean checkLastNodeBeingOfCorrectKind(TemplateQueryContext genContext, SNode lastNode) {
-    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$SF)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$nm)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$pi))) {
+    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$Q4))) {
       genContext.showErrorMessage(lastNode, "The method call is not in a tail position");
       return true;
     }
@@ -113,21 +113,21 @@ __switch__:
   }
   public static void handleParameter(SNode originalFunctionDefinition, SNode containingStatementList, SNode parameterCopyBlock, final SNode param, SNode currentInvocationParameter, TemplateQueryContext genContext) {
 
-    SNode varDeclaration = _quotation_createNode_bzcigv_a0b0e(SNodeOperations.copyNode(SLinkOperations.getTarget(param, LINKS.type$pLrO)), genContext.createUniqueName("localParam", null), param);
-    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$WHn8)).addElement(varDeclaration);
+    SNode varDeclaration = _quotation_createNode_bzcigv_a0b0e(SNodeOperations.copyNode(SLinkOperations.getTarget(param, LINKS.type$a1UY)), genContext.createUniqueName("localParam", null), param);
+    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$53DE)).addElement(varDeclaration);
 
-    final SNode varRef = _quotation_createNode_bzcigv_a0e0e(SLinkOperations.getTarget(varDeclaration, LINKS.localVariableDeclaration$O0D0));
+    final SNode varRef = _quotation_createNode_bzcigv_a0e0e(SLinkOperations.getTarget(varDeclaration, LINKS.localVariableDeclaration$RpjM));
 
     SNode assignment = _quotation_createNode_bzcigv_a0g0e(varRef, currentInvocationParameter);
-    ListSequence.fromList(SLinkOperations.getChildren(containingStatementList, LINKS.statement$WHn8)).addElement(_quotation_createNode_bzcigv_a0a7a4(assignment));
+    ListSequence.fromList(SLinkOperations.getChildren(containingStatementList, LINKS.statement$53DE)).addElement(_quotation_createNode_bzcigv_a0a7a4(assignment));
 
-    ListSequence.fromList(SNodeOperations.getNodeDescendants(originalFunctionDefinition, CONCEPTS.VariableReference$sQ, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
+    ListSequence.fromList(SNodeOperations.getNodeDescendants(originalFunctionDefinition, CONCEPTS.VariableReference$TC, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.variableDeclaration$2ky6), CONCEPTS.ParameterDeclaration$qU);
+        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG), CONCEPTS.ParameterDeclaration$RG);
       }
     }).toListSequence().where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SLinkOperations.getTarget(it, LINKS.variableDeclaration$2ky6) == param;
+        return SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG) == param;
       }
     }).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
@@ -136,9 +136,9 @@ __switch__:
     });
   }
   public static void removeTailStatement(SNode functionInvocation) {
-    SNode returnStatement = SNodeOperations.getNodeAncestor(functionInvocation, CONCEPTS.ReturnStatement$SF, false, false);
+    SNode returnStatement = SNodeOperations.getNodeAncestor(functionInvocation, CONCEPTS.ReturnStatement$lt, false, false);
     if (returnStatement == null) {
-      SNode expressionStatement = SNodeOperations.getNodeAncestor(functionInvocation, CONCEPTS.ExpressionStatement$nm, false, false);
+      SNode expressionStatement = SNodeOperations.getNodeAncestor(functionInvocation, CONCEPTS.ExpressionStatement$O8, false, false);
       SNodeOperations.deleteNode(expressionStatement);
     } else {
       SNodeOperations.deleteNode(returnStatement);
@@ -146,8 +146,8 @@ __switch__:
   }
   public static SNode wrapInLoop(SNode functionBody, SNode parameterCopyBlock) {
     SNode body = _quotation_createNode_bzcigv_a0a0g(functionBody);
-    final SNode loopNode = ListSequence.fromList(SLinkOperations.getChildren(body, LINKS.statement$WHn8)).first();
-    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$WHn8)).visitAll(new IVisitor<SNode>() {
+    final SNode loopNode = ListSequence.fromList(SLinkOperations.getChildren(body, LINKS.statement$53DE)).first();
+    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$53DE)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
         SNodeOperations.insertPrevSiblingChild(loopNode, SNodeOperations.deleteNode(it));
       }
@@ -227,23 +227,23 @@ __switch__:
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ReturnStatement$SF = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
-    /*package*/ static final SConcept ExpressionStatement$nm = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement");
-    /*package*/ static final SConcept AbstractLoopStatement$wH = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
-    /*package*/ static final SConcept TryCatchStatement$x5 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement");
-    /*package*/ static final SConcept TryFinallyStatement$Vw = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cacebf556L, "jetbrains.mps.baseLanguage.structure.TryFinallyStatement");
-    /*package*/ static final SConcept IfStatement$pi = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b217L, "jetbrains.mps.baseLanguage.structure.IfStatement");
-    /*package*/ static final SConcept VariableReference$sQ = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e98L, "jetbrains.mps.baseLanguage.structure.VariableReference");
-    /*package*/ static final SConcept ParameterDeclaration$qU = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e94L, "jetbrains.mps.baseLanguage.structure.ParameterDeclaration");
+    /*package*/ static final SConcept ReturnStatement$lt = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
+    /*package*/ static final SConcept ExpressionStatement$O8 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement");
+    /*package*/ static final SConcept AbstractLoopStatement$Xv = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
+    /*package*/ static final SConcept TryCatchStatement$XR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement");
+    /*package*/ static final SConcept TryFinallyStatement$oi = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cacebf556L, "jetbrains.mps.baseLanguage.structure.TryFinallyStatement");
+    /*package*/ static final SConcept IfStatement$Q4 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b217L, "jetbrains.mps.baseLanguage.structure.IfStatement");
+    /*package*/ static final SConcept VariableReference$TC = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e98L, "jetbrains.mps.baseLanguage.structure.VariableReference");
+    /*package*/ static final SConcept ParameterDeclaration$RG = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e94L, "jetbrains.mps.baseLanguage.structure.ParameterDeclaration");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink expression$EsbK = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
-    /*package*/ static final SContainmentLink expression$WIP0 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression");
-    /*package*/ static final SReferenceLink baseMethodDeclaration$$A7i = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration");
-    /*package*/ static final SContainmentLink type$pLrO = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x450368d90ce15bc3L, 0x4ed4d318133c80ceL, "type");
-    /*package*/ static final SContainmentLink statement$WHn8 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
-    /*package*/ static final SContainmentLink localVariableDeclaration$O0D0 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f0L, 0xf8cc67c7f1L, "localVariableDeclaration");
-    /*package*/ static final SReferenceLink variableDeclaration$2ky6 = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e98L, 0xf8cc6bf960L, "variableDeclaration");
+    /*package*/ static final SContainmentLink expression$eJ92 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
+    /*package*/ static final SContainmentLink expression$5L7M = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression");
+    /*package*/ static final SReferenceLink baseMethodDeclaration$pyYw = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration");
+    /*package*/ static final SContainmentLink type$a1UY = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x450368d90ce15bc3L, 0x4ed4d318133c80ceL, "type");
+    /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
+    /*package*/ static final SContainmentLink localVariableDeclaration$RpjM = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7f0L, 0xf8cc67c7f1L, "localVariableDeclaration");
+    /*package*/ static final SReferenceLink variableDeclaration$N1XG = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c77f1e98L, 0xf8cc6bf960L, "variableDeclaration");
   }
 }

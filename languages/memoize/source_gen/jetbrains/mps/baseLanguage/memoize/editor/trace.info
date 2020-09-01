@@ -116,8 +116,8 @@
       <node id="9172390174097830856" at="87,89,88,145" concept="6" />
       <node id="9172390174097830856" at="89,12,90,24" concept="6" />
       <node id="9172390174097830856" at="91,15,92,40" concept="1" />
-      <node id="1742094376849958742" at="97,0,98,0" concept="7" trace="sizeLimit$wlR0" />
-      <node id="1742094376849958742" at="101,0,102,0" concept="7" trace="PropertyAttribute$jT" />
+      <node id="1742094376849958742" at="97,0,98,0" concept="7" trace="sizeLimit$VSTo" />
+      <node id="1742094376849958742" at="101,0,102,0" concept="7" trace="PropertyAttribute$Gb" />
       <node id="1742094376849958742" at="34,0,36,0" concept="2" trace="myNode" />
       <node id="1742094376849958742" at="48,0,51,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="9172390174097830856" at="82,0,85,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />

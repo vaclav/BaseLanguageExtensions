@@ -22,9 +22,9 @@ public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends Abstrac
   public check_VoidMethodsCannotBeMemoized_NonTypesystemRule() {
   }
   public void applyRule(final SNode memoizeAnnotation, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    SNode returnType = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.BaseMethodDeclaration$RR) ? SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.BaseMethodDeclaration$RR), LINKS.returnType$WIkw) : SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.ClosureLiteral$zJ)), CONCEPTS.FunctionType$ig), LINKS.resultType$ln42));
+    SNode returnType = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.BaseMethodDeclaration$kD) ? SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.BaseMethodDeclaration$kD), LINKS.returnType$5xoi) : SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(SNodeOperations.cast(SNodeOperations.getParent(memoizeAnnotation), CONCEPTS.ClosureLiteral$rp)), CONCEPTS.FunctionType$9U), LINKS.resultType$2oOC));
 
-    if (SNodeOperations.isInstanceOf(returnType, CONCEPTS.VoidType$aT)) {
+    if (SNodeOperations.isInstanceOf(returnType, CONCEPTS.VoidType$BF)) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(SNodeOperations.getParent(memoizeAnnotation), "Memoized methods and closures must not return void", "r:1a7e4fda-61ba-46bd-8e65-eed0537e42aa(jetbrains.mps.baseLanguage.memoize.typesystem)", "94989256191898211", null, errorTarget);
@@ -32,7 +32,7 @@ public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends Abstrac
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.MemoizeAnnotation$bi;
+    return CONCEPTS.MemoizeAnnotation$rE;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -42,15 +42,15 @@ public class check_VoidMethodsCannotBeMemoized_NonTypesystemRule extends Abstrac
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept ClosureLiteral$zJ = MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral");
-    /*package*/ static final SConcept FunctionType$ig = MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, "jetbrains.mps.baseLanguage.closures.structure.FunctionType");
-    /*package*/ static final SConcept BaseMethodDeclaration$RR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration");
-    /*package*/ static final SConcept VoidType$aT = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType");
-    /*package*/ static final SConcept MemoizeAnnotation$bi = MetaAdapterFactory.getConcept(0x9f9722b27c9743c8L, 0x9771bea4630e2676L, 0x182d299b1158e74fL, "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation");
+    /*package*/ static final SConcept ClosureLiteral$rp = MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral");
+    /*package*/ static final SConcept FunctionType$9U = MetaAdapterFactory.getConcept(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, "jetbrains.mps.baseLanguage.closures.structure.FunctionType");
+    /*package*/ static final SConcept BaseMethodDeclaration$kD = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration");
+    /*package*/ static final SConcept VoidType$BF = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc6bf96dL, "jetbrains.mps.baseLanguage.structure.VoidType");
+    /*package*/ static final SConcept MemoizeAnnotation$rE = MetaAdapterFactory.getConcept(0x9f9722b27c9743c8L, 0x9771bea4630e2676L, 0x182d299b1158e74fL, "jetbrains.mps.baseLanguage.memoize.structure.MemoizeAnnotation");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink resultType$ln42 = MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, 0x1174a4d5371L, "resultType");
-    /*package*/ static final SContainmentLink returnType$WIkw = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType");
+    /*package*/ static final SContainmentLink resultType$2oOC = MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, 0x1174a4d5371L, "resultType");
+    /*package*/ static final SContainmentLink returnType$5xoi = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType");
   }
 }

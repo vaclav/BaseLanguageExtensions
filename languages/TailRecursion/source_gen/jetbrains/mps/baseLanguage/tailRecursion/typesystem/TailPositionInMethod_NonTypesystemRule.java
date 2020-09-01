@@ -27,14 +27,14 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
   public TailPositionInMethod_NonTypesystemRule() {
   }
   public void applyRule(final SNode baseMethodDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (AttributeOperations.getAttribute(baseMethodDeclaration, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$EX)) != null) {
+    if (AttributeOperations.getAttribute(baseMethodDeclaration, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ)) != null) {
 
-      CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(baseMethodDeclaration, LINKS.returnType$WIkw), baseMethodDeclaration);
+      CheckingUtil.checkForVoidReturnType(typeCheckingContext, SLinkOperations.getTarget(baseMethodDeclaration, LINKS.returnType$5xoi), baseMethodDeclaration);
 
-      SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(baseMethodDeclaration, LINKS.body$WIlu), LINKS.statement$WHn8)).last();
+      SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(baseMethodDeclaration, LINKS.body$5xQk), LINKS.statement$53DE)).last();
       CheckingUtil.checkCorrectKindOfLastNode(typeCheckingContext, lastNode);
 
-      List<SNode> methodCalls = SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.IMethodCall$ln, false, new SAbstractConcept[]{});
+      List<SNode> methodCalls = SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.IMethodCall$M9, false, new SAbstractConcept[]{});
       if (ListSequence.fromList(methodCalls).isEmpty()) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
@@ -42,7 +42,7 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
         }
       } else {
         SNode methodCall = ListSequence.fromList(methodCalls).first();
-        if (SLinkOperations.getTarget(methodCall, LINKS.baseMethodDeclaration$$A7i) != baseMethodDeclaration) {
+        if (SLinkOperations.getTarget(methodCall, LINKS.baseMethodDeclaration$pyYw) != baseMethodDeclaration) {
           {
             final MessageTarget errorTarget = new NodeMessageTarget();
             IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(methodCall, "A tail recursive function must be calling itself", "r:293c28b4-50b9-42c3-936c-5778a017e4f1(jetbrains.mps.baseLanguage.tailRecursion.typesystem)", "9009622095742637948", null, errorTarget);
@@ -54,7 +54,7 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
     }
   }
   public SAbstractConcept getApplicableConcept() {
-    return CONCEPTS.BaseMethodDeclaration$RR;
+    return CONCEPTS.BaseMethodDeclaration$kD;
   }
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     return new IsApplicableStatus(argument.getConcept().isSubConceptOf(getApplicableConcept()), null);
@@ -64,15 +64,15 @@ public class TailPositionInMethod_NonTypesystemRule extends AbstractNonTypesyste
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept TailRecursion$EX = MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion");
-    /*package*/ static final SInterfaceConcept IMethodCall$ln = MetaAdapterFactory.getInterfaceConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, "jetbrains.mps.baseLanguage.structure.IMethodCall");
-    /*package*/ static final SConcept BaseMethodDeclaration$RR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration");
+    /*package*/ static final SConcept TailRecursion$OZ = MetaAdapterFactory.getConcept(0xf142cd5eea1d466aL, 0x86a852891b6256a4L, 0x3bfd4b2e2a91bbb4L, "jetbrains.mps.baseLanguage.tailRecursion.structure.TailRecursion");
+    /*package*/ static final SInterfaceConcept IMethodCall$M9 = MetaAdapterFactory.getInterfaceConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, "jetbrains.mps.baseLanguage.structure.IMethodCall");
+    /*package*/ static final SConcept BaseMethodDeclaration$kD = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration");
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink returnType$WIkw = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType");
-    /*package*/ static final SContainmentLink body$WIlu = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body");
-    /*package*/ static final SContainmentLink statement$WHn8 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
-    /*package*/ static final SReferenceLink baseMethodDeclaration$$A7i = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration");
+    /*package*/ static final SContainmentLink returnType$5xoi = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1fdL, "returnType");
+    /*package*/ static final SContainmentLink body$5xQk = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b1fcL, 0xf8cc56b1ffL, "body");
+    /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
+    /*package*/ static final SReferenceLink baseMethodDeclaration$pyYw = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration");
   }
 }
