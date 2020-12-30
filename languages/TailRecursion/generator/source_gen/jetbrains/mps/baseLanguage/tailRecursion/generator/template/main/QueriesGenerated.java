@@ -12,7 +12,6 @@ import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -41,7 +40,7 @@ public class QueriesGenerated extends QueryProviderBase {
       public Iterable<SNode> translate(SNode it) {
         return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.BaseMethodDeclaration$kD, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ)) != null;
+            return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
           }
         });
       }
@@ -89,7 +88,7 @@ public class QueriesGenerated extends QueryProviderBase {
       public Iterable<SNode> translate(SNode it) {
         return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.ClosureLiteral$rp, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ)) != null;
+            return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
           }
         });
       }
@@ -138,11 +137,8 @@ public class QueriesGenerated extends QueryProviderBase {
   @Override
   @NotNull
   public ScriptCodeBlock getScriptCodeBlock(@NotNull QueryKey identity) {
-    final String id = identity.getTemplateNode().getNodeId().toString();
-    if (!(mscbMethods.containsKey(id))) {
-      return super.getScriptCodeBlock(identity);
-    }
-    return mscbMethods.get(id);
+    ScriptCodeBlock query = identity.forTemplateNode(mscbMethods);
+    return (query != null ? query : super.getScriptCodeBlock(identity));
   }
   private static class SCB implements ScriptCodeBlock {
     private final int methodKey;
