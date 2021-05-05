@@ -448,7 +448,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="2MLeGpN$0OK" role="2OqNvi">
                                   <node concept="chp4Y" id="2MLeGpN$0OL" role="cj9EA">
-                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryStatement" />
+                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryFinallyStatement" />
                                   </node>
                                 </node>
                               </node>

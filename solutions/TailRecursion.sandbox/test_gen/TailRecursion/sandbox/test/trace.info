@@ -12,82 +12,82 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000223793">
     <file name="RecursiveScenario_Test.java">
-      <node id="4322693879000315842" at="10,43,11,60" concept="2" />
-      <node id="4322693879000315876" at="11,60,12,60" concept="2" />
-      <node id="4322693879000315866" at="14,44,15,55" concept="2" />
-      <node id="4322693879000315884" at="15,55,16,55" concept="2" />
-      <node id="9009622095742629915" at="18,49,19,73" concept="2" />
-      <node id="9009622095742630413" at="19,73,20,86" concept="2" />
-      <node id="9009622095742611541" at="24,65,25,31" concept="5" />
-      <node id="9009622095742611541" at="25,31,26,29" concept="5" />
-      <node id="9009622095742611565" at="28,34,29,32" concept="6" />
-      <node id="9009622095742611542" at="30,11,31,53" concept="2" />
-      <node id="9009622095742611542" at="31,53,32,42" concept="2" />
-      <node id="9009622095742611601" at="35,6,36,63" concept="2" />
-      <node id="9009622095742611620" at="36,63,37,63" concept="2" />
-      <node id="9009622095742611747" at="37,63,38,46" concept="2" />
-      <node id="9009622095742611783" at="38,46,39,46" concept="2" />
-      <node id="2385733296660308867" at="43,59,44,33" concept="5" />
-      <node id="2385733296660308867" at="44,33,45,30" concept="5" />
-      <node id="2385733296660308874" at="47,35,48,33" concept="6" />
-      <node id="913704554380632518" at="49,29,50,22" concept="6" />
-      <node id="913704554380631765" at="51,18,52,58" concept="2" />
-      <node id="913704554380631765" at="52,58,53,46" concept="2" />
-      <node id="2385733296660308905" at="57,6,58,59" concept="2" />
-      <node id="2385733296660308912" at="58,59,59,72" concept="2" />
-      <node id="9009622095742611549" at="27,22,30,11" concept="3" />
-      <node id="913704554380631764" at="51,16,54,11" concept="0" />
-      <node id="4322693879000315838" at="10,0,14,0" concept="4" trace="test_sum#()V" />
-      <node id="4322693879000315862" at="14,0,18,0" concept="4" trace="test_sumS#()V" />
-      <node id="9009622095742629911" at="18,0,22,0" concept="4" trace="test_factorial#()V" />
-      <node id="9009622095742611541" at="26,29,33,9" concept="9" />
-      <node id="2385733296660308869" at="46,22,54,11" concept="3" />
-      <node id="2385733296660308867" at="45,30,55,9" concept="9" />
-      <node id="9009622095742611541" at="24,0,35,0" concept="4" trace="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
-      <node id="9009622095742611531" at="22,47,35,6" concept="5" />
-      <node id="2385733296660308867" at="43,0,57,0" concept="4" trace="invoke#(Ljava/lang/Long;Ljava/lang/Integer;)Ljava/lang/Long;" />
-      <node id="2385733296660308861" at="41,56,57,6" concept="5" />
-      <node id="9009622095742611527" at="22,0,41,0" concept="4" trace="test_closure#()V" />
-      <node id="2385733296660308857" at="41,0,61,0" concept="4" trace="test_closureFactorial#()V" />
-      <scope id="9009622095742611551" at="28,34,29,32" />
-      <scope id="2385733296660308873" at="47,35,48,33" />
-      <scope id="913704554380632516" at="49,29,50,22" />
-      <scope id="4322693879000315841" at="10,43,12,60" />
-      <scope id="4322693879000315865" at="14,44,16,55" />
-      <scope id="9009622095742629914" at="18,49,20,86" />
-      <scope id="913704554380631765" at="51,18,53,46" />
-      <scope id="4322693879000315838" at="10,0,14,0" />
-      <scope id="4322693879000315862" at="14,0,18,0" />
-      <scope id="9009622095742629911" at="18,0,22,0" />
-      <scope id="9009622095742611542" at="27,22,32,42" />
-      <scope id="2385733296660308868" at="46,22,54,11" />
-      <scope id="9009622095742611541" at="24,65,33,9">
+      <node id="4322693879000315842" at="11,43,12,60" concept="2" />
+      <node id="4322693879000315876" at="12,60,13,60" concept="2" />
+      <node id="4322693879000315866" at="16,44,17,55" concept="2" />
+      <node id="4322693879000315884" at="17,55,18,55" concept="2" />
+      <node id="9009622095742629915" at="21,49,22,73" concept="2" />
+      <node id="9009622095742630413" at="22,73,23,86" concept="2" />
+      <node id="9009622095742611541" at="28,65,29,31" concept="5" />
+      <node id="9009622095742611541" at="29,31,30,29" concept="5" />
+      <node id="9009622095742611565" at="32,34,33,32" concept="6" />
+      <node id="9009622095742611542" at="34,11,35,53" concept="2" />
+      <node id="9009622095742611542" at="35,53,36,42" concept="2" />
+      <node id="9009622095742611601" at="39,6,40,63" concept="2" />
+      <node id="9009622095742611620" at="40,63,41,63" concept="2" />
+      <node id="9009622095742611747" at="41,63,42,46" concept="2" />
+      <node id="9009622095742611783" at="42,46,43,46" concept="2" />
+      <node id="2385733296660308867" at="48,59,49,33" concept="5" />
+      <node id="2385733296660308867" at="49,33,50,30" concept="5" />
+      <node id="2385733296660308874" at="52,35,53,33" concept="6" />
+      <node id="913704554380632518" at="54,29,55,22" concept="6" />
+      <node id="913704554380631765" at="56,18,57,58" concept="2" />
+      <node id="913704554380631765" at="57,58,58,46" concept="2" />
+      <node id="2385733296660308905" at="62,6,63,59" concept="2" />
+      <node id="2385733296660308912" at="63,59,64,72" concept="2" />
+      <node id="9009622095742611549" at="31,22,34,11" concept="3" />
+      <node id="913704554380631764" at="56,16,59,11" concept="0" />
+      <node id="4322693879000315838" at="10,0,15,0" concept="4" trace="test_sum#()V" />
+      <node id="4322693879000315862" at="15,0,20,0" concept="4" trace="test_sumS#()V" />
+      <node id="9009622095742629911" at="20,0,25,0" concept="4" trace="test_factorial#()V" />
+      <node id="9009622095742611541" at="30,29,37,9" concept="9" />
+      <node id="2385733296660308869" at="51,22,59,11" concept="3" />
+      <node id="2385733296660308867" at="50,30,60,9" concept="9" />
+      <node id="9009622095742611541" at="28,0,39,0" concept="4" trace="invoke#(Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;" />
+      <node id="9009622095742611531" at="26,47,39,6" concept="5" />
+      <node id="2385733296660308867" at="48,0,62,0" concept="4" trace="invoke#(Ljava/lang/Long;Ljava/lang/Integer;)Ljava/lang/Long;" />
+      <node id="2385733296660308861" at="46,56,62,6" concept="5" />
+      <node id="9009622095742611527" at="25,0,45,0" concept="4" trace="test_closure#()V" />
+      <node id="2385733296660308857" at="45,0,66,0" concept="4" trace="test_closureFactorial#()V" />
+      <scope id="9009622095742611551" at="32,34,33,32" />
+      <scope id="2385733296660308873" at="52,35,53,33" />
+      <scope id="913704554380632516" at="54,29,55,22" />
+      <scope id="4322693879000315841" at="11,43,13,60" />
+      <scope id="4322693879000315865" at="16,44,18,55" />
+      <scope id="9009622095742629914" at="21,49,23,86" />
+      <scope id="913704554380631765" at="56,18,58,46" />
+      <scope id="4322693879000315838" at="10,0,15,0" />
+      <scope id="4322693879000315862" at="15,0,20,0" />
+      <scope id="9009622095742629911" at="20,0,25,0" />
+      <scope id="9009622095742611542" at="31,22,36,42" />
+      <scope id="2385733296660308868" at="51,22,59,11" />
+      <scope id="9009622095742611541" at="28,65,37,9">
         <var name="localParam_8" id="9009622095742611541" />
         <var name="localParam_9" id="9009622095742611541" />
       </scope>
-      <scope id="9009622095742611541" at="24,0,35,0">
+      <scope id="9009622095742611541" at="28,0,39,0">
         <var name="acc" id="9009622095742611541" />
         <var name="n" id="9009622095742611541" />
       </scope>
-      <scope id="2385733296660308867" at="43,59,55,9">
+      <scope id="2385733296660308867" at="48,59,60,9">
         <var name="localParam_10" id="2385733296660308867" />
         <var name="localParam_11" id="2385733296660308867" />
       </scope>
-      <scope id="2385733296660308867" at="43,0,57,0">
+      <scope id="2385733296660308867" at="48,0,62,0">
         <var name="acc" id="2385733296660308867" />
         <var name="n" id="2385733296660308867" />
       </scope>
-      <scope id="9009622095742611530" at="22,47,39,46">
+      <scope id="9009622095742611530" at="26,47,43,46">
         <var name="fun" id="9009622095742611532" />
       </scope>
-      <scope id="2385733296660308860" at="41,56,59,72">
+      <scope id="2385733296660308860" at="46,56,64,72">
         <var name="factorial" id="2385733296660308862" />
       </scope>
-      <scope id="9009622095742611527" at="22,0,41,0" />
-      <scope id="2385733296660308857" at="41,0,61,0" />
-      <unit id="9009622095742611541" at="23,96,35,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
-      <unit id="2385733296660308867" at="42,96,57,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
-      <unit id="4322693879000223793" at="9,0,62,0" name="TailRecursion.sandbox.test.RecursiveScenario_Test" />
+      <scope id="9009622095742611527" at="25,0,45,0" />
+      <scope id="2385733296660308857" at="45,0,66,0" />
+      <unit id="9009622095742611541" at="27,96,39,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$1" />
+      <unit id="2385733296660308867" at="47,96,62,5" name="TailRecursion.sandbox.test.RecursiveScenario_Test$2" />
+      <unit id="4322693879000223793" at="9,0,67,0" name="TailRecursion.sandbox.test.RecursiveScenario_Test" />
     </file>
   </root>
   <root nodeRef="r:ad28ee9f-b59d-480b-89e9-a30d9f2f9d3a(TailRecursion.sandbox.test@tests)/4322693879000233987">

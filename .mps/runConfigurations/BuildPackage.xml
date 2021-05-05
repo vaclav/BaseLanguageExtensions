@@ -10,7 +10,7 @@
       <MyState>
         <option name="myUseOtherAntLocation" value="false" />
         <option name="myOtherAntLocation" value="" />
-        <option name="myAntOptions" value="clean -Dmps_home=&quot;$APPLICATION_HOME_DIR$&quot;" />
+        <option name="myAntOptions" value="" />
       </MyState>
     </mySettings>
     <method v="2">

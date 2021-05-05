@@ -820,7 +820,7 @@
                                 </node>
                                 <node concept="1mIQ4w" id="2MLeGpN$j$_" role="2OqNvi">
                                   <node concept="chp4Y" id="2MLeGpN$j$A" role="cj9EA">
-                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryStatement" />
+                                    <ref role="cht4Q" to="tpee:gMGUZlm" resolve="TryFinallyStatement" />
                                   </node>
                                 </node>
                               </node>
