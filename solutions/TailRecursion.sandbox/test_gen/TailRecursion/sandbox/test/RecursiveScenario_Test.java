@@ -24,17 +24,15 @@ public class RecursiveScenario_Test {
   }
   @Test
   public void test_closure() throws Exception {
-    _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> fun = new _FunctionTypes._return_P2_E0<Integer, Integer, Integer>() {
-      public Integer invoke(final Integer acc, final Integer n) {
-        int localParam_8 = acc;
-        int localParam_9 = n;
-        while (true) {
-          if (localParam_9 == 0) {
-            return localParam_8;
-          }
-          localParam_8 = localParam_8 + localParam_9;
-          localParam_9 = localParam_9 - 1;
+    _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> fun = (final Integer acc, final Integer n) -> {
+      int localParam_8 = acc;
+      int localParam_9 = n;
+      while (true) {
+        if (localParam_9 == 0) {
+          return localParam_8;
         }
+        localParam_8 = localParam_8 + localParam_9;
+        localParam_9 = localParam_9 - 1;
       }
     };
     Assert.assertEquals(Integer.valueOf(15), fun.invoke(0, 5));
@@ -44,19 +42,17 @@ public class RecursiveScenario_Test {
   }
   @Test
   public void test_closureFactorial() throws Exception {
-    _FunctionTypes._return_P2_E0<? extends Long, ? super Long, ? super Integer> factorial = new _FunctionTypes._return_P2_E0<Long, Long, Integer>() {
-      public Long invoke(final Long acc, final Integer n) {
-        long localParam_10 = acc;
-        int localParam_11 = n;
-        while (true) {
-          if (localParam_11 == 1) {
-            return localParam_10;
-          } else if (false) {
-            return 0L;
-          } else {
-            localParam_10 = localParam_10 * localParam_11;
-            localParam_11 = localParam_11 - 1;
-          }
+    _FunctionTypes._return_P2_E0<? extends Long, ? super Long, ? super Integer> factorial = (final Long acc, final Integer n) -> {
+      long localParam_10 = acc;
+      int localParam_11 = n;
+      while (true) {
+        if (localParam_11 == 1) {
+          return localParam_10;
+        } else if (false) {
+          return 0L;
+        } else {
+          localParam_10 = localParam_10 * localParam_11;
+          localParam_11 = localParam_11 - 1;
         }
       }
     };

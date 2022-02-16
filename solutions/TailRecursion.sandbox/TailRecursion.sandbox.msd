@@ -16,7 +16,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
     <language slang="l:9f9722b2-7c97-43c8-9771-bea4630e2676:jetbrains.mps.baseLanguage.memoize" version="0" />
     <language slang="l:f142cd5e-ea1d-466a-86a8-52891b6256a4:jetbrains.mps.baseLanguage.tailRecursion" version="0" />

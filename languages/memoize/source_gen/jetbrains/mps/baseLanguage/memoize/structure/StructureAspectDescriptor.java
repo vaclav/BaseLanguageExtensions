@@ -50,9 +50,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForMemoizeAnnotation() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("jetbrains.mps.baseLanguage.memoize", "MemoizeAnnotation", 0x9f9722b27c9743c8L, 0x9771bea4630e2676L, 0x182d299b1158e74fL);
     b.class_(false, false, false);
-    b.super_("jetbrains.mps.lang.core.structure.NodeAttribute", 0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da54L);
+    // extends: jetbrains.mps.lang.core.structure.NodeAttribute
+    b.super_(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da54L);
     b.origin("r:16a534ef-298e-4660-927a-214179894ca0(jetbrains.mps.baseLanguage.memoize.structure)/1742094376849958735");
-    b.version(2);
+    b.version(3);
     b.property("sizeLimit", 0x182d299b1158e750L).type(PrimitiveTypeId.INTEGER).origin("1742094376849958736").done();
     return b.create();
   }

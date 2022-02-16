@@ -57,14 +57,14 @@ public class MemoizeTest_Test {
       return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     }
   });
-  private final Map<Integer, Object> memoizedCacheForClosures_0 = Memoizator.buildMemoizeCache(0);
-  private _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> memoizedCacheForClosures_0_Closure;
-  private final Map<Integer, Object> memoizedCacheForClosures_1 = Memoizator.buildMemoizeCache(0);
-  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_1_Closure;
-  private final Map<Integer, Object> memoizedCacheForClosures_2 = Memoizator.buildMemoizeCache(0);
-  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_2_Closure;
-  private final Map<Integer, Object> memoizedCacheForClosures_3 = Memoizator.buildMemoizeCache(0);
   private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_3_Closure;
+  private final Map<Integer, Object> memoizedCacheForClosures_3 = Memoizator.buildMemoizeCache(0);
+  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_2_Closure;
+  private final Map<Integer, Object> memoizedCacheForClosures_2 = Memoizator.buildMemoizeCache(0);
+  private _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> memoizedCacheForClosures_1_Closure;
+  private final Map<Integer, Object> memoizedCacheForClosures_1 = Memoizator.buildMemoizeCache(0);
+  private _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> memoizedCacheForClosures_0_Closure;
+  private final Map<Integer, Object> memoizedCacheForClosures_0 = Memoizator.buildMemoizeCache(0);
   @Test
   public void test_instanceMethod() throws Exception {
     Calculator calculator = new Calculator();
@@ -168,27 +168,25 @@ public class MemoizeTest_Test {
   @Test
   public void test_closureInMethodCall() throws Exception {
     final Wrappers._int localCounter = new Wrappers._int(0);
-    Assert.assertEquals(Long.valueOf(65), addFib(10, (memoizedCacheForClosures_2_Closure = new _FunctionTypes._return_P1_E0<Long, Integer>() {
-      public Long invoke(final Integer n) {
-        final KeyCalculator key = new KeyCalculator();
-        key.addKey(n);
-        Object value = Memoizator.retrieveFromCache(memoizedCacheForClosures_2, key);
-        if (value == null) {
-          final _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> function = new _FunctionTypes._return_P1_E0<Long, Integer>() {
-            public Long invoke(Integer n) {
-              localCounter.value += 1;
-              if (n <= 2) {
-                return 1L;
-              }
-              return memoizedCacheForClosures_2_Closure.invoke(n - 2) + memoizedCacheForClosures_2_Closure.invoke(n - 1);
+    Assert.assertEquals(Long.valueOf(65), addFib(10, (memoizedCacheForClosures_2_Closure = (final Integer n) -> {
+      final KeyCalculator key = new KeyCalculator();
+      key.addKey(n);
+      Object value = Memoizator.retrieveFromCache(memoizedCacheForClosures_2, key);
+      if (value == null) {
+        final _FunctionTypes._return_P1_E0<? extends Long, ? super Integer> function = new _FunctionTypes._return_P1_E0<Long, Integer>() {
+          public Long invoke(Integer n) {
+            localCounter.value += 1;
+            if (n <= 2) {
+              return 1L;
             }
-          };
-          final Object result = function.invoke(n);
-          Memoizator.storeInCache(memoizedCacheForClosures_2, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
-          value = result;
-        }
-        return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
+            return memoizedCacheForClosures_2_Closure.invoke(n - 2) + memoizedCacheForClosures_2_Closure.invoke(n - 1);
+          }
+        };
+        final Object result = function.invoke(n);
+        Memoizator.storeInCache(memoizedCacheForClosures_2, key, (result != null ? result : NullValue.NULL_CACHED_VALUE));
+        value = result;
       }
+      return (value == NullValue.NULL_CACHED_VALUE ? null : (Long) value);
     })));
     Assert.assertEquals(10, localCounter.value);
   }

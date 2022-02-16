@@ -21,6 +21,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
+import jetbrains.mps.generator.template.WeavingAnchorContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
@@ -40,7 +41,6 @@ import jetbrains.mps.generator.impl.query.WeaveRuleCondition;
 import jetbrains.mps.generator.impl.query.WeaveRuleQuery;
 import jetbrains.mps.generator.impl.query.WeaveAnchorQuery;
 import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.generator.template.WeavingAnchorContext;
 import jetbrains.mps.generator.impl.query.ScriptCodeBlock;
 import jetbrains.mps.generator.impl.query.SourceNodeQuery;
 import jetbrains.mps.generator.impl.query.SourceNodesQuery;
@@ -296,6 +296,18 @@ public class QueriesGenerated extends QueryProviderBase {
   public static SNode weavingRule_ContextQuery_0_3(final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SNodeOperations.getNodeAncestor(_context.getNode(), CONCEPTS.ClassConcept$bK, false, false));
   }
+  public static SNode weaving_AnchorQuery_0_0(final WeavingAnchorContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.as(_context.getMainContextNode(), CONCEPTS.ClassConcept$bK), LINKS.member$L_2d)).first();
+  }
+  public static SNode weaving_AnchorQuery_0_1(final WeavingAnchorContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.as(_context.getMainContextNode(), CONCEPTS.ClassConcept$bK), LINKS.member$L_2d)).first();
+  }
+  public static SNode weaving_AnchorQuery_0_2(final WeavingAnchorContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.as(_context.getMainContextNode(), CONCEPTS.ClassConcept$bK), LINKS.member$L_2d)).first();
+  }
+  public static SNode weaving_AnchorQuery_0_3(final WeavingAnchorContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.as(_context.getMainContextNode(), CONCEPTS.ClassConcept$bK), LINKS.member$L_2d)).first();
+  }
   public static void mappingScript_CodeBlock_1(final MappingScriptContext _context) {
     Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
@@ -461,13 +473,13 @@ public class QueriesGenerated extends QueryProviderBase {
     public SNode anchorNode(WeavingAnchorContext ctx) throws GenerationFailureException {
       switch (methodKey) {
         case 0:
-          return null;
+          return QueriesGenerated.weaving_AnchorQuery_0_0(ctx);
         case 1:
-          return null;
+          return QueriesGenerated.weaving_AnchorQuery_0_1(ctx);
         case 2:
-          return null;
+          return QueriesGenerated.weaving_AnchorQuery_0_2(ctx);
         case 3:
-          return null;
+          return QueriesGenerated.weaving_AnchorQuery_0_3(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no anchor query method for rule %s (key: #%d)", ctx.getTemplateReference(), methodKey));
       }
@@ -820,5 +832,6 @@ public class QueriesGenerated extends QueryProviderBase {
     /*package*/ static final SContainmentLink statement$53DE = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, 0xf8cc6bf961L, "statement");
     /*package*/ static final SContainmentLink parameterType$qJs$ = MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174a4d19ffL, 0x1174a4e013cL, "parameterType");
     /*package*/ static final SContainmentLink parameter$b4Y3 = MetaAdapterFactory.getContainmentLink(0xfd3920347849419dL, 0x907112563d152375L, 0x1174bed3125L, 0x1174bf02c34L, "parameter");
+    /*package*/ static final SContainmentLink member$L_2d = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101d9d3ca30L, 0x4a9a46de59132803L, "member");
   }
 }

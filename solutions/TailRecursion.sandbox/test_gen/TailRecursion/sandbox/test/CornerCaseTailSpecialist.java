@@ -13,12 +13,10 @@ public class CornerCaseTailSpecialist {
       invoke();
     }
   };
-  public static _FunctionTypes._return_P0_E0<? extends Integer> noArgsFunction = new _FunctionTypes._return_P0_E0<Integer>() {
-    public Integer invoke() {
-      while (true) {
-        if (1 < 5) {
-          return 1;
-        }
+  public static _FunctionTypes._return_P0_E0<? extends Integer> noArgsFunction = () -> {
+    while (true) {
+      if (1 < 5) {
+        return 1;
       }
     }
   };
