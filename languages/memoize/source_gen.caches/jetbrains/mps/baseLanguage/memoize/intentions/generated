@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-8k739dja5n0zzvodn5j07fn8ouijn37">
+<product version="3" modelHash="cn1ek6og3yne0vj7k30gy3mjxj496f7">
   <files names="IntentionsDescriptor.java:MakeClosureMemoized_Intention.java:MakeClosureNotMemoized_Intention.java:MakeMethodMemoized_Intention.java:MakeMethodNotMemoized_Intention.java" />
 </product>
 

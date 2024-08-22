@@ -7,14 +7,10 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.ITranslator2;
-import java.util.Iterator;
 import jetbrains.mps.baseLanguage.closures.runtime.YieldingIterator;
 import jetbrains.mps.internal.collections.runtime.StopIteratingException;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.smodel.builder.SNodeBuilder;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNodeAccessUtil;
@@ -27,70 +23,76 @@ public class GenHelper {
   }
   public static void checkPathForIncorrectNodes(TemplateQueryContext genContext, final SNode lastNode, SNode methodCall) {
     if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92) != methodCall) {
-        genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92), CONCEPTS.CastExpression$$8)) {
+        if (SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92), CONCEPTS.CastExpression$$8), LINKS.expression$XDmN) != methodCall) {
+          genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+        }
+
+      } else {
+        if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ReturnStatement$lt), LINKS.expression$eJ92) != methodCall) {
+          genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+        }
       }
     } else if (SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) {
-      if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M) != methodCall) {
-        genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M), CONCEPTS.CastExpression$$8)) {
+        if (SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M), CONCEPTS.CastExpression$$8), LINKS.expression$XDmN) != methodCall) {
+          genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+        }
+      } else {
+        if (SLinkOperations.getTarget(SNodeOperations.cast(lastNode, CONCEPTS.ExpressionStatement$O8), LINKS.expression$5L7M) != methodCall) {
+          genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
+        }
       }
+
     } else {
-      Iterable<SNode> predecesors = ListSequence.fromList(SNodeOperations.getNodeAncestors(methodCall, null, false)).translate(new ITranslator2<SNode, SNode>() {
-        public Iterable<SNode> translate(final SNode it) {
-          return new Iterable<SNode>() {
-            public Iterator<SNode> iterator() {
-              return new YieldingIterator<SNode>() {
-                private int __CP__ = 0;
-                protected boolean moveToNext() {
+      Iterable<SNode> predecesors = ListSequence.fromList(SNodeOperations.getNodeAncestors(methodCall, null, false)).translate((it) -> {
+        return (Iterable<SNode>) () -> {
+          return new YieldingIterator<SNode>() {
+            private int __CP__ = 0;
+            protected boolean moveToNext() {
 __loop__:
-                  do {
+              do {
 __switch__:
-                    switch (this.__CP__) {
-                      case -1:
-                        assert false : "Internal error";
-                        return false;
-                      case 4:
-                        if (it == lastNode) {
-                          this.__CP__ = 5;
-                          break;
-                        }
-                        this.__CP__ = 6;
-                        break;
-                      case 3:
-                        if (false) {
-                          this.__CP__ = 2;
-                          break;
-                        }
-                        this.__CP__ = 1;
-                        break;
-                      case 6:
-                        this.__CP__ = 3;
-                        this.yield(it);
-                        return true;
-                      case 0:
-                        this.__CP__ = 2;
-                        break;
-                      case 2:
-                        this.__CP__ = 4;
-                        break;
-                      case 5:
-                        throw new StopIteratingException();
-                      default:
-                        break __loop__;
+                switch (this.__CP__) {
+                  case -1:
+                    assert false : "Internal error";
+                    return false;
+                  case 4:
+                    if (it == lastNode) {
+                      this.__CP__ = 5;
+                      break;
                     }
-                  } while (true);
-                  return false;
+                    this.__CP__ = 6;
+                    break;
+                  case 3:
+                    if (false) {
+                      this.__CP__ = 2;
+                      break;
+                    }
+                    this.__CP__ = 1;
+                    break;
+                  case 6:
+                    this.__CP__ = 3;
+                    this.yield(it);
+                    return true;
+                  case 0:
+                    this.__CP__ = 2;
+                    break;
+                  case 2:
+                    this.__CP__ = 4;
+                    break;
+                  case 5:
+                    throw new StopIteratingException();
+                  default:
+                    break __loop__;
                 }
-              };
+              } while (true);
+              return false;
             }
           };
-        }
+        };
       });
-      if (Sequence.fromIterable(predecesors).any(new IWhereFilter<SNode>() {
-        public boolean accept(SNode it) {
-          return SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$XR) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$oi) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$Xv);
-        }
-      })) {
+      if (Sequence.fromIterable(predecesors).any((it) -> SNodeOperations.isInstanceOf(it, CONCEPTS.TryCatchStatement$XR) || SNodeOperations.isInstanceOf(it, CONCEPTS.TryFinallyStatement$oi) || SNodeOperations.isInstanceOf(it, CONCEPTS.AbstractLoopStatement$Xv))) {
         genContext.showErrorMessage(methodCall, "The method call is not in a tail position");
       }
       checkLastNodeBeingOfCorrectKind(genContext, SNodeOperations.getParent(methodCall));
@@ -104,7 +106,7 @@ __switch__:
     return false;
   }
   public static boolean checkLastNodeBeingOfCorrectKind(TemplateQueryContext genContext, SNode lastNode) {
-    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$Q4))) {
+    if (!(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ReturnStatement$lt)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.ExpressionStatement$O8)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.IfStatement$Q4)) && !(SNodeOperations.isInstanceOf(lastNode, CONCEPTS.CastExpression$$8))) {
       genContext.showErrorMessage(lastNode, "The method call is not in a tail position");
       return true;
     }
@@ -120,19 +122,7 @@ __switch__:
     SNode assignment = _quotation_createNode_bzcigv_a0g0e(varRef, currentInvocationParameter);
     ListSequence.fromList(SLinkOperations.getChildren(containingStatementList, LINKS.statement$53DE)).addElement(_quotation_createNode_bzcigv_a0a7a4(assignment));
 
-    ListSequence.fromList(SNodeOperations.getNodeDescendants(originalFunctionDefinition, CONCEPTS.VariableReference$TC, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG), CONCEPTS.ParameterDeclaration$RG);
-      }
-    }).toListSequence().where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG) == param;
-      }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        SNodeOperations.replaceWithAnother(it, SNodeOperations.copyNode(varRef));
-      }
-    });
+    ListSequence.fromList(ListSequence.fromList(SNodeOperations.getNodeDescendants(originalFunctionDefinition, CONCEPTS.VariableReference$TC, false, new SAbstractConcept[]{})).where((SNode it) -> SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG), CONCEPTS.ParameterDeclaration$RG)).toList()).where((it) -> SLinkOperations.getTarget(it, LINKS.variableDeclaration$N1XG) == param).visitAll((it) -> SNodeOperations.replaceWithAnother(it, SNodeOperations.copyNode(varRef)));
   }
   public static void removeTailStatement(SNode functionInvocation) {
     SNode returnStatement = SNodeOperations.getNodeAncestor(functionInvocation, CONCEPTS.ReturnStatement$lt, false, false);
@@ -146,11 +136,7 @@ __switch__:
   public static SNode wrapInLoop(SNode functionBody, SNode parameterCopyBlock) {
     SNode body = _quotation_createNode_bzcigv_a0a0g(functionBody);
     final SNode loopNode = ListSequence.fromList(SLinkOperations.getChildren(body, LINKS.statement$53DE)).first();
-    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$53DE)).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        SNodeOperations.insertPrevSiblingChild(loopNode, SNodeOperations.deleteNode(it));
-      }
-    });
+    ListSequence.fromList(SLinkOperations.getChildren(parameterCopyBlock, LINKS.statement$53DE)).visitAll((it) -> SNodeOperations.insertPrevSiblingChild(loopNode, SNodeOperations.deleteNode(it)));
     return body;
   }
   private static SNode _quotation_createNode_bzcigv_a0b0e(Object parameter_1, Object parameter_2, Object parameter_3) {
@@ -231,6 +217,7 @@ __switch__:
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept ReturnStatement$lt = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, "jetbrains.mps.baseLanguage.structure.ReturnStatement");
+    /*package*/ static final SConcept CastExpression$$8 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940dabe4aL, "jetbrains.mps.baseLanguage.structure.CastExpression");
     /*package*/ static final SConcept ExpressionStatement$O8 = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, "jetbrains.mps.baseLanguage.structure.ExpressionStatement");
     /*package*/ static final SConcept AbstractLoopStatement$Xv = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10cb1ac5adeL, "jetbrains.mps.baseLanguage.structure.AbstractLoopStatement");
     /*package*/ static final SConcept TryCatchStatement$XR = MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x10f383e6771L, "jetbrains.mps.baseLanguage.structure.TryCatchStatement");
@@ -242,6 +229,7 @@ __switch__:
 
   private static final class LINKS {
     /*package*/ static final SContainmentLink expression$eJ92 = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc67c7feL, 0xf8cc6bf96cL, "expression");
+    /*package*/ static final SContainmentLink expression$XDmN = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf940dabe4aL, 0xf940dabe4cL, "expression");
     /*package*/ static final SContainmentLink expression$5L7M = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b213L, 0xf8cc56b214L, "expression");
     /*package*/ static final SReferenceLink baseMethodDeclaration$pyYw = MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x11857355952L, 0xf8c78301adL, "baseMethodDeclaration");
     /*package*/ static final SContainmentLink type$a1UY = MetaAdapterFactory.getContainmentLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x450368d90ce15bc3L, 0x4ed4d318133c80ceL, "type");

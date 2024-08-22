@@ -8,14 +8,12 @@ import jetbrains.mps.generator.template.MappingScriptContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.baseLanguage.tailRecursion.generator.util.GenHelper;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
@@ -36,96 +34,64 @@ public class QueriesGenerated extends QueryProviderBase {
     super(1);
   }
   public static void mappingScript_CodeBlock_1(final MappingScriptContext _context) {
-    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.BaseMethodDeclaration$kD, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
-          }
-        });
-      }
+    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate((it) -> {
+      return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.BaseMethodDeclaration$kD, false, new SAbstractConcept[]{})).where(new _FunctionTypes._return_P1_E0<Boolean, SNode>() {
+        public Boolean invoke(SNode it) {
+          return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
+        }
+      });
     });
 
-    Sequence.fromIterable(methods).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.returnType$5xoi), CONCEPTS.VoidType$BF);
+    Sequence.fromIterable(methods).where((it) -> SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.returnType$5xoi), CONCEPTS.VoidType$BF)).visitAll((it) -> _context.showErrorMessage(it, "Tail recursive methods must not return void"));
+
+    Sequence.fromIterable(methods).visitAll((final SNode method) -> {
+      SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(method, LINKS.body$5xQk), LINKS.statement$53DE)).last();
+      if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
+        return;
       }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        _context.showErrorMessage(it, "Tail recursive methods must not return void");
+
+      final SNode methodCall = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.IMethodCall$M9, false, new SAbstractConcept[]{})).first();
+      final SNode containingStatementList = SNodeOperations.getNodeAncestor(methodCall, CONCEPTS.StatementList$m_, false, false);
+
+      if (GenHelper.checkMethodCallInvokesCorrectMethod(method, _context, methodCall)) {
+        return;
       }
-    });
+      GenHelper.checkPathForIncorrectNodes(_context, lastNode, methodCall);
 
-    Sequence.fromIterable(methods).visitAll(new IVisitor<SNode>() {
-      public void visit(final SNode method) {
-        SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(method, LINKS.body$5xQk), LINKS.statement$53DE)).last();
-        if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
-          return;
-        }
+      final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
+      ListSequence.fromList(SLinkOperations.getChildren(method, LINKS.parameter$5xBj)).visitAll((param) -> GenHelper.handleParameter(method, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(methodCall, LINKS.actualArgument$pzdx)).getElement(SNodeOperations.getIndexInParent(param)), _context));
+      GenHelper.removeTailStatement(methodCall);
 
-        final SNode methodCall = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.IMethodCall$M9, false, new SAbstractConcept[]{})).first();
-        final SNode containingStatementList = SNodeOperations.getNodeAncestor(methodCall, CONCEPTS.StatementList$m_, false, false);
-
-        if (GenHelper.checkMethodCallInvokesCorrectMethod(method, _context, methodCall)) {
-          return;
-        }
-        GenHelper.checkPathForIncorrectNodes(_context, lastNode, methodCall);
-
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
-        ListSequence.fromList(SLinkOperations.getChildren(method, LINKS.parameter$5xBj)).visitAll(new IVisitor<SNode>() {
-          public void visit(SNode param) {
-            GenHelper.handleParameter(method, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(methodCall, LINKS.actualArgument$pzdx)).getElement(SNodeOperations.getIndexInParent(param)), _context);
-          }
-        });
-        GenHelper.removeTailStatement(methodCall);
-
-        SLinkOperations.setTarget(method, LINKS.body$5xQk, GenHelper.wrapInLoop(SLinkOperations.getTarget(method, LINKS.body$5xQk), parameterCopyBlock));
-      }
+      SLinkOperations.setTarget(method, LINKS.body$5xQk, GenHelper.wrapInLoop(SLinkOperations.getTarget(method, LINKS.body$5xQk), parameterCopyBlock));
     });
   }
   public static void mappingScript_CodeBlock_2(final MappingScriptContext _context) {
-    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.ClosureLiteral$rp, false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
-          }
-        });
-      }
-    });
-
-    Sequence.fromIterable(closures).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(it), CONCEPTS.FunctionType$9U), LINKS.resultType$2oOC), CONCEPTS.VoidType$BF);
-      }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        _context.showErrorMessage(it, "Tail recursive closures must not return void");
-      }
-    });
-
-    Sequence.fromIterable(closures).visitAll(new IVisitor<SNode>() {
-      public void visit(final SNode closure) {
-        SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(closure, LINKS.body$Ujx2), LINKS.statement$53DE)).last();
-        if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
-          return;
+    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate((it) -> {
+      return ListSequence.fromList(SNodeOperations.getNodeDescendants(it, CONCEPTS.ClosureLiteral$rp, false, new SAbstractConcept[]{})).where(new _FunctionTypes._return_P1_E0<Boolean, SNode>() {
+        public Boolean invoke(SNode it) {
+          return new IAttributeDescriptor.NodeAttribute(CONCEPTS.TailRecursion$OZ).get(it) != null;
         }
+      });
+    });
 
-        final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.InvokeExpression$ce, false, new SAbstractConcept[]{})).first();
-        final SNode containingStatementList = SNodeOperations.getNodeAncestor(invokeExpression, CONCEPTS.StatementList$m_, false, false);
+    Sequence.fromIterable(closures).where((it) -> SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(it), CONCEPTS.FunctionType$9U), LINKS.resultType$2oOC), CONCEPTS.VoidType$BF)).visitAll((it) -> _context.showErrorMessage(it, "Tail recursive closures must not return void"));
 
-        GenHelper.checkPathForIncorrectNodes(_context, lastNode, invokeExpression);
-
-        final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
-        ListSequence.fromList(SLinkOperations.getChildren(closure, LINKS.parameter$b4Y3)).visitAll(new IVisitor<SNode>() {
-          public void visit(SNode param) {
-            GenHelper.handleParameter(closure, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(invokeExpression, LINKS.parameter$ipi9)).getElement(SNodeOperations.getIndexInParent(param)), _context);
-          }
-        });
-        GenHelper.removeTailStatement(invokeExpression);
-
-        SLinkOperations.setTarget(closure, LINKS.body$Ujx2, GenHelper.wrapInLoop(SLinkOperations.getTarget(closure, LINKS.body$Ujx2), parameterCopyBlock));
+    Sequence.fromIterable(closures).visitAll((final SNode closure) -> {
+      SNode lastNode = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(closure, LINKS.body$Ujx2), LINKS.statement$53DE)).last();
+      if (GenHelper.checkLastNodeBeingOfCorrectKind(_context, lastNode)) {
+        return;
       }
+
+      final SNode invokeExpression = ListSequence.fromList(SNodeOperations.getNodeDescendants(lastNode, CONCEPTS.InvokeExpression$ce, false, new SAbstractConcept[]{})).first();
+      final SNode containingStatementList = SNodeOperations.getNodeAncestor(invokeExpression, CONCEPTS.StatementList$m_, false, false);
+
+      GenHelper.checkPathForIncorrectNodes(_context, lastNode, invokeExpression);
+
+      final SNode parameterCopyBlock = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8cc56b200L, "jetbrains.mps.baseLanguage.structure.StatementList"));
+      ListSequence.fromList(SLinkOperations.getChildren(closure, LINKS.parameter$b4Y3)).visitAll((param) -> GenHelper.handleParameter(closure, containingStatementList, parameterCopyBlock, param, ListSequence.fromList(SLinkOperations.getChildren(invokeExpression, LINKS.parameter$ipi9)).getElement(SNodeOperations.getIndexInParent(param)), _context));
+      GenHelper.removeTailStatement(invokeExpression);
+
+      SLinkOperations.setTarget(closure, LINKS.body$Ujx2, GenHelper.wrapInLoop(SLinkOperations.getTarget(closure, LINKS.body$Ujx2), parameterCopyBlock));
     });
   }
   private final Map<String, ScriptCodeBlock> mscbMethods = new HashMap<String, ScriptCodeBlock>();

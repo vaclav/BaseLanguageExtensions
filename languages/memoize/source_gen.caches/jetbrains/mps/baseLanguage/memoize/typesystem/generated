@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-3ipf5zm26u2apx56m2lsu6a1bkiukfo">
+<product version="3" modelHash="8jiv7bz965h1dtxt3bik9kjwex2gb1t">
   <files names="TypesystemDescriptor.java:check_VoidMethodsCannotBeMemoized_NonTypesystemRule.java" />
 </product>
 

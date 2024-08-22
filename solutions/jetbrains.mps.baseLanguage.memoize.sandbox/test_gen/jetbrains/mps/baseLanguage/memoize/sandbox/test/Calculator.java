@@ -28,7 +28,7 @@ public class Calculator {
           if (n == 1) {
             return 1L;
           }
-          return n * memoizedCacheForClosures_4_Closure.invoke(n - 1);
+          return n * (long) memoizedCacheForClosures_4_Closure.invoke(n - 1);
         }
       };
       final Object result = function.invoke(n);
@@ -49,7 +49,7 @@ public class Calculator {
             if (n == 1) {
               return 1L;
             }
-            return n * memoizedCacheForClosures_5_Closure.invoke(n - 1);
+            return n * (long) memoizedCacheForClosures_5_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);
@@ -141,7 +141,7 @@ public class Calculator {
             if (n == 1) {
               return 1L;
             }
-            return n * memoizedCacheForClosures_6_Closure.invoke(n - 1);
+            return n * (long) memoizedCacheForClosures_6_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);
@@ -192,7 +192,7 @@ public class Calculator {
             if (n == 1) {
               return 1L;
             }
-            return n * memoizedCacheForClosures_7_Closure.invoke(n - 1);
+            return n * (long) memoizedCacheForClosures_7_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);
@@ -213,7 +213,7 @@ public class Calculator {
             if (n == 1) {
               return 1L;
             }
-            return n * memoizedCacheForClosures_8_Closure.invoke(n - 1);
+            return n * (long) memoizedCacheForClosures_8_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);

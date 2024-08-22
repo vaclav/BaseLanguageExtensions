@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-ae0ix8hrv4ixrmreb8wz591bw01jd70">
+<product version="3" modelHash="cqsop2d390hi0uxkv5wczqs8r1sqthy">
   <files names="IntentionsDescriptor.java:MakeClosureRecursive_Intention.java:MakeClosureTailRecursive_Intention.java:MakeMethodRecursive_Intention.java:MakeMethodTailRecursive_Intention.java" />
 </product>
 

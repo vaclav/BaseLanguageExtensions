@@ -19,16 +19,12 @@ import jetbrains.mps.baseLanguage.behavior.Type__BehaviorDescriptor;
 import jetbrains.mps.typechecking.TypecheckingFacade;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 import jetbrains.mps.generator.template.WeavingAnchorContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.generator.template.TemplateVarContext;
 import java.util.Map;
 import jetbrains.mps.generator.impl.query.ReductionRuleCondition;
@@ -255,11 +251,7 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Iterable<SNode> sourceNodesQuery_6_0(final SourceSubstituteMacroNodesContext _context) {
     SNode closure = (SNode) ((SNode) _context.getVariable("var:closure"));
-    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(closure), CONCEPTS.FunctionType$9U), LINKS.parameterType$qJs$)).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return (SNode) Type__BehaviorDescriptor.getBoxedType_idhEwIzNC.invoke(it);
-      }
-    });
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(closure), CONCEPTS.FunctionType$9U), LINKS.parameterType$qJs$)).select((it) -> (SNode) Type__BehaviorDescriptor.getBoxedType_idhEwIzNC.invoke(it));
   }
   public static Iterable<SNode> sourceNodesQuery_7_0(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(_context.getNode(), CONCEPTS.ClosureLiteral$rp, false, false), LINKS.parameter$b4Y3);
@@ -278,11 +270,7 @@ public class QueriesGenerated extends QueryProviderBase {
   }
   public static Iterable<SNode> sourceNodesQuery_8_0(final SourceSubstituteMacroNodesContext _context) {
     SNode closure = (SNode) ((SNode) _context.getVariable("var:closure"));
-    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(closure), CONCEPTS.FunctionType$9U), LINKS.parameterType$qJs$)).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return (SNode) Type__BehaviorDescriptor.getBoxedType_idhEwIzNC.invoke(it);
-      }
-    });
+    return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(closure), CONCEPTS.FunctionType$9U), LINKS.parameterType$qJs$)).select((it) -> (SNode) Type__BehaviorDescriptor.getBoxedType_idhEwIzNC.invoke(it));
   }
   public static SNode weavingRule_ContextQuery_0_0(final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SNodeOperations.getNodeAncestor(_context.getNode(), CONCEPTS.ClassConcept$bK, false, false));
@@ -309,57 +297,17 @@ public class QueriesGenerated extends QueryProviderBase {
     return ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.as(_context.getMainContextNode(), CONCEPTS.ClassConcept$bK), LINKS.member$L_2d)).first();
   }
   public static void mappingScript_CodeBlock_1(final MappingScriptContext _context) {
-    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return SNodeOperations.getNodeDescendants(it, CONCEPTS.BaseMethodDeclaration$kD, false, new SAbstractConcept[]{});
-      }
-    }).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return new IAttributeDescriptor.NodeAttribute(CONCEPTS.MemoizeAnnotation$rE).get(it) != null;
-      }
-    });
+    Iterable<SNode> methods = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate((it) -> SNodeOperations.getNodeDescendants(it, CONCEPTS.BaseMethodDeclaration$kD, false, new SAbstractConcept[]{})).where((it) -> new IAttributeDescriptor.NodeAttribute(CONCEPTS.MemoizeAnnotation$rE).get(it) != null);
 
-    Sequence.fromIterable(methods).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.returnType$5xoi), CONCEPTS.VoidType$BF);
-      }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        _context.showErrorMessage(it, "Memoized methods must not return void");
-      }
-    });
+    Sequence.fromIterable(methods).where((it) -> SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, LINKS.returnType$5xoi), CONCEPTS.VoidType$BF)).visitAll((it) -> _context.showErrorMessage(it, "Memoized methods must not return void"));
 
-    Sequence.fromIterable(methods).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode method) {
-        _context.putSessionObject(method, _context.createUniqueName("memoizedCache", null));
-      }
-    });
+    Sequence.fromIterable(methods).visitAll((method) -> _context.putSessionObject(method, _context.createUniqueName("memoizedCache", null)));
 
-    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return SNodeOperations.getNodeDescendants(it, CONCEPTS.ClosureLiteral$rp, false, new SAbstractConcept[]{});
-      }
-    }).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return new IAttributeDescriptor.NodeAttribute(CONCEPTS.MemoizeAnnotation$rE).get(it) != null;
-      }
-    });
+    Iterable<SNode> closures = ListSequence.fromList(SModelOperations.roots(_context.getModel(), null)).translate((it) -> SNodeOperations.getNodeDescendants(it, CONCEPTS.ClosureLiteral$rp, false, new SAbstractConcept[]{})).where((it) -> new IAttributeDescriptor.NodeAttribute(CONCEPTS.MemoizeAnnotation$rE).get(it) != null);
 
-    Sequence.fromIterable(closures).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(it), CONCEPTS.FunctionType$9U), LINKS.resultType$2oOC), CONCEPTS.VoidType$BF);
-      }
-    }).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        _context.showErrorMessage(it, "Memoized closures must not return void");
-      }
-    });
+    Sequence.fromIterable(closures).where((it) -> SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(TypecheckingFacade.getFromContext().getTypeOf(it), CONCEPTS.FunctionType$9U), LINKS.resultType$2oOC), CONCEPTS.VoidType$BF)).visitAll((it) -> _context.showErrorMessage(it, "Memoized closures must not return void"));
 
-    Sequence.fromIterable(closures).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode closure) {
-        _context.putSessionObject(closure, _context.createUniqueName("memoizedCacheForClosures", null));
-      }
-    });
+    Sequence.fromIterable(closures).visitAll((closure) -> _context.putSessionObject(closure, _context.createUniqueName("memoizedCacheForClosures", null)));
 
   }
   public static Object varMacro_Value_6_0(final TemplateVarContext _context) {

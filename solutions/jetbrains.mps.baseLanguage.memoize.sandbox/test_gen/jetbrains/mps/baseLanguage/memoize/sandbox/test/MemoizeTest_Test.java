@@ -7,10 +7,10 @@ import jetbrains.mps.baseLanguage.memoize.util.caches.KeyCalculator;
 import jetbrains.mps.baseLanguage.memoize.util.caches.Memoizator;
 import jetbrains.mps.baseLanguage.memoize.util.caches.NullValue;
 import java.util.Map;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.Assert;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 
 public class MemoizeTest_Test {
   private static final Integer TEN = Integer.valueOf(10);
@@ -47,7 +47,7 @@ public class MemoizeTest_Test {
             if (n <= 2) {
               return 1L;
             }
-            return memoizedCacheForClosures_1_Closure.invoke(n - 2) + memoizedCacheForClosures_1_Closure.invoke(n - 1);
+            return (long) memoizedCacheForClosures_1_Closure.invoke(n - 2) + (long) memoizedCacheForClosures_1_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);
@@ -179,7 +179,7 @@ public class MemoizeTest_Test {
             if (n <= 2) {
               return 1L;
             }
-            return memoizedCacheForClosures_2_Closure.invoke(n - 2) + memoizedCacheForClosures_2_Closure.invoke(n - 1);
+            return (long) memoizedCacheForClosures_2_Closure.invoke(n - 2) + (long) memoizedCacheForClosures_2_Closure.invoke(n - 1);
           }
         };
         final Object result = function.invoke(n);
@@ -205,7 +205,7 @@ public class MemoizeTest_Test {
               if (n <= 2) {
                 return 1L;
               }
-              return memoizedCacheForClosures_3_Closure.invoke(n - 2) + memoizedCacheForClosures_3_Closure.invoke(n - 1);
+              return (long) memoizedCacheForClosures_3_Closure.invoke(n - 2) + (long) memoizedCacheForClosures_3_Closure.invoke(n - 1);
             }
           };
           final Object result = function.invoke(n);
@@ -221,7 +221,7 @@ public class MemoizeTest_Test {
     Assert.assertEquals(Long.valueOf(65), addFib(10, function));
     Assert.assertEquals(0, localCounter.value);
   }
-  @Before
+  @BeforeEach
   public void setUp() {
     closureCounter = 0;
     Calculator.staticCounter = 0;
