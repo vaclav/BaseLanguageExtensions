@@ -67,7 +67,9 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -183,6 +185,17 @@
     <node concept="3b7kt6" id="5vyANEB$efR" role="10PD9s" />
     <node concept="398rNT" id="5jx1EOa73bQ" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="5XFZzWEAXzM" role="398pKh">
+        <node concept="2Ry0Ak" id="5XFZzWEAXzO" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="5XFZzWEAX$0" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="5XFZzWEAX$n" role="2Ry0An">
+              <property role="2Ry0Am" value="MPS2025.1EAP" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="5jx1EOa73pB" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
@@ -629,20 +642,20 @@
           <node concept="2pNUuL" id="3HBFXmOxQmk" role="2pNNFR">
             <property role="2pNUuO" value="since-build" />
             <node concept="2pMdtt" id="3HBFXmOxQs7" role="2pMdts">
-              <property role="2pMdty" value="241.1" />
+              <property role="2pMdty" value="251.1" />
             </node>
           </node>
           <node concept="2pNUuL" id="3HBFXmOxQsb" role="2pNNFR">
             <property role="2pNUuO" value="until-build" />
             <node concept="2pMdtt" id="3HBFXmOxQsf" role="2pMdts">
-              <property role="2pMdty" value="242.1" />
+              <property role="2pMdty" value="252.1" />
             </node>
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MO3" role="3o6s8t">
           <property role="2pNNFO" value="version" />
           <node concept="3o6iSG" id="3HBFXmO$MOg" role="3o6s8t">
-            <property role="3o6i5n" value="2024.1" />
+            <property role="3o6i5n" value="2025.1" />
           </node>
         </node>
         <node concept="2pNNFK" id="3HBFXmO$MQt" role="3o6s8t">

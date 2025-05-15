@@ -3,7 +3,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/Extensions" />
   <property name="build.layout" location="${build.dir}/artifacts/Extensions" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../MPS2025.1EAP" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -483,8 +483,10 @@
     <echo message="generating" />
     <generate fork="true" logLevel="${mps.ant.log}">      
       <settings refid="m2m-defaults" />
+      <plugin path="${artifacts.mps}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
       <plugin path="${artifacts.mps}/plugins/mps-build" id="jetbrains.mps.build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" id="jetbrains.mps.core" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
       <chunk bootstrap="true">
         <module file="${basedir}/solutions/Extensions.build/build.msd" />
         <module file="${basedir}/languages/memoize/memoize.mpl" bootstrap="true" />
