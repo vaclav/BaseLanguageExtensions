@@ -9,18 +9,18 @@ import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 public class RecursiveScenario_Test {
   @Test
   public void test_sum() throws Exception {
-    Assert.assertEquals(15, new TestCalculator().sum(0, 5));
-    Assert.assertEquals(21, new TestCalculator().sum(0, 6));
+    Assert.assertEquals(Integer.valueOf(15), Integer.valueOf(new TestCalculator().sum(0, 5)));
+    Assert.assertEquals(Integer.valueOf(21), Integer.valueOf(new TestCalculator().sum(0, 6)));
   }
   @Test
   public void test_sumS() throws Exception {
-    Assert.assertEquals(15, TestCalculator.sumS(0, 5));
-    Assert.assertEquals(21, TestCalculator.sumS(0, 6));
+    Assert.assertEquals(Integer.valueOf(15), Integer.valueOf(TestCalculator.sumS(0, 5)));
+    Assert.assertEquals(Integer.valueOf(21), Integer.valueOf(TestCalculator.sumS(0, 6)));
   }
   @Test
   public void test_factorial() throws Exception {
-    Assert.assertEquals(3628800, new TestCalculator().factorial(1L, 10));
-    Assert.assertEquals(2432902008176640000L, new TestCalculator().factorial(1L, 20));
+    Assert.assertEquals(Integer.valueOf(3628800), Long.valueOf(new TestCalculator().factorial(1L, 10)));
+    Assert.assertEquals(Long.valueOf(2432902008176640000L), Long.valueOf(new TestCalculator().factorial(1L, 20)));
   }
   @Test
   public void test_closure() throws Exception {
@@ -37,8 +37,8 @@ public class RecursiveScenario_Test {
       }
     };
     _FunctionTypes._return_P2_E0<? extends Integer, ? super Integer, ? super Integer> fun = function;
-    Assert.assertEquals(Integer.valueOf(15), fun.invoke(0, 5));
-    Assert.assertEquals(Integer.valueOf(21), fun.invoke(0, 6));
+    Assert.assertEquals(Integer.valueOf(15), Integer.valueOf(fun.invoke(0, 5)));
+    Assert.assertEquals(Integer.valueOf(21), Integer.valueOf(fun.invoke(0, 6)));
     Assert.assertTrue(15 == fun.invoke(0, 5));
     Assert.assertTrue(21 == fun.invoke(0, 6));
   }

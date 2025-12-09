@@ -11,11 +11,11 @@ public class CornerCass_Test {
     CornerCaseSpecialist.noArgVoidFunction();
     CornerCaseSpecialist.noArgVoidFunction();
 
-    Assert.assertEquals(0, CornerCaseSpecialist.callCounter);
+    Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(CornerCaseSpecialist.callCounter));
     CornerCaseSpecialist.noArgFunction();
-    Assert.assertEquals(1, CornerCaseSpecialist.callCounter);
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(CornerCaseSpecialist.callCounter));
     CornerCaseSpecialist.noArgFunction();
-    Assert.assertEquals(1, CornerCaseSpecialist.callCounter);
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(CornerCaseSpecialist.callCounter));
 
     CornerCaseSpecialist.voidFunction(1);
     CornerCaseSpecialist.voidFunction(1);
@@ -26,11 +26,11 @@ public class CornerCass_Test {
     specialist.noArgVoidClosure.invoke();
     specialist.noArgVoidClosure.invoke();
 
-    Assert.assertEquals(0, specialist.counter);
+    Assert.assertEquals(Integer.valueOf(0), Integer.valueOf(specialist.counter));
     specialist.noArgClosure.invoke();
-    Assert.assertEquals(1, specialist.counter);
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(specialist.counter));
     specialist.noArgClosure.invoke();
-    Assert.assertEquals(1, specialist.counter);
+    Assert.assertEquals(Integer.valueOf(1), Integer.valueOf(specialist.counter));
 
     specialist.noArgClosure.invoke();
     specialist.noArgClosure.invoke();
